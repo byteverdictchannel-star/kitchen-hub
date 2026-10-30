@@ -293,8 +293,8 @@ function setSound(want, nightQuiet) {
   // If the browser won't play with sound, keep the picture going on mute instead of a paused video.
   setTimeout(() => {
     if (live.player !== p || !p.getPlayerState) return;
-    if (p.getPlayerState() !== YT.PlayerState.PLAYING) { p.mute(); p.playVideo(); $("liveSound").textContent = "🔇"; note("Tap 🔇 for sound"); }
-  }, 2500);
+    if (p.getPlayerState() === YT.PlayerState.PAUSED) { p.mute(); p.playVideo(); $("liveSound").textContent = "🔇"; note("Tap 🔇 for sound"); }
+  }, 8000);
 }
 function note(text) {
   let el = $("live").querySelector(".muted");
