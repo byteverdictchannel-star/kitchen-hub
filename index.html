@@ -93,6 +93,9 @@
   /* Night dimming: a black veil, since a web page can't change the backlight. */
   #veil { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity 60s linear; }
   body.night #veil { opacity: .62; }
+  /* Nobody around: screen goes black; it comes back when the camera sees movement or someone taps. */
+  #sleep { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity .4s ease-out; }
+  body.asleep #sleep { opacity: 1; pointer-events: auto; transition: opacity 4s ease-in; }
 </style>
 </head>
 <body>
@@ -120,6 +123,7 @@
   <div class="status" id="status"></div>
 </main>
 <div id="veil"></div>
+<div id="sleep"></div>
 
 <script>
 "use strict";
@@ -298,6 +302,7 @@ function checkBreaking() {
   $("live").classList.toggle("breaking", on);
   $("live").querySelector("b").textContent = on ? "● BREAKING" : "● LIVE";
   $("liveTitle").textContent = on ? `${b.source}: ${b.title}` : ch.name || "";
+  if (on && !live.breakingId) presence.wake();
   live.breakingId = on ? b.id : null;
   setSound(live.manual || (on && !(isNight() && !CFG.liveSoundAtNight)), on && isNight() && !live.manual);
 }
@@ -378,6 +383,45 @@ const listen = {
   },
 };
 
+// --- presence: blank the screen when nobody is in the kitchen ---
+// The front camera takes a tiny 64x48 grey picture twice a second and compares it with the last one.
+// Nothing is saved or sent anywhere. If the camera isn't allowed, the screen simply stays on.
+const presence = {
+  last: 0, prev: null,
+  async start() {
+    this.last = Date.now();
+    if (CFG.presence === false) return;
+    let stream;
+    try { stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user", width: 160, height: 120, frameRate: 5 } }); }
+    catch { return; }
+    const v = document.createElement("video"); v.muted = true; v.playsInline = true; v.srcObject = stream; await v.play().catch(() => {});
+    const c = document.createElement("canvas"); c.width = 64; c.height = 48;
+    const g = c.getContext("2d", { willReadFrequently: true });
+    const minPct = CFG.presenceSensitivity ?? 1.5;   // % of the picture that must change
+    setInterval(() => {
+      if (v.readyState < 2) return;
+      g.drawImage(v, 0, 0, 64, 48);
+      const d = g.getImageData(0, 0, 64, 48).data, cur = new Uint8Array(64 * 48);
+      for (let i = 0; i < cur.length; i++) cur[i] = (d[i * 4] + d[i * 4 + 1] * 2 + d[i * 4 + 2]) >> 2;
+      if (this.prev) {
+        let mean = 0; for (let i = 0; i < cur.length; i++) mean += cur[i] - this.prev[i];
+        mean /= cur.length;                            // ignore the whole room getting lighter/darker
+        let changed = 0; for (let i = 0; i < cur.length; i++) if (Math.abs(cur[i] - this.prev[i] - mean) > 25) changed++;
+        if (changed / cur.length * 100 >= minPct) this.wake();
+      }
+      this.prev = cur;
+    }, 500);
+    setInterval(() => this.check(), 5000);
+  },
+  wake() { this.last = Date.now(); document.body.classList.remove("asleep"); },
+  check() {
+    const idle = Date.now() - this.last > (CFG.presenceIdleMinutes ?? 10) * 60e3;
+    document.body.classList.toggle("asleep", idle && !live.breakingId);   // breaking news keeps the screen on
+  },
+};
+// A tap on the black screen only wakes it up (doesn't press whatever is underneath).
+document.addEventListener("pointerdown", () => presence.wake(), true);
+
 // --- news (news.json is written by the GitHub Action next to this page) ---
 async function loadNews() {
   try {
@@ -442,6 +486,7 @@ async function start() {
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
   startLive("en");
+  presence.start();
   setInterval(checkBreaking, 30e3);               // turn breaking sound off after liveMinutes
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
   setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // roll "Today" over at midnight

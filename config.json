@@ -106,5 +106,8 @@
   "duckWhenTalking": true,
   "duckVolume": 20,
   "duckMinDb": -72,
-  "duckSensitivityDb": 12
+  "duckSensitivityDb": 12,
+  "presence": true,
+  "presenceIdleMinutes": 10,
+  "presenceSensitivity": 1.5
 }
