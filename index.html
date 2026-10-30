@@ -29,7 +29,7 @@
   main {
     height: 100vh; padding: 2.2vh 2vw 1vh;
     display: grid; gap: 1.8vh 1.6vw;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "clock now" "news live" "status status";
   }
@@ -38,24 +38,24 @@
 
   /* Clock */
   .clock { grid-area: clock; display: flex; flex-direction: column; justify-content: center; padding-left: .6vw; }
-  #time { font-size: 19vh; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
+  #time { font-size: 17vh; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
   #time .ampm { font-size: 6vh; font-weight: 500; color: var(--muted); margin-left: .6vw; }
-  #date { font-size: 4.6vh; color: var(--muted); margin-top: 1vh; }
+  #date { font-size: 4.2vh; color: var(--muted); margin-top: .6vh; }
   #town { font-size: 2.6vh; color: var(--accent); margin-top: .6vh; letter-spacing: .04em; }
 
   /* Weather: today + next 2 days */
   .now { grid-area: now; display: grid; grid-template-columns: auto auto 1fr; gap: 0 1.4vw; align-items: center; }
-  #nowIcon { font-size: 12vh; line-height: 1; }
-  #nowTemp { font-size: 12vh; font-weight: 600; line-height: 1; }
+  #nowIcon { font-size: 10vh; line-height: 1; }
+  #nowTemp { font-size: 10vh; font-weight: 600; line-height: 1; }
   #nowTemp small { font-size: 5vh; color: var(--muted); font-weight: 400; vertical-align: top; }
   #nowCond { font-size: 3.4vh; }
   #nowCond span { color: var(--muted); }
-  .days { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 1.4vh; border-top: 1px solid var(--line); padding-top: 1.2vh; }
-  .day { display: flex; align-items: center; justify-content: center; gap: .8vw; border-right: 1px solid var(--line); }
+  .days { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 1vh; border-top: 1px solid var(--line); padding-top: 1.2vh; }
+  .day { display: flex; align-items: center; justify-content: center; gap: .5vw; min-width: 0; border-right: 1px solid var(--line); }
   .day:last-child { border-right: 0; }
-  .day .n { font-size: 2.6vh; font-weight: 600; color: var(--muted); }
-  .day .i { font-size: 4.2vh; line-height: 1; }
-  .day .hl { font-size: 3vh; font-weight: 600; white-space: nowrap; }
+  .day .n { font-size: 2.3vh; font-weight: 600; color: var(--muted); }
+  .day .i { font-size: 3.6vh; line-height: 1; }
+  .day .hl { font-size: 2.7vh; font-weight: 600; white-space: nowrap; }
   .day .hl span { color: var(--muted); font-weight: 400; }
   .day .p { font-size: 2.2vh; color: var(--rain); white-space: nowrap; }
 
