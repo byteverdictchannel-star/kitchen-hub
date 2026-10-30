@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch_news.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       # Committing each run also counts as repo activity, which stops GitHub
       # from pausing the schedule after 60 quiet days.
       - name: Commit news.json

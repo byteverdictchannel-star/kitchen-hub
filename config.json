@@ -109,5 +109,9 @@
   "duckSensitivityDb": 12,
   "presence": true,
   "presenceIdleMinutes": 10,
-  "presenceSensitivity": 1.5
+  "presenceSensitivity": 1.5,
+  "alertLangs": [
+    "en"
+  ],
+  "phonePage": "https://byteverdictchannel-star.github.io/kitchen-hub/phone.html"
 }

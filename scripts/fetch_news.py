@@ -6,6 +6,7 @@ current live video of the chosen YouTube news channel.
 Runs in GitHub Actions. Standard library only.
 """
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -129,6 +130,37 @@ def story_id(item):
     return re.sub(r"[^a-z0-9]+", "-", " ".join(sorted(words(item["title"])))[:80]) or "story"
 
 
+def send_alert(story, prev, cfg):
+    """Phone alert through ntfy (free app). Once per story, even if the headline is reworded.
+
+    The ntfy topic is a GitHub secret (NTFY_TOPIC), so it isn't visible in this public repo.
+    Returns the updated list of alerted stories to keep in news.json.
+    """
+    alerted = [a for a in (prev.get("alerted") or [])
+               if NOW - datetime.fromisoformat(a["at"]) < timedelta(hours=12)]
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    langs = cfg.get("alertLangs", ["en"])
+    if not story or not topic or story.get("lang", "en") not in langs:
+        return alerted
+    w = words(story["title"])
+    for a in alerted:
+        old = set(a["words"])
+        if a["id"] == story["id"] or len(w & old) >= 3 or (w and len(w & old) / len(w | old) >= 0.4):
+            return alerted   # already told the phone about this story
+    req = urllib.request.Request(
+        "https://ntfy.sh/" + topic, data=story["title"].encode("utf-8"), method="POST",
+        headers={"Title": f"Breaking: {story['source']}".encode("utf-8"), "Priority": "high",
+                 "Tags": "rotating_light", "Click": story.get("link") or cfg.get("phonePage", ""),
+                 **({"Actions": f"view, Listen live, {cfg['phonePage']}"} if cfg.get("phonePage") else {})})
+    try:
+        urllib.request.urlopen(req, timeout=15).read()
+        print("ALERT sent:", story["title"])
+        alerted.append({"id": story["id"], "words": sorted(w), "at": NOW.isoformat(timespec="seconds")})
+    except Exception as e:
+        print("WARN alert failed:", e, file=sys.stderr)
+    return alerted[-30:]
+
+
 def main():
     cfg = json.loads((ROOT / "config.json").read_text())
     want = int(cfg.get("headlines", 5))
@@ -160,6 +192,23 @@ def main():
         breaking["id"] = story_id(breaking)
         print("BREAKING:", breaking["title"], f"({breaking['reason']})")
 
+    try:
+        prev = json.loads((ROOT / "news.json").read_text())
+    except Exception:
+        prev = {}
+    alerted = send_alert(breaking, prev, cfg)
+
+    # Phone page: newest English headlines, taking turns between sources.
+    langs = cfg.get("alertLangs", ["en"])
+    en = [[x for x in f if x["lang"] in langs] for f in per_feed]
+    phone_items, seen2, i = [], set(), 0
+    while len(phone_items) < 8 and any(i < len(f) for f in en):
+        for f in en:
+            if i < len(f) and len(phone_items) < 8 and f[i]["title"] not in seen2:
+                seen2.add(f[i]["title"]); phone_items.append(f[i])
+        i += 1
+    phone_items.sort(key=lambda x: x["time"] or "", reverse=True)
+
     live = cfg.get("live") or None   # the page picks the channel; kept here so old pages still work
 
     data = {
@@ -168,6 +217,8 @@ def main():
         "breaking": breaking,
         "live": live,
         "errors": errors,
+        "alerted": alerted,
+        "phone": phone_items,
     }
     (ROOT / "news.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
     print(f"Wrote {len(picked)} headlines")

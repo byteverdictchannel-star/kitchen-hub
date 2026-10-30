@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0e13">
+<title>Breaking Radio</title>
+<link rel="manifest" href="phone.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #0b0e13; --panel: #141920; --panel-2: #1a2029; --line: #232b36;
+    --text: #f3f5f8; --soft: #c9d1dc; --muted: #8793a3; --accent: #f2b84b; --red: #e5484d; --ok: #4cc38a;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f6f7f9; --panel: #ffffff; --panel-2: #eef1f5; --line: #e1e5eb;
+      --text: #12161c; --soft: #39424e; --muted: #6b7684; --accent: #b7791f;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--text); font: 16px/1.4 Inter, Roboto, system-ui, sans-serif;
+         -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+         padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); max-width: 560px; margin: 0 auto; }
+  h1 { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin: 4px 0 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 18px; margin-bottom: 14px; }
+
+  /* Breaking banner */
+  #breaking { display: none; background: var(--red); border-color: var(--red); color: #fff; }
+  #breaking.on { display: block; }
+  #breaking .k { font-size: 12px; font-weight: 700; letter-spacing: .12em; display: flex; align-items: center; gap: 6px; }
+  #breaking .k::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #fff; animation: pulse 1.6s infinite; }
+  #breaking .t { font-size: 19px; font-weight: 600; margin: 8px 0 12px; line-height: 1.3; }
+  #breaking .acts { display: flex; gap: 8px; flex-wrap: wrap; }
+  #breaking a { color: #fff; background: rgba(0,0,0,.2); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 9px 14px; font-weight: 600; font-size: 14px; text-decoration: none; }
+  @keyframes pulse { 50% { opacity: .3; } }
+
+  /* Radio */
+  .radio { display: flex; align-items: center; gap: 16px; }
+  #play { flex: none; width: 76px; height: 76px; border-radius: 50%; border: 0; background: var(--text); color: var(--bg);
+          display: grid; place-items: center; cursor: pointer; transition: transform .1s; }
+  #play:active { transform: scale(.95); }
+  #play svg { width: 30px; height: 30px; }
+  .now .s { font-size: 20px; font-weight: 600; }
+  .now .st { font-size: 14px; color: var(--muted); margin-top: 2px; display: flex; align-items: center; gap: 6px; }
+  .now .st.live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--red); animation: pulse 1.6s infinite; }
+  .stations { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  .stations button { flex: 1; min-width: 0; padding: 11px 8px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel-2);
+                     color: var(--soft); font: 600 14px Inter, system-ui, sans-serif; cursor: pointer; white-space: nowrap; }
+  .stations button.sel { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .hint { font-size: 13px; color: var(--muted); margin-top: 12px; }
+
+  /* Headlines */
+  .news a { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--text); text-decoration: none; }
+  .news a:last-child { border-bottom: 0; padding-bottom: 0; }
+  .news a:first-child { padding-top: 0; }
+  .news .h { font-size: 16px; font-weight: 500; }
+  .news .m { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .news .m b { color: var(--accent); font-weight: 600; }
+  .foot { font-size: 12px; color: var(--muted); text-align: center; margin-top: 6px; }
+</style>
+</head>
+<body>
+<h1>Breaking news</h1>
+
+<section class="card" id="breaking">
+  <div class="k">BREAKING</div>
+  <div class="t" id="bTitle"></div>
+  <div class="acts"><a id="bRead" href="#" target="_blank" rel="noopener">Read</a><a id="bWatch" href="#" target="_blank" rel="noopener">Watch live</a></div>
+</section>
+
+<section class="card">
+  <div class="radio">
+    <button id="play" aria-label="Play"></button>
+    <div class="now"><div class="s" id="station"></div><div class="st" id="state">Tap to listen</div></div>
+  </div>
+  <div class="stations" id="stations"></div>
+  <div class="hint">Keeps playing with the screen off. Use the lock-screen controls to pause.</div>
+</section>
+
+<section class="card news" id="news"></section>
+<div class="foot" id="foot"></div>
+
+<script>
+"use strict";
+const STATIONS = [
+  { id: "bbc", name: "BBC World Service", short: "BBC World", url: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
+  { id: "fr", name: "franceinfo", url: "https://icecast.radiofrance.fr/franceinfo-midfi.mp3" },
+  { id: "it", name: "Rai Radio 1", url: "https://icestreaming.rai.it/1.mp3" },
+];
+const ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+const ICON_STOP = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
+const $ = id => document.getElementById(id);
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+
+const audio = new Audio(); audio.preload = "none";
+let station = STATIONS.find(s => s.id === store.get("station")) || STATIONS[0];
+let wantPlay = false, retry = null;
+
+function render() {
+  $("station").textContent = station.name;
+  $("play").innerHTML = wantPlay ? ICON_STOP : ICON_PLAY;
+  $("play").setAttribute("aria-label", wantPlay ? "Stop" : "Play");
+  $("stations").innerHTML = STATIONS.map(s => `<button data-id="${s.id}" class="${s.id === station.id ? "sel" : ""}">${s.short || s.name}</button>`).join("");
+}
+function setState(text, live) { $("state").textContent = text; $("state").classList.toggle("live", !!live); }
+function play() {
+  wantPlay = true; clearTimeout(retry);
+  audio.src = station.url + (station.url.includes("?") ? "&" : "?") + "t=" + Date.now();   // always join the live point
+  setState("Connecting…");
+  audio.play().catch(() => { setState("Tap to listen"); wantPlay = false; render(); });
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({ title: station.name, artist: "Live news radio", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
+  }
+  render();
+}
+function stop() { wantPlay = false; clearTimeout(retry); audio.pause(); audio.removeAttribute("src"); audio.load(); setState("Tap to listen"); render(); }
+audio.addEventListener("playing", () => setState("Live", true));
+audio.addEventListener("waiting", () => wantPlay && setState("Buffering…"));
+// Lost signal (e.g. walking between Wi-Fi and mobile data): try again in a few seconds.
+const reconnect = () => { if (!wantPlay) return; setState("Reconnecting…"); clearTimeout(retry); retry = setTimeout(play, 4000); };
+audio.addEventListener("error", reconnect);
+audio.addEventListener("stalled", reconnect);
+audio.addEventListener("ended", reconnect);
+if ("mediaSession" in navigator) {
+  navigator.mediaSession.setActionHandler("play", play);
+  navigator.mediaSession.setActionHandler("pause", stop);
+  navigator.mediaSession.setActionHandler("stop", stop);
+}
+$("play").addEventListener("click", () => wantPlay ? stop() : play());
+$("stations").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  station = STATIONS.find(s => s.id === b.dataset.id); store.set("station", station.id);
+  wantPlay ? play() : render();
+});
+
+// --- headlines + breaking (same news.json as the kitchen tablet) ---
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function ago(t) { const m = Math.round((Date.now() - Date.parse(t)) / 60e3); return m < 1 ? "just now" : m < 60 ? `${m} min ago` : `${Math.round(m / 60)} h ago`; }
+async function loadNews() {
+  let n;
+  try { n = await (await fetch("news.json?t=" + Date.now(), { cache: "no-store" })).json(); store.set("news", JSON.stringify(n)); }
+  catch { try { n = JSON.parse(store.get("news")); } catch {} }
+  if (!n) return;
+  const b = n.breaking, recent = b && (b.lang || "en") === "en" && b.time && Date.now() - Date.parse(b.time) < 3 * 3600e3;
+  $("breaking").classList.toggle("on", !!recent);
+  if (recent) {
+    $("bTitle").textContent = `${b.source}: ${b.title}`;
+    $("bRead").href = b.link || "#";
+    const ch = (n.live && (n.live[b.lang] || n.live.en)) || null;
+    $("bWatch").style.display = ch ? "" : "none";
+    if (ch) $("bWatch").href = `https://www.youtube.com/channel/${ch.channelId}/live`;
+  }
+  $("news").innerHTML = (n.phone || (n.items || []).filter(i => (i.lang || "en") === "en")).slice(0, 8).map(it => `<a href="${esc(it.link || "#")}" target="_blank" rel="noopener">
+    <div class="h">${esc(it.title)}</div><div class="m"><b>${esc(it.source)}</b>${it.time ? " · " + ago(it.time) : ""}</div></a>`).join("");
+  $("foot").textContent = "Updated " + new Date(n.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+}
+render(); loadNews();
+setInterval(() => { if (!document.hidden) loadNews(); }, 2 * 60e3);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) loadNews(); });
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>
