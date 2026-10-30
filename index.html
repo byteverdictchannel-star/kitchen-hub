@@ -30,7 +30,7 @@
     height: 100vh; padding: 2.2vh 2vw 1vh;
     display: grid; gap: 1.8vh 1.6vw;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto minmax(0, 1fr) auto;
     grid-template-areas: "clock now" "news live" "status status";
   }
   .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 2vh; padding: 1.6vh 1.4vw; min-height: 0; overflow: hidden; }
