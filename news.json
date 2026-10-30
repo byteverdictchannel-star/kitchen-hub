@@ -1,19 +1,26 @@
 {
- "updated": "2026-10-30T10:36:14+00:00",
+ "updated": "2026-10-30T10:49:34+00:00",
  "items": [
   {
-   "title": "Cortèges autorisés, dispositif de sécurité... A quoi faut-il s'attendre pour les manifestations du samedi 31 octobre ?",
+   "title": "Depuis le début du mouvement lycéen, 83 enquêtes ont été confiées à l'IGPN et l'IGGN",
    "source": "franceinfo",
    "lang": "fr",
-   "time": "2026-10-30T10:25:53+00:00",
-   "link": "https://www.franceinfo.fr/societe/manifestations/corteges-autorises-dispositif-de-securite-a-quoi-faut-il-s-attendre-pour-les-manifestations-du-samedi-31-octobre_8258933.html#xtor=RSS-3-[lestitres]"
+   "time": "2026-10-30T10:44:37+00:00",
+   "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/mouvement-lyceen-83-enquetes-confiees-a-l-igpn-et-l-iggn-depuis-le-debut-de-la-mobilisation_8260124.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "Panetta, contesto incerto, Italia prosegua su strada prudenza di bilancio",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-30T10:18:01+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/30/panetta-contesto-incerto-italia-prosegua-su-strada-prudenza-di-bilancio_bb30f55b-6b4d-4e9b-8740-0e0fa86a1808.html"
+   "title": "Anti-Muslim rhetoric by Republicans on the campaign trail",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-30T10:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOHpGZDJrazQ3Yk0wY0VHM2l1RzlWZG53Q2gtNE9WZWU2MlNaWlEzZkhVdUJyOFNXc013N2prOTVYeXZ3UlVRRGFrbnpsT0RHQ2tucTZhSXV1RjY3WGV6MlIxanQycnYxblVteHN2c1dzMzdmdkVUZTB3aWhvRl85eDRMSlUtSk0yem9Tem01NGNVemxtLTVkcW5aYnV3UQ?oc=5"
+  },
+  {
+   "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-30T10:22:54+00:00",
+   "link": "https://www.aljazeera.com/news/2026/10/30/on-the-us-border-in-texas-trump-deportation-drive-galvanises-midterm-vote?traffic_source=rss"
   },
   {
    "title": "Helicopter carrying six people crashes in northern Indian state",
@@ -21,20 +28,6 @@
    "lang": "en",
    "time": "2026-10-30T10:07:58+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "‘This can’t keep happening’: How divorced military spouses get trapped in foreign countries",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-30T10:00:16+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNanZMbHJaWmdRekwyWWV2LTltZGVJYWFpdGxqRjliS1Z2eV9TSFNTU29tRl9wY2xQR0h6SHlQRHZUd09wd1hBLVlGUGk0M3RfRldmTllWVGRiRHk3dHZxNnFIRURjMkpaTHU5dzVWMUVaRDU0dV9pU2YyX1hqS0NtbTNFYjZaWFBteU1kMGU1N1NRb1E?oc=5"
-  },
-  {
-   "title": "Bhutan glacial lake outburst triggers flash floods",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-30T09:54:50+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss"
   }
  ],
  "breaking": null,
@@ -56,11 +49,32 @@
  "alerted": [],
  "phone": [
   {
+   "title": "Anti-Muslim rhetoric by Republicans on the campaign trail",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-30T10:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOHpGZDJrazQ3Yk0wY0VHM2l1RzlWZG53Q2gtNE9WZWU2MlNaWlEzZkhVdUJyOFNXc013N2prOTVYeXZ3UlVRRGFrbnpsT0RHQ2tucTZhSXV1RjY3WGV6MlIxanQycnYxblVteHN2c1dzMzdmdkVUZTB3aWhvRl85eDRMSlUtSk0yem9Tem01NGNVemxtLTVkcW5aYnV3UQ?oc=5"
+  },
+  {
+   "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-30T10:22:54+00:00",
+   "link": "https://www.aljazeera.com/news/2026/10/30/on-the-us-border-in-texas-trump-deportation-drive-galvanises-midterm-vote?traffic_source=rss"
+  },
+  {
    "title": "Helicopter carrying six people crashes in northern Indian state",
    "source": "BBC News",
    "lang": "en",
    "time": "2026-10-30T10:07:58+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What can a global strike of dockworkers achieve for Gaza?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-30T10:04:35+00:00",
+   "link": "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza?traffic_source=rss"
   },
   {
    "title": "‘This can’t keep happening’: How divorced military spouses get trapped in foreign countries",
@@ -70,32 +84,11 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNanZMbHJaWmdRekwyWWV2LTltZGVJYWFpdGxqRjliS1Z2eV9TSFNTU29tRl9wY2xQR0h6SHlQRHZUd09wd1hBLVlGUGk0M3RfRldmTllWVGRiRHk3dHZxNnFIRURjMkpaTHU5dzVWMUVaRDU0dV9pU2YyX1hqS0NtbTNFYjZaWFBteU1kMGU1N1NRb1E?oc=5"
   },
   {
-   "title": "Bhutan glacial lake outburst triggers flash floods",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-30T09:54:50+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/30-10-sv-bhutan-glacial-lake-outburst-flash-floods-301026?traffic_source=rss"
-  },
-  {
-   "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-30T09:42:42+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/30/saudi-arabia-reports-interception-of-houthi-drone-targeting-mecca?traffic_source=rss"
-  },
-  {
    "title": "Canada’s economic break with the US in 5 charts",
    "source": "CNN",
    "lang": "en",
    "time": "2026-10-30T09:00:16+00:00",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52QzR2Z3ZWZjZITkhGVTR2QUxHVGFrTVByWXNhUGJWdi1oaXJQXzMtc0dlTW5DeUdLY3R6a0kyOHhQM2lWaWJXclM0Y3BhYlpKc1hsV2ZST1VIRk9QMUZYc2JpQTVHcDh5YUJQTVB0UWhxbm9U?oc=5"
-  },
-  {
-   "title": "Somali piracy is back as the US-Iran war rattles shipping",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-30T08:43:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdXJjcGEtWEJFVEgxR2xqWWFrVk9Ed1BEYldQV3VkcGNKUWFMcnNHN3B5eG42b1NVb2JzR24zWjMtTGoxR2dfVTA1dWN6SXRHeXFMbGF4U1liWEJieUpldS1VaEdMTjNDZ01RMFNTTGduMk11aVNGd1pkcFRuWjBLd2pKUm5NOHlsY3pOOVZvQ0gtenFtQlpvSDVQRFJNVXhROXJLcHFuVFF5WEdSSDJwa2ZR?oc=5"
   },
   {
    "title": "How Kenyans got caught in $130m US ghost student scam",
