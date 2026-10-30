@@ -60,6 +60,6 @@
   "breakingMinSources": 3,
   "liveMinutes": 15,
   "liveSoundAtNight": false,
-  "forceBreaking": true,
+  "forceBreaking": false,
   "liveVolume": 60
 }
