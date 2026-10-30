@@ -1,0 +1,15 @@
+{
+  "town": "Dubai",
+  "latitude": 25.2048,
+  "longitude": 55.2708,
+  "clock24": true,
+  "temperatureUnit": "celsius",
+  "windUnit": "kmh",
+  "nightStart": "22:00",
+  "nightEnd": "06:30",
+  "headlines": 5,
+  "feeds": [
+    { "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+    { "name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/rss.xml" }
+  ]
+}
