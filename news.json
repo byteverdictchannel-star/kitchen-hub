@@ -1,31 +1,42 @@
 {
- "updated": "2026-10-30T03:55:54+00:00",
+ "updated": "2026-10-30T04:35:29+00:00",
  "items": [
+  {
+   "title": "Israeli actress slams occupation in accidental ‘hot mic’ moment",
+   "source": "Al Jazeera",
+   "time": "2026-10-30T04:14:09+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-actress-slams-occupation-in-accidental-hot-mic-moment?traffic_source=rss"
+  },
+  {
+   "title": "The deeper question raised by the anti-Muslim attacks in Michigan’s Senate race",
+   "source": "CNN",
+   "time": "2026-10-30T04:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82MW1uampBdHZBOVo1MVk0d2g0QkNQb2otbUNjcElwOTQ3dUo2d2xhZTROZ01EMHRfNkRqRVhZelFvSjZSdDVCZnh2a0NZOU1JV0U5RGY5dGJXZVI1RWtDc1pDcFV6TUUyQlJLVHZWN1Q5TlowY1BBQg?oc=5"
+  },
+  {
+   "title": "Sitemap - October 2026",
+   "source": "CNN",
+   "time": "2026-10-30T03:58:05+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91a3B6OU83QjhXTGpDWDRNS1hWOHZKMFZubm9manM3dUY1MmEwbHhVUDZRdGJIcnRWUllqWmxuMkxrU3I3ZXhqLUlqNnFNQ29nd2VGbUlDSnNZMW8?oc=5"
+  },
   {
    "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
    "source": "BBC News",
-   "time": "2026-10-30T03:24:12+00:00"
-  },
-  {
-   "title": "PSG score late to hold struggling Man City",
-   "source": "BBC Sport",
-   "time": "2026-10-29T22:40:17+00:00"
-  },
-  {
-   "title": "Ireland's Furlong cleared of groin grab by disciplinary committee",
-   "source": "BBC Sport",
-   "time": "2026-10-29T22:19:17+00:00"
+   "time": "2026-10-30T03:24:12+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Young athlete and former minister among victims of Spain train crash",
    "source": "BBC News",
-   "time": "2026-10-29T21:33:35+00:00"
-  },
-  {
-   "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-   "source": "BBC News",
-   "time": "2026-10-29T21:31:12+00:00"
+   "time": "2026-10-29T21:33:35+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss"
   }
  ],
+ "breaking": null,
+ "live": {
+  "name": "Al Jazeera English",
+  "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+  "videoId": null
+ },
  "errors": []
 }
