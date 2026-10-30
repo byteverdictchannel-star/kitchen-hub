@@ -1,42 +1,56 @@
 {
- "updated": "2026-10-30T04:56:05+00:00",
+ "updated": "2026-10-30T04:58:03+00:00",
  "items": [
   {
-   "title": "Israeli actress slams occupation in accidental ‘hot mic’ moment",
+   "title": "Cortèges autorisés, dispositif de sécurité... A quoi faut-il s'attendre pour les manifestations du samedi 31 octobre ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-30T04:51:37+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/corteges-autorises-dispositif-de-securite-a-quoi-faut-il-s-attendre-pour-les-manifestations-du-samedi-31-octobre_8258933.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Venezuela’s Machado lauds Trump for ‘freedom’, urges 2027 elections",
    "source": "Al Jazeera",
-   "time": "2026-10-30T04:14:09+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-actress-slams-occupation-in-accidental-hot-mic-moment?traffic_source=rss"
+   "lang": "en",
+   "time": "2026-10-30T04:40:07+00:00",
+   "link": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss"
   },
   {
    "title": "World’s largest crypto exchange hit by world’s largest heist",
    "source": "CNN",
+   "lang": "en",
    "time": "2026-10-30T04:08:21+00:00",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyUEVsWWRXQy1KRWYxSEpia0lYb29BQlhjOGZWbVdoXzd6NmpwVzdEVlpBbmZUMDVQRlp3aldhbEZRcHQ2TEM5ZFJPcDRybGNZTUQ1ZTBhNWVRaXl2Y1NpNWlmR1VUS09BMmhyQXQ0cEVUdUU?oc=5"
   },
   {
-   "title": "The deeper question raised by the anti-Muslim attacks in Michigan’s Senate race",
-   "source": "CNN",
-   "time": "2026-10-30T04:01:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82MW1uampBdHZBOVo1MVk0d2g0QkNQb2otbUNjcElwOTQ3dUo2d2xhZTROZ01EMHRfNkRqRVhZelFvSjZSdDVCZnh2a0NZOU1JV0U5RGY5dGJXZVI1RWtDc1pDcFV6TUUyQlJLVHZWN1Q5TlowY1BBQg?oc=5"
-  },
-  {
    "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
    "source": "BBC News",
+   "lang": "en",
    "time": "2026-10-30T03:24:12+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Young athlete and former minister among victims of Spain train crash",
-   "source": "BBC News",
-   "time": "2026-10-29T21:33:35+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss"
+   "title": "Israele, risultati definitivi: schieramento Netanyahu in testa ma senza maggioranza",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-10-30T00:07:39+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/30/israele-risultati-definitivi-schieramento-netanyahu-in-testa-ma-senza-maggioranza_c02347d8-1ab2-4e98-88f0-58e212562125.html"
   }
  ],
  "breaking": null,
  "live": {
-  "name": "Al Jazeera English",
-  "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg",
-  "videoId": null
+  "en": {
+   "name": "Al Jazeera English",
+   "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg"
+  },
+  "fr": {
+   "name": "France 24 (FR)",
+   "channelId": "UCCCPCZNChQdGa9EkATeye4g"
+  },
+  "it": {
+   "name": "Euronews Italiano",
+   "channelId": "UC1mX9vuLOYf8fhaXS_KcDRg"
+  }
  },
  "errors": []
 }

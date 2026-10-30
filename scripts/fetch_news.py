@@ -77,7 +77,8 @@ def fetch(feed, exclude):
         if any(x in hay for x in exclude):
             continue
         dt = parse_date(date)
-        out.append({"title": title, "source": feed["name"], "time": dt.isoformat() if dt else None, "link": link})
+        out.append({"title": title, "source": feed["name"], "lang": feed.get("lang", "en"),
+                    "time": dt.isoformat() if dt else None, "link": link})
     out.sort(key=lambda x: x["time"] or "", reverse=True)
     return out
 
@@ -94,12 +95,16 @@ def find_breaking(all_items, cfg):
     """
     window = timedelta(minutes=int(cfg.get("breakingWindowMinutes", 60)))
     min_sources = int(cfg.get("breakingMinSources", 3))
-    pattern = re.compile(cfg.get("breakingPattern", r"\bbreaking\b|^live\b|\blive updates\b|\bjust in\b"), re.I)
+    pattern = re.compile(cfg.get("breakingPattern",
+        r"\bbreaking\b|^live\b|\blive updates\b|\bjust in\b"        # English
+        r"|^urgent\b|\balerte\b|^en direct\b"                          # French
+        r"|ultim['’ ]?ora|\bultima ora\b|^diretta\b"), re.I)         # Italian
+    flag_window = timedelta(minutes=int(cfg.get("breakingFlagMinutes", 30)))
     recent = [i for i in all_items if i["time"] and NOW - datetime.fromisoformat(i["time"]) <= window]
     recent.sort(key=lambda x: x["time"], reverse=True)
 
-    for it in recent:  # 1) the outlet itself calls it breaking/live
-        if pattern.search(it["title"]):
+    for it in recent:  # 1) the outlet itself calls it breaking/live, very recently
+        if pattern.search(it["title"]) and NOW - datetime.fromisoformat(it["time"]) <= flag_window:
             return dict(it, reason="flagged")
 
     best = None  # 2) several outlets on the same story
@@ -122,17 +127,6 @@ def find_breaking(all_items, cfg):
 
 def story_id(item):
     return re.sub(r"[^a-z0-9]+", "-", " ".join(sorted(words(item["title"])))[:80]) or "story"
-
-
-def find_live_video(channel_id):
-    """Current live video id of a YouTube channel (it changes every so often)."""
-    try:
-        html = get(f"https://www.youtube.com/channel/{channel_id}/live").decode("utf-8", "ignore")
-        m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([\w-]{11})"', html)
-        return m.group(1) if m else None
-    except Exception as e:
-        print("WARN live lookup", e, file=sys.stderr)
-        return None
 
 
 def main():
@@ -166,10 +160,7 @@ def main():
         breaking["id"] = story_id(breaking)
         print("BREAKING:", breaking["title"], f"({breaking['reason']})")
 
-    live = None
-    ch = cfg.get("live", {})
-    if ch.get("channelId"):
-        live = {"name": ch.get("name", ""), "channelId": ch["channelId"], "videoId": find_live_video(ch["channelId"])}
+    live = cfg.get("live") or None   # the page picks the channel; kept here so old pages still work
 
     data = {
         "updated": NOW.isoformat(timespec="seconds"),

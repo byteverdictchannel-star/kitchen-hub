@@ -11,16 +11,29 @@
   "feeds": [
     {
       "name": "BBC News",
+      "lang": "en",
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
       "name": "CNN",
+      "lang": "en",
       "url": "https://news.google.com/rss/search?q=site:cnn.com+(politics+OR+election+OR+president+OR+minister+OR+war+OR+government+OR+congress+OR+attack+OR+killed+OR+ceasefire+OR+sanctions)+when:1d&hl=en-US&gl=US&ceid=US:en",
       "stripSuffix": " - CNN"
     },
     {
       "name": "Al Jazeera",
+      "lang": "en",
       "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "name": "franceinfo",
+      "lang": "fr",
+      "url": "https://www.francetvinfo.fr/titres.rss"
+    },
+    {
+      "name": "ANSA",
+      "lang": "it",
+      "url": "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"
     }
   ],
   "exclude": [
@@ -50,16 +63,46 @@
     "horoscope",
     "cnn underscored",
     "sitemap",
-    "newsletter"
+    "newsletter",
+    "motogp",
+    "calcio",
+    "serie a",
+    "ligue 1",
+    "rugby",
+    "ciclismo",
+    "/sport/",
+    "/sports/",
+    "x factor",
+    "people/",
+    "spettacolo",
+    "météo",
+    "meteo",
+    "borsa:",
+    "spread btp",
+    "bourse :",
+    "cac 40"
   ],
   "live": {
-    "name": "Al Jazeera English",
-    "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg"
+    "en": {
+      "name": "Al Jazeera English",
+      "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg"
+    },
+    "fr": {
+      "name": "France 24 (FR)",
+      "channelId": "UCCCPCZNChQdGa9EkATeye4g"
+    },
+    "it": {
+      "name": "Euronews Italiano",
+      "channelId": "UC1mX9vuLOYf8fhaXS_KcDRg"
+    }
   },
   "breakingWindowMinutes": 60,
   "breakingMinSources": 3,
   "liveMinutes": 15,
   "liveSoundAtNight": false,
   "forceBreaking": false,
-  "liveVolume": 60
+  "liveVolume": 60,
+  "breakingFlagMinutes": 30,
+  "duckWhenTalking": true,
+  "duckVolume": 20
 }

@@ -66,6 +66,8 @@
   .item .h { font-size: 2.55vh; font-weight: 500; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .item .m { font-size: 1.8vh; color: var(--muted); margin-top: .15vh; }
   .item .m b { color: var(--accent); font-weight: 600; }
+  .item .m .lang { font-style: normal; font-size: 1.5vh; font-weight: 700; border: 1px solid var(--muted); border-radius: .5vh; padding: 0 .4vw; margin-left: .3vw; vertical-align: 1px; }
+  .live.ducked .bn #liveSound::after { content: " ↓"; font-size: 2vh; }
   .empty { color: var(--muted); font-size: 2.6vh; margin: auto; text-align: center; }
 
   /* Live news feed: always on, muted; sound only during breaking news */
@@ -224,9 +226,12 @@ function renderWeather() {
 }
 
 // --- live news feed ---
-// Always playing on mute. When news.json flags breaking news, the sound comes on
-// (at CFG.liveVolume) for CFG.liveMinutes, once per story. ✕ mutes it early.
-let live = { player: null, ready: false, breakingId: null, manual: false };
+// Always playing on mute. When news.json flags breaking news, it switches to a channel in the
+// story's language (English / French / Italian) and the sound comes on at CFG.liveVolume for
+// CFG.liveMinutes, once per story. ✕ mutes it early; 🔇/🔊 turns sound on or off by hand.
+// While the sound is on, the microphone listens for people talking and lowers the volume
+// (CFG.duckVolume) until the room is quiet again. Nothing is recorded or sent anywhere.
+let live = { player: null, ready: false, lang: null, breakingId: null, manual: false, soundOn: false };
 function isNight() {
   const d = new Date(), m = d.getHours() * 60 + d.getMinutes(), s = toMin(CFG.nightStart), e = toMin(CFG.nightEnd);
   return s > e ? (m >= s || m < e) : (m >= s && m < e);
@@ -238,27 +243,35 @@ function loadYT() {
     const t = document.createElement("script"); t.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(t);
   });
 }
-async function startLive() {
-  const ch = CFG.live;
-  if (!ch || !ch.channelId || live.player) return;
-  $("liveTitle").textContent = ch.name || "";
+function channels() {
+  const l = CFG.live || {};
+  return l.channelId ? { en: l } : l;   // old single-channel config still works
+}
+async function startLive(lang) {
+  const all = channels(), ch = all[lang] || all.en;
+  if (!ch || !ch.channelId) return;
+  if (live.lang === lang) return;   // already showing (or loading) this channel
+  if (live.player) { try { live.player.destroy(); } catch {} }
+  live.player = null; live.ready = false; live.lang = lang;
   const f = document.createElement("iframe");
-  f.id = "livePlayer";
   f.allow = "autoplay; encrypted-media";
   f.src = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&mute=1&controls=0&playsinline=1&rel=0&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
-  $("livePlayer").replaceWith(f);
+  const box = $("livePlayer"); box.innerHTML = ""; box.appendChild(f);
   try { await loadYT(); } catch { return; }
-  live.player = new YT.Player(f, {
+  const p = new YT.Player(f, {
     events: {
-      onReady: () => {
-        live.ready = true; live.player.mute(); live.player.playVideo(); checkBreaking();
-        // Keep it running: restart within a minute if it gets paused or stalls.
-        setInterval(() => { const st = live.player.getPlayerState(); if (st !== YT.PlayerState.PLAYING && st !== YT.PlayerState.BUFFERING) live.player.playVideo(); }, 60e3);
-      },
-      onStateChange: e => { if (e.data === YT.PlayerState.ENDED) setTimeout(() => live.player.playVideo(), 3000); },
+      onReady: () => { if (live.player !== p) return; live.ready = true; p.mute(); p.playVideo(); checkBreaking(); },
+      onStateChange: e => { if (e.data === YT.PlayerState.ENDED) setTimeout(() => p.playVideo(), 3000); },
     },
   });
+  live.player = p;
 }
+// Keep it running: restart within a minute if it gets paused or stalls.
+setInterval(() => {
+  const p = live.player; if (!p || !live.ready) return;
+  const st = p.getPlayerState(); if (st !== YT.PlayerState.PLAYING && st !== YT.PlayerState.BUFFERING) p.playVideo();
+}, 60e3);
+
 function breakingNow() {
   const n = state.news;
   if (CFG.forceBreaking && n && n.items && n.items[0]) return { ...n.items[0], id: "test-" + new Date().toISOString().slice(0, 13) };
@@ -277,19 +290,24 @@ function checkBreaking() {
     }
     on = Date.now() - seen[b.id] <= (CFG.liveMinutes || 15) * 60e3;
   }
+  const lang = on && channels()[b.lang] ? b.lang : "en";
+  startLive(lang);
+  const ch = channels()[lang] || {};
   $("live").classList.toggle("breaking", on);
   $("live").querySelector("b").textContent = on ? "● BREAKING" : "● LIVE";
-  $("liveTitle").textContent = on ? `${b.source}: ${b.title}` : (CFG.live && CFG.live.name) || "";
+  $("liveTitle").textContent = on ? `${b.source}: ${b.title}` : ch.name || "";
   live.breakingId = on ? b.id : null;
   setSound(live.manual || (on && !(isNight() && !CFG.liveSoundAtNight)), on && isNight() && !live.manual);
 }
 function setSound(want, nightQuiet) {
-  const p = live.player;
+  live.soundOn = want;
   note(nightQuiet ? "Sound off at night" : "");
   $("liveSound").textContent = want ? "🔊" : "🔇";
+  want ? listen.start() : listen.stop();
+  const p = live.player;
   if (!p || !live.ready) return;
   if (!want) { p.mute(); p.playVideo(); return; }
-  p.unMute(); p.setVolume(CFG.liveVolume ?? 60); p.playVideo();
+  p.unMute(); p.setVolume(listen.talking ? (CFG.duckVolume ?? 20) : (CFG.liveVolume ?? 60)); p.playVideo();
   // If the browser won't play with sound, keep the picture going on mute instead of a paused video.
   setTimeout(() => {
     if (live.player !== p || !p.getPlayerState) return;
@@ -310,6 +328,52 @@ document.addEventListener("click", e => {
 function markClosed() {
   const seen = store.get("liveSeen") || {}; seen[live.breakingId] = "closed"; store.set("liveSeen", seen);
 }
+
+// --- "people are talking" detector (only runs while the sound is on) ---
+// Measures how loud the voice frequencies are compared with the room's usual level.
+// Echo cancellation removes most of the tablet's own sound from what the mic hears.
+const listen = {
+  stream: null, ctx: null, timer: null, talking: false, floor: null, loudSince: 0, quietSince: 0,
+  async start() {
+    if (!CFG.duckWhenTalking || this.stream || this.starting) return;
+    this.starting = true;
+    try {
+      this.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: false, autoGainControl: false } });
+    } catch { this.starting = false; return; }   // no permission: just don't duck
+    this.starting = false;
+    if (!live.soundOn) return this.stop();
+    this.ctx = new AudioContext();
+    const src = this.ctx.createMediaStreamSource(this.stream), an = this.ctx.createAnalyser();
+    an.fftSize = 2048; src.connect(an);
+    const bins = new Float32Array(an.frequencyBinCount), hz = this.ctx.sampleRate / an.fftSize;
+    const lo = Math.round(300 / hz), hi = Math.round(3400 / hz);
+    this.floor = null;
+    this.timer = setInterval(() => {
+      an.getFloatFrequencyData(bins);
+      let e = 0; for (let i = lo; i < hi; i++) e += 10 ** (bins[i] / 10);
+      const db = 10 * Math.log10(e / (hi - lo) + 1e-12);
+      // Room level: follows quiet moments quickly, loud moments slowly.
+      this.floor = this.floor == null ? db : (db < this.floor ? this.floor * 0.9 + db * 0.1 : this.floor * 0.999 + db * 0.001);
+      const now = Date.now(), loud = db > this.floor + (CFG.duckSensitivityDb ?? 12);
+      if (loud) { this.quietSince = 0; this.loudSince ||= now; } else { this.loudSince = 0; this.quietSince ||= now; }
+      if (!this.talking && this.loudSince && now - this.loudSince > 400) this.set(true);
+      if (this.talking && this.quietSince && now - this.quietSince > 3000) this.set(false);
+    }, 100);
+  },
+  set(talking) {
+    this.talking = talking;
+    const p = live.player;
+    if (p && live.ready && live.soundOn) p.setVolume(talking ? (CFG.duckVolume ?? 20) : (CFG.liveVolume ?? 60));
+    $("live").classList.toggle("ducked", talking);
+  },
+  stop() {
+    clearInterval(this.timer); this.timer = null;
+    if (this.stream) this.stream.getTracks().forEach(t => t.stop());
+    if (this.ctx) this.ctx.close().catch(() => {});
+    this.stream = this.ctx = null; this.talking = false;
+    $("live").classList.remove("ducked");
+  },
+};
 
 // --- news (news.json is written by the GitHub Action next to this page) ---
 async function loadNews() {
@@ -335,7 +399,7 @@ function renderNews() {
   const esc = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
   $("news").innerHTML = n.items.slice(0, CFG.headlines).map(it => `
     <div class="item"><div class="h">${esc(it.title)}</div>
-    <div class="m"><b>${esc(it.source)}</b>${it.time ? " · " + ago(Date.parse(it.time)) : ""}</div></div>`).join("");
+    <div class="m"><b>${esc(it.source)}</b>${it.lang && it.lang !== "en" ? ` <i class="lang">${it.lang.toUpperCase()}</i>` : ""}${it.time ? " · " + ago(Date.parse(it.time)) : ""}</div></div>`).join("");
   checkBreaking();
 }
 
@@ -374,7 +438,7 @@ async function start() {
   setInterval(tick, 1000);
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
-  startLive();
+  startLive("en");
   setInterval(checkBreaking, 30e3);               // turn breaking sound off after liveMinutes
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
   setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // roll "Today" over at midnight
