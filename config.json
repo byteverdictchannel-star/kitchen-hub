@@ -7,7 +7,7 @@
   "windUnit": "kmh",
   "nightStart": "22:00",
   "nightEnd": "06:30",
-  "headlines": 5,
+  "headlines": 4,
   "feeds": [
     {
       "name": "BBC News",
