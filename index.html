@@ -21,13 +21,14 @@
   }
   * { box-sizing: border-box; margin: 0; }
   html, body { height: 100%; background: var(--bg); color: var(--text); overflow: hidden; }
+  body { position: fixed; inset: 0; }
   body {
     font-family: Roboto, "Segoe UI", system-ui, sans-serif;
     font-variant-numeric: tabular-nums;
     -webkit-user-select: none; user-select: none; cursor: none; touch-action: manipulation;
   }
   main {
-    height: 100vh; height: 100dvh; padding: 2.2vh 2vw 1vh;
+    height: 100%; padding: 2.2vh 2vw 1vh;
     display: grid; gap: 1.8vh 1.6vw;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: auto minmax(0, 1fr) auto;
