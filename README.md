@@ -6,3 +6,4 @@ An always-on kitchen dashboard: clock, weather (Open-Meteo), 12-hour and 4-day f
 - **News:** `.github/workflows/news.yml` runs `scripts/fetch_news.py` every 30 minutes and commits `news.json`.
 - **Run news now:** Actions tab > Update news > Run workflow.
 - Cost: $0 (GitHub Pages + Actions on a public repo, Open-Meteo free API, no keys).
+- **Updates reach the tablet by themselves:** it checks `index.html` and `config.json` every 15 minutes and reloads when either changed (GitHub Pages can take a few minutes to publish).

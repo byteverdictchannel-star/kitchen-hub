@@ -317,7 +317,17 @@ async function start() {
   loadNews(); setInterval(loadNews, NEWS_EVERY);
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
   setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // move the hour strip along
-  // Reload once a day at 04:00 to pick up page changes and clear any memory build-up.
+  // Remote updates: every 15 min, check whether the page or config.json changed on GitHub and reload if so.
+  const fingerprint = async () => {
+    const [a, b] = await Promise.all(["index.html", "config.json"].map(f => fetch(f + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw 0; return r.text(); })));
+    return a.length + ":" + b;
+  };
+  let known = null;
+  fingerprint().then(f => known = f).catch(() => {});
+  setInterval(async () => {
+    try { const f = await fingerprint(); if (known && f !== known) location.reload(); known = known || f; } catch {}
+  }, 15 * 60e3);
+  // Also reload once a day at 04:00 to clear any memory build-up.
   setInterval(() => { const d = new Date(); if (d.getHours() === 4 && d.getMinutes() === 0 && navigator.onLine) location.reload(); }, 60e3);
 }
 
