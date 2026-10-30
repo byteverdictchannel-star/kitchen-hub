@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0e13">
-<title>Breaking Radio</title>
+<title>Kitchen Work</title>
 <link rel="manifest" href="phone.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,21 +12,28 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
   :root {
-    --bg: #0b0e13; --panel: #141920; --panel-2: #1a2029; --line: #232b36;
-    --text: #f3f5f8; --soft: #c9d1dc; --muted: #8793a3; --accent: #f2b84b; --red: #e5484d; --ok: #4cc38a;
+    --bg: #0b0e13; --panel: #141920; --panel-2: #1c232d; --line: #252e3a;
+    --text: #f3f5f8; --soft: #c9d1dc; --muted: #8793a3; --accent: #f2b84b; --on-accent: #1a140a; --red: #e5484d; --ok: #4cc38a;
   }
   @media (prefers-color-scheme: light) {
     :root:not([data-theme="dark"]) {
       --bg: #f6f7f9; --panel: #ffffff; --panel-2: #eef1f5; --line: #e1e5eb;
-      --text: #12161c; --soft: #39424e; --muted: #6b7684; --accent: #b7791f;
+      --text: #12161c; --soft: #39424e; --muted: #6b7684; --accent: #c98a1c; --on-accent: #fff;
     }
   }
   * { box-sizing: border-box; margin: 0; }
   body { background: var(--bg); color: var(--text); font: 16px/1.4 Inter, Roboto, system-ui, sans-serif;
          -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
-         padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); max-width: 560px; margin: 0 auto; }
-  h1 { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin: 4px 0 14px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 18px; margin-bottom: 14px; }
+         padding: max(14px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); max-width: 560px; margin: 0 auto; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  header { display: flex; align-items: center; justify-content: space-between; margin: 2px 0 12px; }
+  h1 { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+  #awake { border: 1px solid var(--line); background: var(--panel); color: var(--muted); border-radius: 999px; padding: 7px 12px; font-size: 13px; font-weight: 600; }
+  #awake.on { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 20px; padding: 16px; margin-bottom: 14px; }
+  .card h2 { font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 12px;
+             display: flex; justify-content: space-between; align-items: center; }
+  @keyframes pulse { 50% { opacity: .3; } }
 
   /* Breaking banner */
   #breaking { display: none; background: var(--red); border-color: var(--red); color: #fff; }
@@ -36,35 +43,69 @@
   #breaking .t { font-size: 19px; font-weight: 600; margin: 8px 0 12px; line-height: 1.3; }
   #breaking .acts { display: flex; gap: 8px; flex-wrap: wrap; }
   #breaking a { color: #fff; background: rgba(0,0,0,.2); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 9px 14px; font-weight: 600; font-size: 14px; text-decoration: none; }
-  @keyframes pulse { 50% { opacity: .3; } }
+
+  /* Timers */
+  #running:empty { display: none; }
+  #running { display: grid; gap: 10px; margin-bottom: 14px; }
+  .tm { display: flex; align-items: center; gap: 10px; background: var(--panel-2); border-radius: 16px; padding: 12px 12px 12px 16px; }
+  .tm .info { flex: 1; min-width: 0; }
+  .tm .left { font-size: 38px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .tm .lbl { font-size: 14px; color: var(--muted); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tm.soon .left { color: var(--accent); }
+  .tm.done { background: var(--red); color: #fff; }
+  .tm.done .lbl { color: rgba(255,255,255,.8); }
+  .tm button { flex: none; height: 48px; min-width: 48px; padding: 0 12px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel); font-weight: 600; font-size: 15px; }
+  .tm.done button { background: rgba(0,0,0,.2); border-color: rgba(255,255,255,.35); }
+  .names { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .names button { flex: none; padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel-2); color: var(--soft); font-size: 14px; font-weight: 600; }
+  .names button.sel { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .presets button { height: 60px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel-2); font-size: 22px; font-weight: 700; line-height: 1; }
+  .presets button small { display: block; font-size: 11px; font-weight: 500; color: var(--muted); margin-top: 3px; }
+  .presets button:active, .custom button:active, .tm button:active, .stations button:active { transform: scale(.96); }
+  .custom { display: flex; align-items: center; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  .custom button { height: 52px; min-width: 52px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel-2); font-weight: 700; font-size: 16px; }
+  .custom .val { flex: 1; text-align: center; font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .custom .val small { font-size: 14px; color: var(--muted); font-weight: 500; margin-left: 3px; }
+  .custom .go { flex: 1 0 100%; background: var(--accent); color: var(--on-accent); border: 0; font-size: 18px; }
+  .alarmnote { font-size: 13px; color: var(--muted); margin-top: 12px; display: flex; gap: 6px; align-items: center; }
+  .alarmnote::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .alarmnote.ok::before { background: var(--ok); }
 
   /* Radio */
   .radio { display: flex; align-items: center; gap: 16px; }
-  #play { flex: none; width: 76px; height: 76px; border-radius: 50%; border: 0; background: var(--text); color: var(--bg);
-          display: grid; place-items: center; cursor: pointer; transition: transform .1s; }
-  #play:active { transform: scale(.95); }
-  #play svg { width: 30px; height: 30px; }
-  .now .s { font-size: 20px; font-weight: 600; }
+  #play { flex: none; width: 68px; height: 68px; border-radius: 50%; border: 0; background: var(--text); color: var(--bg); display: grid; place-items: center; }
+  #play svg { width: 28px; height: 28px; }
+  .now { flex: 1; min-width: 0; }
+  .now .s { font-size: 19px; font-weight: 600; }
   .now .st { font-size: 14px; color: var(--muted); margin-top: 2px; display: flex; align-items: center; gap: 6px; }
   .now .st.live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--red); animation: pulse 1.6s infinite; }
-  .stations { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
-  .stations button { flex: 1; min-width: 0; padding: 11px 8px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel-2);
-                     color: var(--soft); font: 600 14px Inter, system-ui, sans-serif; cursor: pointer; white-space: nowrap; }
+  #watch { flex: none; color: var(--soft); text-decoration: none; font-size: 14px; font-weight: 600; border: 1px solid var(--line); border-radius: 999px; padding: 9px 12px; }
+  .stations { display: flex; gap: 8px; margin-top: 14px; }
+  .stations button { flex: 1; min-width: 0; padding: 11px 6px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel-2); color: var(--soft); font-size: 14px; font-weight: 600; white-space: nowrap; }
   .stations button.sel { background: var(--text); color: var(--bg); border-color: var(--text); }
   .hint { font-size: 13px; color: var(--muted); margin-top: 12px; }
 
   /* Headlines */
   .news a { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--text); text-decoration: none; }
   .news a:last-child { border-bottom: 0; padding-bottom: 0; }
-  .news a:first-child { padding-top: 0; }
   .news .h { font-size: 16px; font-weight: 500; }
   .news .m { font-size: 13px; color: var(--muted); margin-top: 4px; }
   .news .m b { color: var(--accent); font-weight: 600; }
   .foot { font-size: 12px; color: var(--muted); text-align: center; margin-top: 6px; }
+
+  /* Timer done: full screen */
+  #ring { position: fixed; inset: 0; z-index: 10; background: var(--red); color: #fff; display: none; flex-direction: column;
+          align-items: center; justify-content: center; text-align: center; padding: 24px; }
+  #ring.on { display: flex; }
+  #ring .big { font-size: 96px; line-height: 1; animation: shake 1.2s ease-in-out infinite; }
+  #ring .what { font-size: 34px; font-weight: 700; margin-top: 18px; line-height: 1.2; }
+  #ring .hint { color: rgba(255,255,255,.8); font-size: 17px; margin-top: 14px; }
+  @keyframes shake { 0%,100% { transform: rotate(0); } 15% { transform: rotate(-12deg); } 30% { transform: rotate(10deg); } 45% { transform: rotate(-6deg); } 60% { transform: rotate(0); } }
 </style>
 </head>
 <body>
-<h1>Breaking news</h1>
+<header><h1>Kitchen</h1><button id="awake">Keep screen on</button></header>
 
 <section class="card" id="breaking">
   <div class="k">BREAKING</div>
@@ -73,9 +114,24 @@
 </section>
 
 <section class="card">
+  <h2>Timers</h2>
+  <div id="running"></div>
+  <div class="names" id="names"></div>
+  <div class="presets" id="presets"></div>
+  <div class="custom">
+    <button data-step="-5">−5</button><button data-step="-1">−1</button>
+    <div class="val"><span id="customVal">12</span><small>min</small></div>
+    <button data-step="1">+1</button><button data-step="5">+5</button><button class="go" id="customGo">Start <span id="customGoVal">12</span> min</button>
+  </div>
+  <div class="alarmnote" id="alarmNote"></div>
+</section>
+
+<section class="card">
+  <h2>Live news</h2>
   <div class="radio">
     <button id="play" aria-label="Play"></button>
     <div class="now"><div class="s" id="station"></div><div class="st" id="state">Tap to listen</div></div>
+    <a id="watch" href="https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/live" target="_blank" rel="noopener">Watch ▸</a>
   </div>
   <div class="stations" id="stations"></div>
   <div class="hint">Keeps playing with the screen off. Use the lock-screen controls to pause.</div>
@@ -84,8 +140,129 @@
 <section class="card news" id="news"></section>
 <div class="foot" id="foot"></div>
 
+<div id="ring"><div class="big">⏰</div><div class="what" id="ringWhat">Timer done</div><div class="hint">Tap anywhere to stop</div></div>
+
 <script>
 "use strict";
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, "0");
+const store = { get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
+                set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+// ---------- sound (one shared audio engine, unlocked by the first tap) ----------
+let actx = null;
+function unlockAudio() { try { actx = actx || new (window.AudioContext || window.webkitAudioContext)(); actx.resume(); } catch {} }
+document.addEventListener("pointerdown", unlockAudio, { capture: true });
+function chime() {
+  if (!actx) return;
+  [[880, 0], [1175, .2], [1568, .4], [1175, .8], [1568, 1]].forEach(([f, t]) => {
+    const o = actx.createOscillator(), g = actx.createGain(), at = actx.currentTime + t;
+    o.type = "triangle"; o.frequency.value = f; o.connect(g); g.connect(actx.destination);
+    g.gain.setValueAtTime(0, at); g.gain.linearRampToValueAtTime(.6, at + .02); g.gain.exponentialRampToValueAtTime(.001, at + .9);
+    o.start(at); o.stop(at + 1);
+  });
+}
+
+// ---------- timers ----------
+// Each timer also books an alert with ntfy for the exact finish time, so it goes off on the phone
+// even when this page is closed or the phone is locked. Cancelling a timer cancels that alert.
+// The alert channel name comes from the setup link (#timers=...) and is kept only on this phone.
+(() => { const m = location.hash.match(/timers=([\w-]+)/); if (m) { store.set("timerTopic", m[1]); history.replaceState(null, "", location.pathname); } })();
+const TOPIC = store.get("timerTopic");
+const NAMES = ["Timer", "Oven", "Stock", "Sauce", "Rice", "Pasta", "Bread", "Rest", "Proof", "Fry"];
+const timers = {
+  list: store.get("timers") || [], name: "Timer", custom: 12, ringT: null,
+  save() { store.set("timers", this.list); },
+  label(t) { const m = t.mins, d = m >= 60 && m % 60 === 0 ? `${m / 60} h` : m > 60 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${m} min`;
+             return t.name === "Timer" ? d : `${t.name} · ${d}`; },
+  left(ms) { const s = Math.max(0, Math.ceil(ms / 1000)), h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60;
+             return h ? `${h}:${pad(m)}:${pad(s % 60)}` : `${m}:${pad(s % 60)}`; },
+  async book(t) {           // schedule the locked-phone alert
+    if (!TOPIC) return;
+    try {
+      const r = await fetch("https://ntfy.sh/" + TOPIC, { method: "POST", body: `${this.label(t)} timer is done`,
+        headers: { "Title": `${t.name === "Timer" ? "Timer" : t.name} done`, "Priority": "5", "Tags": "alarm_clock",
+                   "At": String(Math.round(t.end / 1000)), "Click": location.origin + location.pathname } });
+      t.push = (await r.json()).id; this.save();
+    } catch {}
+  },
+  unbook(t) { if (TOPIC && t.push) fetch(`https://ntfy.sh/${TOPIC}/${t.push}`, { method: "DELETE" }).catch(() => {}); },
+  add(mins) {
+    const t = { id: Date.now(), name: this.name, mins, end: Date.now() + mins * 60e3 };
+    this.list.push(t); this.list.sort((a, b) => a.end - b.end); this.save(); this.render(); this.book(t);
+    this.name = "Timer"; this.renderNames();
+  },
+  cancel(id) { const t = this.list.find(x => x.id === id); if (t && !t.rung) this.unbook(t); this.list = this.list.filter(x => x.id !== id); this.save(); this.render(); },
+  plus(id) {               // +1 min
+    const t = this.list.find(x => x.id === id); if (!t) return;
+    this.unbook(t); t.end = Math.max(t.end, Date.now()) + 60e3; t.mins += 1; t.rung = false; t.push = null;
+    this.save(); this.render(); this.book(t);
+  },
+  render() {
+    const now = Date.now();
+    $("running").innerHTML = this.list.map(t => {
+      const ms = t.end - now, done = ms <= 0;
+      return `<div class="tm${done ? " done" : ms < 60e3 ? " soon" : ""}"><div class="info"><div class="left">${done ? "Done" : this.left(ms)}</div>
+        <div class="lbl">${esc(this.label(t))}</div></div>
+        <button data-plus="${t.id}">+1</button><button data-cancel="${t.id}" aria-label="${done ? "Clear" : "Cancel"}">✕</button></div>`;
+    }).join("");
+    document.title = this.list.length && this.list[0].end > now ? `${this.left(this.list[0].end - now)} · Kitchen Work` : "Kitchen Work";
+  },
+  renderNames() { $("names").innerHTML = NAMES.map(n => `<button class="${n === this.name ? "sel" : ""}" data-name="${n}">${n}</button>`).join(""); },
+  tick() {
+    const due = this.list.filter(t => t.end <= Date.now() && !t.rung);
+    if (due.length) { due.forEach(t => t.rung = true); this.save(); this.ring(due); }
+    if (this.list.length) this.render();
+  },
+  ring(due) {
+    $("ringWhat").textContent = due.map(t => t.name === "Timer" ? this.label(t) + " timer" : t.name).join(" + ") + " done";
+    $("ring").classList.add("on");
+    if (radio.audio && !radio.audio.paused) radio.audio.volume = .25;
+    const once = () => { chime(); navigator.vibrate && navigator.vibrate([400, 200, 400, 200, 400]); };
+    const stopAt = Date.now() + 3 * 60e3; clearInterval(this.ringT); once();
+    this.ringT = setInterval(() => Date.now() > stopAt ? this.hush(false) : once(), 2500);
+  },
+  hush(clear = true) {
+    clearInterval(this.ringT); $("ring").classList.remove("on"); radio.audio && (radio.audio.volume = 1);
+    if (clear) { this.list = this.list.filter(t => !t.rung); this.save(); this.render(); }
+  },
+  init() {
+    this.list = this.list.filter(t => Date.now() - t.end < 30 * 60e3);
+    $("presets").innerHTML = [1, 2, 3, 5, 8, 10, 15, 20, 25, 30, 45, 60].map(m =>
+      `<button data-min="${m}">${m >= 60 ? m / 60 : m}<small>${m >= 60 ? "hour" : "min"}</small></button>`).join("");
+    this.renderNames(); this.render();
+    $("alarmNote").textContent = TOPIC ? "Alarms also ring with the phone locked (ntfy)." : "Alarms only ring while this page is open. Open the setup link to ring when locked.";
+    $("alarmNote").classList.toggle("ok", !!TOPIC);
+    $("presets").addEventListener("click", e => { const b = e.target.closest("[data-min]"); if (b) this.add(+b.dataset.min); });
+    $("names").addEventListener("click", e => { const b = e.target.closest("[data-name]"); if (b) { this.name = b.dataset.name; this.renderNames(); } });
+    document.querySelector(".custom").addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      if (b.dataset.step) { this.custom = Math.min(600, Math.max(1, this.custom + +b.dataset.step)); $("customVal").textContent = $("customGoVal").textContent = this.custom; }
+      else this.add(this.custom);
+    });
+    $("running").addEventListener("click", e => {
+      const c = e.target.closest("[data-cancel]"), p = e.target.closest("[data-plus]");
+      if (c) this.cancel(+c.dataset.cancel); if (p) this.plus(+p.dataset.plus);
+    });
+    $("ring").addEventListener("click", () => this.hush());
+    setInterval(() => this.tick(), 1000);
+    document.addEventListener("visibilitychange", () => !document.hidden && this.tick());
+  },
+};
+
+// ---------- keep the screen on (handy with dough on your hands) ----------
+let lock = null;
+async function setAwake(on) {
+  try { if (on) { lock = await navigator.wakeLock.request("screen"); lock.addEventListener("release", () => { lock = null; }); }
+        else { await lock?.release(); lock = null; } } catch { on = false; }
+  $("awake").classList.toggle("on", on); $("awake").textContent = on ? "Screen stays on" : "Keep screen on"; store.set("awake", on);
+}
+$("awake").addEventListener("click", () => setAwake(!lock));
+document.addEventListener("visibilitychange", () => { if (!document.hidden && store.get("awake")) setAwake(true); });
+if (!("wakeLock" in navigator)) $("awake").style.display = "none";
+
+// ---------- radio ----------
 const STATIONS = [
   { id: "bbc", name: "BBC World Service", short: "BBC World", url: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
   { id: "fr", name: "franceinfo", url: "https://icecast.radiofrance.fr/franceinfo-midfi.mp3" },
@@ -93,57 +270,54 @@ const STATIONS = [
 ];
 const ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
 const ICON_STOP = '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
-const $ = id => document.getElementById(id);
-const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+const radio = {
+  audio: new Audio(), station: null, want: false, retry: null,
+  render() {
+    $("station").textContent = this.station.name;
+    $("play").innerHTML = this.want ? ICON_STOP : ICON_PLAY;
+    $("play").setAttribute("aria-label", this.want ? "Stop" : "Play");
+    $("stations").innerHTML = STATIONS.map(s => `<button data-id="${s.id}" class="${s.id === this.station.id ? "sel" : ""}">${s.short || s.name}</button>`).join("");
+  },
+  state(text, live) { $("state").textContent = text; $("state").classList.toggle("live", !!live); },
+  play() {
+    this.want = true; clearTimeout(this.retry);
+    this.audio.src = this.station.url + "?t=" + Date.now();   // always join the live point
+    this.state("Connecting…");
+    this.audio.play().catch(() => { this.state("Tap to listen"); this.want = false; this.render(); });
+    if ("mediaSession" in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title: this.station.name, artist: "Live news radio",
+      artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
+    this.render();
+  },
+  stop() { this.want = false; clearTimeout(this.retry); this.audio.pause(); this.audio.removeAttribute("src"); this.audio.load(); this.state("Tap to listen"); this.render(); },
+  init() {
+    this.audio.preload = "none";
+    this.station = STATIONS.find(s => s.id === store.get("station")) || STATIONS[0];
+    this.audio.addEventListener("playing", () => this.state("Live", true));
+    this.audio.addEventListener("waiting", () => this.want && this.state("Buffering…"));
+    // Lost signal (e.g. walking between Wi-Fi and mobile data): try again in a few seconds.
+    const reconnect = () => { if (!this.want) return; this.state("Reconnecting…"); clearTimeout(this.retry); this.retry = setTimeout(() => this.play(), 4000); };
+    ["error", "stalled", "ended"].forEach(ev => this.audio.addEventListener(ev, reconnect));
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.setActionHandler("play", () => this.play());
+      navigator.mediaSession.setActionHandler("pause", () => this.stop());
+      navigator.mediaSession.setActionHandler("stop", () => this.stop());
+    }
+    $("play").addEventListener("click", () => this.want ? this.stop() : this.play());
+    $("stations").addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      this.station = STATIONS.find(s => s.id === b.dataset.id); store.set("station", this.station.id);
+      this.want ? this.play() : this.render();
+    });
+    this.render();
+  },
+};
 
-const audio = new Audio(); audio.preload = "none";
-let station = STATIONS.find(s => s.id === store.get("station")) || STATIONS[0];
-let wantPlay = false, retry = null;
-
-function render() {
-  $("station").textContent = station.name;
-  $("play").innerHTML = wantPlay ? ICON_STOP : ICON_PLAY;
-  $("play").setAttribute("aria-label", wantPlay ? "Stop" : "Play");
-  $("stations").innerHTML = STATIONS.map(s => `<button data-id="${s.id}" class="${s.id === station.id ? "sel" : ""}">${s.short || s.name}</button>`).join("");
-}
-function setState(text, live) { $("state").textContent = text; $("state").classList.toggle("live", !!live); }
-function play() {
-  wantPlay = true; clearTimeout(retry);
-  audio.src = station.url + (station.url.includes("?") ? "&" : "?") + "t=" + Date.now();   // always join the live point
-  setState("Connecting…");
-  audio.play().catch(() => { setState("Tap to listen"); wantPlay = false; render(); });
-  if ("mediaSession" in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({ title: station.name, artist: "Live news radio", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
-  }
-  render();
-}
-function stop() { wantPlay = false; clearTimeout(retry); audio.pause(); audio.removeAttribute("src"); audio.load(); setState("Tap to listen"); render(); }
-audio.addEventListener("playing", () => setState("Live", true));
-audio.addEventListener("waiting", () => wantPlay && setState("Buffering…"));
-// Lost signal (e.g. walking between Wi-Fi and mobile data): try again in a few seconds.
-const reconnect = () => { if (!wantPlay) return; setState("Reconnecting…"); clearTimeout(retry); retry = setTimeout(play, 4000); };
-audio.addEventListener("error", reconnect);
-audio.addEventListener("stalled", reconnect);
-audio.addEventListener("ended", reconnect);
-if ("mediaSession" in navigator) {
-  navigator.mediaSession.setActionHandler("play", play);
-  navigator.mediaSession.setActionHandler("pause", stop);
-  navigator.mediaSession.setActionHandler("stop", stop);
-}
-$("play").addEventListener("click", () => wantPlay ? stop() : play());
-$("stations").addEventListener("click", e => {
-  const b = e.target.closest("button"); if (!b) return;
-  station = STATIONS.find(s => s.id === b.dataset.id); store.set("station", station.id);
-  wantPlay ? play() : render();
-});
-
-// --- headlines + breaking (same news.json as the kitchen tablet) ---
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+// ---------- headlines + breaking (same news.json as the kitchen tablet) ----------
 function ago(t) { const m = Math.round((Date.now() - Date.parse(t)) / 60e3); return m < 1 ? "just now" : m < 60 ? `${m} min ago` : `${Math.round(m / 60)} h ago`; }
 async function loadNews() {
   let n;
-  try { n = await (await fetch("news.json?t=" + Date.now(), { cache: "no-store" })).json(); store.set("news", JSON.stringify(n)); }
-  catch { try { n = JSON.parse(store.get("news")); } catch {} }
+  try { n = await (await fetch("news.json?t=" + Date.now(), { cache: "no-store" })).json(); store.set("news", n); }
+  catch { n = store.get("news"); }
   if (!n) return;
   const b = n.breaking, recent = b && (b.lang || "en") === "en" && b.time && Date.now() - Date.parse(b.time) < 3 * 3600e3;
   $("breaking").classList.toggle("on", !!recent);
@@ -154,11 +328,14 @@ async function loadNews() {
     $("bWatch").style.display = ch ? "" : "none";
     if (ch) $("bWatch").href = `https://www.youtube.com/channel/${ch.channelId}/live`;
   }
+  if (n.live && n.live.en) $("watch").href = `https://www.youtube.com/channel/${n.live.en.channelId}/live`;
   $("news").innerHTML = (n.phone || (n.items || []).filter(i => (i.lang || "en") === "en")).slice(0, 8).map(it => `<a href="${esc(it.link || "#")}" target="_blank" rel="noopener">
     <div class="h">${esc(it.title)}</div><div class="m"><b>${esc(it.source)}</b>${it.time ? " · " + ago(it.time) : ""}</div></a>`).join("");
-  $("foot").textContent = "Updated " + new Date(n.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  $("foot").textContent = "News updated " + new Date(n.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
-render(); loadNews();
+
+timers.init(); radio.init(); loadNews();
+if (store.get("awake")) setAwake(true);
 setInterval(() => { if (!document.hidden) loadNews(); }, 2 * 60e3);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) loadNews(); });
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

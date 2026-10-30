@@ -1,6 +1,6 @@
 {
-  "name": "Breaking Radio",
-  "short_name": "Breaking",
+  "name": "Kitchen Work",
+  "short_name": "Kitchen",
   "start_url": "phone.html",
   "scope": "./",
   "display": "standalone",
