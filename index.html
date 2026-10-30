@@ -356,9 +356,10 @@ const listen = {
       const db = 10 * Math.log10(e / (hi - lo) + 1e-12);
       // Room level: follows quiet moments quickly, loud moments slowly.
       this.floor = this.floor == null ? db : (db < this.floor ? this.floor * 0.9 + db * 0.1 : this.floor * 0.999 + db * 0.001);
-      const now = Date.now(), loud = db > this.floor + (CFG.duckSensitivityDb ?? 12);
+      // Talking = clearly above the room's usual level AND above its normal background peaks.
+      const now = Date.now(), loud = db > Math.max(this.floor + (CFG.duckSensitivityDb ?? 12), CFG.duckMinDb ?? -72);
       if (loud) { this.quietSince = 0; this.loudSince ||= now; } else { this.loudSince = 0; this.quietSince ||= now; }
-      if (!this.talking && this.loudSince && now - this.loudSince > 400) this.set(true);
+      if (!this.talking && this.loudSince && now - this.loudSince > 500) this.set(true);
       if (this.talking && this.quietSince && now - this.quietSince > 3000) this.set(false);
     }, 100);
   },

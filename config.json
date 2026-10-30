@@ -104,5 +104,7 @@
   "liveVolume": 60,
   "breakingFlagMinutes": 30,
   "duckWhenTalking": true,
-  "duckVolume": 20
+  "duckVolume": 20,
+  "duckMinDb": -72,
+  "duckSensitivityDb": 12
 }
