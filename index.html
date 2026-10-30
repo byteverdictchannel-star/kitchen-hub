@@ -29,59 +29,58 @@
   main {
     height: 100vh; padding: 2.2vh 2vw 1vh;
     display: grid; gap: 1.8vh 1.6vw;
-    grid-template-columns: 0.95fr 1.05fr;
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-areas: "clock now" "hours hours" "days news" "status status";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "clock now" "news live" "status status";
   }
   .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 2vh; padding: 1.6vh 1.4vw; min-height: 0; overflow: hidden; }
   .label { color: var(--muted); font-size: 2vh; letter-spacing: .08em; text-transform: uppercase; }
 
   /* Clock */
   .clock { grid-area: clock; display: flex; flex-direction: column; justify-content: center; padding-left: .6vw; }
-  #time { font-size: 21vh; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
+  #time { font-size: 19vh; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
   #time .ampm { font-size: 6vh; font-weight: 500; color: var(--muted); margin-left: .6vw; }
-  #date { font-size: 5vh; color: var(--muted); margin-top: 1vh; }
+  #date { font-size: 4.6vh; color: var(--muted); margin-top: 1vh; }
   #town { font-size: 2.6vh; color: var(--accent); margin-top: .6vh; letter-spacing: .04em; }
 
-  /* Current weather */
-  .now { grid-area: now; display: grid; grid-template-columns: auto 1fr; gap: .4vh 1.4vw; align-items: center; }
-  #nowIcon { font-size: 14vh; line-height: 1; grid-row: span 2; }
-  #nowTemp { font-size: 13vh; font-weight: 600; line-height: 1; }
+  /* Weather: today + next 2 days */
+  .now { grid-area: now; display: grid; grid-template-columns: auto auto 1fr; gap: 0 1.4vw; align-items: center; }
+  #nowIcon { font-size: 12vh; line-height: 1; }
+  #nowTemp { font-size: 12vh; font-weight: 600; line-height: 1; }
   #nowTemp small { font-size: 5vh; color: var(--muted); font-weight: 400; vertical-align: top; }
-  #nowCond { font-size: 3.6vh; }
+  #nowCond { font-size: 3.4vh; }
   #nowCond span { color: var(--muted); }
-  .facts { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 1vw; margin-top: 1vh; border-top: 1px solid var(--line); padding-top: 1.2vh; }
-  .facts b { display: block; font-size: 3.4vh; font-weight: 600; margin-top: .2vh; white-space: nowrap; }
-
-  /* 12-hour strip */
-  .hours { grid-area: hours; display: grid; grid-template-columns: repeat(12, 1fr); gap: .5vw; padding-top: 1vh; padding-bottom: 1vh; }
-  .hour { display: flex; flex-direction: column; align-items: center; gap: .3vh; }
-  .hour .t { font-size: 2.2vh; color: var(--muted); }
-  .hour .i { font-size: 3.4vh; line-height: 1; }
-  .hour .deg { font-size: 3.2vh; font-weight: 600; }
-  .hour .bar { width: 62%; height: 3.6vh; background: #1f2732; border-radius: .6vh; display: flex; align-items: flex-end; overflow: hidden; }
-  .hour .bar i { display: block; width: 100%; background: var(--rain); border-radius: .6vh .6vh 0 0; }
-  .hour .p { font-size: 2.2vh; color: var(--rain); font-weight: 600; }
-  .hour.cur .t { color: var(--accent); font-weight: 600; }
-
-  /* 4-day forecast */
-  .days { grid-area: days; display: grid; grid-template-columns: repeat(4, 1fr); gap: .8vw; }
-  .day { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .6vh; border-right: 1px solid var(--line); }
+  .days { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 1.4vh; border-top: 1px solid var(--line); padding-top: 1.2vh; }
+  .day { display: flex; align-items: center; justify-content: center; gap: .8vw; border-right: 1px solid var(--line); }
   .day:last-child { border-right: 0; }
-  .day .n { font-size: 3vh; font-weight: 600; }
-  .day .i { font-size: 6vh; line-height: 1; }
-  .day .hl { font-size: 3.2vh; font-weight: 600; }
+  .day .n { font-size: 2.6vh; font-weight: 600; color: var(--muted); }
+  .day .i { font-size: 4.2vh; line-height: 1; }
+  .day .hl { font-size: 3vh; font-weight: 600; white-space: nowrap; }
   .day .hl span { color: var(--muted); font-weight: 400; }
-  .day .p { font-size: 2.3vh; color: var(--rain); }
+  .day .p { font-size: 2.2vh; color: var(--rain); white-space: nowrap; }
 
   /* News */
   .news { grid-area: news; padding-top: 1vh; padding-bottom: 1vh; display: flex; flex-direction: column; justify-content: space-between; }
-  .item { padding: .3vh 0; border-bottom: 1px solid var(--line); min-width: 0; }
+  .item { padding: .5vh 0; border-bottom: 1px solid var(--line); min-width: 0; }
   .item:last-child { border-bottom: 0; }
-  .item .h { font-size: 2.65vh; font-weight: 500; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .item .m { font-size: 1.85vh; color: var(--muted); margin-top: .2vh; }
+  .item .h { font-size: 2.8vh; font-weight: 500; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .item .m { font-size: 1.9vh; color: var(--muted); margin-top: .3vh; }
   .item .m b { color: var(--accent); font-weight: 600; }
   .empty { color: var(--muted); font-size: 2.6vh; margin: auto; text-align: center; }
+
+  /* Live news feed: always on, muted; sound only during breaking news */
+  .live { grid-area: live; padding: 0; display: flex; flex-direction: column; background: #000; position: relative; }
+  .live .bn { display: flex; align-items: center; gap: .8vw; padding: .9vh 1.2vw; font-size: 2.2vh; color: var(--muted); background: var(--panel); border-bottom: 1px solid var(--line); }
+  .live .bn b { color: #ff5a52; letter-spacing: .08em; }
+  .live .bn span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .live .bn button { display: none; background: none; border: 0; color: #fff; font-size: 3vh; line-height: 1; padding: 0 .4vw; cursor: pointer; }
+  .live.breaking { box-shadow: 0 0 0 .4vh #e53935; border-color: #e53935; }
+  .live.breaking .bn { background: #e53935; color: #fff; }
+  .live.breaking .bn b { color: #fff; animation: blink 1.2s steps(2, start) infinite; }
+  .live.breaking .bn button { display: block; }
+  #livePlayer, .live iframe { flex: 1; width: 100%; min-height: 0; border: 0; display: block; }
+  .live .muted { position: absolute; left: 1vw; bottom: 1vh; background: rgba(0,0,0,.7); color: #fff; font-size: 1.9vh; padding: .4vh .8vw; border-radius: .8vh; }
+  @keyframes blink { to { visibility: hidden; } }
 
   .status { grid-area: status; font-size: 1.8vh; color: var(--muted); text-align: right; }
   .status.stale { color: var(--warn); }
@@ -89,18 +88,6 @@
   /* Night dimming: a black veil, since a web page can't change the backlight. */
   #veil { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity 60s linear; }
   body.night #veil { opacity: .62; }
-
-  /* Breaking news live box: only shown while news.json says there's breaking news. */
-  #live { position: fixed; right: 2vw; bottom: 4.5vh; width: 38vw; z-index: 5; background: #000; border-radius: 1.6vh; overflow: hidden;
-          box-shadow: 0 0 0 .4vh #e53935, 0 1vh 4vh rgba(0,0,0,.6); }
-  #live[hidden] { display: none; }
-  #live .bn { display: flex; align-items: center; gap: .8vw; background: #e53935; color: #fff; padding: .8vh 1vw; font-size: 2.3vh; }
-  #live .bn b { letter-spacing: .08em; animation: blink 1.2s steps(2, start) infinite; }
-  #live .bn span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  #live .bn button { background: none; border: 0; color: #fff; font-size: 3vh; line-height: 1; padding: 0 .4vw; cursor: pointer; }
-  #livePlayer, #live iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
-  #live .muted { position: absolute; left: 1vw; bottom: 1vh; background: rgba(0,0,0,.7); color: #fff; font-size: 1.9vh; padding: .4vh .8vw; border-radius: .8vh; }
-  @keyframes blink { to { visibility: hidden; } }
 </style>
 </head>
 <body>
@@ -115,25 +102,19 @@
     <div id="nowIcon">·</div>
     <div id="nowTemp">--</div>
     <div id="nowCond">Loading weather…</div>
-    <div class="facts">
-      <div><span class="label">High / Low</span><b id="fHL">–</b></div>
-      <div><span class="label">Sunrise</span><b id="fRise">–</b></div>
-      <div><span class="label">Sunset</span><b id="fSet">–</b></div>
-      <div><span class="label">Wind</span><b id="fWind">–</b></div>
-      <div><span class="label">UV</span><b id="fUV">–</b></div>
-    </div>
+    <div class="days" id="days"></div>
   </section>
 
-  <section class="panel hours" id="hours"></section>
-  <section class="panel days" id="days"></section>
   <section class="panel news" id="news"><div class="empty">Loading news…</div></section>
+
+  <section class="panel live" id="live">
+    <div class="bn"><b>● LIVE</b><span id="liveTitle"></span><button id="liveClose" aria-label="Mute">✕</button></div>
+    <div id="livePlayer"></div>
+  </section>
+
   <div class="status" id="status"></div>
 </main>
 <div id="veil"></div>
-<div id="live" hidden>
-  <div class="bn"><b>● BREAKING</b><span id="liveTitle"></span><button id="liveClose" aria-label="Close">✕</button></div>
-  <div id="livePlayer"></div>
-</div>
 
 <script>
 "use strict";
@@ -174,9 +155,6 @@ function fmtTime(d, withAmPm = true) {
   const h12 = h % 12 || 12;
   return withAmPm ? `${h12}:${m} ${h < 12 ? "am" : "pm"}` : `${h12}:${m}`;
 }
-// Open-Meteo returns local times like "2026-10-30T06:21" (already in the town's time zone).
-const localTime = s => { const [h, m] = s.slice(11, 16).split(":").map(Number); const d = new Date(); d.setHours(h, m, 0, 0); return d; };
-const hourLabel = s => { const h = +s.slice(11, 13); return CFG.clock24 ? pad(h) : `${h % 12 || 12}${h < 12 ? "a" : "p"}`; };
 const toMin = hhmm => { const [h, m] = hhmm.split(":").map(Number); return h * 60 + m; };
 function ago(ts) {
   const m = Math.round((Date.now() - ts) / 60e3);
@@ -185,8 +163,6 @@ function ago(ts) {
   const h = Math.round(m / 60);
   return h < 24 ? `${h} h ago` : `${Math.round(h / 24)} d ago`;
 }
-function uvWord(u) { return u < 3 ? "Low" : u < 6 ? "Moderate" : u < 8 ? "High" : u < 11 ? "Very high" : "Extreme"; }
-function compass(d) { return ["N", "NE", "E", "SE", "S", "SW", "W", "NW"][Math.round(d / 45) % 8]; }
 
 // --- clock + night dimming ---
 function tick() {
@@ -203,11 +179,10 @@ function tick() {
 // --- weather ---
 async function loadWeather() {
   const p = new URLSearchParams({
-    latitude: CFG.latitude, longitude: CFG.longitude, timezone: "auto", forecast_days: 6,
+    latitude: CFG.latitude, longitude: CFG.longitude, timezone: "auto", forecast_days: 3,
     temperature_unit: CFG.temperatureUnit, wind_speed_unit: CFG.windUnit,
-    current: "temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index",
-    hourly: "temperature_2m,precipitation_probability,weather_code,is_day",
-    daily: "weather_code,temperature_2m_max,temperature_2m_min,sunrise,sunset,uv_index_max,precipitation_probability_max",
+    current: "temperature_2m,apparent_temperature,weather_code,is_day",
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max",
   });
   try {
     const r = await fetch("https://api.open-meteo.com/v1/forecast?" + p, { cache: "no-store" });
@@ -225,135 +200,102 @@ async function loadWeather() {
 function renderWeather() {
   const w = state.weather;
   if (!w) return;
-  const c = w.current, d = w.daily, hr = w.hourly, unit = w.current_units.wind_speed_10m;
+  const c = w.current, d = w.daily;
   const cur = wmo(c.weather_code, c.is_day);
   $("nowIcon").textContent = cur.icon;
   $("nowTemp").innerHTML = `${Math.round(c.temperature_2m)}<small>°</small>`;
   $("nowCond").innerHTML = `${cur.text}<br><span>Feels like ${deg(c.apparent_temperature)}</span>`;
-  $("fHL").textContent = `${deg(d.temperature_2m_max[0])} / ${deg(d.temperature_2m_min[0])}`;
-  $("fRise").textContent = fmtTime(localTime(d.sunrise[0]), false);
-  $("fSet").textContent = fmtTime(localTime(d.sunset[0]), false);
-  $("fWind").textContent = `${Math.round(c.wind_speed_10m)} ${unit.replace("km/h", "km/h")} ${compass(c.wind_direction_10m)}`;
-  $("fUV").textContent = `${Math.round(c.uv_index)} · ${uvWord(c.uv_index)}`;
 
-  // 12 hours starting at the current hour. If the data is old, start at "now" anyway.
-  const nowKey = (() => { const n = new Date(); return `${n.getFullYear()}-${pad(n.getMonth() + 1)}-${pad(n.getDate())}T${pad(n.getHours())}:00`; })();
-  let start = hr.time.indexOf(nowKey);
-  if (start < 0) start = hr.time.indexOf(c.time.slice(0, 13) + ":00");
-  if (start < 0) start = 0;
+  // Today + the next 2 days.
+  const n = new Date(), todayKey = `${n.getFullYear()}-${pad(n.getMonth() + 1)}-${pad(n.getDate())}`;
+  let first = d.time.indexOf(todayKey);
+  if (first < 0) first = 0;
   let html = "";
-  for (let i = start; i < start + 12 && i < hr.time.length; i++) {
-    const p = hr.precipitation_probability[i] ?? 0;
-    html += `<div class="hour${i === start ? " cur" : ""}">
-      <div class="t">${i === start ? "Now" : hourLabel(hr.time[i])}</div>
-      <div class="i">${wmo(hr.weather_code[i], hr.is_day[i]).icon}</div>
-      <div class="deg">${deg(hr.temperature_2m[i])}</div>
-      <div class="bar"><i style="height:${Math.max(p, 2)}%"></i></div>
-      <div class="p">${p}%</div></div>`;
-  }
-  $("hours").innerHTML = html;
-
-  // Next 4 days (skip today; today is in the panel above).
-  const todayKey = nowKey.slice(0, 10);
-  let first = d.time.findIndex(t => t > todayKey);
-  if (first < 0) first = 1;
-  html = "";
-  for (let i = first; i < first + 4 && i < d.time.length; i++) {
-    const dt = new Date(d.time[i] + "T12:00");
+  for (let i = first; i < first + 3 && i < d.time.length; i++) {
+    const name = i === first ? "Today" : new Date(d.time[i] + "T12:00").toLocaleDateString(undefined, { weekday: "short" });
     html += `<div class="day">
-      <div class="n">${dt.toLocaleDateString(undefined, { weekday: "short" })}</div>
+      <div class="n">${name}</div>
       <div class="i">${wmo(d.weather_code[i]).icon}</div>
-      <div class="hl">${deg(d.temperature_2m_max[i])} <span>${deg(d.temperature_2m_min[i])}</span></div>
-      <div class="p">💧 ${d.precipitation_probability_max[i] ?? 0}%</div></div>`;
+      <div><div class="hl">${deg(d.temperature_2m_max[i])} <span>${deg(d.temperature_2m_min[i])}</span></div>
+      <div class="p">💧 ${d.precipitation_probability_max[i] ?? 0}%</div></div></div>`;
   }
   $("days").innerHTML = html;
 }
 
-// --- breaking news live box ---
-// Shows a small live stream (with sound) only while news.json flags breaking news.
-// Each story plays for CFG.liveMinutes once, then stays away. Tapping ✕ closes it for that story.
-let live = { id: null, player: null };
+// --- live news feed ---
+// Always playing on mute. When news.json flags breaking news, the sound comes on
+// (at CFG.liveVolume) for CFG.liveMinutes, once per story. ✕ mutes it early.
+let live = { player: null, ready: false, breakingId: null };
 function isNight() {
   const d = new Date(), m = d.getHours() * 60 + d.getMinutes(), s = toMin(CFG.nightStart), e = toMin(CFG.nightEnd);
   return s > e ? (m >= s || m < e) : (m >= s && m < e);
 }
+function loadYT() {
+  return new Promise(res => {
+    if (window.YT && YT.Player) return res();
+    window.onYouTubeIframeAPIReady = res;
+    const t = document.createElement("script"); t.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(t);
+  });
+}
+async function startLive() {
+  const ch = CFG.live;
+  if (!ch || !ch.channelId || live.player) return;
+  $("liveTitle").textContent = ch.name || "";
+  const f = document.createElement("iframe");
+  f.id = "livePlayer";
+  f.allow = "autoplay; encrypted-media";
+  f.src = `https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&mute=1&controls=0&playsinline=1&rel=0&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+  $("livePlayer").replaceWith(f);
+  try { await loadYT(); } catch { return; }
+  live.player = new YT.Player(f, {
+    events: {
+      onReady: () => { live.ready = true; live.player.mute(); live.player.playVideo(); checkBreaking(); },
+      onStateChange: e => { if (e.data === YT.PlayerState.PAUSED || e.data === YT.PlayerState.ENDED) setTimeout(() => live.player.playVideo(), 3000); },
+    },
+  });
+}
 function breakingNow() {
   const n = state.news;
-  if (!n || !n.live) return null;
-  if (CFG.forceBreaking && n.items && n.items[0]) return { ...n.items[0], id: "test-" + new Date().toISOString().slice(0, 13) };
-  return n.breaking || null;
+  if (CFG.forceBreaking && n && n.items && n.items[0]) return { ...n.items[0], id: "test-" + new Date().toISOString().slice(0, 13) };
+  return (n && n.breaking) || null;
 }
 function checkBreaking() {
   if (!CFG) return;
   const b = breakingNow();
-  const seen = store.get("liveSeen") || {};           // story id -> when it first played
-  if (!b || seen[b.id] === "closed") return hideLive();
-  if (!seen[b.id]) {
-    seen[b.id] = Date.now();
-    const keys = Object.keys(seen); if (keys.length > 50) delete seen[keys[0]];
-    store.set("liveSeen", seen);
+  const seen = store.get("liveSeen") || {};            // story id -> when its sound first came on, or "closed"
+  let on = false;
+  if (b && seen[b.id] !== "closed") {
+    if (!seen[b.id]) {
+      seen[b.id] = Date.now();
+      const keys = Object.keys(seen); if (keys.length > 50) delete seen[keys[0]];
+      store.set("liveSeen", seen);
+    }
+    on = Date.now() - seen[b.id] <= (CFG.liveMinutes || 15) * 60e3;
   }
-  if (Date.now() - seen[b.id] > (CFG.liveMinutes || 15) * 60e3) return hideLive();
-  showLive(b, state.news.live);
+  $("live").classList.toggle("breaking", on);
+  $("live").querySelector("b").textContent = on ? "● BREAKING" : "● LIVE";
+  $("liveTitle").textContent = on ? `${b.source}: ${b.title}` : (CFG.live && CFG.live.name) || "";
+  live.breakingId = on ? b.id : null;
+  setSound(on && !(isNight() && !CFG.liveSoundAtNight), on && isNight());
 }
-let ytReady = null;
-function loadYT() {
-  if (!ytReady) ytReady = new Promise(res => {
-    window.onYouTubeIframeAPIReady = res;
-    const t = document.createElement("script"); t.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(t);
-  });
-  return ytReady;
+function setSound(want, nightQuiet) {
+  const p = live.player;
+  note(nightQuiet ? "Sound off at night" : "");
+  if (!p || !live.ready) return;
+  if (!want) { p.mute(); return; }
+  p.unMute(); p.setVolume(CFG.liveVolume ?? 60); p.playVideo();
+  setTimeout(() => { if (live.player === p && p.isMuted && p.isMuted() && live.breakingId) note("Sound blocked by the browser"); }, 4000);
 }
-async function showLive(b, ch) {
-  $("liveTitle").textContent = `${b.source}: ${b.title}`;
-  if (live.id === b.id) return;
-  hideLive();
-  live.id = b.id;
-  $("live").hidden = false;
-  const quiet = isNight() && !CFG.liveSoundAtNight;
-  const box = $("livePlayer");
-  if (!ch.videoId) {   // fallback: let YouTube pick the channel's current live video
-    box.innerHTML = `<iframe allow="autoplay; encrypted-media" src="https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&mute=${quiet ? 1 : 0}&controls=0&playsinline=1"></iframe>`;
-    return;
-  }
-  try { await loadYT(); } catch { return; }
-  if (live.id !== b.id) return;
-  live.player = new YT.Player("livePlayer", {
-    videoId: ch.videoId,
-    playerVars: { autoplay: 1, mute: quiet ? 1 : 0, controls: 0, playsinline: 1, rel: 0, modestbranding: 1 },
-    events: {
-      onReady: e => {
-        const p = e.target;
-        if (quiet) p.mute(); else { p.unMute(); p.setVolume(100); }
-        p.playVideo();
-        // If the browser refuses to play with sound, play muted rather than show nothing.
-        setTimeout(() => {
-          if (live.player === p && p.getPlayerState && p.getPlayerState() !== 1) {
-            p.mute(); p.playVideo(); quietNote("Sound blocked by the browser");
-          }
-        }, 5000);
-        if (quiet) quietNote("Sound off at night");
-      },
-    },
-  });
-}
-function quietNote(text) {
+function note(text) {
   let el = $("live").querySelector(".muted");
+  if (!text) return el && el.remove();
   if (!el) { el = document.createElement("div"); el.className = "muted"; $("live").appendChild(el); }
   el.textContent = "🔇 " + text;
 }
-function hideLive() {
-  if (live.player && live.player.destroy) try { live.player.destroy(); } catch {}
-  live = { id: null, player: null };
-  $("live").hidden = true;
-  $("live").querySelector(".muted")?.remove();
-  $("live").querySelector("#livePlayer") || $("live").insertAdjacentHTML("beforeend", '<div id="livePlayer"></div>');
-  $("livePlayer").innerHTML = "";
-}
 document.addEventListener("click", e => {
-  if (e.target.id !== "liveClose" || !live.id) return;
-  const seen = store.get("liveSeen") || {}; seen[live.id] = "closed"; store.set("liveSeen", seen);
-  hideLive();
+  if (e.target.id !== "liveClose" || !live.breakingId) return;
+  const seen = store.get("liveSeen") || {}; seen[live.breakingId] = "closed"; store.set("liveSeen", seen);
+  checkBreaking();
 });
 
 // --- news (news.json is written by the GitHub Action next to this page) ---
@@ -419,9 +361,10 @@ async function start() {
   setInterval(tick, 1000);
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
-  setInterval(checkBreaking, 30e3);               // end the live box after liveMinutes
+  startLive();
+  setInterval(checkBreaking, 30e3);               // turn breaking sound off after liveMinutes
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
-  setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // move the hour strip along
+  setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // roll "Today" over at midnight
   // Remote updates: every 15 min, check whether the page or config.json changed on GitHub and reload if so.
   const fingerprint = async () => {
     const [a, b] = await Promise.all(["index.html", "config.json"].map(f => fetch(f + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw 0; return r.text(); })));
