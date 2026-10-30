@@ -48,7 +48,9 @@
     "/travel",
     "/style",
     "horoscope",
-    "cnn underscored"
+    "cnn underscored",
+    "sitemap",
+    "newsletter"
   ],
   "live": {
     "name": "Al Jazeera English",
