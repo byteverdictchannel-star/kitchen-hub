@@ -89,6 +89,18 @@
   /* Night dimming: a black veil, since a web page can't change the backlight. */
   #veil { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity 60s linear; }
   body.night #veil { opacity: .62; }
+
+  /* Breaking news live box: only shown while news.json says there's breaking news. */
+  #live { position: fixed; right: 2vw; bottom: 4.5vh; width: 38vw; z-index: 5; background: #000; border-radius: 1.6vh; overflow: hidden;
+          box-shadow: 0 0 0 .4vh #e53935, 0 1vh 4vh rgba(0,0,0,.6); }
+  #live[hidden] { display: none; }
+  #live .bn { display: flex; align-items: center; gap: .8vw; background: #e53935; color: #fff; padding: .8vh 1vw; font-size: 2.3vh; }
+  #live .bn b { letter-spacing: .08em; animation: blink 1.2s steps(2, start) infinite; }
+  #live .bn span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #live .bn button { background: none; border: 0; color: #fff; font-size: 3vh; line-height: 1; padding: 0 .4vw; cursor: pointer; }
+  #livePlayer, #live iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+  #live .muted { position: absolute; left: 1vw; bottom: 1vh; background: rgba(0,0,0,.7); color: #fff; font-size: 1.9vh; padding: .4vh .8vw; border-radius: .8vh; }
+  @keyframes blink { to { visibility: hidden; } }
 </style>
 </head>
 <body>
@@ -118,11 +130,15 @@
   <div class="status" id="status"></div>
 </main>
 <div id="veil"></div>
+<div id="live" hidden>
+  <div class="bn"><b>● BREAKING</b><span id="liveTitle"></span><button id="liveClose" aria-label="Close">✕</button></div>
+  <div id="livePlayer"></div>
+</div>
 
 <script>
 "use strict";
 const WEATHER_EVERY = 15 * 60e3;   // weather refresh
-const NEWS_EVERY = 10 * 60e3;      // news.json refresh (the GitHub job updates it every ~30 min)
+const NEWS_EVERY = 2 * 60e3;       // news.json refresh (the GitHub job updates it every ~10 min)
 
 let CFG = null;
 const state = { weather: null, weatherAt: 0, news: null, newsAt: 0, weatherErr: false, newsErr: false };
@@ -253,6 +269,93 @@ function renderWeather() {
   $("days").innerHTML = html;
 }
 
+// --- breaking news live box ---
+// Shows a small live stream (with sound) only while news.json flags breaking news.
+// Each story plays for CFG.liveMinutes once, then stays away. Tapping ✕ closes it for that story.
+let live = { id: null, player: null };
+function isNight() {
+  const d = new Date(), m = d.getHours() * 60 + d.getMinutes(), s = toMin(CFG.nightStart), e = toMin(CFG.nightEnd);
+  return s > e ? (m >= s || m < e) : (m >= s && m < e);
+}
+function breakingNow() {
+  const n = state.news;
+  if (!n || !n.live) return null;
+  if (CFG.forceBreaking && n.items && n.items[0]) return { ...n.items[0], id: "test-" + new Date().toISOString().slice(0, 13) };
+  return n.breaking || null;
+}
+function checkBreaking() {
+  if (!CFG) return;
+  const b = breakingNow();
+  const seen = store.get("liveSeen") || {};           // story id -> when it first played
+  if (!b || seen[b.id] === "closed") return hideLive();
+  if (!seen[b.id]) {
+    seen[b.id] = Date.now();
+    const keys = Object.keys(seen); if (keys.length > 50) delete seen[keys[0]];
+    store.set("liveSeen", seen);
+  }
+  if (Date.now() - seen[b.id] > (CFG.liveMinutes || 15) * 60e3) return hideLive();
+  showLive(b, state.news.live);
+}
+let ytReady = null;
+function loadYT() {
+  if (!ytReady) ytReady = new Promise(res => {
+    window.onYouTubeIframeAPIReady = res;
+    const t = document.createElement("script"); t.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(t);
+  });
+  return ytReady;
+}
+async function showLive(b, ch) {
+  $("liveTitle").textContent = `${b.source}: ${b.title}`;
+  if (live.id === b.id) return;
+  hideLive();
+  live.id = b.id;
+  $("live").hidden = false;
+  const quiet = isNight() && !CFG.liveSoundAtNight;
+  const box = $("livePlayer");
+  if (!ch.videoId) {   // fallback: let YouTube pick the channel's current live video
+    box.innerHTML = `<iframe allow="autoplay; encrypted-media" src="https://www.youtube.com/embed/live_stream?channel=${encodeURIComponent(ch.channelId)}&autoplay=1&mute=${quiet ? 1 : 0}&controls=0&playsinline=1"></iframe>`;
+    return;
+  }
+  try { await loadYT(); } catch { return; }
+  if (live.id !== b.id) return;
+  live.player = new YT.Player("livePlayer", {
+    videoId: ch.videoId,
+    playerVars: { autoplay: 1, mute: quiet ? 1 : 0, controls: 0, playsinline: 1, rel: 0, modestbranding: 1 },
+    events: {
+      onReady: e => {
+        const p = e.target;
+        if (quiet) p.mute(); else { p.unMute(); p.setVolume(100); }
+        p.playVideo();
+        // If the browser refuses to play with sound, play muted rather than show nothing.
+        setTimeout(() => {
+          if (live.player === p && p.getPlayerState && p.getPlayerState() !== 1) {
+            p.mute(); p.playVideo(); quietNote("Sound blocked by the browser");
+          }
+        }, 5000);
+        if (quiet) quietNote("Sound off at night");
+      },
+    },
+  });
+}
+function quietNote(text) {
+  let el = $("live").querySelector(".muted");
+  if (!el) { el = document.createElement("div"); el.className = "muted"; $("live").appendChild(el); }
+  el.textContent = "🔇 " + text;
+}
+function hideLive() {
+  if (live.player && live.player.destroy) try { live.player.destroy(); } catch {}
+  live = { id: null, player: null };
+  $("live").hidden = true;
+  $("live").querySelector(".muted")?.remove();
+  $("live").querySelector("#livePlayer") || $("live").insertAdjacentHTML("beforeend", '<div id="livePlayer"></div>');
+  $("livePlayer").innerHTML = "";
+}
+document.addEventListener("click", e => {
+  if (e.target.id !== "liveClose" || !live.id) return;
+  const seen = store.get("liveSeen") || {}; seen[live.id] = "closed"; store.set("liveSeen", seen);
+  hideLive();
+});
+
 // --- news (news.json is written by the GitHub Action next to this page) ---
 async function loadNews() {
   try {
@@ -278,6 +381,7 @@ function renderNews() {
   $("news").innerHTML = n.items.slice(0, CFG.headlines).map(it => `
     <div class="item"><div class="h">${esc(it.title)}</div>
     <div class="m"><b>${esc(it.source)}</b>${it.time ? " · " + ago(Date.parse(it.time)) : ""}</div></div>`).join("");
+  checkBreaking();
 }
 
 // --- "last updated" line; turns amber when data is old or the internet is down ---
@@ -315,6 +419,7 @@ async function start() {
   setInterval(tick, 1000);
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
+  setInterval(checkBreaking, 30e3);               // end the live box after liveMinutes
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
   setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // move the hour strip along
   // Remote updates: every 15 min, check whether the page or config.json changed on GitHub and reload if so.

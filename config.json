@@ -9,7 +9,54 @@
   "nightEnd": "06:30",
   "headlines": 5,
   "feeds": [
-    { "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
-    { "name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/rss.xml" }
-  ]
+    {
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "name": "CNN",
+      "url": "https://news.google.com/rss/search?q=site:cnn.com+(politics+OR+election+OR+president+OR+minister+OR+war+OR+government+OR+congress+OR+attack+OR+killed+OR+ceasefire+OR+sanctions)+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "stripSuffix": " - CNN"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml"
+    }
+  ],
+  "exclude": [
+    "/sport",
+    "sport",
+    "football",
+    "soccer",
+    "cricket",
+    "tennis",
+    "golf",
+    "formula 1",
+    "premier league",
+    "nfl",
+    "nba",
+    "mlb",
+    "nhl",
+    "world series",
+    "super bowl",
+    "olympic",
+    "/entertainment",
+    "celebrity",
+    "movie",
+    "box office",
+    "recipe",
+    "/travel",
+    "/style",
+    "horoscope",
+    "cnn underscored"
+  ],
+  "live": {
+    "name": "Al Jazeera English",
+    "channelId": "UCNye-wNBqNL5ZzHSJj3l8Bg"
+  },
+  "breakingWindowMinutes": 60,
+  "breakingMinSources": 3,
+  "liveMinutes": 15,
+  "liveSoundAtNight": false,
+  "forceBreaking": true
 }

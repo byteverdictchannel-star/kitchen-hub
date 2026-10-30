@@ -2,7 +2,7 @@ name: Update news
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes (GitHub may run it a few minutes late)
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub often runs it a few minutes late)
   workflow_dispatch:          # lets you run it by hand from the Actions tab
   push:
     paths: ["config.json", "scripts/**"]
