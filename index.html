@@ -8,87 +8,120 @@
 <title>Kitchen Hub</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
   :root {
-    --bg: #0f1319;
-    --panel: #171d26;
-    --line: #262f3c;
-    --text: #f2f4f7;
-    --muted: #9aa6b6;
-    --accent: #f5be50;
-    --rain: #5aa9ff;
-    --warn: #ffb347;
+    --bg: #0b0e13;
+    --panel: #141920;
+    --panel-2: #1a2029;
+    --line: #232b36;
+    --text: #f3f5f8;
+    --soft: #c9d1dc;
+    --muted: #8793a3;
+    --accent: #f2b84b;
+    --rain: #6db3ff;
+    --ok: #4cc38a;
+    --warn: #f5a524;
+    --red: #e5484d;
+    --r: 2.4vh;
   }
   * { box-sizing: border-box; margin: 0; }
   html, body { height: 100%; background: var(--bg); color: var(--text); overflow: hidden; }
   body { position: fixed; inset: 0; }
   body {
-    font-family: Roboto, "Segoe UI", system-ui, sans-serif;
-    font-variant-numeric: tabular-nums;
+    font-family: Inter, Roboto, "Segoe UI", system-ui, sans-serif;
+    font-feature-settings: "cv11" 1;
+    -webkit-font-smoothing: antialiased;
     -webkit-user-select: none; user-select: none; cursor: none; touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
   }
   main {
-    height: 100%; padding: 2.2vh 2vw 1vh;
-    display: grid; gap: 1.8vh 1.6vw;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    height: 100%; padding: 3vh 2.4vw 1.6vh;
+    display: grid; gap: 2.4vh 1.8vw;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
     grid-template-rows: auto minmax(0, 1fr) auto;
     grid-template-areas: "clock now" "news live" "status status";
   }
-  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 2vh; padding: 1.6vh 1.4vw; min-height: 0; overflow: hidden; }
-  .label { color: var(--muted); font-size: 2vh; letter-spacing: .08em; text-transform: uppercase; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); min-height: 0; overflow: hidden; }
 
   /* Clock */
-  .clock { grid-area: clock; display: flex; flex-direction: column; justify-content: center; padding-left: .6vw; }
-  #time { font-size: 17vh; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
-  #time .ampm { font-size: 6vh; font-weight: 500; color: var(--muted); margin-left: .6vw; }
-  #date { font-size: 4.2vh; color: var(--muted); margin-top: .6vh; }
-  #town { font-size: 2.6vh; color: var(--accent); margin-top: .6vh; letter-spacing: .04em; }
+  .clock { grid-area: clock; display: flex; flex-direction: column; justify-content: center; padding-left: .4vw; }
+  #time, #nowTemp, .day .hl, .status { font-variant-numeric: tabular-nums; }
+  #time { font-size: 19vh; font-weight: 600; line-height: .9; letter-spacing: -.035em; }
+  #time .ampm { font-size: 6vh; font-weight: 500; color: var(--muted); margin-left: .8vw; letter-spacing: 0; }
+  .sub { display: flex; align-items: baseline; gap: 1.1vw; margin-top: 1.6vh; white-space: nowrap; }
+  #date { font-size: 4vh; font-weight: 500; color: var(--soft); }
+  #town { font-size: 2.6vh; font-weight: 600; color: var(--accent); letter-spacing: .06em; text-transform: uppercase; }
 
-  /* Weather: today + next 2 days */
-  .now { grid-area: now; display: grid; grid-template-columns: auto auto 1fr; gap: 0 1.4vw; align-items: center; }
-  #nowIcon { font-size: 10vh; line-height: 1; }
-  #nowTemp { font-size: 10vh; font-weight: 600; line-height: 1; }
-  #nowTemp small { font-size: 5vh; color: var(--muted); font-weight: 400; vertical-align: top; }
-  #nowCond { font-size: 3.4vh; }
-  #nowCond span { color: var(--muted); }
-  .days { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 1vh; border-top: 1px solid var(--line); padding-top: 1.2vh; }
-  .day { display: flex; align-items: center; justify-content: center; gap: .5vw; min-width: 0; border-right: 1px solid var(--line); }
-  .day:last-child { border-right: 0; }
-  .day .n { font-size: 2.3vh; font-weight: 600; color: var(--muted); }
-  .day .i { font-size: 3.6vh; line-height: 1; }
-  .day .hl { font-size: 2.7vh; font-weight: 600; white-space: nowrap; }
+  /* Weather: now + today + 2 days */
+  .now { grid-area: now; display: flex; flex-direction: column; padding: 2.2vh 1.8vw; gap: 1.8vh; }
+  .cur { display: flex; align-items: center; gap: 1.4vw; }
+  #nowIcon { font-size: 9.5vh; line-height: 1; }
+  #nowTemp { font-size: 11vh; font-weight: 600; line-height: .9; letter-spacing: -.03em; }
+  #nowTemp small { font-size: 5vh; color: var(--muted); font-weight: 500; vertical-align: top; margin-left: .2vw; }
+  #nowCond { font-size: 3.4vh; font-weight: 500; line-height: 1.25; margin-left: .6vw; }
+  #nowCond span { color: var(--muted); font-weight: 400; }
+  .days { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1vw; }
+  .day { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: .8vw; align-items: center;
+         background: var(--panel-2); border-radius: 1.6vh; padding: 1.1vh 1vw; min-width: 0; }
+  .day .i { grid-row: 1 / 3; font-size: 4.6vh; line-height: 1; }
+  .day .n { font-size: 2.1vh; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .day .hl { font-size: 2.9vh; font-weight: 600; white-space: nowrap; }
   .day .hl span { color: var(--muted); font-weight: 400; }
-  .day .p { font-size: 2.2vh; color: var(--rain); white-space: nowrap; }
+  .day .p { color: var(--rain); font-size: 2.1vh; font-weight: 600; margin-left: .3vw; }
+  .day.today { background: #222a35; }
 
   /* News */
-  .news { grid-area: news; padding-top: 1vh; padding-bottom: 1vh; display: flex; flex-direction: column; justify-content: space-between; }
-  .item { padding: .35vh 0; border-bottom: 1px solid var(--line); min-width: 0; }
+  .news { grid-area: news; padding: .6vh 1.8vw; display: flex; flex-direction: column; justify-content: space-evenly; }
+  .item { padding: .9vh 0; border-bottom: 1px solid var(--line); min-width: 0; }
   .item:last-child { border-bottom: 0; }
-  .item .h { font-size: 2.55vh; font-weight: 500; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .item .m { font-size: 1.8vh; color: var(--muted); margin-top: .15vh; }
+  .item .h { font-size: 2.95vh; font-weight: 500; line-height: 1.24; letter-spacing: -.005em;
+             display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .item .m { display: flex; align-items: center; gap: .6vw; font-size: 1.95vh; color: var(--muted); margin-top: .5vh; }
   .item .m b { color: var(--accent); font-weight: 600; }
-  .item .m .lang { font-style: normal; font-size: 1.5vh; font-weight: 700; border: 1px solid var(--muted); border-radius: .5vh; padding: 0 .4vw; margin-left: .3vw; vertical-align: 1px; }
-  .live.ducked .bn #liveSound::after { content: " ↓"; font-size: 2vh; }
-  .empty { color: var(--muted); font-size: 2.6vh; margin: auto; text-align: center; }
+  .item .m .lang { font-style: normal; font-size: 1.55vh; font-weight: 700; color: var(--soft); background: var(--panel-2);
+                   border: 1px solid var(--line); border-radius: .6vh; padding: .1vh .45vw; letter-spacing: .05em; }
+  .item.fresh .m::after { content: "NEW"; font-size: 1.5vh; font-weight: 700; color: var(--ok); letter-spacing: .08em; }
+  .empty { color: var(--muted); font-size: 2.8vh; margin: auto; text-align: center; }
 
-  /* Live news feed: always on, muted; sound only during breaking news */
-  .live { grid-area: live; padding: 0; display: flex; flex-direction: column; background: #000; position: relative; }
-  .live .bn { display: flex; align-items: center; gap: .8vw; padding: .9vh 1.2vw; font-size: 2.2vh; color: var(--muted); background: var(--panel); border-bottom: 1px solid var(--line); }
-  .live .bn b { color: #ff5a52; letter-spacing: .08em; }
-  .live .bn span { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .live .bn button { display: none; background: none; border: 0; color: #fff; font-size: 3vh; line-height: 1; padding: 0 .4vw; cursor: pointer; }
-  .live .bn #liveSound { display: block; font-size: 3.4vh; padding: 0 .8vw; }
-  .live.breaking { box-shadow: 0 0 0 .4vh #e53935; border-color: #e53935; }
-  .live.breaking .bn { background: #e53935; color: #fff; }
-  .live.breaking .bn b { color: #fff; animation: blink 1.2s steps(2, start) infinite; }
-  .live.breaking .bn button { display: block; }
-  #livePlayer { flex: 1; position: relative; min-height: 0; }
-  #livePlayer iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
-  .live .muted { position: absolute; left: 1vw; bottom: 1vh; background: rgba(0,0,0,.7); color: #fff; font-size: 1.9vh; padding: .4vh .8vw; border-radius: .8vh; }
-  @keyframes blink { to { visibility: hidden; } }
+  /* Live news feed: video on top, one control bar underneath (big touch targets). */
+  .live { grid-area: live; display: flex; flex-direction: column; background: #000; position: relative; }
+  #livePlayer { flex: 1; position: relative; min-height: 0; background: #000; }
+  #livePlayer iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; pointer-events: none; }
+  .bn { flex: none; display: flex; align-items: center; gap: 1vw; min-height: 8.4vh; padding: 1vh 1vw 1vh 1.4vw; background: var(--panel); border-top: 1px solid var(--line); }
+  .bn b { flex: none; display: flex; align-items: center; gap: .5vw; font-size: 1.9vh; font-weight: 700; letter-spacing: .1em; color: var(--red); }
+  .bn b::before { content: ""; width: 1.2vh; height: 1.2vh; border-radius: 50%; background: currentColor; }
+  #liveTitle { flex: 1; min-width: 0; font-size: 2.3vh; color: var(--soft); line-height: 1.25;
+               display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .bn button { flex: none; display: flex; align-items: center; justify-content: center; gap: .5vw; min-height: 6.4vh; min-width: 6.4vh;
+               padding: 0 1.2vw; border-radius: 3.2vh; border: 1px solid var(--line); background: var(--panel-2);
+               color: var(--text); font: 600 2.2vh/1 Inter, Roboto, system-ui, sans-serif; cursor: pointer; transition: background .2s, transform .1s; }
+  .bn button:active { transform: scale(.96); }
+  .bn button .ic { font-size: 2.8vh; }
+  #liveSound.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+  #liveClose { display: none; }
+  .live.ducked #liveSound .tx::after { content: " · quiet"; font-weight: 500; opacity: .7; }
+  .live.breaking { border-color: var(--red); box-shadow: 0 0 0 .35vh var(--red); }
+  .live.breaking .bn { background: var(--red); border-top-color: var(--red); flex-wrap: wrap; row-gap: .4vh; min-height: 13vh; padding-top: 1.2vh; }
+  .live.breaking .bn b { width: 100%; }
+  .live.breaking #liveTitle { font-size: 2.6vh; }
+  .live.breaking .bn .tx { display: none; }
+  .live.breaking .bn button { padding: 0; width: 7vh; }
+  .live.breaking .bn b { color: #fff; animation: pulse 1.6s ease-in-out infinite; }
+  .live.breaking #liveTitle { color: #fff; font-weight: 600; }
+  .live.breaking .bn button { background: rgba(0,0,0,.22); border-color: rgba(255,255,255,.35); color: #fff; }
+  .live.breaking #liveSound.on { background: #fff; color: var(--red); border-color: #fff; }
+  .live.breaking #liveClose { display: flex; }
+  .live .muted { position: absolute; left: 1.2vw; top: 1.4vh; background: rgba(0,0,0,.75); color: #fff; font-size: 2vh; font-weight: 500; padding: .7vh 1vw; border-radius: 1vh; }
+  @keyframes pulse { 50% { opacity: .35; } }
 
-  .status { grid-area: status; font-size: 1.8vh; color: var(--muted); text-align: right; }
-  .status.stale { color: var(--warn); }
+  /* Status line */
+  .status { grid-area: status; display: flex; justify-content: flex-end; align-items: center; gap: .6vw; font-size: 1.8vh; color: var(--muted); }
+  .status::before { content: ""; width: 1vh; height: 1vh; border-radius: 50%; background: var(--ok); opacity: .8; }
+  .status.stale { color: var(--warn); font-weight: 600; }
+  .status.stale::before { background: var(--warn); opacity: 1; }
 
   /* Night dimming: a black veil, since a web page can't change the backlight. */
   #veil { position: fixed; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity 60s linear; }
@@ -102,22 +135,26 @@
 <main>
   <section class="clock">
     <div id="time">--:--</div>
-    <div id="date"></div>
-    <div id="town"></div>
+    <div class="sub"><div id="date"></div><div id="town"></div></div>
   </section>
 
   <section class="panel now">
-    <div id="nowIcon">·</div>
-    <div id="nowTemp">--</div>
-    <div id="nowCond">Loading weather…</div>
+    <div class="cur">
+      <div id="nowIcon">·</div>
+      <div id="nowTemp">--</div>
+      <div id="nowCond">Loading weather…</div>
+    </div>
     <div class="days" id="days"></div>
   </section>
 
   <section class="panel news" id="news"><div class="empty">Loading news…</div></section>
 
   <section class="panel live" id="live">
-    <div class="bn"><b>● LIVE</b><span id="liveTitle"></span><button id="liveSound" aria-label="Sound">🔇</button><button id="liveClose" aria-label="Mute">✕</button></div>
     <div id="livePlayer"></div>
+    <div class="bn"><b>LIVE</b><span id="liveTitle"></span>
+      <button id="liveSound" aria-label="Sound"><span class="ic">🔇</span><span class="tx">Sound</span></button>
+      <button id="liveClose" aria-label="Stop"><span class="ic">✕</span><span class="tx">Stop</span></button>
+    </div>
   </section>
 
   <div class="status" id="status"></div>
@@ -222,11 +259,11 @@ function renderWeather() {
   let html = "";
   for (let i = first; i < first + 3 && i < d.time.length; i++) {
     const name = i === first ? "Today" : new Date(d.time[i] + "T12:00").toLocaleDateString(undefined, { weekday: "short" });
-    html += `<div class="day">
-      <div class="n">${name}</div>
+    const rain = d.precipitation_probability_max[i] ?? 0;
+    html += `<div class="day${i === first ? " today" : ""}">
       <div class="i">${wmo(d.weather_code[i]).icon}</div>
-      <div><div class="hl">${deg(d.temperature_2m_max[i])} <span>${deg(d.temperature_2m_min[i])}</span></div>
-      <div class="p">💧 ${d.precipitation_probability_max[i] ?? 0}%</div></div></div>`;
+      <div class="n">${name}${rain >= 20 ? `<span class="p">💧${rain}%</span>` : ""}</div>
+      <div class="hl">${deg(d.temperature_2m_max[i])} <span>${deg(d.temperature_2m_min[i])}</span></div></div>`;
   }
   $("days").innerHTML = html;
 }
@@ -300,7 +337,7 @@ function checkBreaking() {
   startLive(lang);
   const ch = channels()[lang] || {};
   $("live").classList.toggle("breaking", on);
-  $("live").querySelector("b").textContent = on ? "● BREAKING" : "● LIVE";
+  $("live").querySelector("b").textContent = on ? "BREAKING" : "LIVE";
   $("liveTitle").textContent = on ? `${b.source}: ${b.title}` : ch.name || "";
   if (on && !live.breakingId) presence.wake();
   live.breakingId = on ? b.id : null;
@@ -309,7 +346,7 @@ function checkBreaking() {
 function setSound(want, nightQuiet) {
   live.soundOn = want;
   note(nightQuiet ? "Sound off at night" : "");
-  $("liveSound").textContent = want ? "🔊" : "🔇";
+  showSound(want);
   want ? listen.start() : listen.stop();
   const p = live.player;
   if (!p || !live.ready) return;
@@ -318,18 +355,24 @@ function setSound(want, nightQuiet) {
   // If the browser won't play with sound, keep the picture going on mute instead of a paused video.
   setTimeout(() => {
     if (live.player !== p || !p.getPlayerState) return;
-    if (p.getPlayerState() === YT.PlayerState.PAUSED) { p.mute(); p.playVideo(); $("liveSound").textContent = "🔇"; note("Tap 🔇 for sound"); }
+    if (p.getPlayerState() === YT.PlayerState.PAUSED) { p.mute(); p.playVideo(); showSound(false); note("Tap Sound to hear it"); }
   }, 8000);
+}
+function showSound(on) {
+  const b = $("liveSound"); b.classList.toggle("on", on);
+  b.querySelector(".ic").textContent = on ? "🔊" : "🔇";
+  b.querySelector(".tx").textContent = on ? "Sound on" : "Sound";
 }
 function note(text) {
   let el = $("live").querySelector(".muted");
   if (!text) return el && el.remove();
   if (!el) { el = document.createElement("div"); el.className = "muted"; $("live").appendChild(el); }
-  el.textContent = "🔇 " + text;
+  el.textContent = text;
 }
 document.addEventListener("click", e => {
-  if (e.target.id === "liveSound") { live.manual = $("liveSound").textContent === "🔇"; if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
-  if (e.target.id !== "liveClose" || !live.breakingId) return;
+  const btn = e.target.closest && e.target.closest("button"); if (!btn) return;
+  if (btn.id === "liveSound") { live.manual = !$("liveSound").classList.contains("on"); if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
+  if (btn.id !== "liveClose" || !live.breakingId) return;
   markClosed(); checkBreaking();
 });
 function markClosed() {
@@ -445,8 +488,8 @@ function renderNews() {
   }
   const esc = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
   $("news").innerHTML = n.items.slice(0, CFG.headlines).map(it => `
-    <div class="item"><div class="h">${esc(it.title)}</div>
-    <div class="m"><b>${esc(it.source)}</b>${it.lang && it.lang !== "en" ? ` <i class="lang">${it.lang.toUpperCase()}</i>` : ""}${it.time ? " · " + ago(Date.parse(it.time)) : ""}</div></div>`).join("");
+    <div class="item${it.time && Date.now() - Date.parse(it.time) < 30 * 60e3 ? " fresh" : ""}"><div class="h">${esc(it.title)}</div>
+    <div class="m"><b>${esc(it.source)}</b>${it.lang && it.lang !== "en" ? `<i class="lang">${it.lang.toUpperCase()}</i>` : ""}${it.time ? "<span>" + ago(Date.parse(it.time)) + "</span>" : ""}</div></div>`).join("");
   checkBreaking();
 }
 
@@ -458,15 +501,15 @@ function renderStatus() {
   if (state.weatherAt) {
     const old = now - state.weatherAt > WEATHER_EVERY * 2.5;
     stale ||= old || state.weatherErr;
-    parts.push(`Weather updated ${fmtTime(new Date(state.weatherAt))}`);
+    parts.push(`Weather ${fmtTime(new Date(state.weatherAt))}`);
   }
   if (state.newsAt) {
     const old = now - state.newsAt > NEWS_EVERY * 2.5;
     stale ||= old || state.newsErr;
-    parts.push(`news ${fmtTime(new Date(state.newsAt))}`);
+    parts.push(`News ${fmtTime(new Date(state.newsAt))}`);
   }
   const el = $("status");
-  el.textContent = (stale ? "⚠ No connection — showing last data · " : "") + parts.join(" · ");
+  el.textContent = (stale ? "Offline: showing the last news and weather · " : "") + parts.join(" · ");
   el.classList.toggle("stale", stale);
 }
 
