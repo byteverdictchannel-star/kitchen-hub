@@ -108,6 +108,11 @@
   .day.today .n { color: var(--accent); }
   .day .hl { font-size: 2.9vh; font-weight: 600; white-space: nowrap; }
   .day .hl span { color: var(--muted); font-weight: 400; }
+  /* Air line: air quality always, dust and UV only when they matter */
+  .air { display: flex; flex-wrap: wrap; gap: .4vh 1.6vw; font-size: 2.5vh; font-weight: 500; color: var(--soft); min-height: 2.5vh; }
+  .air:empty { display: none; }
+  .air > span { display: inline-flex; align-items: center; gap: .6vw; white-space: nowrap; }
+  .air .dot { width: 1.3vh; height: 1.3vh; border-radius: 50%; background: var(--c); box-shadow: 0 0 1.2vh var(--c); }
   .day .p { color: var(--rain); font-size: 2vh; font-weight: 600; margin-left: .4vw; letter-spacing: 0; }
 
   /* News: no hard lines, soft fade at the bottom edge */
@@ -200,6 +205,7 @@
       <div id="nowTemp">--</div>
       <div id="nowCond">Loading weather…</div>
     </div>
+    <div class="air" id="air"></div>
     <div class="days" id="days"></div>
   </section>
 
@@ -302,6 +308,44 @@ async function loadWeather() {
     state.weatherErr = true;
   }
   renderWeather();
+  loadAir();
+}
+
+// --- air quality, dust and UV (Open-Meteo, free) ---
+async function loadAir() {
+  const p = new URLSearchParams({ latitude: CFG.latitude, longitude: CFG.longitude, timezone: "auto",
+    forecast_days: 1, current: "us_aqi,dust,uv_index", hourly: "uv_index" });
+  try {
+    const r = await fetch("https://air-quality-api.open-meteo.com/v1/air-quality?" + p, { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    state.air = await r.json();
+    store.set("air", { data: state.air, at: Date.now() });
+  } catch (e) { /* keep the last one */ }
+  renderAir();
+}
+function renderAir() {
+  const a = state.air;
+  if (!a || !a.current) { $("air").innerHTML = ""; return; }
+  const c = a.current, out = [];
+  const q = c.us_aqi;
+  if (q != null) {
+    const [txt, col] = q <= 50 ? ["Air good", "#4cc38a"] : q <= 100 ? ["Air moderate", "#e8c547"]
+      : q <= 150 ? ["Air poor for sensitive people", "#f5a524"] : q <= 200 ? ["Air unhealthy", "#e5484d"] : ["Air very unhealthy", "#b84dff"];
+    out.push(`<span><i class="dot" style="--c:${col}"></i>${txt}</span>`);
+  }
+  if (c.dust >= 300) out.push("<span>🌪️ Sandstorm</span>");
+  else if (c.dust >= 100) out.push("<span>🌫️ Dusty</span>");
+  // UV: show the high-UV hours still ahead today (UV 6+ is "high").
+  const h = a.hourly || {}, now = new Date(), hh = pad(now.getHours());
+  const today = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  const high = (h.time || []).map((t, i) => [t, h.uv_index[i]]).filter(([t, u]) => t.startsWith(today) && u >= 6);
+  if (high.length && high[high.length - 1][0].slice(11, 13) >= hh) {
+    const peak = Math.max(...high.map(x => x[1]));
+    const word = peak >= 11 ? "extreme" : peak >= 8 ? "very high" : "high";
+    const from = high[0][0].slice(11, 16), to = pad(+high[high.length - 1][0].slice(11, 13) + 1) + ":00";
+    out.push(`<span>☀️ UV ${word} ${from}–${to}</span>`);
+  }
+  $("air").innerHTML = out.join("");
 }
 
 function renderWeather() {
@@ -591,6 +635,7 @@ async function start() {
   // Show the last saved data straight away, then refresh.
   const w = store.get("weather"), n = store.get("news");
   if (w) { state.weather = w.data; state.weatherAt = w.at; renderWeather(); }
+  const air = store.get("air"); if (air) { state.air = air.data; renderAir(); }
   if (n) { state.news = n.data; state.newsAt = n.at; renderNews(); }
 
   tick();
@@ -601,7 +646,7 @@ async function start() {
   presence.start();
   setInterval(checkBreaking, 30e3);               // turn breaking sound off after liveMinutes
   setInterval(renderNews, 60e3);                  // keep "x min ago" current
-  setInterval(() => { if (state.weather) renderWeather(); }, 5 * 60e3); // roll "Today" over at midnight
+  setInterval(() => { if (state.weather) renderWeather(); renderAir(); }, 5 * 60e3); // roll "Today" over at midnight
   // Remote updates: every 15 min, check whether the page or config.json changed on GitHub and reload if so.
   const fingerprint = async () => {
     const [a, b] = await Promise.all(["index.html", "config.json"].map(f => fetch(f + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw 0; return r.text(); })));
