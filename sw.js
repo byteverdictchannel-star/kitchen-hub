@@ -1,6 +1,6 @@
 // Keeps the page itself available when the internet is down.
 // Strategy: try the network first, fall back to the saved copy.
-const CACHE = "kitchen-hub-v4";
+const CACHE = "kitchen-hub-v5";
 const SHELL = ["./", "index.html", "config.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -19,7 +19,7 @@ self.addEventListener("fetch", e => {
   if (e.request.method !== "GET" || url.origin !== location.origin) return; // weather API: page handles it
   if (url.pathname.endsWith("news.json")) return; // page keeps its own copy
   e.respondWith(
-    fetch(e.request)
+    fetch(e.request, { cache: "no-cache" })  // always ask GitHub if there is a newer copy
       .then(res => {
         const copy = res.clone();
         caches.open(CACHE).then(c => c.put(e.request, copy));
