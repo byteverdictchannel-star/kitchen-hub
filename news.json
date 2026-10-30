@@ -1,19 +1,26 @@
 {
- "updated": "2026-10-30T10:49:34+00:00",
+ "updated": "2026-10-30T10:59:54+00:00",
  "items": [
   {
-   "title": "Depuis le début du mouvement lycéen, 83 enquêtes ont été confiées à l'IGPN et l'IGGN",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-30T10:44:37+00:00",
-   "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/mouvement-lyceen-83-enquetes-confiees-a-l-igpn-et-l-iggn-depuis-le-debut-de-la-mobilisation_8260124.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Anti-Muslim rhetoric by Republicans on the campaign trail",
+   "title": "Somali piracy back as the US-Iran war rattles shipping | CNN Business",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-10-30T10:25:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOHpGZDJrazQ3Yk0wY0VHM2l1RzlWZG53Q2gtNE9WZWU2MlNaWlEzZkhVdUJyOFNXc013N2prOTVYeXZ3UlVRRGFrbnpsT0RHQ2tucTZhSXV1RjY3WGV6MlIxanQycnYxblVteHN2c1dzMzdmdkVUZTB3aWhvRl85eDRMSlUtSk0yem9Tem01NGNVemxtLTVkcW5aYnV3UQ?oc=5"
+   "time": "2026-10-30T10:51:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWduMVZUQjJNMFZGTXBQbUcxaDJXZkpzcmFZX2xkeUQ5MkpDdzNFandYWHFqZnZCbUc5d1NRS01zSXUwNlAzWl9yalJhNFFnZGpZdU1MT2tvVEpEXzB3OERTTUFsRUZTeWhJbkVjeHMyUFZfcWRRR0tXOXZ3aTVfYjN0SndjcGxDNThxRUtXWklXaml4QzRMQ1FUbUVQRU41MXZZQ0dxQnpPU09EbHBFSkR3?oc=5"
+  },
+  {
+   "title": "Cortèges autorisés, dispositif de sécurité... A quoi faut-il s'attendre pour les manifestations du samedi 31 octobre ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-30T10:50:39+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/corteges-autorises-dispositif-de-securite-a-quoi-faut-il-s-attendre-pour-les-manifestations-du-samedi-31-octobre_8258933.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-10-30T10:32:06+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
@@ -21,13 +28,6 @@
    "lang": "en",
    "time": "2026-10-30T10:22:54+00:00",
    "link": "https://www.aljazeera.com/news/2026/10/30/on-the-us-border-in-texas-trump-deportation-drive-galvanises-midterm-vote?traffic_source=rss"
-  },
-  {
-   "title": "Helicopter carrying six people crashes in northern Indian state",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-30T10:07:58+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
   }
  ],
  "breaking": null,
@@ -49,11 +49,18 @@
  "alerted": [],
  "phone": [
   {
-   "title": "Anti-Muslim rhetoric by Republicans on the campaign trail",
+   "title": "Somali piracy back as the US-Iran war rattles shipping | CNN Business",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-10-30T10:25:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOHpGZDJrazQ3Yk0wY0VHM2l1RzlWZG53Q2gtNE9WZWU2MlNaWlEzZkhVdUJyOFNXc013N2prOTVYeXZ3UlVRRGFrbnpsT0RHQ2tucTZhSXV1RjY3WGV6MlIxanQycnYxblVteHN2c1dzMzdmdkVUZTB3aWhvRl85eDRMSlUtSk0yem9Tem01NGNVemxtLTVkcW5aYnV3UQ?oc=5"
+   "time": "2026-10-30T10:51:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWduMVZUQjJNMFZGTXBQbUcxaDJXZkpzcmFZX2xkeUQ5MkpDdzNFandYWHFqZnZCbUc5d1NRS01zSXUwNlAzWl9yalJhNFFnZGpZdU1MT2tvVEpEXzB3OERTTUFsRUZTeWhJbkVjeHMyUFZfcWRRR0tXOXZ3aTVfYjN0SndjcGxDNThxRUtXWklXaml4QzRMQ1FUbUVQRU41MXZZQ0dxQnpPU09EbHBFSkR3?oc=5"
+  },
+  {
+   "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-10-30T10:32:06+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
@@ -96,13 +103,6 @@
    "lang": "en",
    "time": "2026-10-30T08:32:35+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cxvgdzpy7241o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What we know about Binance's $6.3bn hack",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-30T08:02:02+00:00",
-   "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
