@@ -189,6 +189,55 @@
   /* Nobody around: screen fades to black; it comes back when the camera sees movement or someone taps. */
   #sleep { position: fixed; inset: 0; z-index: 6; background: #000; opacity: 0; pointer-events: none; transition: opacity .6s ease-out; }
   body.asleep #sleep { opacity: 1; pointer-events: auto; transition: opacity 5s ease-in; }
+
+  /* Kitchen timers */
+  .clock { cursor: pointer; }
+  #timerBtn { margin-left: auto; align-self: center; display: inline-flex; align-items: center; gap: .5vw; padding: .9vh 1.3vw;
+              border-radius: 999px; border: 1px solid var(--edge-hi); background: rgba(255,255,255,.07); color: var(--soft);
+              font: 600 2.3vh Inter, system-ui, sans-serif; -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); }
+  .timers { display: flex; flex-wrap: wrap; gap: 1vh .8vw; margin-top: 1.6vh; }
+  .timers:empty { display: none; }
+  .tm { display: inline-flex; align-items: center; gap: .8vw; padding: .8vh .6vw .8vh 1.2vw; border-radius: 999px;
+        background: rgba(255,255,255,.09); border: 1px solid var(--edge-hi); animation: rise .5s ease both;
+        -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); }
+  .tm .left { font-size: 3.6vh; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .tm .lbl { font-size: 2vh; color: var(--muted); font-weight: 500; }
+  .tm button { width: 4.4vh; height: 4.4vh; border-radius: 50%; border: 0; background: rgba(255,255,255,.1); color: var(--soft); font-size: 2.2vh; }
+  .tm.soon .left { color: var(--accent); }
+  /* With timers running the clock gets a little smaller, so the layout doesn't move */
+  .clock.has-timers #time { font-size: 13.5vh; }
+  .clock.has-timers .sub { margin-top: 1vh; }
+  .timers.many .lbl { display: none; }
+  .tm.done { background: rgba(229,72,77,.3); border-color: rgba(255,140,140,.5); }
+
+  /* Timer picker and "done" card: above the night veil and the sleep screen */
+  .sheet { position: fixed; inset: 0; z-index: 8; display: grid; place-items: center; background: rgba(4,6,10,.55);
+           opacity: 0; pointer-events: none; transition: opacity .35s ease; }
+  .sheet.on { opacity: 1; pointer-events: auto; }
+  .sheet .card { width: min(78vw, 120vh); padding: 4vh 3vw; border-radius: 5vh; position: relative;
+                 background: linear-gradient(160deg, rgba(40,46,58,.82), rgba(18,22,30,.9)); border: 1px solid var(--edge-hi);
+                 -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); box-shadow: 0 4vh 12vh rgba(0,0,0,.5);
+                 transform: translateY(2vh) scale(.98); transition: transform .35s ease; }
+  .sheet.on .card { transform: none; }
+  .sheet h2 { font-size: 4vh; font-weight: 600; margin-bottom: 3vh; }
+  .sheet .x { position: absolute; top: 2.6vh; right: 2vw; width: 7vh; height: 7vh; border-radius: 50%; border: 0;
+              background: rgba(255,255,255,.08); color: var(--soft); font-size: 3vh; }
+  .presets { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2vh 1.4vw; }
+  .presets button, .custom button { height: 12vh; border-radius: 3vh; border: 1px solid var(--edge-hi); background: rgba(255,255,255,.07);
+              color: var(--text); font: 600 4.4vh Inter, system-ui, sans-serif; }
+  .presets button small { display: block; font-size: 2vh; font-weight: 500; color: var(--muted); margin-top: .2vh; }
+  .presets button:active, .custom button:active, .tm button:active { background: rgba(255,255,255,.2); }
+  .custom { display: flex; align-items: center; gap: 1.4vw; margin-top: 3vh; padding-top: 3vh; border-top: 1px solid var(--edge); }
+  .custom button { height: 10vh; width: 10vh; font-size: 3.4vh; }
+  .custom .val { flex: 1; text-align: center; font-size: 6vh; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .custom .val small { font-size: 2.6vh; color: var(--muted); font-weight: 500; margin-left: .4vw; }
+  .custom .go { width: auto; padding: 0 3vw; background: var(--accent); color: #1a140a; border: 0; }
+  #ring .card { text-align: center; padding: 7vh 3vw; background: linear-gradient(160deg, rgba(150,40,46,.85), rgba(70,16,24,.92)); }
+  #ring .big { font-size: 13vh; line-height: 1; }
+  #ring .what { font-size: 7vh; font-weight: 700; margin-top: 2vh; }
+  #ring .hint { font-size: 3vh; color: rgba(255,255,255,.75); margin-top: 2vh; }
+  #ring.on .big { animation: shake 1.2s ease-in-out infinite; }
+  @keyframes shake { 0%,100% { transform: rotate(0); } 15% { transform: rotate(-12deg); } 30% { transform: rotate(10deg); } 45% { transform: rotate(-6deg); } 60% { transform: rotate(0); } }
 </style>
 </head>
 <body>
@@ -196,7 +245,8 @@
 <main>
   <section class="clock">
     <div id="time">--:--</div>
-    <div class="sub"><div id="date"></div><div id="town"></div></div>
+    <div class="sub"><div id="date"></div><div id="town"></div><button id="timerBtn">⏱ Timer</button></div>
+    <div class="timers" id="timers"></div>
   </section>
 
   <section class="panel now">
@@ -223,6 +273,14 @@
 </main>
 <div id="veil"></div>
 <div id="sleep"></div>
+<div class="sheet" id="picker"><div class="card">
+  <h2>Set a timer</h2><button class="x" data-close>✕</button>
+  <div class="presets" id="presets"></div>
+  <div class="custom"><button data-step="-5">−5</button><button data-step="-1">−1</button>
+    <div class="val"><span id="customVal">12</span><small>min</small></div>
+    <button data-step="1">+1</button><button data-step="5">+5</button><button class="go" id="customGo">Start</button></div>
+</div></div>
+<div class="sheet" id="ring"><div class="card"><div class="big">⏰</div><div class="what" id="ringWhat">Timer done</div><div class="hint">Tap anywhere to stop</div></div></div>
 
 <script>
 "use strict";
@@ -535,6 +593,91 @@ const listen = {
   },
 };
 
+// --- kitchen timers ---
+// Saved in the browser, so they keep going through the page's automatic reloads.
+// A finished timer chimes (soft, repeating for up to 3 minutes) and shows a big card until someone taps.
+const timers = {
+  list: [], custom: 12, ctx: null, ringT: null, ringStop: 0,
+  load() { this.list = (store.get("timers") || []).filter(t => Date.now() - t.end < 15 * 60e3); this.render(); },
+  save() { store.set("timers", this.list); },
+  add(mins) {
+    if (this.list.length >= 3) this.list.shift();
+    this.list.push({ id: Date.now(), mins, end: Date.now() + mins * 60e3 });
+    this.save(); this.close(); this.render(); this.audio();
+  },
+  remove(id) { this.list = this.list.filter(t => t.id !== id); this.save(); this.render(); },
+  label: m => m >= 60 && m % 60 === 0 ? `${m / 60} h` : m > 60 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${m} min`,
+  left(ms) { const s = Math.max(0, Math.ceil(ms / 1000)), h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60;
+             return h ? `${h}:${pad(m)}:${pad(s % 60)}` : `${m}:${pad(s % 60)}`; },
+  render() {
+    const now = Date.now();
+    document.querySelector(".clock").classList.toggle("has-timers", this.list.length > 0);
+    $("timers").classList.toggle("many", this.list.length > 2);
+    $("timers").innerHTML = this.list.map(t => {
+      const ms = t.end - now, done = ms <= 0;
+      return `<div class="tm${done ? " done" : ms < 60e3 ? " soon" : ""}" data-id="${t.id}"><span class="left">${done ? "Done" : this.left(ms)}</span>` +
+             `<span class="lbl">${this.label(t.mins)}</span><button data-cancel="${t.id}" aria-label="Cancel">✕</button></div>`;
+    }).join("");
+  },
+  tick() {
+    if (!this.list.length) return;
+    const due = this.list.filter(t => t.end <= Date.now() && !t.rung);
+    if (due.length) { due.forEach(t => t.rung = true); this.save(); this.ring(due.map(t => this.label(t.mins))); }
+    this.render();
+  },
+  audio() {   // created on a tap, so the browser lets it make sound later
+    try { this.ctx = this.ctx || new (window.AudioContext || window.webkitAudioContext)(); this.ctx.resume(); } catch {}
+  },
+  chime() {
+    const c = this.ctx; if (!c) return;
+    [[880, 0], [1175, .22], [1568, .44]].forEach(([f, t]) => {
+      const o = c.createOscillator(), g = c.createGain(), at = c.currentTime + t;
+      o.type = "sine"; o.frequency.value = f; o.connect(g); g.connect(c.destination);
+      g.gain.setValueAtTime(0, at); g.gain.linearRampToValueAtTime(.35, at + .02); g.gain.exponentialRampToValueAtTime(.001, at + 1.1);
+      o.start(at); o.stop(at + 1.2);
+    });
+  },
+  ring(labels) {
+    presence.wake();
+    $("ringWhat").textContent = labels.length > 1 ? labels.join(" + ") + " done" : labels[0] + " timer done";
+    $("ring").classList.add("on");
+    this.audio(); this.ringStop = Date.now() + 3 * 60e3;
+    clearInterval(this.ringT); this.chime();
+    this.ringT = setInterval(() => Date.now() > this.ringStop ? clearInterval(this.ringT) : this.chime(), 2500);
+  },
+  hush() {
+    clearInterval(this.ringT); $("ring").classList.remove("on");
+    this.list = this.list.filter(t => !t.rung); this.save(); this.render();
+  },
+  open() {
+    this.audio();
+    $("presets").innerHTML = [1, 3, 5, 8, 10, 15, 20, 30, 45, 60].map(m =>
+      `<button data-min="${m}">${m >= 60 ? m / 60 : m}<small>${m >= 60 ? "hour" : "min"}</small></button>`).join("");
+    $("customVal").textContent = this.custom;
+    $("picker").classList.add("on");
+  },
+  close() { $("picker").classList.remove("on"); },
+  init() {
+    this.load();
+    $("timerBtn").addEventListener("click", e => { e.stopPropagation(); this.open(); });
+    document.querySelector(".clock").addEventListener("click", e => { if (!e.target.closest("[data-cancel]")) this.open(); });
+    $("timers").addEventListener("click", e => {
+      const b = e.target.closest("[data-cancel]"); if (!b) return;
+      e.stopPropagation(); this.remove(+b.dataset.cancel);
+    });
+    $("picker").addEventListener("click", e => {
+      const b = e.target.closest("button");
+      if (e.target === $("picker") || (b && b.hasAttribute("data-close"))) return this.close();
+      if (!b) return;
+      if (b.dataset.min) return this.add(+b.dataset.min);
+      if (b.dataset.step) { this.custom = Math.min(600, Math.max(1, this.custom + +b.dataset.step)); $("customVal").textContent = this.custom; }
+      if (b.id === "customGo") this.add(this.custom);
+    });
+    $("ring").addEventListener("click", () => this.hush());
+    setInterval(() => this.tick(), 1000);
+  },
+};
+
 // --- presence: blank the screen when nobody is in the kitchen ---
 // The front camera takes a tiny 64x48 grey picture twice a second and compares it with the last one.
 // Nothing is saved or sent anywhere. If the camera isn't allowed, the screen simply stays on.
@@ -568,7 +711,7 @@ const presence = {
   wake() { this.last = Date.now(); document.body.classList.remove("asleep"); },
   check() {
     const idle = Date.now() - this.last > (CFG.presenceIdleMinutes ?? 10) * 60e3;
-    document.body.classList.toggle("asleep", idle && !live.breakingId);   // breaking news keeps the screen on
+    document.body.classList.toggle("asleep", idle && !live.breakingId && !timers.list.length);   // breaking news or a running timer keeps the screen on
   },
 };
 // A tap on the black screen only wakes it up (doesn't press whatever is underneath).
@@ -640,6 +783,7 @@ async function start() {
 
   tick();
   setInterval(tick, 1000);
+  timers.init();
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
   startLive("en");
