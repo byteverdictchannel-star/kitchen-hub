@@ -259,7 +259,10 @@ async function setAwake(on) {
   $("awake").classList.toggle("on", on); $("awake").textContent = on ? "Screen stays on" : "Keep screen on"; store.set("awake", on);
 }
 $("awake").addEventListener("click", () => setAwake(!lock));
-document.addEventListener("visibilitychange", () => { if (!document.hidden && store.get("awake")) setAwake(true); });
+// On by default: the screen stays on while the app is open. Re-armed whenever the app comes back.
+const wantAwake = () => store.get("awake") !== false;
+document.addEventListener("visibilitychange", () => { if (!document.hidden && wantAwake()) setAwake(true); });
+document.addEventListener("pointerdown", () => { if (!lock && wantAwake()) setAwake(true); });
 if (!("wakeLock" in navigator)) $("awake").style.display = "none";
 
 // ---------- radio ----------
@@ -335,7 +338,7 @@ async function loadNews() {
 }
 
 timers.init(); radio.init(); loadNews();
-if (store.get("awake")) setAwake(true);
+if (wantAwake()) setAwake(true);
 setInterval(() => { if (!document.hidden) loadNews(); }, 2 * 60e3);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) loadNews(); });
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
