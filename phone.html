@@ -44,6 +44,17 @@
   #breaking .acts { display: flex; gap: 8px; flex-wrap: wrap; }
   #breaking a { color: #fff; background: rgba(0,0,0,.2); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 9px 14px; font-weight: 600; font-size: 14px; text-decoration: none; }
 
+  /* While you slept (mornings) */
+  #slept { display: none; }
+  #slept.on { display: block; }
+  #slept ol { list-style: none; padding: 0; display: grid; gap: 12px; }
+  #slept li a { display: grid; grid-template-columns: 22px 1fr; gap: 0 8px; color: var(--text); text-decoration: none; }
+  #slept .n { color: var(--accent); font-weight: 700; }
+  #slept .t { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  #slept .m { grid-column: 2; font-size: 13px; color: var(--muted); margin-top: 3px; }
+  #slept .m b { background: var(--red); color: #fff; font-size: 11px; letter-spacing: .06em; padding: 2px 6px; border-radius: 6px; margin-right: 6px; }
+  #slept h2 button { border: 0; background: none; color: var(--muted); font-size: 13px; font-weight: 600; padding: 4px 0 4px 12px; }
+
   /* Timers */
   #running:empty { display: none; }
   #running { display: grid; gap: 10px; margin-bottom: 14px; }
@@ -111,6 +122,11 @@
   <div class="k">BREAKING</div>
   <div class="t" id="bTitle"></div>
   <div class="acts"><a id="bRead" href="#" target="_blank" rel="noopener">Read</a><a id="bWatch" href="#" target="_blank" rel="noopener">Watch live</a></div>
+</section>
+
+<section class="card" id="slept">
+  <h2><span id="sleptH">While you slept</span><button id="sleptX">Hide</button></h2>
+  <ol id="sleptList"></ol>
 </section>
 
 <section class="card">
@@ -319,7 +335,7 @@ const radio = {
 function ago(t) { const m = Math.round((Date.now() - Date.parse(t)) / 60e3); return m < 1 ? "just now" : m < 60 ? `${m} min ago` : `${Math.round(m / 60)} h ago`; }
 async function loadNews() {
   let n;
-  try { n = await (await fetch("news.json?t=" + Date.now(), { cache: "no-store" })).json(); store.set("news", n); }
+  try { n = await (await fetch("news.json?t=" + Date.now(), { cache: "no-store" })).json(); store.set("news", { ...n, history: undefined }); }
   catch { n = store.get("news"); }
   if (!n) return;
   const b = n.breaking, recent = b && (b.lang || "en") === "en" && b.time && Date.now() - Date.parse(b.time) < 3 * 3600e3;
@@ -334,10 +350,23 @@ async function loadNews() {
   if (n.live && n.live.en) $("watch").href = `https://www.youtube.com/channel/${n.live.en.channelId}/live`;
   $("news").innerHTML = (n.phone || (n.items || []).filter(i => (i.lang || "en") === "en")).slice(0, 8).map(it => `<a href="${esc(it.link || "#")}" target="_blank" rel="noopener">
     <div class="h">${esc(it.title)}</div><div class="m"><b>${esc(it.source)}</b>${it.time ? " · " + ago(it.time) : ""}</div></a>`).join("");
+  // Mornings (05:00–12:00): the top English stories since last night, until hidden for the day.
+  const o = n.overnightEn, d = new Date(), day = d.toDateString();
+  const show = o && o.items && o.items.length && d.getHours() >= 5 && d.getHours() < 12 && store.get("sleptHidden") !== day
+               && Date.now() - Date.parse(o.since) < 16 * 3600e3;
+  $("slept").classList.toggle("on", !!show);
+  if (show) {
+    const hm = t => new Date(t).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    $("sleptH").textContent = `While you slept · since ${hm(o.since)}`;
+    $("sleptList").innerHTML = o.items.slice(0, 5).map((it, i) => `<li><a href="${esc(it.link || "#")}" target="_blank" rel="noopener">
+      <span class="n">${i + 1}</span><span class="t">${esc(it.title)}</span>
+      <span class="m">${it.breaking ? "<b>BREAKING</b>" : ""}${esc(it.sources.join(", "))} · ${hm(it.time)}</span></a></li>`).join("");
+  }
   $("foot").textContent = "News updated " + new Date(n.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
 
 timers.init(); radio.init(); loadNews();
+$("sleptX").addEventListener("click", () => { store.set("sleptHidden", new Date().toDateString()); $("slept").classList.remove("on"); });
 if (wantAwake()) setAwake(true);
 setInterval(() => { if (!document.hidden) loadNews(); }, 2 * 60e3);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) loadNews(); });
