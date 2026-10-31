@@ -119,6 +119,7 @@
   .news.panel { background: none; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; border-radius: 0;
                 -webkit-mask-image: linear-gradient(180deg, #000 90%, transparent); mask-image: linear-gradient(180deg, #000 90%, transparent); }
   .news { grid-area: news; padding: .4vh .4vw; display: flex; flex-direction: column; justify-content: space-evenly; }
+  .nlabel { font-size: 2vh; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); padding-bottom: .4vh; }
   .item { padding: .9vh 0; min-width: 0; position: relative; }
   .item + .item::before { content: ""; position: absolute; top: 0; left: 0; right: 30%; height: 1px; background: linear-gradient(90deg, var(--edge-hi), transparent); }
   .news.fresh .item { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
@@ -828,11 +829,18 @@ function renderNews() {
     return;
   }
   const esc = s => s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
-  const list = n.items.filter(it => it.title !== live.breakingTitle).slice(0, CFG.headlines);
-  const html = list.map(it => `
+  // Mornings (briefingFrom–briefingUntil): the panel shows what happened overnight instead, for whoever comes in.
+  const m = new Date().getHours() * 60 + new Date().getMinutes(), o = n.overnight;
+  const morning = CFG.morningPanel !== false && o && o.items && o.items.length && Date.now() - Date.parse(o.since) < 16 * 3600e3
+    && m >= toMin(CFG.briefingFrom || CFG.nightEnd || "06:30") && m < toMin(CFG.briefingUntil || "11:00");
+  const list = morning
+    ? o.items.slice(0, CFG.headlines).map(it => ({ ...it, source: it.sources.length > 2 ? `${it.sources.slice(0, 2).join(", ")} +${it.sources.length - 2}` : it.sources.join(", ") }))
+    : n.items.filter(it => it.title !== live.breakingTitle).slice(0, CFG.headlines);
+  const label = morning ? `<div class="nlabel">While you were asleep · since ${fmtTime(new Date(o.since))}</div>` : "";
+  const html = label + list.map(it => `
     <div class="item${it.time && Date.now() - Date.parse(it.time) < 30 * 60e3 ? " fresh" : ""}"><div class="h">${esc(it.title)}</div>
-    <div class="m"><b>${esc(it.source)}</b>${it.lang && it.lang !== "en" ? `<i class="lang">${it.lang.toUpperCase()}</i>` : ""}${it.time ? "<span>" + ago(Date.parse(it.time)) + "</span>" : ""}</div></div>`).join("");
-  const box = $("news"), sig = list.map(i => i.title).join("|");
+    <div class="m"><b>${esc(it.source)}</b>${it.lang && it.lang !== "en" ? `<i class="lang">${it.lang.toUpperCase()}</i>` : ""}${it.time ? "<span>" + (morning ? fmtTime(new Date(it.time)) : ago(Date.parse(it.time))) + "</span>" : ""}</div></div>`).join("");
+  const box = $("news"), sig = (morning ? "m|" : "") + list.map(i => i.title).join("|");
   if (box.dataset.sig !== sig) { box.classList.remove("fresh"); void box.offsetWidth; box.classList.add("fresh"); box.dataset.sig = sig; }
   box.innerHTML = html;
   checkBreaking();
