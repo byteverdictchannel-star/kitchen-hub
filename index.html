@@ -343,6 +343,8 @@ function tick() {
   $("date").textContent = now.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
   const mins = h * 60 + now.getMinutes(), s = toMin(CFG.nightStart), e = toMin(CFG.nightEnd);
   const night = s > e ? (mins >= s || mins < e) : (mins >= s && mins < e);
+  // Sound someone turned on by hand goes off when night starts (breaking news still follows its own rule).
+  if (night && !document.body.classList.contains("night") && live.manual) { live.manual = false; checkBreaking(); }
   document.body.classList.toggle("night", night);
   renderStatus();
 }
