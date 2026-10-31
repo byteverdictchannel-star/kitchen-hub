@@ -44,6 +44,29 @@
   #breaking .acts { display: flex; gap: 8px; flex-wrap: wrap; }
   #breaking a { color: #fff; background: rgba(0,0,0,.2); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 9px 14px; font-weight: 600; font-size: 14px; text-decoration: none; }
 
+  /* Podcasts */
+  #pods { display: none; }
+  #pods.on { display: block; }
+  .pnow { display: none; background: var(--panel-2); border-radius: 16px; padding: 12px; margin-bottom: 12px; }
+  .pnow.on { display: block; }
+  .pnow .pt { font-size: 15px; font-weight: 600; line-height: 1.3; }
+  .pnow .ps { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 3px; }
+  .pbar { height: 4px; background: var(--line); border-radius: 4px; margin: 10px 0 4px; position: relative; touch-action: none; }
+  .pbar i { position: absolute; inset: 0 auto 0 0; background: var(--accent); border-radius: 4px; }
+  .ptimes { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .pctl { display: flex; justify-content: center; align-items: center; gap: 22px; margin-top: 8px; }
+  .pctl button { border: 0; background: none; color: var(--soft); font-size: 14px; font-weight: 700; padding: 8px; }
+  .pctl #pPlay { width: 54px; height: 54px; border-radius: 50%; background: var(--text); color: var(--bg); display: grid; place-items: center; padding: 0; }
+  .pctl #pPlay svg { width: 24px; height: 24px; }
+  #podList { display: grid; gap: 2px; }
+  #podList button { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; text-align: left; border: 0; background: none; padding: 9px 0; border-top: 1px solid var(--line); width: 100%; }
+  #podList button:first-child { border-top: 0; }
+  #podList .t { font-size: 15px; font-weight: 600; line-height: 1.3; color: var(--text); }
+  #podList .m { grid-column: 1; font-size: 12px; color: var(--muted); }
+  #podList .m b { color: var(--accent); font-weight: 700; }
+  #podList .g { grid-row: 1 / span 2; grid-column: 2; align-self: center; color: var(--muted); font-size: 13px; font-weight: 600; }
+  #podList button.cur .t { color: var(--accent); }
+
   /* Today's menu */
   #menu { display: none; }
   #menu.on { display: block; }
@@ -169,6 +192,18 @@
   </div>
   <div class="stations" id="stations"></div>
   <div class="hint">Keeps playing with the screen off. Use the lock-screen controls to pause.</div>
+</section>
+
+<section class="card" id="pods">
+  <h2>Podcasts</h2>
+  <div class="pnow" id="pNow">
+    <div class="ps" id="pShow"></div><div class="pt" id="pTitle"></div>
+    <div class="pbar" id="pBar"><i id="pFill"></i></div>
+    <div class="ptimes"><span id="pAt">0:00</span><span id="pLeft"></span></div>
+    <div class="pctl"><button id="pBack" aria-label="Back 15 seconds">↺ 15</button><button id="pPlay" aria-label="Play"></button><button id="pFwd" aria-label="Forward 30 seconds">30 ↻</button></div>
+  </div>
+  <div id="podList"></div>
+  <div class="hint">Keeps playing with the screen off. Remembers where you stopped.</div>
 </section>
 
 <section class="card news" id="news"></section>
@@ -317,6 +352,7 @@ const radio = {
   },
   state(text, live) { $("state").textContent = text; $("state").classList.toggle("live", !!live); },
   play() {
+    if (typeof pod !== "undefined" && !pod.audio.paused) pod.audio.pause();
     this.want = true; clearTimeout(this.retry);
     this.audio.src = this.station.url + "?t=" + Date.now();   // always join the live point
     this.state("Connecting…");
@@ -380,8 +416,80 @@ async function loadNews() {
       <span class="n">${i + 1}</span><span class="t">${esc(it.title)}</span>
       <span class="m">${it.breaking ? "<b>BREAKING</b>" : ""}${esc(it.sources.join(", "))} · ${hm(it.time)}</span></a></li>`).join("");
   }
+  pod.set(n.podcasts);
   $("foot").textContent = "News updated " + new Date(n.updated).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
+
+// ---------- podcasts (episodes come in news.json from the podcast feeds in config.json) ----------
+const fmt = s => { s = Math.max(0, Math.floor(s || 0)); const h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60, x = String(s % 60).padStart(2, "0"); return h ? `${h}:${String(m).padStart(2, "0")}:${x}` : `${m}:${x}`; };
+const pod = {
+  audio: new Audio(), eps: [], cur: null, saveT: 0,
+  pos(ep) { return (store.get("podPos") || {})[ep.audio] || 0; },
+  savePos(force) {
+    if (!this.cur || (!force && Date.now() - this.saveT < 5000)) return;
+    this.saveT = Date.now();
+    const all = store.get("podPos") || {}, a = this.audio, done = a.duration && a.currentTime > a.duration - 30;
+    all[this.cur.audio] = done ? -1 : a.currentTime;               // -1 = finished
+    const keys = Object.keys(all); if (keys.length > 40) delete all[keys[0]];
+    store.set("podPos", all);
+  },
+  set(eps) { this.eps = eps || []; $("pods").classList.toggle("on", this.eps.length > 0); this.list(); },
+  list() {
+    $("podList").innerHTML = this.eps.map((e, i) => {
+      const p = this.pos(e), left = e.dur ? (p > 0 ? `${fmt(e.dur - p)} left` : p < 0 ? "Played" : fmt(e.dur)) : "";
+      const day = e.time ? new Date(e.time).toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" }) : "";
+      return `<button data-i="${i}" class="${this.cur && this.cur.audio === e.audio ? "cur" : ""}"><span class="t">${esc(e.title)}</span>
+        <span class="m"><b>${esc(e.show)}</b> · ${day}</span><span class="g">${left}</span></button>`;
+    }).join("");
+  },
+  start(ep) {
+    if (radio.want) radio.stop();
+    if (!this.cur || this.cur.audio !== ep.audio) {
+      this.savePos(true); this.cur = ep; store.set("podCur", ep);
+      this.audio.src = ep.audio; const p = this.pos(ep);
+      this.audio.addEventListener("loadedmetadata", () => { if (p > 0) this.audio.currentTime = p; }, { once: true });
+    }
+    this.audio.play().catch(() => {});
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: ep.show, artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
+      const ms = navigator.mediaSession;
+      ms.setActionHandler("play", () => this.audio.play());
+      ms.setActionHandler("pause", () => this.audio.pause());
+      ms.setActionHandler("stop", () => this.audio.pause());
+      ms.setActionHandler("seekbackward", () => this.skip(-15));
+      ms.setActionHandler("seekforward", () => this.skip(30));
+      try { ms.setActionHandler("seekto", d => { this.audio.currentTime = d.seekTime; }); } catch {}
+    }
+    this.show();
+  },
+  skip(s) { if (this.audio.duration) this.audio.currentTime = Math.min(this.audio.duration - 1, Math.max(0, this.audio.currentTime + s)); },
+  show() {
+    const e = this.cur; $("pNow").classList.toggle("on", !!e); if (!e) return;
+    $("pShow").textContent = e.show; $("pTitle").textContent = e.title;
+    $("pPlay").innerHTML = this.audio.paused ? ICON_PLAY : '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>';
+    const d = this.audio.duration || e.dur || 0, t = this.audio.src ? this.audio.currentTime : Math.max(0, this.pos(e));
+    $("pFill").style.width = d ? (100 * t / d) + "%" : "0";
+    $("pAt").textContent = fmt(t); $("pLeft").textContent = d ? "-" + fmt(d - t) : "";
+    this.list();
+  },
+  init() {
+    this.audio.preload = "none";
+    const a = this.audio;
+    a.addEventListener("timeupdate", () => { this.savePos(); this.show(); });
+    ["play", "pause", "ended"].forEach(ev => a.addEventListener(ev, () => { this.savePos(true); this.show(); }));
+    a.addEventListener("ended", () => {   // play on: the next episode down the list you haven't finished
+      const i = this.eps.findIndex(e => e.audio === this.cur.audio);
+      const next = this.eps.slice(i + 1).find(e => this.pos(e) >= 0);
+      if (next) this.start(next);
+    });
+    $("podList").addEventListener("click", e => { const b = e.target.closest("button"); if (b) this.start(this.eps[+b.dataset.i]); });
+    $("pPlay").addEventListener("click", () => this.audio.paused ? this.start(this.cur) : this.audio.pause());
+    $("pBack").addEventListener("click", () => this.skip(-15));
+    $("pFwd").addEventListener("click", () => this.skip(30));
+    $("pBar").addEventListener("click", e => { const r = e.currentTarget.getBoundingClientRect(); if (a.duration) a.currentTime = a.duration * (e.clientX - r.left) / r.width; });
+    this.cur = store.get("podCur"); this.show();
+  },
+};
 
 // ---------- today's menu (menu.json, written from the kitchen workbook by Brain) ----------
 async function loadMenu() {
@@ -403,7 +511,7 @@ async function loadMenu() {
   $("menuNextBody").innerHTML = meals(next);
 }
 
-timers.init(); radio.init(); loadNews(); loadMenu();
+timers.init(); radio.init(); pod.init(); loadNews(); loadMenu();
 $("sleptX").addEventListener("click", () => { store.set("sleptHidden", new Date().toDateString()); $("slept").classList.remove("on"); });
 if (wantAwake()) setAwake(true);
 setInterval(() => { if (!document.hidden) { loadNews(); loadMenu(); } }, 2 * 60e3);

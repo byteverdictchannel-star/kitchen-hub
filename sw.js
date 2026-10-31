@@ -1,6 +1,6 @@
 // Keeps the page itself available when the internet is down.
 // Strategy: try the network first, fall back to the saved copy.
-const CACHE = "kitchen-hub-v22";
+const CACHE = "kitchen-hub-v23";
 const SHELL = ["./", "index.html", "config.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", e => {

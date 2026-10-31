@@ -123,5 +123,17 @@
   "briefingFrom": "05:00",
   "briefingUntil": "11:00",
   "briefingMinutes": 30,
-  "manualVolume": 100
+  "manualVolume": 100,
+  "podcasts": [
+    {
+      "name": "John Kiriakou's Briefing Room",
+      "short": "Briefing Room",
+      "url": "https://anchor.fm/s/114b46b70/podcast/rss"
+    },
+    {
+      "name": "John Kiriakou's Dead Drop",
+      "short": "Dead Drop",
+      "url": "https://feeds.acast.com/public/shows/68e695c6d798804c9e4bbd13"
+    }
+  ]
 }

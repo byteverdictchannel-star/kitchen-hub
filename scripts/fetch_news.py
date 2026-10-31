@@ -236,6 +236,32 @@ def overnight(history, blog, cfg, english_only=False):
         o.pop("score")
     return {"since": start.isoformat(timespec="minutes"), "items": picked}
 
+ITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+
+
+def podcast_episodes(cfg, per_show=4):
+    """Latest audio episodes from each podcast feed in config.json (for the phone app's Podcasts card)."""
+    out = []
+    for show in cfg.get("podcasts", []):
+        try:
+            ch = ET.fromstring(get(show["url"])).find("channel")
+            for it in ch.findall("item")[:per_show]:
+                enc = it.find("enclosure")
+                if enc is None or not enc.get("url"):
+                    continue
+                d = (it.findtext(ITUNES + "duration") or "").strip()
+                secs = 0
+                for part in d.split(":"):
+                    secs = secs * 60 + int(part) if part.isdigit() else secs
+                t = parse_date(it.findtext("pubDate"))
+                out.append({"show": show.get("short") or show["name"], "title": re.sub(r"\s*\|\s*Episode \d+\s*$", "", clean(it.findtext("title")))[:160],
+                            "time": t.isoformat() if t else None, "audio": enc.get("url"), "dur": secs,
+                            "link": (it.findtext("link") or "").strip()})
+        except Exception as e:
+            print("WARN podcast", show.get("name"), e, file=sys.stderr)
+    out.sort(key=lambda x: x["time"] or "", reverse=True)
+    return out[:6]
+
 
 def main():
     cfg = json.loads((ROOT / "config.json").read_text())
@@ -297,6 +323,7 @@ def main():
         "errors": errors,
         "alerted": alerted,
         "phone": phone_items,
+        "podcasts": podcast_episodes(cfg) or prev.get("podcasts", []),
         "overnight": overnight(history, blog, cfg),
         "overnightEn": overnight(history, blog, cfg, english_only=True),
         "breakingLog": blog,

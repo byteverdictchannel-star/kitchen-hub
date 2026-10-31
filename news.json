@@ -174,7 +174,7 @@
     "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/tensioni-e-proteste-in-polonia-dopo-la-sospensione-del-presidente-corte-costituzionale_0f35a3af-265e-4f32-b650-9941730f20c2.html",
     "time": "2026-10-30T23:31:46+00:00",
     "sources": [
-     "ANSA"
+     "franceinfo"
     ],
     "breaking": false
    }
@@ -245,7 +245,7 @@
     "breaking": false
    },
    {
-    "title": "Judge imposes sweeping emergency order halting DOJ pressure campaign on election officials across the country",
+    "title": "U.S. Attorney for Alaska says civil and criminal investigations are ongoing",
     "source": "CNN",
     "lang": "en",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb3lBMGJMaXJVTFBCclFIVU5mdzg2QzZxMTZaRUo1ZVExTHFKZEhWS1NrZUhvNVZqcV9zbDduQUhlekI3M1JlSHVfLVZ2RlhSUVB1NlhIQ1A0aVE0azN4ZGw5RXV4SWRVV0JHS19iYlowSGc3WERrUWtfRGNQNnZZZU45ZUxnamNwYlU2azl4NmNKZ3ZGdUtYLUZVV2ZxYklJS2hkeA?oc=5",
@@ -505,6 +505,13 @@
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYngzQlE1SHNINTctMm9MSjNWZkdCMVJoRl96VnVUa0Jrd29xMThFbmxYUGdPUWRYc0hvaE9DS0U1RndqNERJX2k5WUJKRUp4dUpmSG81eVZQazU2TV9taWpJSmowWHNsOHZvMGtIY3d0elhjY1lWd0hmbTM3a3owXw?oc=5"
   },
   {
+   "title": "DOJ Pushes for Injunction in Alaska Ballot Case - The Lead with Jake Tapper - Podcast on CNN Podcasts",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-31T00:44:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON0tYMGJmVmVPOVRNZ21hS1N1OXRiUTVhZ2Z1M0NhbmdjRmFmTFdLZ1hwQVBCOTFZVVNVMVY0VXdiZ2JRdnYyZHRZQm9zdUFHVXEwX2kyakVPUWItQU9zemR4WUZOSzRENVM3MXN1dWkxd0tfeEpYd18wZkx5Z01ZLWQycnBETWpRM3BMSlpjVC1fNmV2bV8zMjRyZ2J0bW5WR0dtc1h4M3lIUQ?oc=5"
+  },
+  {
    "title": "US approves sale of 500 Patriot missiles to Ukraine",
    "source": "BBC News",
    "lang": "en",
@@ -517,6 +524,13 @@
    "lang": "en",
    "time": "2026-10-31T00:37:43+00:00",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sTTdNd1VSaVNnZXFCdDdrU3ZGVFJjdFpVSVVjYmJEOTRPX3BteEZkd3c3a01mQWJ0TUwwdlVtRkp1YkhTdFdsSE9HX1U1YTZJSUFfdk9kcTdhc2lFZFo0ZVN6S2MxN1hVbXoybE1kSzJXZw?oc=5"
+  },
+  {
+   "title": "Criminal Investigation Into Alaska Sen. Race Is Ongoing, US Atty Says",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-31T00:35:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV0lVdF91LThHbEQ4b0lUU1cwUU5TVXVhNUxiYjU2Mmg3a1VBRmR6ZjZxcEpWRWVQZm5WNXA2VG8taUh5QUZuM0NSSGRDYWpxOXRZU3U0M2JIRWZ2R29SOUpyTE1pazZOa09POXdNNk1Xakt6aUhVMjJMTi1SQVhYRTFzaG9Ja19yanFGRm1iazdJazRIdkNkdGJJaU5YMk9SUHF5ZHdMYkx6Zw?oc=5"
   },
   {
    "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
@@ -734,6 +748,13 @@
    "lang": "en",
    "time": "2026-10-30T21:21:39+00:00",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHdlQ1MnNlUFlhSHdDZDEwckJxTlhRTjNhS0tkOGFWSFhIMzNoR2JSa2o3S0NVUXlYbDJpaGN5cXJpQldRakllYUVJRUppR04takRiSkhlRWN2UzF2Zk1PcTB0b05Ndm1jenNURkRwbU8welNOUTJ3?oc=5"
+  },
+  {
+   "title": "Alaska’s Senate Showdown Intensifies",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-30T21:16:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS3IwNjNxd0Z5NHJxV1ZVcDh5amtuMW9jbnZhcnNJdVZvaTdjWV9iZmpza21JQkZuVDlVRk1yWkJHdmU1cWZneFlCZmFITmVrMUxqakF3RTZCNlZLSUplMmh5XzVCMUkteXZmSjEyWTVXRWoyVXlpTFJUZXFfTGdSM3JjdndkTUEtNjNLTkJQaGRsX3c?oc=5"
   },
   {
    "title": "Alaska’s Senate Showdown Intensifies - CNN 5 Things - Podcast on CNN Podcasts",
@@ -1002,11 +1023,25 @@
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BSFVpYU5NcDdQZW1pNzZ5bkZIZDlPMDB1WE13WkpBeDQ0Vi1xeHA3Nkp3NXQ4MnU3WERVWEc0NkxwanQyS1JEc2haYjkyLURRNzV1V1g1cV9GVDRxWnh2Rll0dDdZb1RBY1VDQlRTbHE?oc=5"
   },
   {
+   "title": "43 million+ ballots already cast with 4 days until the U.S Midterm elections",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-30T18:11:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQlJxeVozcjNYZ1Fkcl91SmNHdURfWUJ6UmV3NTYxOWxPeTI3UEdBSDJmZXYwdk04UlpPX2trYm5tNVFwTFIxRnZ3cURPeUZRcnJ5bUhDdUwyTzVNV3llVDg5ZjdIMWhydEF1NE5EMlZ4NUdsU0VVMjVIU0JTdktEa2VWa3Q0dDFWRElhMWVSVjhiUTh0OHE4VzZKNmRjUnlVZV9jMHYzSG5Ja3c1T1E?oc=5"
+  },
+  {
    "title": "Kim Jong Un calls for North Korea’s drone technology superiority",
    "source": "Al Jazeera",
    "lang": "en",
    "time": "2026-10-30T18:03:45+00:00",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss"
+  },
+  {
+   "title": "Two alternate visions for America: Emily St. John Mandel's novel that finds hope at the end of the world",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-10-30T17:56:28+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORGlEME5uRHZpUjQwRnM0ZDZrM0NVVGtVemFNMjFXdjd1RndoSHlmNVQ1anhxaTV2dEFwZDRmd3VlblNIYVljby10TnQ0NW9wd3F3cTFmMGZzQ3JXRktjNlV5WDFjcEtwb1FiRHltWHJfeEJkeW9uZkVidkIzdDZFNzFFV0N3bW8?oc=5"
   },
   {
    "title": "G20 photo scrapped amid tensions over Russian foreign minister’s presence",
