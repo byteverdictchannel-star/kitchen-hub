@@ -113,7 +113,7 @@
   "duckMinDb": -72,
   "duckSensitivityDb": 12,
   "presence": true,
-  "presenceIdleMinutes": 10,
+  "presenceIdleMinutes": 5,
   "presenceSensitivity": 1.5,
   "alertLangs": [
     "en"
