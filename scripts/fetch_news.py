@@ -15,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOM = "{http://www.w3.org/2005/Atom}"
@@ -72,6 +73,7 @@ def fetch(feed, exclude):
         suffix = feed.get("stripSuffix")
         if suffix and title.endswith(suffix):  # Google News adds " - CNN"
             title = title[: -len(suffix)].strip()
+        title = re.sub(r"\s+\|\s+CNN[\w ]*$", "", title)   # "... | CNN Politics"
         if not title:
             continue
         hay = f"{title} {link} {cats}".lower()
@@ -161,6 +163,80 @@ def send_alert(story, prev, cfg):
     return alerted[-30:]
 
 
+def similar(a, b):
+    """Two headlines about the same story (same language, shared key words)."""
+    return len(a & b) >= 3 or (a and b and len(a & b) >= 2 and len(a & b) / len(a | b) >= 0.25)
+
+
+def update_history(prev, per_feed, exclude):
+    """Every headline from the last 16 hours, kept across runs so the night isn't lost
+    when a feed only lists its latest few stories."""
+    keep = NOW - timedelta(hours=16)
+    seen, out = set(), []
+    for it in [x for f in per_feed for x in f] + (prev.get("history") or []):
+        if not it.get("time") or datetime.fromisoformat(it["time"]) < keep:
+            continue
+        if any(x in f"{it['title']} {it.get('link') or ''}".lower() for x in exclude):
+            continue   # settings may have changed since it was saved
+        it = dict(it, title=re.sub(r"\s+\|\s+CNN[\w ]*$", "", it["title"]))
+        key = (it["source"], it["title"])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({k: it.get(k) for k in ("title", "source", "lang", "time", "link")})
+    out.sort(key=lambda x: x["time"], reverse=True)
+    return out[:400]
+
+
+def update_breaking_log(prev, breaking):
+    log = [b for b in (prev.get("breakingLog") or []) if NOW - datetime.fromisoformat(b["seen"]) < timedelta(hours=24)]
+    if breaking and not any(b["id"] == breaking["id"] or similar(words(b["title"]), words(breaking["title"])) for b in log):
+        log.append({**{k: breaking.get(k) for k in ("id", "title", "source", "lang", "time", "link", "reason")},
+                    "seen": NOW.isoformat(timespec="seconds")})
+    return log[-40:]
+
+
+def overnight(history, blog, cfg, english_only=False):
+    """Top stories since last night (nightStart, local time): the stories most outlets covered,
+    with anything flagged as breaking first. For the morning "While you were asleep" card."""
+    tz = ZoneInfo(cfg.get("timezone", "Asia/Dubai"))
+    local = NOW.astimezone(tz)
+    h, m = map(int, cfg.get("nightStart", "22:00").split(":"))
+    start = local.replace(hour=h, minute=m, second=0, microsecond=0)
+    if start > local:
+        start -= timedelta(days=1)
+    items = [i for i in history if datetime.fromisoformat(i["time"]) >= start and (not english_only or i["lang"] == "en")]
+    items.sort(key=lambda x: x["time"])
+    clusters = []
+    for it in items:
+        w = words(it["title"])
+        for c in clusters:
+            if c["lang"] == it["lang"] and any(similar(w, mw) for mw in c["w"]):
+                c["items"].append(it); c["w"].append(w); break
+        else:
+            clusters.append({"lang": it["lang"], "items": [it], "w": [w]})
+    out = []
+    for c in clusters:
+        srcs = sorted({i["source"] for i in c["items"]})
+        brk = any(any(similar(w, words(b["title"])) or b["title"] == i["title"] for b in blog
+                      if datetime.fromisoformat(b["seen"]) >= start) for i, w in zip(c["items"], c["w"]))
+        rep_ = max(c["items"], key=lambda i: i["time"])   # the latest wording of the story
+        out.append({"title": rep_["title"], "source": rep_["source"], "lang": rep_["lang"], "link": rep_["link"],
+                    "time": c["items"][0]["time"], "sources": srcs, "breaking": brk,
+                    "score": (10 if brk else 0) + 3 * len(srcs) + len(c["items"])})
+    out.sort(key=lambda x: (x["score"], x["time"]), reverse=True)
+    # Keep the list varied: at most 2 stories per language unless there's nothing else.
+    picked, per_lang = [], {}
+    for o in out:
+        if len(picked) >= 6:
+            break
+        if english_only or per_lang.get(o["lang"], 0) < (3 if o["lang"] == "en" else 2) or o["breaking"]:
+            picked.append(o); per_lang[o["lang"]] = per_lang.get(o["lang"], 0) + 1
+    for o in picked:
+        o.pop("score")
+    return {"since": start.isoformat(timespec="minutes"), "items": picked}
+
+
 def main():
     cfg = json.loads((ROOT / "config.json").read_text())
     want = int(cfg.get("headlines", 5))
@@ -197,6 +273,8 @@ def main():
     except Exception:
         prev = {}
     alerted = send_alert(breaking, prev, cfg)
+    history = update_history(prev, per_feed, exclude)
+    blog = update_breaking_log(prev, breaking)
 
     # Phone page: newest English headlines, taking turns between sources.
     langs = cfg.get("alertLangs", ["en"])
@@ -219,6 +297,10 @@ def main():
         "errors": errors,
         "alerted": alerted,
         "phone": phone_items,
+        "overnight": overnight(history, blog, cfg),
+        "overnightEn": overnight(history, blog, cfg, english_only=True),
+        "breakingLog": blog,
+        "history": history,
     }
     (ROOT / "news.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
     print(f"Wrote {len(picked)} headlines")

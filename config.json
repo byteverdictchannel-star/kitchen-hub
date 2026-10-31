@@ -80,7 +80,12 @@
     "borsa:",
     "spread btp",
     "bourse :",
-    "cac 40"
+    "cac 40",
+    "f1:",
+    "f1 ",
+    "gran premio",
+    "grand prix",
+    "moto gp"
   ],
   "live": {
     "en": {
@@ -113,5 +118,9 @@
   "alertLangs": [
     "en"
   ],
-  "phonePage": "https://byteverdictchannel-star.github.io/kitchen-hub/phone.html"
+  "phonePage": "https://byteverdictchannel-star.github.io/kitchen-hub/phone.html",
+  "timezone": "Asia/Dubai",
+  "briefingFrom": "05:00",
+  "briefingUntil": "11:00",
+  "briefingMinutes": 30
 }
