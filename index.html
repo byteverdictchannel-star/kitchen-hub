@@ -713,13 +713,14 @@ const timers = {
 };
 
 // --- morning briefing ---
-// The first time someone moves in front of the tablet in the morning (briefingFrom–briefingUntil),
+// The first time someone walks in (movement after briefingEmptyMinutes with nobody there) in the morning (briefingFrom–briefingUntil),
 // it shows the top stories since last night for briefingMinutes, once a day. Tap Done to close it early.
 const escHTML = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 const briefing = {
   on: false, hideT: null,
   today() { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; },
-  maybe() {
+  maybe(emptyFor = 0) {
+    if (emptyFor < (CFG.briefingEmptyMinutes ?? 5) * 60e3) return;   // only when someone walks into an empty kitchen
     if (this.on || !CFG || CFG.briefing === false || store.get("briefed") === this.today()) return;
     const m = new Date().getHours() * 60 + new Date().getMinutes();
     if (m < toMin(CFG.briefingFrom || CFG.nightEnd || "06:30") || m >= toMin(CFG.briefingUntil || "11:00")) return;
@@ -778,7 +779,10 @@ const presence = {
         let mean = 0; for (let i = 0; i < cur.length; i++) mean += cur[i] - this.prev[i];
         mean /= cur.length;                            // ignore the whole room getting lighter/darker
         let changed = 0; for (let i = 0; i < cur.length; i++) if (Math.abs(cur[i] - this.prev[i] - mean) > 25) changed++;
-        if (changed / cur.length * 100 >= minPct && Date.now() > settle) { this.wake(); briefing.maybe(); }
+        if (changed / cur.length * 100 >= minPct && Date.now() > settle) {
+          const emptyFor = Date.now() - this.last;     // how long nobody had moved: a walk-in if it's been a while
+          this.wake(); briefing.maybe(emptyFor);
+        }
       }
       this.prev = cur;
     }, 500);
