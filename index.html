@@ -301,7 +301,7 @@
 <div id="brief"><div class="card">
   <div class="hd"><h2>While you were asleep</h2><div class="since" id="briefSince"></div></div>
   <ol id="briefList"></ol>
-  <div class="acts"><button id="briefLive">🔊 Live news</button><button class="done" id="briefDone">Done</button></div>
+  <div class="acts"><button id="briefLive">🔊 Sound</button><button class="done" id="briefDone">Done</button></div>
 </div></div>
 <div class="sheet" id="picker"><div class="card">
   <h2>Set a timer</h2><button class="x" data-close>✕</button>
@@ -542,6 +542,8 @@ function checkBreaking() {
   live.breakingId = on ? b.id : null;
   setSound(live.manual || (on && !(isNight() && !CFG.liveSoundAtNight)), on && isNight() && !live.manual);
 }
+// Morning briefing plays a little quieter than breaking news.
+const liveVol = () => live.morning ? (CFG.morningVolume ?? 40) : (CFG.liveVolume ?? 60);
 function setSound(want, nightQuiet) {
   live.soundOn = want;
   note(nightQuiet ? "Sound off at night" : "");
@@ -550,7 +552,7 @@ function setSound(want, nightQuiet) {
   const p = live.player;
   if (!p || !live.ready) return;
   if (!want) { p.mute(); p.playVideo(); return; }
-  p.unMute(); p.setVolume(listen.talking ? (CFG.duckVolume ?? 20) : (CFG.liveVolume ?? 60)); p.playVideo();
+  p.unMute(); p.setVolume(listen.talking ? (CFG.duckVolume ?? 20) : liveVol()); p.playVideo();
   // If the browser won't play with sound, keep the picture going on mute instead of a paused video.
   setTimeout(() => {
     if (live.player !== p || !p.getPlayerState) return;
@@ -570,7 +572,7 @@ function note(text) {
 }
 document.addEventListener("click", e => {
   const btn = e.target.closest && e.target.closest("button"); if (!btn) return;
-  if (btn.id === "liveSound") { live.manual = !$("liveSound").classList.contains("on"); if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
+  if (btn.id === "liveSound") { live.morning = false; live.manual = !$("liveSound").classList.contains("on"); if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
   if (btn.id !== "liveClose" || !live.breakingId) return;
   markClosed(); checkBreaking();
 });
@@ -613,7 +615,7 @@ const listen = {
   set(talking) {
     this.talking = talking;
     const p = live.player;
-    if (p && live.ready && live.soundOn) p.setVolume(talking ? (CFG.duckVolume ?? 20) : (CFG.liveVolume ?? 60));
+    if (p && live.ready && live.soundOn) p.setVolume(talking ? (CFG.duckVolume ?? 20) : liveVol());
     $("live").classList.toggle("ducked", talking);
   },
   stop() {
@@ -735,12 +737,19 @@ const briefing = {
         <div class="m">${it.breaking ? '<span class="b">Breaking</span>' : ""}<span>${escHTML(srcs)} · ${fmtTime(new Date(it.time))}</span></div></li>`;
     }).join("");
     this.on = true; $("brief").classList.add("on"); presence.wake();
+    // Live news with sound while the card is up (unless someone already turned it on by hand).
+    if (CFG.morningSound !== false && !live.manual) { live.morning = true; live.manual = true; checkBreaking(); }
+    this.btn();
     clearTimeout(this.hideT); this.hideT = setTimeout(() => this.hide(), (CFG.briefingMinutes || 30) * 60e3);
   },
-  hide() { this.on = false; clearTimeout(this.hideT); $("brief").classList.remove("on"); },
+  hide() {
+    this.on = false; clearTimeout(this.hideT); $("brief").classList.remove("on");
+    if (live.morning) { live.morning = false; live.manual = false; checkBreaking(); }   // morning sound ends with the card
+  },
+  btn() { const on = $("liveSound").classList.contains("on"); $("briefLive").textContent = on ? "🔇 Mute" : "🔊 Sound"; },
   init() {
     $("briefDone").addEventListener("click", () => this.hide());
-    $("briefLive").addEventListener("click", () => { this.hide(); if (!$("liveSound").classList.contains("on")) $("liveSound").click(); });
+    $("briefLive").addEventListener("click", () => { $("liveSound").click(); this.btn(); });
   },
 };
 
