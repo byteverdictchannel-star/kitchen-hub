@@ -760,7 +760,9 @@ const briefing = {
 const presence = {
   last: 0, prev: null,
   async start() {
-    this.last = Date.now();
+    // Remember the last movement across page reloads, so a reload doesn't hide a walk-in.
+    const saved = store.get("lastMove");
+    this.last = saved && saved <= Date.now() ? saved : Date.now();
     if (CFG.presence === false) return;
     let stream;
     try { stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user", width: 160, height: 120, frameRate: 5 } }); }
@@ -789,7 +791,10 @@ const presence = {
     }, 500);
     setInterval(() => this.check(), 5000);
   },
-  wake() { this.last = Date.now(); document.body.classList.remove("asleep"); },
+  wake() {
+    this.last = Date.now(); document.body.classList.remove("asleep");
+    if (!this.saved || this.last - this.saved > 10e3) { this.saved = this.last; store.set("lastMove", this.last); }
+  },
   check() {
     const idle = Date.now() - this.last > (CFG.presenceIdleMinutes ?? 10) * 60e3;
     document.body.classList.toggle("asleep", idle && !live.breakingId && !timers.list.length && !briefing.on);   // breaking news or a running timer keeps the screen on
