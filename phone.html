@@ -444,12 +444,14 @@ const pod = {
   },
   start(ep) {
     if (radio.want) radio.stop();
-    if (!this.cur || this.cur.audio !== ep.audio) {
-      this.savePos(true); this.cur = ep; store.set("podCur", ep);
+    if (this.loaded !== ep.audio) {     // also after a reload, when the episode is remembered but not loaded
+      if (this.cur && this.cur.audio !== ep.audio) this.savePos(true);
+      this.cur = ep; this.loaded = ep.audio; store.set("podCur", ep);
       this.audio.src = ep.audio; const p = this.pos(ep);
       this.audio.addEventListener("loadedmetadata", () => { if (p > 0) this.audio.currentTime = p; }, { once: true });
     }
-    this.audio.play().catch(() => {});
+    this.err = false; this.busy = true;
+    this.audio.play().catch(() => { this.busy = false; this.show(); });
     if ("mediaSession" in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({ title: ep.title, artist: ep.show, artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
       const ms = navigator.mediaSession;
@@ -469,13 +471,17 @@ const pod = {
     $("pPlay").innerHTML = this.audio.paused ? ICON_PLAY : '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>';
     const d = this.audio.duration || e.dur || 0, t = this.audio.src ? this.audio.currentTime : Math.max(0, this.pos(e));
     $("pFill").style.width = d ? (100 * t / d) + "%" : "0";
-    $("pAt").textContent = fmt(t); $("pLeft").textContent = d ? "-" + fmt(d - t) : "";
+    $("pAt").textContent = this.err ? "Couldn't load, tap play to retry" : this.busy ? "Loading…" : fmt(t);
+    $("pLeft").textContent = d ? "-" + fmt(d - t) : "";
     this.list();
   },
   init() {
     this.audio.preload = "none";
     const a = this.audio;
     a.addEventListener("timeupdate", () => { this.savePos(); this.show(); });
+    a.addEventListener("waiting", () => { this.busy = true; this.show(); });
+    a.addEventListener("playing", () => { this.busy = false; this.err = false; this.show(); });
+    a.addEventListener("error", () => { this.busy = false; this.err = true; this.loaded = null; this.show(); });
     ["play", "pause", "ended"].forEach(ev => a.addEventListener(ev, () => { this.savePos(true); this.show(); }));
     a.addEventListener("ended", () => {   // play on: the next episode down the list you haven't finished
       const i = this.eps.findIndex(e => e.audio === this.cur.audio);
@@ -517,7 +523,7 @@ if (wantAwake()) setAwake(true);
 setInterval(() => { if (!document.hidden) { loadNews(); loadMenu(); } }, 2 * 60e3);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) { loadNews(); loadMenu(); } });
 // ---------- self-update: reload when a new version is published (sw.js names the version) ----------
-const APP_V = "kitchen-hub-v24";
+const APP_V = "kitchen-hub-v25";
 async function checkUpdate() {
   try {
     const t = await (await fetch("sw.js?t=" + Date.now(), { cache: "no-store" })).text();
