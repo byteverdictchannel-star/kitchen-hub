@@ -122,5 +122,6 @@
   "timezone": "Asia/Dubai",
   "briefingFrom": "05:00",
   "briefingUntil": "11:00",
-  "briefingMinutes": 30
+  "briefingMinutes": 30,
+  "manualVolume": 100
 }

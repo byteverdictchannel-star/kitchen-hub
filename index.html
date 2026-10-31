@@ -374,7 +374,7 @@ function tick() {
   const mins = h * 60 + now.getMinutes(), s = toMin(CFG.nightStart), e = toMin(CFG.nightEnd);
   const night = s > e ? (mins >= s || mins < e) : (mins >= s && mins < e);
   // Sound someone turned on by hand goes off when night starts (breaking news still follows its own rule).
-  if (night && !document.body.classList.contains("night") && live.manual) { live.manual = false; checkBreaking(); }
+  if (night && !document.body.classList.contains("night") && live.manual) { live.manual = false; store.set("manualSoundUntil", 0); checkBreaking(); }
   document.body.classList.toggle("night", night);
   renderStatus();
 }
@@ -543,7 +543,8 @@ function checkBreaking() {
   setSound(live.manual || (on && !(isNight() && !CFG.liveSoundAtNight)), on && isNight() && !live.manual);
 }
 // Morning briefing plays a little quieter than breaking news.
-const liveVol = () => live.morning ? (CFG.morningVolume ?? 40) : (CFG.liveVolume ?? 60);
+// Sound turned on by hand plays at manualVolume (full by default: the tablet's speakers are quiet).
+const liveVol = () => live.morning ? (CFG.morningVolume ?? 40) : live.manual ? (CFG.manualVolume ?? 100) : (CFG.liveVolume ?? 60);
 function setSound(want, nightQuiet) {
   live.soundOn = want;
   note(nightQuiet ? "Sound off at night" : "");
@@ -572,7 +573,9 @@ function note(text) {
 }
 document.addEventListener("click", e => {
   const btn = e.target.closest && e.target.closest("button"); if (!btn) return;
-  if (btn.id === "liveSound") { live.morning = false; live.manual = !$("liveSound").classList.contains("on"); if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
+  if (btn.id === "liveSound") { live.morning = false; live.manual = !$("liveSound").classList.contains("on");
+    store.set("manualSoundUntil", live.manual ? Date.now() + 3 * 3600e3 : 0);   // survives a page reload (remote update)
+    if (!live.manual && live.breakingId) markClosed(); checkBreaking(); return; }
   if (btn.id !== "liveClose" || !live.breakingId) return;
   markClosed(); checkBreaking();
 });
@@ -873,6 +876,8 @@ async function start() {
   briefing.init();
   loadWeather(); setInterval(loadWeather, WEATHER_EVERY);
   loadNews(); setInterval(loadNews, NEWS_EVERY);
+  // Someone turned the sound on by hand before a reload: keep it on (for up to 3 hours, never at night).
+  if ((store.get("manualSoundUntil") || 0) > Date.now() && !isNight()) live.manual = true;
   startLive("en");
   presence.start();
   setInterval(checkBreaking, 30e3);               // turn breaking sound off after liveMinutes
