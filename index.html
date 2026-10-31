@@ -779,6 +779,7 @@ const presence = {
         let mean = 0; for (let i = 0; i < cur.length; i++) mean += cur[i] - this.prev[i];
         mean /= cur.length;                            // ignore the whole room getting lighter/darker
         let changed = 0; for (let i = 0; i < cur.length; i++) if (Math.abs(cur[i] - this.prev[i] - mean) > 25) changed++;
+        this.pct = changed / cur.length * 100;          // read by Brain's presence log
         if (changed / cur.length * 100 >= minPct && Date.now() > settle) {
           const emptyFor = Date.now() - this.last;     // how long nobody had moved: a walk-in if it's been a while
           this.wake(); briefing.maybe(emptyFor);
