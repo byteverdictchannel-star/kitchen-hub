@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-31T06:30:53+00:00",
+ "updated": "2026-10-31T06:55:36+00:00",
  "items": [
   {
-   "title": "Mobilisation du 31 octobre : le Conseil d'Etat valide le parcours de la manifestation voulu par la Préfecture de police de Paris",
+   "title": "Une enquête pour provocation à la haine raciale ouverte à la suite d'appels sur les réseaux sociaux à agresser des livreurs noirs ou d'origine arabe",
    "source": "franceinfo",
    "lang": "fr",
-   "time": "2026-10-31T06:26:13+00:00",
-   "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-31-octobre-suivez-cette-troisieme-journee-de-manifestations-pour-laquelle-le-gouvernement-prevoit-un-dispositif-de-securite-exceptionnel_8260562.html#xtor=RSS-3-[lestitres]"
+   "time": "2026-10-31T06:41:47+00:00",
+   "link": "https://www.franceinfo.fr/societe/racisme/une-enquete-pour-provocation-a-la-haine-raciale-ouverte-a-la-suite-d-appels-sur-les-reseaux-sociaux-a-agresser-des-livreurs-noirs-ou-d-origine-arabe_8261495.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
+   "title": "The selective solidarity at the heart of India’s voter protests",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-10-31T05:48:25+00:00",
-   "link": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss"
+   "time": "2026-10-31T06:08:19+00:00",
+   "link": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss"
   },
   {
    "title": "Spain train disaster clouds Sánchez chances of re-election",
@@ -23,11 +23,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "What do Kylian Mbappe and Hello Kitty have in common? They’ve both angered China",
+   "title": "Polish president turns plane around to return home as court chief’s suspension sparks protest",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-10-31T05:30:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcVJteS1FbWpqdWdFWmlONk5QYnhfc2lmRGFvOGlWbWJNUFA2cmdCNU5VTVNHWkY1ZlAtQXVtNUVLRDFaYmNwZ2QwdTRsclhmQnNDcVZ2VV8xam5FcGZQS0pIVmEzVzhLb09VSWFqb1NLMFBpU0h4akJOTFJ1VlZxQ3dxcFNiZw?oc=5"
+   "time": "2026-10-31T04:23:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNENPNVZlNVVHX2wyRkpHVnRMb2NqaWZKNG1KbjBjbVU4NjZhWnRLemc2Q1dScGg5MEFxaDJSWVM1SHZBQ1ZBNzhaM1QtbHBxemk2a0lkdW53RWZZN3NSTW9VSHhEb29weUVxaXdvWTJpRHpOU2gtNWd3d04zUjRTLWRIT3hFWWk4U0xqc3ByeENzZW9zUzlCWjFLcDh5QzA?oc=5"
   }
  ],
  "breaking": null,
@@ -49,6 +49,20 @@
  "alerted": [],
  "phone": [
   {
+   "title": "The selective solidarity at the heart of India’s voter protests",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-31T06:08:19+00:00",
+   "link": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss"
+  },
+  {
+   "title": "What has it cost to keep Al Jazeera on air for 30 years?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-31T06:03:54+00:00",
+   "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/31/what-has-it-cost-to-keep-al-jazeera-on-air-for-30-years?traffic_source=rss"
+  },
+  {
    "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
    "source": "Al Jazeera",
    "lang": "en",
@@ -61,20 +75,6 @@
    "lang": "en",
    "time": "2026-10-31T05:44:21+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T05:37:51+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss"
-  },
-  {
-   "title": "What do Kylian Mbappe and Hello Kitty have in common? They’ve both angered China",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T05:30:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcVJteS1FbWpqdWdFWmlONk5QYnhfc2lmRGFvOGlWbWJNUFA2cmdCNU5VTVNHWkY1ZlAtQXVtNUVLRDFaYmNwZ2QwdTRsclhmQnNDcVZ2VV8xam5FcGZQS0pIVmEzVzhLb09VSWFqb1NLMFBpU0h4akJOTFJ1VlZxQ3dxcFNiZw?oc=5"
   },
   {
    "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
@@ -103,6 +103,56 @@
    "lang": "en",
    "time": "2026-10-31T02:39:25+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss"
+  }
+ ],
+ "podcasts": [
+  {
+   "show": "Briefing Room",
+   "title": "Netanyahu Loses Big Time. Will It Matter? Israel Election Results Arrive",
+   "time": "2026-10-29T13:00:00+00:00",
+   "audio": "https://traffic.megaphone.fm/APO8849905289.mp3",
+   "dur": 2716,
+   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/Netanyahu-Loses-Big-Time--Will-It-Matter--Israel-Election-Results-Arrive--Episode-32-e3rai50"
+  },
+  {
+   "show": "Briefing Room",
+   "title": "The Reporter Who Sent Me to Prison Just Exposed Jared Kushner",
+   "time": "2026-10-27T13:00:00+00:00",
+   "audio": "https://traffic.megaphone.fm/APO2118197614.mp3",
+   "dur": 2957,
+   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/The-Reporter-Who-Sent-Me-to-Prison-Just-Exposed-Jared-Kushner--Episode-31-e3r568m"
+  },
+  {
+   "show": "Dead Drop",
+   "title": "S3E6 An Enemy Within: The Stay-Behinds",
+   "time": "2026-10-26T07:00:00+00:00",
+   "audio": "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6ad930aea25058b22a7dcec7/media.mp3",
+   "dur": 3689,
+   "link": "https://shows.acast.com/john-kiriakous-dead-drop/episodes/s3e6-an-enemy-within-the-stay-behinds"
+  },
+  {
+   "show": "Briefing Room",
+   "title": "Meet the Man Set to BEAT Netanyahu on Israel’s Election Day",
+   "time": "2026-10-22T13:00:00+00:00",
+   "audio": "https://traffic.megaphone.fm/APO5028516438.mp3",
+   "dur": 2981,
+   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/Meet-the-Man-Set-to-BEAT-Netanyahu-on-Israels-Election-Day--Episode-30-e3qslrs"
+  },
+  {
+   "show": "Briefing Room",
+   "title": "My Campaign for Greek Ambassador Is Actually Working??",
+   "time": "2026-10-20T13:00:00+00:00",
+   "audio": "https://traffic.megaphone.fm/APO8438843126.mp3",
+   "dur": 2534,
+   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/My-Campaign-for-Greek-Ambassador-Is-Actually-Working----Episode-29-e3qpprh"
+  },
+  {
+   "show": "Dead Drop",
+   "title": "S3E5 How To Interrogate A Monster: Saddam Hussein",
+   "time": "2026-10-19T07:00:00+00:00",
+   "audio": "https://sphinx.acast.com/p/open/s/68e695c6d798804c9e4bbd13/e/6acfe7350c6b30397b17da6d/media.mp3",
+   "dur": 5308,
+   "link": "https://shows.acast.com/john-kiriakous-dead-drop/episodes/s3e5-interrogating-a-monster-saddam-hussein"
   }
  ],
  "overnight": {
@@ -157,24 +207,24 @@
     "breaking": false
    },
    {
-    "title": "Mobilisation du 31 octobre : le Conseil d'Etat valide le parcours de la manifestation voulu par la Préfecture de police de Paris",
+    "title": "Chances d'une vague démocrate, enjeu pour Donald Trump et pour 2028... L'article à lire pour tout comprendre aux midterms, les élections de mi-mandat aux Etats-Unis",
     "source": "franceinfo",
     "lang": "fr",
-    "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-31-octobre-suivez-cette-troisieme-journee-de-manifestations-pour-laquelle-le-gouvernement-prevoit-un-dispositif-de-securite-exceptionnel_8260562.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-10-30T18:49:57+00:00",
+    "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/chances-d-une-vague-democrate-enjeu-pour-donald-trump-et-pour-2028-l-article-a-lire-pour-tout-comprendre-aux-midterms-les-elections-de-mi-mandat-aux-etats-unis_8237488.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-10-30T20:26:17+00:00",
     "sources": [
      "franceinfo"
     ],
     "breaking": false
    },
    {
-    "title": "Tensioni e proteste in Polonia dopo la sospensione del presidente Corte costituzionale",
+    "title": "Zelensky, 'i 500 Patriot Usa fra anni, ma dobbiamo difenderci questo inverno'",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/tensioni-e-proteste-in-polonia-dopo-la-sospensione-del-presidente-corte-costituzionale_0f35a3af-265e-4f32-b650-9941730f20c2.html",
-    "time": "2026-10-30T23:31:46+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/zelensky-i-500-patriot-usa-fra-anni-ma-dobbiamo-difenderci-questo-inverno_8d224cb3-a893-48d0-87ef-9a6ba9c0516e.html",
+    "time": "2026-10-31T06:48:32+00:00",
     "sources": [
-     "franceinfo"
+     "ANSA"
     ],
     "breaking": false
    }
@@ -248,8 +298,8 @@
     "title": "U.S. Attorney for Alaska says civil and criminal investigations are ongoing",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb3lBMGJMaXJVTFBCclFIVU5mdzg2QzZxMTZaRUo1ZVExTHFKZEhWS1NrZUhvNVZqcV9zbDduQUhlekI3M1JlSHVfLVZ2RlhSUVB1NlhIQ1A0aVE0azN4ZGw5RXV4SWRVV0JHS19iYlowSGc3WERrUWtfRGNQNnZZZU45ZUxnamNwYlU2azl4NmNKZ3ZGdUtYLUZVV2ZxYklJS2hkeA?oc=5",
-    "time": "2026-10-31T01:32:17+00:00",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rRnJWTm9NTUpncjNOVGtlaUh4bjdKNXM0TDlwQ0h4R1hCRFhyZVkzaFQ0UDB4czdIdjVqd1NTamp4Q0s3UkFLSWJBblVkQTYzVGpGM0JOcUxLLVota3NONUdlOEw2NTRnZjBfQQ?oc=5",
+    "time": "2026-10-30T21:02:14+00:00",
     "sources": [
      "CNN"
     ],
@@ -260,11 +310,60 @@
  "breakingLog": [],
  "history": [
   {
+   "title": "Zelensky, 'i 500 Patriot Usa fra anni, ma dobbiamo difenderci questo inverno'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-10-31T06:48:32+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/zelensky-i-500-patriot-usa-fra-anni-ma-dobbiamo-difenderci-questo-inverno_8d224cb3-a893-48d0-87ef-9a6ba9c0516e.html"
+  },
+  {
+   "title": "Une enquête pour provocation à la haine raciale ouverte à la suite d'appels sur les réseaux sociaux à agresser des livreurs noirs ou d'origine arabe",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-31T06:41:47+00:00",
+   "link": "https://www.franceinfo.fr/societe/racisme/une-enquete-pour-provocation-a-la-haine-raciale-ouverte-a-la-suite-d-appels-sur-les-reseaux-sociaux-a-agresser-des-livreurs-noirs-ou-d-origine-arabe_8261495.html#xtor=RSS-3-[lestitres]"
+  },
+  {
    "title": "Mobilisation du 31 octobre : le Conseil d'Etat valide le parcours de la manifestation voulu par la Préfecture de police de Paris",
    "source": "franceinfo",
    "lang": "fr",
-   "time": "2026-10-31T06:26:13+00:00",
+   "time": "2026-10-31T06:38:07+00:00",
    "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-31-octobre-suivez-cette-troisieme-journee-de-manifestations-pour-laquelle-le-gouvernement-prevoit-un-dispositif-de-securite-exceptionnel_8260562.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Pourquoi les importations de gaz naturel liquéfié russe n'ont-elles jamais été aussi hautes dans l'Union européenne, deux mois avant leur interdiction complète ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-31T06:30:01+00:00",
+   "link": "https://www.franceinfo.fr/monde/europe/pourquoi-les-importations-de-gaz-naturel-liquefie-russe-n-ont-elles-jamais-ete-aussi-hautes-dans-l-union-europeenne-deux-mois-avant-leur-interdiction-complete_8255563.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Chances d'une vague démocrate, enjeu pour Donald Trump et pour 2028... L'article à lire pour tout comprendre aux midterms, les élections de mi-mandat aux Etats-Unis",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-31T06:29:06+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/chances-d-une-vague-democrate-enjeu-pour-donald-trump-et-pour-2028-l-article-a-lire-pour-tout-comprendre-aux-midterms-les-elections-de-mi-mandat-aux-etats-unis_8237488.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "La France est-elle le pays le moins sélectif pour accéder à l'enseignement supérieur, comme l'affirme le ministre Philippe Baptiste ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-10-31T06:28:18+00:00",
+   "link": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-la-france-est-elle-le-pays-le-moins-selectif-pour-acceder-a-l-enseignement-superieur-comme-l-affirme-le-ministre-philippe-baptiste_8260157.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "The selective solidarity at the heart of India’s voter protests",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-31T06:08:19+00:00",
+   "link": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss"
+  },
+  {
+   "title": "What has it cost to keep Al Jazeera on air for 30 years?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-10-31T06:03:54+00:00",
+   "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/31/what-has-it-cost-to-keep-al-jazeera-on-air-for-30-years?traffic_source=rss"
   },
   {
    "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
@@ -523,7 +622,7 @@
    "source": "CNN",
    "lang": "en",
    "time": "2026-10-31T00:37:43+00:00",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sTTdNd1VSaVNnZXFCdDdrU3ZGVFJjdFpVSVVjYmJEOTRPX3BteEZkd3c3a01mQWJ0TUwwdlVtRkp1YkhTdFdsSE9HX1U1YTZJSUFfdk9kcTdhc2lFZFo0ZVN6S2MxN1hVbXoybE1kSzJXZw?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rRnJWTm9NTUpncjNOVGtlaUh4bjdKNXM0TDlwQ0h4R1hCRFhyZVkzaFQ0UDB4czdIdjVqd1NTamp4Q0s3UkFLSWJBblVkQTYzVGpGM0JOcUxLLVota3NONUdlOEw2NTRnZjBfQQ?oc=5"
   },
   {
    "title": "Criminal Investigation Into Alaska Sen. Race Is Ongoing, US Atty Says",
@@ -1294,27 +1393,6 @@
    "lang": "en",
    "time": "2026-10-30T15:06:05+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Airbnb change ses règles et fâche les propriétaires",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-30T14:52:51+00:00",
-   "link": "https://www.franceinfo.fr/internet/airbnb/airbnb-change-ses-regles-et-fache-les-proprietaires_8260568.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-30T14:48:22+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "‘They killed us’: Russia’s last independent newspaper falls silent amid pressure from Kremlin",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-30T14:32:39+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWTJYWktQTWp4S2wxa3NJMnpmQkI0RmNQS3RtZFR6dEFpMEhZYWtGZUNfNG5JczNhbk9GV1dydE9BTG5oNkN3YXpLdG9PSXIzSk9FaUxiaFRZaURkR3hJMkU4WHZRNnJXUThMZkxRb2NiVlhXeUxDa3g1ZWNuSm1IX3FBSUY4QlJuZ0RxTFVB?oc=5"
   }
  ]
 }
