@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-01T09:41:52+00:00",
+ "updated": "2026-11-01T16:26:23+00:00",
  "items": [
   {
-   "title": "Is MAHA Due for a Makeover?",
+   "title": "Trump slams ex-lawyer’s $50m deal with pardoned banker’s family",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:50:19+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/trump-slams-ex-lawyers-50m-deal-with-pardoned-bankers-family?traffic_source=rss"
+  },
+  {
+   "title": "En Allemagne, des manifestations rassemblent 120 000 personnes samedi, la classe politique dénonce des violences",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:47:03+00:00",
+   "link": "https://www.franceinfo.fr/monde/europe/allemagne/en-allemagne-des-manifestations-rassemblent-120-000-personnes-samedi-la-classe-politique-denonce-des-violences_8262866.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Hero teacher who tackled Bend gunman speaks out as community prepares to reopen school",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-01T09:36:50+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHFZenZud2d2WDhJYS1lVUliMWJjNHhNS2p3c0JEYW5Jb1FNaUFld1N1Um1BY2NKX3QxZUdEMU45N1E0bHpJUmE0YTBJek1fTUxVWDRZV0U3aDRPcS1XUkY3T29nRkdkSTJYbHlIanhsSU1KZmptV2pKVGx1M2xKYlkyLUJaM0hENkhGNEp4WWpaSUE?oc=5"
+   "time": "2026-11-01T15:46:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VZEFhMnBLamhrOUFHYmpib21Xdm1hWFA2aHBuY3VEWVp6Nng5S3VqRExWSHUzWlAwakNKSUZ1dGRSTXl1ZVFKRDkxYnREOTB0bHVFVnk0cDlfZTJ3anUzMnZNaXdMZUs0b0E?oc=5"
   },
   {
    "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-01T09:28:06+00:00",
+   "time": "2026-11-01T13:11:37+00:00",
    "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "À Tarbes, des sépultures et des concessions abandonnées sont proposées à prix réduit pour les familles modestes",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-01T09:21:46+00:00",
-   "link": "https://www.franceinfo.fr/societe/religion/toussaint/reportage-a-tarbes-des-sepultures-et-des-concessions-abandonnees-sont-proposees-a-prix-reduit-pour-les-familles-modestes_8261870.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Where are the most expensive midterm races and who is funding them?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-01T09:04:44+00:00",
-   "link": "https://www.aljazeera.com/economy/2026/11/1/where-are-the-most-expensive-midterm-races-and-who-is-funding-them?traffic_source=rss"
   }
  ],
  "breaking": null,
@@ -49,45 +49,52 @@
  "alerted": [],
  "phone": [
   {
-   "title": "Is MAHA Due for a Makeover?",
+   "title": "Trump slams ex-lawyer’s $50m deal with pardoned banker’s family",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:50:19+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/trump-slams-ex-lawyers-50m-deal-with-pardoned-bankers-family?traffic_source=rss"
+  },
+  {
+   "title": "Hero teacher who tackled Bend gunman speaks out as community prepares to reopen school",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-01T09:36:50+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHFZenZud2d2WDhJYS1lVUliMWJjNHhNS2p3c0JEYW5Jb1FNaUFld1N1Um1BY2NKX3QxZUdEMU45N1E0bHpJUmE0YTBJek1fTUxVWDRZV0U3aDRPcS1XUkY3T29nRkdkSTJYbHlIanhsSU1KZmptV2pKVGx1M2xKYlkyLUJaM0hENkhGNEp4WWpaSUE?oc=5"
+   "time": "2026-11-01T15:46:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VZEFhMnBLamhrOUFHYmpib21Xdm1hWFA2aHBuY3VEWVp6Nng5S3VqRExWSHUzWlAwakNKSUZ1dGRSTXl1ZVFKRDkxYnREOTB0bHVFVnk0cDlfZTJ3anUzMnZNaXdMZUs0b0E?oc=5"
+  },
+  {
+   "title": "Dramatic helicopter rescue saves climbers stranded on Italian cliff",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:40:58+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/dramatic-helicopter-rescue-saves-climbers-stranded-on-italian-cliff?traffic_source=rss"
+  },
+  {
+   "title": "Senator Warnock says he'll be running for 'high office' in 2028 ... but doesn't specify which high office",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:32:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IMlFDU21iS3JaZkFDR2dYU2w4M0ZFc0NoYXpWSXIxaTd5XzNGaF9kX0FBOU9NR0N0SFpJam4wck1jNjM2SEZpVXdlVnF3Q0VCWXBpMUxNLUpPbUhUNnlQMDVUajJyM0FNQ1hHdkk3SUI?oc=5"
+  },
+  {
+   "title": "‘Billionaire tax’ divides voters in California",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:26:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUhVVTFNRWE0TXFMQkV5cENBUk5CNnZSTG9ZTHNqSjBZVnVKSExYQnNSVmppdmxXUHBhNmxTYWM3aTRqd3ZuRW9CMlkyeGR1YlBuLVN2aF9pb0dHcTl4LVgwV3daT29sRHp3LTB3dUNQY0hrUEdkdkFtdHZNQ1hXdDRlZHZMUW1OS21qMUlCWnNhRncxaUxQYXkxdUtNbUFaVnZTalR4Z1ozdzBmQ2Z3?oc=5"
   },
   {
    "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-01T09:28:06+00:00",
+   "time": "2026-11-01T13:11:37+00:00",
    "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Where are the most expensive midterm races and who is funding them?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-01T09:04:44+00:00",
-   "link": "https://www.aljazeera.com/economy/2026/11/1/where-are-the-most-expensive-midterm-races-and-who-is-funding-them?traffic_source=rss"
-  },
-  {
-   "title": "Tom Hanks gets spooky as Mr. Pumpkins on ‘SNL’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-01T08:53:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX003bmFGRmFlWDVsS1g1bndON2RTREtEMkdLcTRCMTJfVWVSQ1lBT05FblFPOWxQcE9BakNPTm1fbDMwMTA4Rzg0LXREenZTT3FlNkJybXNDdnM1LUJnMXF2d0h5cEI5WjEzejBQekN1a3JxTEtYWTJMVUtTY3V2ejNsMXJFZmZFWlhBQXoyV1dhdlRESDhKT0dPb3pRY3p3S1ZLYWlhbnpUQQ?oc=5"
-  },
-  {
-   "title": "US midterms: 2 days to go – what polls say as Trump, El-Sayed hit the trail",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-01T08:47:19+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail?traffic_source=rss"
-  },
-  {
-   "title": "Shops looted as German cost of living protests turn violent",
+   "title": "Shops looted as German cost-of-living protests turn violent",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-01T08:43:00+00:00",
+   "time": "2026-11-01T11:57:48+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -96,13 +103,6 @@
    "lang": "en",
    "time": "2026-11-01T07:00:55+00:00",
    "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "JD Vance celebrates Halloween as Dumbledore",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-01T06:49:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUl9vSU5QaWR1eE9xS3A0b3pJMFY4Y045bHVrcmRNdzRmNFJDbE5Mel9DNTlXZU94MTQwOHFiOHluLUJPM2MtbkZGeWtYUzBiNlZzb0RZazZTQUFGVjdQbHFTRGJaOHdBQVl3LTUxZWZlSTFOWU1nRllZNE04Zlc1N0c0TFZtMFB1NEx3Mk5xNUp5d2ZUUmNrOEg1bEJvdFB1?oc=5"
   }
  ],
  "podcasts": [
@@ -159,35 +159,24 @@
   "since": "2026-10-31T22:00+04:00",
   "items": [
    {
-    "title": "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
-    "source": "Al Jazeera",
+    "title": "Germany blames infiltrators as Gen Z protests turn violent",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting?traffic_source=rss",
-    "time": "2026-10-31T22:37:55+00:00",
-    "sources": [
-     "Al Jazeera",
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Trump at Halloween party ‘as himself’ says he’s ‘in no hurry’ with Iran",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/trump-at-halloween-party-as-himself-says-hes-in-no-hurry-with-iran?traffic_source=rss",
-    "time": "2026-11-01T03:38:00+00:00",
-    "sources": [
-     "Al Jazeera",
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Shops looted as German cost of living protests turn violent",
-    "source": "BBC News",
-    "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNEpsMXdlOEZXMXpqdE45c2twTWxoUWdFZ0hHaW1hVzJfWlJNTndya3pQRjJMOFJmNmRUb25sOG9heDZwRVpsSGprQ01GYUpNR0ZybkhDM1NCSDAzVF84YnNVZFlZOWNadzQ5Qm5HdDFFckU3cW5Jc0xDZVBDN2ZtNmQ0bVA?oc=5",
     "time": "2026-11-01T00:27:20+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Photos: Thousands join India’s opposition rally against election chief",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss",
+    "time": "2026-11-01T07:00:55+00:00",
     "sources": [
      "Al Jazeera",
      "BBC News"
@@ -195,33 +184,45 @@
     "breaking": false
    },
    {
-    "title": "Mobilisation importante mais en baisse, heurts en marge de certains cortèges, centres-villes sous haute protection... Ce qu'il faut retenir de la journée de mobilisation du 31 octobre",
+    "title": "Heidi Klum dresses as her left hand for Halloween",
+    "source": "CNN",
+    "lang": "en",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFg3UVh2RG42ejRISElhQkZFaDl4dXN5dnVlaXgtYnJ6aENOblVZWHpBUjdjZk9QSUp2MVZPU0VzUzVlR2ZKRlc4LWMxSzd6THRkZGJMWF9YaU0xNWZPSDlYdWV2a1BrZ0pZM1YzQTFkajR3RG9aUTVfTlhzY1lDZG5tcGZ5NnpwLU83UkdvM3o2MEZlV3BBUnA3cHlHUm1KVXJiSUhfTnA1MDV6czZtSUZGYmZPNW8?oc=5",
+    "time": "2026-11-01T05:26:02+00:00",
+    "sources": [
+     "BBC News",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "\"Des adversaires très hostiles avec une volonté d'impressionner, de faire peur et de blesser\", témoigne un gendarme blessé à Paris lors de la manifestation samedi",
     "source": "franceinfo",
     "lang": "fr",
-    "link": "https://www.franceinfo.fr/societe/manifestations/mobilisation-importante-mais-en-baisse-heurts-en-marge-de-certains-corteges-centres-villes-sous-haute-protection-ce-qu-il-faut-retenir-de-la-journee-de-mobilisation-du-31-octobre_8262017.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-10-31T19:05:27+00:00",
+    "link": "https://www.franceinfo.fr/societe/manifestations/des-adversaires-tres-hostiles-avec-une-volonte-d-impressionner-de-faire-peur-et-de-blesser-temoigne-un-gendarme-blesse-a-paris-lors-de-la-manifestation-samedi_8262701.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-01T09:38:00+00:00",
     "sources": [
      "franceinfo"
     ],
     "breaking": false
    },
    {
-    "title": "À Tarbes, des sépultures et des concessions abandonnées sont proposées à prix réduit pour les familles modestes",
+    "title": "Les ventes de voitures neuves progressent de 7% en octobre grâce au marché de l'électrique",
     "source": "franceinfo",
     "lang": "fr",
-    "link": "https://www.franceinfo.fr/societe/religion/toussaint/reportage-a-tarbes-des-sepultures-et-des-concessions-abandonnees-sont-proposees-a-prix-reduit-pour-les-familles-modestes_8261870.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-11-01T09:21:46+00:00",
+    "link": "https://www.franceinfo.fr/economie/automobile/les-ventes-de-voitures-neuves-progressent-en-octobre-en-france-grace-au-marche-de-l-electrique-domine-par-tesla-et-le-groupe-stellantis_8262515.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-01T09:14:53+00:00",
     "sources": [
      "franceinfo"
     ],
     "breaking": false
    },
    {
-    "title": "Meloni, concentrata a chiedere altro mandato. Il Quirinale non è nei miei piani",
+    "title": "Marocco, vignettista condannato a 4 anni per caricature del re",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/meloni-concentrata-a-chiedere-altro-mandato.-il-quirinale-non-e-nei-miei-piani_eb74ac64-d33b-4c35-afb9-1b0b5cf7d72d.html",
-    "time": "2026-11-01T08:35:08+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/marocco-vignettista-condannato-a-4-anni-per-caricature-del-re_43e121e4-bc10-4113-83f4-99f4c2591a7d.html",
+    "time": "2026-11-01T16:22:57+00:00",
     "sources": [
      "ANSA"
     ],
@@ -233,13 +234,38 @@
   "since": "2026-10-31T22:00+04:00",
   "items": [
    {
-    "title": "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
-    "source": "Al Jazeera",
+    "title": "Germany blames infiltrators as Gen Z protests turn violent",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting?traffic_source=rss",
-    "time": "2026-10-31T22:37:55+00:00",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNEpsMXdlOEZXMXpqdE45c2twTWxoUWdFZ0hHaW1hVzJfWlJNTndya3pQRjJMOFJmNmRUb25sOG9heDZwRVpsSGprQ01GYUpNR0ZybkhDM1NCSDAzVF84YnNVZFlZOWNadzQ5Qm5HdDFFckU3cW5Jc0xDZVBDN2ZtNmQ0bVA?oc=5",
+    "time": "2026-11-01T00:27:20+00:00",
     "sources": [
      "Al Jazeera",
+     "BBC News",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Photos: Thousands join India’s opposition rally against election chief",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss",
+    "time": "2026-11-01T07:00:55+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Heidi Klum dresses as her left hand for Halloween",
+    "source": "CNN",
+    "lang": "en",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFg3UVh2RG42ejRISElhQkZFaDl4dXN5dnVlaXgtYnJ6aENOblVZWHpBUjdjZk9QSUp2MVZPU0VzUzVlR2ZKRlc4LWMxSzd6THRkZGJMWF9YaU0xNWZPSDlYdWV2a1BrZ0pZM1YzQTFkajR3RG9aUTVfTlhzY1lDZG5tcGZ5NnpwLU83UkdvM3o2MEZlV3BBUnA3cHlHUm1KVXJiSUhfTnA1MDV6czZtSUZGYmZPNW8?oc=5",
+    "time": "2026-11-01T05:26:02+00:00",
+    "sources": [
+     "BBC News",
      "CNN"
     ],
     "breaking": false
@@ -257,46 +283,22 @@
     "breaking": false
    },
    {
-    "title": "Shops looted as German cost of living protests turn violent",
-    "source": "BBC News",
+    "title": "Breaking down Alaska’s senate race controversy",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-01T00:27:20+00:00",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcXJjamJWWXM1eWJxRmdMd2hBcHFOODI5V08wNmRNSUNiNDBlTTQtcU9MQ3N6NEVwRXVUeVVRekFmdkpaZ0FPY01JaDZqSXAxZTIzYklMUTA0a3ZxLTBia2M1UzB4TElsbGxESmNucHFGZXh2dG50cjkxTkFjaE1zQTlWcC1LMFhIWVFkY2laZWtJWFk4MmE0NnlLYw?oc=5",
+    "time": "2026-11-01T14:14:36+00:00",
     "sources": [
-     "Al Jazeera",
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/10/31/trump-loses-legal-battle-over-epstein-linked-wall-street-journal-case?traffic_source=rss",
-    "time": "2026-10-31T20:26:42+00:00",
-    "sources": [
-     "Al Jazeera",
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "India's opposition holds mega rally seeking election chief's resignation",
-    "source": "BBC News",
-    "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-01T00:12:07+00:00",
-    "sources": [
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Palestine Action supporters arrested outside US embassy in London",
+    "title": "Israeli attacks on Gaza kill at least nine people",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
-    "time": "2026-10-31T18:48:29+00:00",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
+    "time": "2026-11-01T13:36:16+00:00",
     "sources": [
      "Al Jazeera"
     ],
@@ -307,6 +309,517 @@
  "breakingLog": [],
  "history": [
   {
+   "title": "Marocco, vignettista condannato a 4 anni per caricature del re",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:22:57+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/marocco-vignettista-condannato-a-4-anni-per-caricature-del-re_43e121e4-bc10-4113-83f4-99f4c2591a7d.html"
+  },
+  {
+   "title": "Allarme attentato a Mosca, 'arrestato adolescente, pubblicava minacce su TikTok'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:21:22+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/allarme-attentato-a-mosca-arrestato-adolescente-pubblicava-minacce-su-tiktok_9d861292-cc5c-4dc3-a4f6-d1745d212f10.html"
+  },
+  {
+   "title": "Teheran, 'se le nostre richieste saranno soddisfatte, Hormuz riaprirà il giorno dopo'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:13:16+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/teheran-se-le-nostre-richieste-saranno-soddisfatte-hormuz-riaprira-il-giorno-dopo_187db00c-20c0-431b-8013-7777683f8047.html"
+  },
+  {
+   "title": "Gb, cinque adolescenti feriti a coltellate a una festa di Halloween",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:11:22+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/gb-cinque-adolescenti-feriti-a-coltellate-a-una-festa-di-halloween_e1a10742-a0be-4924-8274-927f87b9fbf0.html"
+  },
+  {
+   "title": "'Putin non ha mai rifiutato di parlare con Zelensky, è libero di venire a Mosca'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:07:38+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/putin-non-ha-mai-rifiutato-di-parlare-con-zelensky-e-libero-di-venire-a-mosca_d118934d-7e9e-4879-8bb5-2834c45901e3.html"
+  },
+  {
+   "title": "Manovra dimezza i fondi antisismici per gli edifici pubblici nel 2027 e 2028",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:06:20+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-dimezza-i-fondi-antisismici-per-gli-edifici-pubblici-nel-2027_96016895-4cd4-4acc-92ef-f81cb9e9ae11.html"
+  },
+  {
+   "title": "Manovra: 17 milioni per le alluvioni in Emilia-Romagna, Marche e Toscana",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:02:38+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-17-milioni-per-le-alluvioni-in-emilia-romagna-marche-e-toscana_3f8b6cd1-d92a-4d07-a3f5-88155f652d59.html"
+  },
+  {
+   "title": "Manovra: per il reddito di libertà delle donne 2 milioni in più all'anno",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T16:00:43+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-per-il-reddito-di-liberta-delle-donne-2-milioni-in-piu-allanno_3d35079a-94c3-4cc1-8a89-410e313aa0e6.html"
+  },
+  {
+   "title": "Trump slams ex-lawyer’s $50m deal with pardoned banker’s family",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:50:19+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/trump-slams-ex-lawyers-50m-deal-with-pardoned-bankers-family?traffic_source=rss"
+  },
+  {
+   "title": "En Allemagne, des manifestations rassemblent 120 000 personnes samedi, la classe politique dénonce des violences",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:47:03+00:00",
+   "link": "https://www.franceinfo.fr/monde/europe/allemagne/en-allemagne-des-manifestations-rassemblent-120-000-personnes-samedi-la-classe-politique-denonce-des-violences_8262866.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Hero teacher who tackled Bend gunman speaks out as community prepares to reopen school",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:46:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VZEFhMnBLamhrOUFHYmpib21Xdm1hWFA2aHBuY3VEWVp6Nng5S3VqRExWSHUzWlAwakNKSUZ1dGRSTXl1ZVFKRDkxYnREOTB0bHVFVnk0cDlfZTJ3anUzMnZNaXdMZUs0b0E?oc=5"
+  },
+  {
+   "title": "Trois Français sur quatre jugent le coût du chauffage au gaz trop élevé, selon un sondage de Que Choisir Ensemble",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:45:41+00:00",
+   "link": "https://www.franceinfo.fr/economie/pouvoir-achat/trois-francais-sur-quatre-jugent-le-cout-du-chauffage-au-gaz-trop-eleve-selon-un-sondage-de-que-choisir-ensemble_8262911.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Dramatic helicopter rescue saves climbers stranded on Italian cliff",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:40:58+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/dramatic-helicopter-rescue-saves-climbers-stranded-on-italian-cliff?traffic_source=rss"
+  },
+  {
+   "title": "Trump, 'diventerò Mr Veto se i democratici vincono la maggioranza'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T15:39:28+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/trump-diventero-mr-veto-se-i-democratici-vincono-la-maggioranza_90eeb82b-d6dd-4289-97d7-678f4cc0836a.html"
+  },
+  {
+   "title": "JERUSALEM DAILY: Israel continues siege and arrests in Hebron",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:38:12+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/jerusalem-daily-israel-continues-siege-and-arrests-in-hebron?traffic_source=rss"
+  },
+  {
+   "title": "Serbia arrests police chief over abuse of office allegations",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:36:13+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/serbia-arrests-police-chief-over-abuse-of-office-allegations?traffic_source=rss"
+  },
+  {
+   "title": "Senator Warnock says he'll be running for 'high office' in 2028 ... but doesn't specify which high office",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:32:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5IMlFDU21iS3JaZkFDR2dYU2w4M0ZFc0NoYXpWSXIxaTd5XzNGaF9kX0FBOU9NR0N0SFpJam4wck1jNjM2SEZpVXdlVnF3Q0VCWXBpMUxNLUpPbUhUNnlQMDVUajJyM0FNQ1hHdkk3SUI?oc=5"
+  },
+  {
+   "title": "\"Nous ne nous laisserons pas intimider\" : en Suisse, l'usine où sont fabriqués les LBD 40 détruite par un incendie vraisemblablement criminel",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:28:21+00:00",
+   "link": "https://www.franceinfo.fr/faits-divers/nous-ne-nous-laisserons-pas-intimider-en-suisse-un-batiment-du-fabricant-des-lbd-40-endommage-par-un-incendie-vraisemblablement-criminel_8262806.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "‘Billionaire tax’ divides voters in California",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:26:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUhVVTFNRWE0TXFMQkV5cENBUk5CNnZSTG9ZTHNqSjBZVnVKSExYQnNSVmppdmxXUHBhNmxTYWM3aTRqd3ZuRW9CMlkyeGR1YlBuLVN2aF9pb0dHcTl4LVgwV3daT29sRHp3LTB3dUNQY0hrUEdkdkFtdHZNQ1hXdDRlZHZMUW1OS21qMUlCWnNhRncxaUxQYXkxdUtNbUFaVnZTalR4Z1ozdzBmQ2Z3?oc=5"
+  },
+  {
+   "title": "Burnham ‘open’ to UK slavery apology, but not reparations: Why now?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T15:24:08+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/burnham-open-to-uk-slavery-apology-but-not-reparations-why-now?traffic_source=rss"
+  },
+  {
+   "title": "Toussaint : incontournable dans les cimetières, le chrysanthème est aussi devenu une fleur d'intérieur",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:19:50+00:00",
+   "link": "https://www.franceinfo.fr/societe/religion/toussaint/toussaint-incontournable-dans-les-cimetieres-le-chrysantheme-est-aussi-devenu-une-fleur-d-interieur_8262824.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Pourquoi Donald Trump menace-t-il l'Iran de nouvelles frappes juste avant les midterms ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T15:04:27+00:00",
+   "link": "https://www.franceinfo.fr/monde/iran/frappes-americaines-en-iran/pourquoi-donald-trump-menace-t-il-l-iran-de-nouvelles-frappes-juste-avant-les-midterms_8262491.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Warnock ‘nauseously optimistic’ about Democrats winning the midterms.",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T15:04:03+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRldvZ3ItTE9RLUJGdVU2VXktcFVISGxCZlM0aTY4VU1ESDg3Y0l0c0VrSTI4c01uVklWdTVjMnJ0RDlpNDZJZm9BOGNoSFZON0NfSDFQR05ndXdwME52LWlkZUlSeGpfRExKaTZKRmcyc1FZZUVZbm5SUzBrTUtfVHFTRUNSSktQN2NR?oc=5"
+  },
+  {
+   "title": "Rep. Bacon: ‘There will be a debate’ on the future of MAGA movement if GOP does poorly in the midterms",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:52:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xNGdNeUtodkF0eElBalRUaDB4elhmR25kUVVZWjNZd2VVbU1aNndfSWhuRU5qZEZROW5HNkoyc1RJc21DNm1rVjM5UmZFaGFnNXpXNmp0a3R2VThyWTFxOTg5Y3FZeFRzaUFOVEx4SXU3emlHSGdPaVJfYUZfZ0k?oc=5"
+  },
+  {
+   "title": "Des frappes israéliennes font huit morts dans la bande de Gaza",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T14:46:52+00:00",
+   "link": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/des-frappes-israeliennes-font-huit-morts-dans-la-bande-de-gaza_8262830.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Photos: Thousands join India’s opposition rally against election chief",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T14:46:03+00:00",
+   "link": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss"
+  },
+  {
+   "title": "Manovra: Uil, 'i tagli alla scuola indeboliscono il Paese, vanno cancellati'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-01T14:43:19+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/manovra-uil-i-tagli-alla-scuola-indeboliscono-il-paese-vanno-cancellati_3ed86927-1e25-4ed4-a1b8-b8b2921a99c3.html"
+  },
+  {
+   "title": "Breaking down Alaska’s senate race controversy",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:37:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcXJjamJWWXM1eWJxRmdMd2hBcHFOODI5V08wNmRNSUNiNDBlTTQtcU9MQ3N6NEVwRXVUeVVRekFmdkpaZ0FPY01JaDZqSXAxZTIzYklMUTA0a3ZxLTBia2M1UzB4TElsbGxESmNucHFGZXh2dG50cjkxTkFjaE1zQTlWcC1LMFhIWVFkY2laZWtJWFk4MmE0NnlLYw?oc=5"
+  },
+  {
+   "title": "Sen. Dan Sullivan on Alaska ballot controversy: ‘There's nothing more rigged and corrupt than this’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:36:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOU13Rk5VMUNObUk2R1R4d2tadTVET1M4Z21zcXFyczlGWElDa3pIbTZ1T3dLdGpfRjR2clA2bUVwRlNBM2xwaXVybUUzbnFmSkItZmRHRFM1MHpJa0JvVTNyZkt2OVJBZ1lVUkFCdHhfMmppMllCODNUUndZamdmWENxMA?oc=5"
+  },
+  {
+   "title": "Bitter spat between Poland’s pro-Europe PM and pro-Trump president erupts",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:28:41+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQU9wNTJvemVMSURuUU1uYXU1ellGZnp2Z19sS1NkQnYtX0t2dGl6d1RsZVJtdmozakh4WU5JMEV2WXAxaW9oZjcxU1lvMElPX3NNeGZUQzJzcTNJa2ZMV044Wk5yZU1jYklNcVJuYnhCSllyaWx2X19tRGl2cGVzRWhkSTc?oc=5"
+  },
+  {
+   "title": "Manu Raju on the trail: Catching up with candidates across the country",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:27:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS3NaZFFyYkxuMXZQLTRueGw3dmdzZFJQa01iTU5kMUsxQXB3MkNFTHZOZVlvWXJBR3lJWGFHNjNXaUJVRUJraTluUUdXVDA0aEUtWGpaYlpkUFR4eVNtTS01cVMwaFhDZzQ2RTAyMUdZUWc1dUhBbV9tdXkzblBRMDAtQ3dzNWsxZmtndk9OZEE1cEhBTEZKVlVvNzM2Y2xJeXBfcC1OTXRrbkJCNjNQNk9HbkRGUQ?oc=5"
+  },
+  {
+   "title": "Why is Morocco celebrating the defeat of a UN resolution on Western Sahara?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T14:26:43+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/why-is-morocco-celebrating-the-defeat-of-a-un-resolution-on-western-sahara?traffic_source=rss"
+  },
+  {
+   "title": "Jean-Pierre Chevènement apporte son soutien à Natacha Polony pour l'élection présidentielle",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T14:24:41+00:00",
+   "link": "https://www.franceinfo.fr/elections/presidentielle/jean-pierre-chevenement-apporte-son-soutien-a-natacha-polony-pour-l-election-presidentielle_8262794.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Will a blue wave sweep Iowa on Tuesday?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:20:39+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUVLRUdHcXE0ZGw4QTFvdWdPSzF1ZDE4dXhjWlViVE8wcUxwblRlTkhXRTJzUWFfRkJXWVlsV1dfSlcxQ21fcjNKemVSSEd5dWVMMHBNQmFUbHgzQ1gxY0xDUWRvamh1YTVGenItS0dmU3p0UkgxY0pjZDJxWGlIenlKUV96SkMxV0wtOWJvVHlRZw?oc=5"
+  },
+  {
+   "title": "Israel election: When will government be formed, who will lead it?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T14:16:14+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it?traffic_source=rss"
+  },
+  {
+   "title": "Manifestations du 31 octobre : 779 personnes ont été interpellées dans toute la France selon un bilan définitif du ministère de l'Intérieur",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T14:15:25+00:00",
+   "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-sociale-la-jeunesse-ne-lache-pas-declare-la-porte-parole-de-l-union-etudiante-au-lendemain-des-manifestations-du-31-octobre_8262449.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Sen. Dan Sullivan says he will accept election results of Alaska Senate race",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T14:14:36+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTEVXaEl0ZGdlcUhraGRVNFMxVTh4LVZzWWEwc1NjZmE0X2hpOFdON1Y2X0J6aFlqSFk5VVNlb1B5cmdCVlQ2elBtMi1vU2tzd3JLTkdiSzMwYU5EM0MzSkFmTWhsNVk0S0E3ODhXZU9FU1B3LUd1YlhRNlgzQmhBU3Q5RV9ocGxqNlE?oc=5"
+  },
+  {
+   "title": "Israeli attacks on Gaza kill at least nine people",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T14:10:59+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss"
+  },
+  {
+   "title": "Macklemore concludes ‘Free Palestine’ tour with solidarity message",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:47:53+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss"
+  },
+  {
+   "title": "US midterms live: Trump, Democrats in last-ditch efforts before polls",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:42:25+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/us-midterms-live-last-ditch-efforts-ahead-of-tuesdays-elections?traffic_source=rss"
+  },
+  {
+   "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:36:16+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss"
+  },
+  {
+   "title": "More than 50 million votes cast in US midterm elections: What does it mean?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:32:59+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean?traffic_source=rss"
+  },
+  {
+   "title": "Germany blames infiltrators as Gen Z protests turn violent",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T13:22:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNEpsMXdlOEZXMXpqdE45c2twTWxoUWdFZ0hHaW1hVzJfWlJNTndya3pQRjJMOFJmNmRUb25sOG9heDZwRVpsSGprQ01GYUpNR0ZybkhDM1NCSDAzVF84YnNVZFlZOWNadzQ5Qm5HdDFFckU3cW5Jc0xDZVBDN2ZtNmQ0bVA?oc=5"
+  },
+  {
+   "title": "Qatar unveils countdown clock for 2027 Basketball World Cup",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:16:03+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/qatar-unveils-countdown-clock-for-2027-basketball-world-cup?traffic_source=rss"
+  },
+  {
+   "title": "Federal officials investigate suspected arson at beleaguered police department in Mississippi",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T13:12:22+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWl92eXNMTEFoZzROaERMN0lCUlh1ald3OEVKTTdBblYweUhKd0FiYjEzTkFvZWxNTEJacDVubjB2eVhoTl8tUWZlY1FEWjRBNEpVMFp0VUQ1VThFVVJnYzlmLUc3d2NVN0tRSVBjd3pYOHRhenlWdDBHVnMxckVBMWZ2c3R6ZGJUVnc?oc=5"
+  },
+  {
+   "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-01T13:11:37+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Michigan race: All you need to know about Abdul El-Sayed v Mike Rogers",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:03:38+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/michigan-race-all-you-need-to-know-about-abdul-el-sayed-v-mike-rogers?traffic_source=rss"
+  },
+  {
+   "title": "Iran and US explore diplomacy amid rising threats of war",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T13:02:10+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss"
+  },
+  {
+   "title": "Binance restarts withdrawals after $6.3bn heist",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T12:50:55+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss"
+  },
+  {
+   "title": "Senegal kicks off the Youth Games 2026",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T12:45:44+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/senegal-kicks-off-the-youth-games-2026?traffic_source=rss"
+  },
+  {
+   "title": "Fire engulfs hotel in Nepal along Everest Base Camp route",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T12:12:31+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/fire-engulfs-hotel-in-nepal-along-everest-base-camp-route?traffic_source=rss"
+  },
+  {
+   "title": "“Nobody’s listening”: 5 things Americans told me about the economy that Washington needs to hear",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T12:00:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXFrbEZ3TWRkc0YzcWFDcEFMVmdwSnk4cl9BX3Ztb01rWTc2U2x2aGo0djBuckgwSGVLN2xKR2F5Smg1RDBLWnJXMWcxOVVFWGM1NXpMc2ZxMjJ6MThnM3pMVmJEeUd1ZkhCa29nOFU1eEJobVZZRFhsOUQ4WHpEeWdyOVRNdw?oc=5"
+  },
+  {
+   "title": "Shops looted as German cost-of-living protests turn violent",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-01T11:57:48+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Les petites stations-services \"n'ont pas reçu les stocks stratégiques de carburants et ne peuvent pas baisser les prix\", alerte Francis Pousse, du réseau Mobilians",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T11:55:50+00:00",
+   "link": "https://www.franceinfo.fr/economie/automobile/essence/les-petites-stations-services-n-ont-pas-recu-les-stocks-strategiques-de-carburants-et-ne-peuvent-pas-baisser-les-prix-alerte-francis-pousse-du-reseau-mobilians_8262764.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Megan Thee Stallion’s Halloween costume was a cirque du horror",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:53:29+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSDN3aXo0Uks4emxxbVRPeTRRWVNpVW1jenpXVFVWOUZxYzFXOTNFa2ZQRVdFbDdsLVAwUVhJSk5ic0JOMXNUM3pBVC1hWnlRQk53U0VlVklZZ2RObXNKejN1RkJoY25FS1MzQUpDTlFxalI0YVNXNlFiY2d4ZXhrNkRIaEUwTjl0S1E?oc=5"
+  },
+  {
+   "title": "\"L'Affaire Marie-Claire\" : le récit palpitant d'un procès historique pour le droit à l'avortement, à l'heure où il est menacé dans de nombreux pays",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T11:31:13+00:00",
+   "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/l-affaire-marie-claire-le-recit-palpitant-d-un-proces-historique-pour-le-droit-a-l-avortement-a-l-heure-ou-il-est-menace-dans-de-nombreux-pays_8245762.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "The little-known Medicare program that could help about 63 million caregivers",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:17+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZlJQbjU5UDRTQlZES2J0Uk42M2wzMUg4bmZYbGIzbTdtejgyZm5EZ1ZqWFpmazZRRm9TaTJiSm5Cd2xONWd3MTlYZG1tQ3NLdzgtbzlTSVc1N2Z0N2lPcG82QzlYUmN5MHRNOVgxcjlxdzFXRVExeGNldU4zRDROREZwdWJQcGc?oc=5"
+  },
+  {
+   "title": "The Cheesecake Factory can’t get enough of the Gen Z ‘Tuscan moms’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZNHBRUFJDWGEyWWU2TVVXdHp5SXF0eFFKSnhnbTFPNW5PdGpJMGJOaXRfSDZIaTlneVdHMVZfTzJYSkhSakJ5Smw2bkRNbnBqQnRmR0xTYVRGZEJTT3JNNlhFSUNXa0lEQXBHZkNLSG1TQS1yeDNpSU9B?oc=5"
+  },
+  {
+   "title": "Flock was founded in Atlanta. Thousands of cameras later, the company is getting pushback in its hometown",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:16+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yS1VqREZONWhmX2Q0NVRLd25sdGwyRkZOT3dOSXhmYUZ3VF9RTlZ1OHVaNzYxbkx2UHgyM2tyTUdaclVyWFB4eTEwSG9uZ0NoQTBIMEhQaGxVcWpkV0ZyR3BqSDduRTIxZnV3QlVnVENoLWhmaFhtNGQ2a3k?oc=5"
+  },
+  {
+   "title": "Obamacare continues to shrink as enrollment opens for 2027",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVmdnallzanctNEhHN3hVYkNMOUxoY1hvOFRBM3hGSDdBSGxxeEs5enVkNTd3QkFnM01OUEI5dmdHZ0R5QjhzYy1iNkc1QzgzRkJxcmJRUU1fN2tGb3hwMXFxZUxQOEdweUlWZ0lCQlA1RUxzNS04cHlJRHl2d2JOcEVFODBPZjZrNjRHWWZpSFhiRFJGN2ZIUUsyVWMzRnc?oc=5"
+  },
+  {
+   "title": "Spoiler candidate, Cheesecake Factory and sibling rivalry: Recounting the many late 2026 midterm sideshows",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQME9oblJtdEs3ekRNanlZVEdueHMtRzNTcVYzMVdtaEJzbHhHeTNwMzN5b3JOdEhtUWtEMWJTU1BYUXI3ZHhtYWlnSXdPUkU1dFM5cDA0ckFtcTVkS2lRRDlxV2NsMHJRZmlVMkFLZldqekU5eWFhaEpDdmhHVmszWQ?oc=5"
+  },
+  {
+   "title": "How to follow along with CNN’s election coverage",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:30:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HTk5mRk5FUVpYZmJ2Q0QxYWptVk1EWjVndUw0Y0ZpMVNUcEN3OHR1MXFHMm5hUHQtbVFMQjBVTi1kYmg4cHp3SFpFa3QwSHg5dnJWclhreTVMdnBvU0t1MzdnN2F3d1E3NThCXzVQSG9lRzZ5TEhFd05taW5Cc0k?oc=5"
+  },
+  {
+   "title": "Thousands rally in New Delhi to demand India’s election chief resign",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T11:26:08+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign?traffic_source=rss"
+  },
+  {
+   "title": "\"Des adversaires très hostiles avec une volonté d'impressionner, de faire peur et de blesser\", témoigne un gendarme blessé à Paris lors de la manifestation samedi",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T11:17:18+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/des-adversaires-tres-hostiles-avec-une-volonte-d-impressionner-de-faire-peur-et-de-blesser-temoigne-un-gendarme-blesse-a-paris-lors-de-la-manifestation-samedi_8262701.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-01T11:14:27+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss"
+  },
+  {
+   "title": "If a blue wave is coming, here are the races where it will start",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T11:00:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NNWxmNGFUYUhWSnVRNTM3MmliRWFzZElMdG9fRWdIN2ladENOMmF4X24tS29GYTBmdmMwZFdrVUhreUZjZUlydExSUi1rRGw3bll5SzlHbDBObUxWS2VtM01CcWhOZlBBWXN2YnpfdzZkblF2ZmtF?oc=5"
+  },
+  {
+   "title": "Au lendemain de la mobilisation du 31 octobre, Emmanuel Macron considère que \"le débat électoral et les urnes doivent prendre le pas sur la démocratie sociale et la rue\"",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T10:42:48+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/au-lendemain-de-la-mobilisation-du-31-octobre-emmanuel-macron-considere-que-le-debat-electoral-et-les-urnes-doivent-prendre-le-pas-sur-la-democratie-sociale-et-la-rue_8262659.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "La plateforme de cryptomonnaies Binance annonce une reprise des retraits après avoir perdu plus de six milliards de dollars dans un piratage",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T10:31:36+00:00",
+   "link": "https://www.franceinfo.fr/economie/bitcoin/la-plateforme-de-cryptomonnaies-binance-annonce-une-reprise-des-retraits-apres-un-piratage-commis-par-des-hackers-de-coree-du-nord-selon-les-accusations-du-fbi_8262545.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "\"Les familles se confient à moi, me racontent leur histoire\" : gardien de cimetière, Sébastien se sent utile aux autres",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T10:24:50+00:00",
+   "link": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/isere/grenoble/portrait-les-familles-se-confient-a-moi-me-racontent-leur-histoire-gardien-de-cimetiere-sebastien-se-sent-utile-aux-autres-3440661.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Election officials brace for foreign threats — and an unpredictable Washington",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T10:00:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0UzclNmaEV4eUMzQ3ZBM0hPVlNiRGJDRnhYWjVYeFZZMURTaTd5OGdHcnVDaDJDMmlQeE1yLW1ueGxpeHRGZE1EUV9QTFBHb09fMnJiSzhmRWMyZW9xR2puXzg2RHZjTUlJVnpiUUNCRlI1UjJvMWJObGJjYklkUXdnVQ?oc=5"
+  },
+  {
+   "title": "Heidi Klum dresses as her left hand for Halloween",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T09:50:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFg3UVh2RG42ejRISElhQkZFaDl4dXN5dnVlaXgtYnJ6aENOblVZWHpBUjdjZk9QSUp2MVZPU0VzUzVlR2ZKRlc4LWMxSzd6THRkZGJMWF9YaU0xNWZPSDlYdWV2a1BrZ0pZM1YzQTFkajR3RG9aUTVfTlhzY1lDZG5tcGZ5NnpwLU83UkdvM3o2MEZlV3BBUnA3cHlHUm1KVXJiSUhfTnA1MDV6czZtSUZGYmZPNW8?oc=5"
+  },
+  {
+   "title": "Les ventes de voitures neuves progressent de 7% en octobre grâce au marché de l'électrique",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T09:49:05+00:00",
+   "link": "https://www.franceinfo.fr/economie/automobile/les-ventes-de-voitures-neuves-progressent-en-octobre-en-france-grace-au-marche-de-l-electrique-domine-par-tesla-et-le-groupe-stellantis_8262515.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Un gendarme mobile victime d'un jet de cocktail Molotov à Paris à la fin de la manifestation du 31 octobre",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T09:38:00+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/un-gendarme-mobile-victime-d-un-jet-de-cocktail-molotov-a-paris-a-la-fin-de-la-manifestation-du-samedi-31-octobre_8262191.html#xtor=RSS-3-[lestitres]"
+  },
+  {
    "title": "Is MAHA Due for a Makeover?",
    "source": "CNN",
    "lang": "en",
@@ -314,11 +827,11 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHFZenZud2d2WDhJYS1lVUliMWJjNHhNS2p3c0JEYW5Jb1FNaUFld1N1Um1BY2NKX3QxZUdEMU45N1E0bHpJUmE0YTBJek1fTUxVWDRZV0U3aDRPcS1XUkY3T29nRkdkSTJYbHlIanhsSU1KZmptV2pKVGx1M2xKYlkyLUJaM0hENkhGNEp4WWpaSUE?oc=5"
   },
   {
-   "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-01T09:28:06+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+   "title": "\"Le budget sera refusé par le Parlement\", prévoit Philippe Juvin, rapporteur général du projet de loi de finances, qui plaide pour un recours au 49.3",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-01T09:34:04+00:00",
+   "link": "https://www.franceinfo.fr/economie/budget/le-budget-sera-refuse-par-le-parlement-prevoit-philippe-juvin-rapporteur-general-du-projet-de-loi-de-finances-qui-plaide-pour-un-recours-au-49-3_8262554.html#xtor=RSS-3-[lestitres]"
   },
   {
    "title": "À Tarbes, des sépultures et des concessions abandonnées sont proposées à prix réduit pour les familles modestes",
@@ -356,18 +869,18 @@
    "link": "https://www.franceinfo.fr/economie/pouvoir-achat/tarif-fixe-ou-indexe-on-vous-explique-comment-s-y-retrouver-dans-la-jungle-des-prix-du-gaz-au-moment-ou-les-prix-flambent_8257390.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "Tom Hanks gets spooky as Mr. Pumpkins on ‘SNL’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-01T08:53:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX003bmFGRmFlWDVsS1g1bndON2RTREtEMkdLcTRCMTJfVWVSQ1lBT05FblFPOWxQcE9BakNPTm1fbDMwMTA4Rzg0LXREenZTT3FlNkJybXNDdnM1LUJnMXF2d0h5cEI5WjEzejBQekN1a3JxTEtYWTJMVUtTY3V2ejNsMXJFZmZFWlhBQXoyV1dhdlRESDhKT0dPb3pRY3p3S1ZLYWlhbnpUQQ?oc=5"
-  },
-  {
    "title": "US midterms: 2 days to go – what polls say as Trump, El-Sayed hit the trail",
    "source": "Al Jazeera",
    "lang": "en",
    "time": "2026-11-01T08:47:19+00:00",
    "link": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail?traffic_source=rss"
+  },
+  {
+   "title": "Tom Hanks gets spooky as Mr. Pumpkins on ‘SNL’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T08:45:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWtwUzVUR0VNYkRFU2ZfSmdCSnZNVkJIeS1JS2xmSU9PR21VREZzV3lWOTRxdE51NzlxX19PQVMwdkVRM3NjMVpSS2E2c3dwdGZjZTd1YWtkYlpYbEVyUm9HZ3M3YW95Z05mLU5RRTVkWXU0MFNmN0NQcUdaazlxRkNRSGd4N2J1MlA5ZmRXc2FYQ3otMWlIY3Y2MHB5WlE?oc=5"
   },
   {
    "title": "\"On ne passera pas le mois\" : trois communes de Côte-d'Or bientôt à court d'eau potable à cause de la sécheresse qui persiste",
@@ -552,13 +1065,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmy0r2y6zeddo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "\"Les familles se confient à moi, me racontent leur histoire\" : gardien de cimetière, Sébastien se sent utile aux autres",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-01T05:55:09+00:00",
-   "link": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/isere/grenoble/portrait-les-familles-se-confient-a-moi-me-racontent-leur-histoire-gardien-de-cimetiere-sebastien-se-sent-utile-aux-autres-3440661.html#xtor=RSS-3-[lestitres]"
-  },
-  {
    "title": "Watch: Heidi Klum as giant severed hand for Halloween bash",
    "source": "BBC News",
    "lang": "en",
@@ -671,6 +1177,13 @@
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/the-murder-of-javits-frimpong-a-bullied-schoolboy-in-the-bronx?traffic_source=rss"
   },
   {
+   "title": "CNN NewsNight with Abby Phillip",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-01T03:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oRWwwSk54Tk9CYlBvanVycG10c1BWX0VsQ2JSSS0wYlB6c2dydWNzWXc1N2FLbmRNQkxNZ2xUS3BUZGZHQzVfUUc0VzdYUWdjc3Qtc0t5SFBzZVIzTDRiU18ycjBkcWV4ZzgwQmtoUWRCQQ?oc=5"
+  },
+  {
    "title": "FBI blames North Korea for record $6.3bn crypto heist",
    "source": "Al Jazeera",
    "lang": "en",
@@ -724,7 +1237,7 @@
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-01T01:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb1o2VFpfdFFpV0p2dU1SZ05iTF94dGdmblZZZzRxdDdJdkg1a3J2U055Vkw2bnJQVEtSV2RHSXJxdFJfNWJDMjBibkt5ZGFMWjZkMlVGT2l4T2hZTEZDWHRPbXZqMUlMWFpUN0xUTFNBN1o3Y1BnOU1KcFpJS0txWUVxTGNGb0NQbnFxVmpDQWF6TWtCV2ItYQ?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ211VlRZWUxjeTVyZXBna1JYTkIxaUN4X2ZEa0w3M0RoNzJHdlVqeUVfX05KenEya3pQdVJ3TlRBUWxQY0FTSk5sWGxucHFTQjYzdHR1WnphMUV1b09DSDRZemZkUVB2ZTUzMTVPOWlrVWxNMERyajkzLVdrS1MzdXAwWWcwTHYtMWhZYXQ3UzBlVExKaWlWM20tOV9sZw?oc=5"
   },
   {
    "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
@@ -741,6 +1254,20 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/in-texas-hanno-gia-votato-75-milioni-di-elettori-e-record_e6d6a7cf-92b9-4b51-b23d-48e4620cca73.html"
   },
   {
+   "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-01T00:46:12+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-01T00:41:24+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Polish president holds crisis talks in court standoff",
    "source": "Al Jazeera",
    "lang": "en",
@@ -748,389 +1275,18 @@
    "link": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss"
   },
   {
+   "title": "Judge orders Trump administration to stop threatening US election officials",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-01T00:27:33+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Gen Z-led protests in Germany turn violent",
    "source": "Al Jazeera",
    "lang": "en",
    "time": "2026-11-01T00:27:20+00:00",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss"
-  },
-  {
-   "title": "Trump: 'Non abbiamo fretta sull'Iran, abbiamo uno o due siti di cui occuparci'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-01T00:22:16+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/trump-non-abbiamo-fretta-sulliran-abbiamo-uno-o-due-siti-di-cui_502b70e6-4f9b-4853-8ebe-e83d054eba8c.html"
-  },
-  {
-   "title": "India's opposition set to hold mega rally seeking election chief's resignation",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-01T00:12:07+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Città del Messico, parata da 1,6 milioni di spettatori per i defunti",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-01T00:09:10+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/01/citta-del-messico-parata-da-16-milioni-di-spettatori-per-i-defunti_2664dbd0-43ce-4d28-bdbf-9cd05bacac4b.html"
-  },
-  {
-   "title": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-01T00:00:51+00:00",
-   "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss"
-  },
-  {
-   "title": "ICE agent’s violent shove propels woman through the air",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T23:45:36+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/ice-agents-violent-shove-propels-woman-through-the-air?traffic_source=rss"
-  },
-  {
-   "title": "Comedians poke fun of Alaska’s Senate election controversy",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T23:42:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbkszbnRPbmxsNWpDdDJ3bnRzbmFuU1RmQUtmODNqSVRiUzJ3dDl1OWNyVGczakxKU25Xc29ub0dwMjlnZzlpRTB4Nk1abE5xOXFjSk5kWDJYRzhtd19GeFpFWnlhckNPOVdWWTQ3SzFfS0xETjZaWXI0MFdoZ3FTODFaRnlnMmViTGJuNWFWQk9ZU2FXdmhRTzhBR0tlTXUxS3NWWWhOSGVsVU1sVlFrRw?oc=5"
-  },
-  {
-   "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-31T23:06:13+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Dutch authorities rescue 38 people adrift in rubber boat",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T22:38:03+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/dutch-authorities-rescue-38-people-adrift-in-rubber-boat?traffic_source=rss"
-  },
-  {
-   "title": "Mamdani says Trump agrees to grant visa to mother of teen from Ghana killed in Bronx shooting",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T22:37:55+00:00",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wUlJwUjRVQ09odmRwbXVkcXRvSkU1WlQ0bWNJX2dOQjI1UHdtMjV0RmN6dEdZbklXVEJycDN5aFNNMzVIX0p1c3lpMW92QUg1OWpZenVCTHJwSFBTUHRhYlZYU3BVczNoMnluQlpUYlBUMV8yVXlR?oc=5"
-  },
-  {
-   "title": "Mamdani says Trump agrees to grant visa to mother of Ghanian teen killed in Bronx shooting",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T22:37:55+00:00",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wUlJwUjRVQ09odmRwbXVkcXRvSkU1WlQ0bWNJX2dOQjI1UHdtMjV0RmN6dEdZbklXVEJycDN5aFNNMzVIX0p1c3lpMW92QUg1OWpZenVCTHJwSFBTUHRhYlZYU3BVczNoMnluQlpUYlBUMV8yVXlR?oc=5"
-  },
-  {
-   "title": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T22:36:41+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/trump-loses-legal-battle-over-epstein-linked-wall-street-journal-case?traffic_source=rss"
-  },
-  {
-   "title": "Lite in stazione finisce a coltellate, un morto nel Frusinate",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T22:15:26+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/lite-in-stazione-finisce-a-coltellate-un-morto-nel-frusinate_0caf2441-edb1-43a2-b744-e208f103bf09.html"
-  },
-  {
-   "title": "'Fbi, Corea del Nord responsabile dell'attacco hacker a Binance'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T22:12:05+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/fbi-corea-del-nord-responsabile-dellattacco-hacker-a-binance_0ca5866c-982c-4d9b-92d3-cc6a4b371932.html"
-  },
-  {
-   "title": "Palestine Action supporters arrested outside US embassy in London",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T22:10:53+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss"
-  },
-  {
-   "title": "Mobilisation du 31 octobre : le ministère de l'Intérieur annonce 565 interpellations en France à 21 heures",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T21:59:28+00:00",
-   "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-31-octobre-suivez-cette-troisieme-journee-de-manifestations-pour-laquelle-le-gouvernement-prevoit-un-dispositif-de-securite-exceptionnel_8260562.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Un gendarme mobile victime d'un jet de cocktail molotov à Paris, à la fin de la manifestation du samedi 31 octobre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T21:58:02+00:00",
-   "link": "https://www.franceinfo.fr/societe/manifestations/un-gendarme-mobile-victime-d-un-jet-de-cocktail-molotov-a-paris-a-la-fin-de-la-manifestation-du-samedi-31-octobre_8262191.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Legal filing questions Trump’s claims of non-citizen voting in California",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T21:38:54+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/legal-filing-questions-trumps-claims-of-non-citizen-voting-in-california?traffic_source=rss"
-  },
-  {
-   "title": "Thousands demonstrate in Paris as protests spread across Europe",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-31T21:29:01+00:00",
-   "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Families reunite after months without food in occupied Ukrainian town",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T21:22:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3VpLVZneDB6VWJuQ0lsR2lpWFhOWUtjNHdyU3JLZkpiZzhZYTQyb3MxUy1paGNZWE8zVUFXel9Jbk9LUG5IY1YtM0VFVV9IU01idU9aMF9feTYtUmRma3RmZ2Zzc3NrVHBiM2VveXkyVjRxcDNRand6OGNVVnRKb2N1ZlpkakVBRktOempwTmZRa3JnRXRmc0ltQTZiZFhuakVmNWlrNEY0RF9XZFpuU1JicXJHSkY5UTNsV2s3SEk5QQ?oc=5"
-  },
-  {
-   "title": "Commissione Ue, 'presidente Polonia convalidi la nomina dei nuovi giudici'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T21:21:07+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/commissione-ue-presidente-polonia-convalidi-la-nomina-dei-nuovi-giudici_43d398cf-c569-4f54-83dd-36823b8855d4.html"
-  },
-  {
-   "title": "Olivia Rodrigo gives Amy Acton flowers during Ohio concert",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T21:17:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY0hoekp6WWxQVXd1VndpNXBfLXhQSkhxYnRqZW84Rk5aZU9NUkxmNDZ0R3dPZ0pKVmtQVXBCcmtTQlFfT2FYaXZuYTgxNTV4UF9ldzhkY0pGbUEweUp3eF8zLTQ2eWJtLVpYczg4RFlIR1JaR3lsWEhkdUFPV3B3OGF2WWR6aTRZZDg4UDRQQV9GLXZnOEhQNVlmdTdhSWtfS0thLW8xNmpnMFV2?oc=5"
-  },
-  {
-   "title": "Fiery confrontations between protestors and police in Albania",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T21:12:46+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/fiery-confrontations-between-protestors-and-police-in-albania?traffic_source=rss"
-  },
-  {
-   "title": "On Day of the Dead, tourists bump shoulders with celebrating families in San Andrés Mixquic",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T21:07:47+00:00",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YTnRWaW5sTDNlQkEzclNmNldsb1FDQ2xiYVB1b2pfZ0ppYkp4YVgwdkxhQXRfd0dSOFBvcTVscFBPSUFxZVBISUw1VFdwZ3FjM3ZvTXI1M2cwSzZpRzZVQ1hoblpkdy1ETWhONndYNmszZDBhUExKem9pR3Nobk0?oc=5"
-  },
-  {
-   "title": "Health authorities probe two suspected Ebola cases in northeast Nigeria",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T21:01:19+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/health-authorities-probe-two-suspected-ebola-cases-in-northeast-nigeria?traffic_source=rss"
-  },
-  {
-   "title": "Cinq Britanniques interpellés jeudi dans le Nord pour des actions anti-migrants",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T20:35:01+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/migrants/cinq-britanniques-interpelles-jeudi-dans-le-nord-pour-des-actions-anti-migrants_8262203.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T20:30:35+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/district-of-columbia-and-virginia-sue-to-block-trumps-triumphal-arch-plans?traffic_source=rss"
-  },
-  {
-   "title": "Judge tosses Trump’s lawsuit against Wall Street Journal again, this time for good",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T20:26:42+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXNTWHF0Q2JBV0Z2Zm1kX0VwbHpQTENoSnpTeUYzMDRGdGxoU2dLWkhZX3E4Mm1MZV94TjkyZXRldEVOX1pDUm9QUUFnZGZLUFp1MDZaM3BsWnFKYVhESTJoaGFnWlhoTGVScVQ0SWszRFhBLW5JYXpPd1lhOTVKQm1tOUZUMXlUNHowUlBLZ0JBUQ?oc=5"
-  },
-  {
-   "title": "Israel’s allegations of Qatari election interference rejected",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T20:24:58+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss"
-  },
-  {
-   "title": "Record numbers of election monitors expected at polls",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T20:14:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON2lkSUxFTXFESHdNLTQ2SXpPRDIySDJ3V01TWi1JN3ZwdS13RTlXRTV3T3hQejRSMmpGQS1WbFplUkJtdElDV3BOQTdhRDUzeTZGSTRVOGNyVldnX3R6SGdYYlcxWWJqVDdVcFZwREtCRFprQjR1bnRQUEdLXzZEWkhMT0xtZ0NpQXlORmpDdVZxUjhMTmFyQ21vc0JDZHlST2lJWTdNY1BXRjg?oc=5"
-  },
-  {
-   "title": "What is ranked-choice voting and how does it work in US elections?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T20:11:37+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/what-is-ranked-choice-voting-and-how-does-it-work-in-us-elections?traffic_source=rss"
-  },
-  {
-   "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T20:09:18+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss"
-  },
-  {
-   "title": "Mobilisation du 31 octobre : \"Les cortèges se sont bien déroulés\", malgré la \"violence inouïe\" de \"casseurs\", constate Laurent Nuñez",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T19:52:44+00:00",
-   "link": "https://www.franceinfo.fr/societe/manifestations/video-mobilisation-du-31-octobre-les-corteges-se-sont-bien-deroules-malgre-la-violence-inouie-de-casseurs-constate-laurent-nunez_8262167.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Michigan man charged with threatening to kill FBI Director Kash Patel",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T19:47:20+00:00",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1feS1RRXZiV2hmWlNKb0NsZHl2OEtPZHJTbzRydVZrZEY2akJqeV91dDNtNWlEdC1ZMjdnVXRfRVhVQ05rbG5nUmVtM241TVFDSTlCXzZJaUtfSEc0NjJLakxIczllX3B1UEUxS1k5X1lrNG8?oc=5"
-  },
-  {
-   "title": "CNN Stream",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T19:38:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWTDRYY0wwSmlQazRXUzN1TlFVQnY1NThJSzloU25abVhBMllIWEVxdDlxcWVVT2htMFpTOTE5M3FVQnNkYzVUNEc4ZkhuR2VYSkhKWFN5eUItNjctU2g2VWRxYWlwMWNQVlE?oc=5"
-  },
-  {
-   "title": "Clashes erupt between police and protesters in Paris",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-31T19:37:43+00:00",
-   "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Paxton Rally in Fort Worth",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T19:30:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb29odE96T1FNMnJyanVycG1XV2EyWE96ck80Y3BxQmtNUTNiVWVaVGVRQmN3c1BQT0NfcHZ2MGFUUWdKUlpfLWh6bkR5ekF5bURPSjFiMUl6UEZCR1R0QmU2b3dsdmFDY3ZycDhfUjRCWGExdFl5Y3AweEhaaU1FRUJlTQ?oc=5"
-  },
-  {
-   "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-31T19:22:26+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Tusk, 'attacco alla Corte è nuova violazione dello stato di diritto del Pis'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T19:21:39+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/tusk-attacco-alla-corte-e-nuova-violazione-dello-stato-di-diritto-del_da89c096-6261-47fc-92b8-654d4e2218b4.html"
-  },
-  {
-   "title": "How vulnerable are cryptocurrency platforms?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T19:19:29+00:00",
-   "link": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms?traffic_source=rss"
-  },
-  {
-   "title": "Palestinians ‘Stealing their own olives’",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T19:18:32+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/palestinians-stealing-their-own?traffic_source=rss"
-  },
-  {
-   "title": "\"On va continuer à être dans la rue\" : à Marseille, un cortège non déclaré rassemble environ 10 000 personnes lors de la mobilisation du 31 octobre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T19:05:27+00:00",
-   "link": "https://www.franceinfo.fr/societe/manifestations/reportage-on-va-continuer-a-etre-dans-la-rue-a-marseille-un-cortege-non-declare-rassemble-environ-10-000-personnes-lors-de-la-mobilisation-du-31-octobre_8262104.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T18:48:29+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss"
-  },
-  {
-   "title": "L'évacuation de la ville d'Olechky, un exemple réussi mais encore isolé de cessez-le-feu humanitaire entre l'Ukraine et la Russie",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T18:43:56+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-evacuation-de-la-ville-d-olechky-un-exemple-reussi-mais-encore-isole-de-cessez-le-feu-humanitaire-entre-l-ukraine-et-la-russie_8261840.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Evacuees of Russian-occupied Oleshky reunited with families",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T18:32:20+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss"
-  },
-  {
-   "title": "Conte a Schlein, su Renzi no veti personali, ma senza garanzie non ci stiamo",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T18:30:19+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/conte-a-schlein-su-renzi-no-veti-personali-ma-senza-garanzie-non-ci-stiamo_dd43c13f-073b-455b-a6d8-afed4e8732a8.html"
-  },
-  {
-   "title": "Tension and clashes as hundreds of thousands protest again in France",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T18:28:14+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss"
-  },
-  {
-   "title": "Salvini, 'se il Parlamento vuole un contributo maggiore dalle banche è sovrano'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T18:06:27+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/salvini-se-il-parlamento-vuole-un-contributo-maggiore-dalle-banche-e-sovrano_43cbac03-32c2-46d6-bc0c-8cd83afb00a4.html"
-  },
-  {
-   "title": "\"On a été entendus mais on a aussi été méprisés\" : à Paris, des lycéens toujours mobilisés mais partagés sur la suite à donner au mouvement",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T18:05:50+00:00",
-   "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/reportage-on-a-ete-entendus-mais-on-a-aussi-ete-meprises-a-paris-des-lyceens-toujours-mobilises-mais-partages-sur-la-suite-a-donner-au-mouvement_8262062.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Emmanuel Macron \"devra céder ou partir\", répète Jean-Luc Mélenchon après avoir manifesté",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T18:03:05+00:00",
-   "link": "https://www.franceinfo.fr/elections/presidentielle/emmanuel-macron-devra-ceder-ou-partir-repete-jean-luc-melenchon-apres-avoir-manifeste_8262101.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-10-31T17:53:35+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Des habitants évacués d'Olechky, ville sous occupation russe, sont arrivés en Ukraine",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-10-31T17:50:29+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-habitants-evacues-d-olechky-ville-occupee-par-la-russie-sont-arrives-en-ukraine_8261879.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-10-31T17:49:23+00:00",
-   "link": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss"
-  },
-  {
-   "title": "Salvini, io non pagherei per avere la targa personalizzata",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-10-31T17:46:30+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/10/31/salvini-io-non-pagherei-per-avere-la-targa-personalizzata_d15dbe5d-a73f-41e1-9b9b-473f5b1f6bd3.html"
-  },
-  {
-   "title": "Diplomacy or Renewed War with Iran?",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-10-31T17:45:25+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ0FUaW0zY2FfOFZyUzgxSjNCTDZuSW4zdjhyQ3E0S1ZVM1BCd2N0V2dWVXpjUFQ4a094SVhMYy1CZDRxSTZ0R2JLcFZuSlNiQ0RlT09ZeTNFWUtBSTR3dHFmbm9sVVlhYnZ0WXloa0IwVDJoODFTM2RsOFd3MlE3NlZMakVQNTNNRnlyc1ItN3ZUekE?oc=5"
   }
  ]
 }
