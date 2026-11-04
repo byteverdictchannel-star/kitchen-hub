@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-04T17:41:05+00:00",
+ "updated": "2026-11-04T22:54:52+00:00",
  "items": [
   {
-   "title": "Le ministre de l'Education nationale annonce une plainte après un tir de mortier dans l'enceinte d'un lycée de Lille",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T17:35:23+00:00",
-   "link": "https://www.franceinfo.fr/faits-divers/le-ministre-de-l-education-nationale-annonce-une-plainte-apres-un-tir-de-mortier-dans-l-enceinte-d-un-lycee-de-lille_8268086.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Palestinian citizens of Israel face intimidation after election success",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T17:14:21+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/4/palestinians-face-intimidation-after-election-success?traffic_source=rss"
-  },
-  {
-   "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-04T17:02:44+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-04T22:48:43+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
+   "title": "Mobilisation du 5 novembre : la justice valide l'interdiction de la manifestation parisienne entre Bastille et Concorde, la CGT accepte le parcours République-Nation",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T22:46:24+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/le-ministere-de-l-education-nationale-estime-a-17-54-le-taux-de-grevistes-dans-le-premier-degre-public-pour-la-mobilisation-du-5-novembre_8267255.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Sudan factories struggle to restart after devastating wartime losses",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T22:31:09+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss"
+  },
+  {
+   "title": "Tillis says no single element led to GOP losing seats in Congress",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-04T16:37:19+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZDlUSVFnMHlyWHRRZjdjdEVDM3c5WkZoRmtjVjNLTmdONmpBZmtxTUlhblV0ZUNERDBzU0hIeWhaeWdDV3JfRkVwZHhKSk5YbFlKdnFJaHN5STY2OUZTeGFzTU0tZEdLYWYwWWN4cTg0ZHR5cDQzdXlWZEJ2RklnODBsWHh6QlM0UndyM2hScVZxeGRFRWc?oc=5"
+   "time": "2026-11-04T22:30:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0xPUG54WFFGUkpfMEdwdG1XV0N6VE0wbVlCZmNfdHVRVWF0cHhpdVVKaG1TWkxyWkx4azRhcEs4Sm1BMVhvaWItMkNjWWJVYTYteVNna244OGswX0tTeC1sXzNjeFJmWUVCX1N0WEtSWXExTEtBRFlxREZTaHFlZTA4MzBrSjd4b1p4RnVPVjFpRU5fLWc?oc=5"
   }
  ],
  "breaking": null,
@@ -49,24 +49,52 @@
  "alerted": [],
  "phone": [
   {
-   "title": "Palestinian citizens of Israel face intimidation after election success",
-   "source": "Al Jazeera",
+   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+   "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-04T17:14:21+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/4/palestinians-face-intimidation-after-election-success?traffic_source=rss"
+   "time": "2026-11-04T22:48:43+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "The new Congress may struggle to push a progressive agenda",
+   "title": "Sudan factories struggle to restart after devastating wartime losses",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-11-04T17:05:09+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/4/the-new-congress-may-struggle-to-push-a-progressive-agenda?traffic_source=rss"
+   "time": "2026-11-04T22:31:09+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss"
+  },
+  {
+   "title": "Tillis says no single element led to GOP losing seats in Congress",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:30:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0xPUG54WFFGUkpfMEdwdG1XV0N6VE0wbVlCZmNfdHVRVWF0cHhpdVVKaG1TWkxyWkx4azRhcEs4Sm1BMVhvaWItMkNjWWJVYTYteVNna244OGswX0tTeC1sXzNjeFJmWUVCX1N0WEtSWXExTEtBRFlxREZTaHFlZTA4MzBrSjd4b1p4RnVPVjFpRU5fLWc?oc=5"
+  },
+  {
+   "title": "Republicans quickly turn against Pete Hegseth after midterms rout",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:14:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wTGgwc1I2REpsU3p0aktpWnd0TnNEbXRDRmREeGZVYjl6TFp4bkFucWdvS2Rqb2NiZXM5Vms0Zk9kT084eEJPeHJEWWliSFE5NjRhTGg2eU5iQ25xVmlCNmhfNjdwc1JYd2Iwdzlob1BNQkR2a2xmZS1n?oc=5"
+  },
+  {
+   "title": "Trump Reacts to Massive GOP Election Defeat",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:06:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZjaTVwUUp2eTlCMm5YcWtGZTdIQUFaZkx1VEh4aHZqRTRIR2pNVjZuNzBDenJ0TUtzM3NhdFA1SXJmclNZRWlTcEVVM0JrcjdWR2M1aUN6WHdUOGJxWnVnTUdXR3dRWDNJcE41WGIxaDVJVFU1Ui1OLVRYX0IxWjl0aEotaEMxY0ViTFkyWW9DRjg?oc=5"
+  },
+  {
+   "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T22:06:24+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss"
   },
   {
    "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-04T17:02:44+00:00",
+   "time": "2026-11-04T18:01:31+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -75,34 +103,6 @@
    "lang": "en",
    "time": "2026-11-04T16:59:15+00:00",
    "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T16:37:19+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZDlUSVFnMHlyWHRRZjdjdEVDM3c5WkZoRmtjVjNLTmdONmpBZmtxTUlhblV0ZUNERDBzU0hIeWhaeWdDV3JfRkVwZHhKSk5YbFlKdnFJaHN5STY2OUZTeGFzTU0tZEdLYWYwWWN4cTg0ZHR5cDQzdXlWZEJ2RklnODBsWHh6QlM0UndyM2hScVZxeGRFRWc?oc=5"
-  },
-  {
-   "title": "The young politicians with African roots making history in the US midterms",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T16:34:32+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmrly6j6lpydo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "James Talarico says Ken Paxton has not called him yet",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T16:21:10+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOUtlWEJEelEwRENxUTItYURpaWVaVXNwSmxEeVFTZ3JhN05zNHNiVC1PekEyeHNoZGVfMDc1Y2U4YnJNTTJ5UHhBaTYtUlY3bWN0bmZCWkplejVqdmVWazNRRFV3Q1hKZld4MlNZNnpUTVY1YzlrdkJrR1VRUmRfTnN3?oc=5"
-  },
-  {
-   "title": "Talarico advocates for bipartisanship in first CNN interview after victory",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T15:58:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU20wZ2dmc3h4T1dHeEZhbVBuRlh5VVZsNmpONFRNTDJGWkdCYW1fUkNQQkhWNmJTUGFvR0tuMVc3YjhVVU5qUTFBcG5ENVcwQkVKYktDV1RhZFlDNHBObkxBeHkxRGRzQUp5UDJvV3NINXdLeFc3RGs1OGZMdWRaT0Vac2dZMlhaZ2tUY3IydVBMcmVZUjR6OEFibW9xeW5DZUE?oc=5"
   }
  ],
  "podcasts": [
@@ -156,50 +156,14 @@
   }
  ],
  "overnight": {
-  "since": "2026-11-03T22:00+04:00",
+  "since": "2026-11-04T22:00+04:00",
   "items": [
    {
-    "title": "US markets rise as Democrats sweep midterm elections",
-    "source": "Al Jazeera",
+    "title": "The biggest winners and losers of the 2026 midterm elections",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss",
-    "time": "2026-11-04T03:05:00+00:00",
-    "sources": [
-     "Al Jazeera",
-     "BBC News",
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
-    "source": "franceinfo",
-    "lang": "fr",
-    "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-11-04T02:08:41+00:00",
-    "sources": [
-     "franceinfo"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Democratic voters celebrate El-Sayed’s Michigan win in election ‘blue wave’",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democratic-voters-celebrate-el-sayeds-michigan-win-in-election-blue?traffic_source=rss",
-    "time": "2026-11-04T05:39:36+00:00",
-    "sources": [
-     "Al Jazeera",
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "‘We are still red,’ Florida’s first Black governor upon win",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/we-are-still-red-floridas-first-black-governor-upon-win?traffic_source=rss",
-    "time": "2026-11-04T02:25:51+00:00",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BOERhYzRtM1puWFc1QUg4czZIM0g3T3NBZ3lmZTk1U0h2Ym1hSXNoYWVJYTVscmNSOWFxZGlvdlNvSjRwdldtamJmOVd2RlNaelE4c1VBSFdPRHdZUm9ORXNvUk4xMEZqTFNvblJWbzVTY1RBLS1lN19aamRQdw?oc=5",
+    "time": "2026-11-04T18:52:25+00:00",
     "sources": [
      "Al Jazeera",
      "CNN"
@@ -207,101 +171,128 @@
     "breaking": false
    },
    {
-    "title": "Le ministre de l'Education nationale annonce une plainte après un tir de mortier dans l'enceinte d'un lycée de Lille",
-    "source": "franceinfo",
-    "lang": "fr",
-    "link": "https://www.franceinfo.fr/faits-divers/le-ministre-de-l-education-nationale-annonce-une-plainte-apres-un-tir-de-mortier-dans-l-enceinte-d-un-lycee-de-lille_8268086.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-11-04T08:42:37+00:00",
+    "title": "US midterm election results live: Trump blames Iran war after losses",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+    "time": "2026-11-04T19:15:50+00:00",
     "sources": [
-     "franceinfo"
+     "Al Jazeera"
     ],
     "breaking": false
    },
    {
-    "title": "I futures su gas naturale crollano a 85,32 euro",
+    "title": "Manovra: ira opposizioni, 'grave Gusmeroli relatore, Salvini commissaria Giorgetti'",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/i-futures-su-gas-naturale-crollano-a-8532-euro_323833bf-85ea-41b0-a6dc-955c42235742.html",
-    "time": "2026-11-04T17:21:46+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/manovra-ira-opposizioni-grave-gusmeroli-relatore-salvini-commissaria-giorgetti_666a1c36-9399-4db5-83f8-96b15d791903.html",
+    "time": "2026-11-04T18:27:54+00:00",
     "sources": [
      "ANSA"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+    "time": "2026-11-04T18:13:01+00:00",
+    "sources": [
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Mobilisation du 5 novembre : la justice valide l'interdiction de la manifestation parisienne entre Bastille et Concorde, la CGT accepte le parcours République-Nation",
+    "source": "franceinfo",
+    "lang": "fr",
+    "link": "https://www.franceinfo.fr/societe/manifestations/le-ministere-de-l-education-nationale-estime-a-17-54-le-taux-de-grevistes-dans-le-premier-degre-public-pour-la-mobilisation-du-5-novembre_8267255.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-04T22:46:24+00:00",
+    "sources": [
+     "franceinfo"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Midterms 2026 : le chef des députés républicains va se retirer, le démocrate Hakeem Jeffries en lice pour présider la Chambre des représentants",
+    "source": "franceinfo",
+    "lang": "fr",
+    "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-nette-avance-democrate-au-congres-des-premieres-victoires-historiques-suivez-les-resultats-des-elections-de-mi-mandat_8265776.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-04T22:45:56+00:00",
+    "sources": [
+     "franceinfo"
     ],
     "breaking": false
    }
   ]
  },
  "overnightEn": {
-  "since": "2026-11-03T22:00+04:00",
+  "since": "2026-11-04T22:00+04:00",
   "items": [
    {
-    "title": "US markets rise as Democrats sweep midterm elections",
-    "source": "Al Jazeera",
+    "title": "The biggest winners and losers of the 2026 midterm elections",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss",
-    "time": "2026-11-04T03:05:00+00:00",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BOERhYzRtM1puWFc1QUg4czZIM0g3T3NBZ3lmZTk1U0h2Ym1hSXNoYWVJYTVscmNSOWFxZGlvdlNvSjRwdldtamJmOVd2RlNaelE4c1VBSFdPRHdZUm9ORXNvUk4xMEZqTFNvblJWbzVTY1RBLS1lN19aamRQdw?oc=5",
+    "time": "2026-11-04T18:52:25+00:00",
     "sources": [
      "Al Jazeera",
-     "BBC News",
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "Democratic voters celebrate El-Sayed’s Michigan win in election ‘blue wave’",
+    "title": "US midterm election results live: Trump blames Iran war after losses",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democratic-voters-celebrate-el-sayeds-michigan-win-in-election-blue?traffic_source=rss",
-    "time": "2026-11-04T05:39:36+00:00",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+    "time": "2026-11-04T19:15:50+00:00",
     "sources": [
-     "Al Jazeera",
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+    "time": "2026-11-04T18:13:01+00:00",
+    "sources": [
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-04T22:48:43+00:00",
+    "sources": [
      "BBC News"
     ],
     "breaking": false
    },
    {
-    "title": "‘We are still red,’ Florida’s first Black governor upon win",
+    "title": "Sudan factories struggle to restart after devastating wartime losses",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/we-are-still-red-floridas-first-black-governor-upon-win?traffic_source=rss",
-    "time": "2026-11-04T02:25:51+00:00",
+    "link": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+    "time": "2026-11-04T22:31:09+00:00",
     "sources": [
-     "Al Jazeera",
-     "CNN"
+     "Al Jazeera"
     ],
     "breaking": false
    },
    {
-    "title": "South Carolina elects Democratic senator for first time in almost three decades",
-    "source": "BBC News",
+    "title": "Tillis says no single element led to GOP losing seats in Congress",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-04T03:16:44+00:00",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0xPUG54WFFGUkpfMEdwdG1XV0N6VE0wbVlCZmNfdHVRVWF0cHhpdVVKaG1TWkxyWkx4azRhcEs4Sm1BMVhvaWItMkNjWWJVYTYteVNna244OGswX0tTeC1sXzNjeFJmWUVCX1N0WEtSWXExTEtBRFlxREZTaHFlZTA4MzBrSjd4b1p4RnVPVjFpRU5fLWc?oc=5",
+    "time": "2026-11-04T22:30:35+00:00",
     "sources": [
-     "BBC News",
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/republicans-fuming-after-democrat-talarico-flips-texas-senate-blue?traffic_source=rss",
-    "time": "2026-11-04T05:05:41+00:00",
-    "sources": [
-     "Al Jazeera",
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Trump loses control of Congress",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-loses-control-of-congress?traffic_source=rss",
-    "time": "2026-11-04T05:04:08+00:00",
-    "sources": [
-     "Al Jazeera",
      "CNN"
     ],
     "breaking": false
@@ -310,6 +301,377 @@
  },
  "breakingLog": [],
  "history": [
+  {
+   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-04T22:48:43+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Mobilisation du 5 novembre : la justice valide l'interdiction de la manifestation parisienne entre Bastille et Concorde, la CGT accepte le parcours République-Nation",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T22:46:24+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/le-ministere-de-l-education-nationale-estime-a-17-54-le-taux-de-grevistes-dans-le-premier-degre-public-pour-la-mobilisation-du-5-novembre_8267255.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Midterms 2026 : le chef des députés républicains va se retirer, le démocrate Hakeem Jeffries en lice pour présider la Chambre des représentants",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T22:45:56+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-nette-avance-democrate-au-congres-des-premieres-victoires-historiques-suivez-les-resultats-des-elections-de-mi-mandat_8265776.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Sudan factories struggle to restart after devastating wartime losses",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T22:31:09+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss"
+  },
+  {
+   "title": "Tillis says no single element led to GOP losing seats in Congress",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:30:35+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0xPUG54WFFGUkpfMEdwdG1XV0N6VE0wbVlCZmNfdHVRVWF0cHhpdVVKaG1TWkxyWkx4azRhcEs4Sm1BMVhvaWItMkNjWWJVYTYteVNna244OGswX0tTeC1sXzNjeFJmWUVCX1N0WEtSWXExTEtBRFlxREZTaHFlZTA4MzBrSjd4b1p4RnVPVjFpRU5fLWc?oc=5"
+  },
+  {
+   "title": "Republicans quickly turn against Pete Hegseth after midterms rout",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:14:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wTGgwc1I2REpsU3p0aktpWnd0TnNEbXRDRmREeGZVYjl6TFp4bkFucWdvS2Rqb2NiZXM5Vms0Zk9kT084eEJPeHJEWWliSFE5NjRhTGg2eU5iQ25xVmlCNmhfNjdwc1JYd2Iwdzlob1BNQkR2a2xmZS1n?oc=5"
+  },
+  {
+   "title": "Trump Reacts to Massive GOP Election Defeat",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T22:06:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2ZjaTVwUUp2eTlCMm5YcWtGZTdIQUFaZkx1VEh4aHZqRTRIR2pNVjZuNzBDenJ0TUtzM3NhdFA1SXJmclNZRWlTcEVVM0JrcjdWR2M1aUN6WHdUOGJxWnVnTUdXR3dRWDNJcE41WGIxaDVJVFU1Ui1OLVRYX0IxWjl0aEotaEMxY0ViTFkyWW9DRjg?oc=5"
+  },
+  {
+   "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T22:06:24+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss"
+  },
+  {
+   "title": "Législatives en Israël : Benyamin Nétanyahou évoque \"de graves soupçons\" d'ingérences étrangères",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T22:05:26+00:00",
+   "link": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/legislatives-en-israel-benyamin-netanyahou-evoque-de-graves-soupcons-d-ingerences-etrangeres_8268485.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Social media reacts to Democrats’ takeover of US Congress",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T21:21:58+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss"
+  },
+  {
+   "title": "Israel restricting treatment for 1,100 child amputees in Gaza: NGO",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T21:13:56+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/israel-restricting-treatment-for-1100-child-amputees-in-gaza-ngo?traffic_source=rss"
+  },
+  {
+   "title": "La mère d'élèves suspectée d'avoir commis une agression dans une école de Nice mise en examen et placée en détention provisoire",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T21:12:40+00:00",
+   "link": "https://www.franceinfo.fr/faits-divers/la-mere-d-eleves-suspectee-d-avoir-commis-une-agression-dans-une-ecole-de-nice-mise-en-examen-et-placee-en-detention-provisoire_8268437.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "How Mississippi became an unlikely Senate battleground",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T21:00:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObzkxTjNWcmdKXzJycGtCaGhaazZxeDg2Y3VEdFJnWmJ3dFhnVVlGN05LcThCWS1UWFVNN2YwQWVzemdUblh4WTZGTnVDbTVhaDJ4RklrV2E0UllVcjFDU253OVF3UVdQOWlwZnRQaGFDNzg5LVI0Z2V4ZEpyaWZFR3ZfN0VPTXgxc1RVa3NGY1hUWGpNOGg5blplTktCMFp3Zndr?oc=5"
+  },
+  {
+   "title": "Podiatrists say these are the best shoes for underpronation to keep your feet comfortable",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T21:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPanc1cmZwU0c4cmJPSjE1VjAwSHVMQVlFT3JZdVQyYTdETE1Sb0FxY3NZUXh1SktsZ25VeFZOY1dVWVh3eTdPTFZoYVhybTVuTWlnUTdnTC1hdFJLd09SZ3A5WGpWLWtkem1TMU13WW5JU19xMGpHeVNtQ0RGRHdHclJsblliSnM?oc=5"
+  },
+  {
+   "title": "US midterm election results live: Trump blames Iran war after losses",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T21:00:00+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss"
+  },
+  {
+   "title": "Democrat leaders hail midterm election success",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T20:50:31+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss"
+  },
+  {
+   "title": "Clous, aiguilles et épingles dans des bonbons d'Halloween... Des enquêtes ouvertes dans plusieurs pays d'Europe centrale, une fillette blessée en Autriche",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T20:46:29+00:00",
+   "link": "https://www.franceinfo.fr/decouverte/halloween/clous-aiguilles-et-epingles-dans-des-bonbons-d-halloween-des-enquetes-ouvertes-dans-plusieurs-pays-d-europe-centrale-une-fillette-blessee-en-autriche_8268428.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T20:31:56+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss"
+  },
+  {
+   "title": "Will the US resume its attacks on Iran?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T20:25:50+00:00",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/4/will-the-us-resume-its-attacks-on-iran?traffic_source=rss"
+  },
+  {
+   "title": "Effigy of FIFA president Infantino chosen for Edenbridge bonfire night",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T20:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTnkyUWIzLWliY09xeGpYWW5lQkprTl93cUZyT2t0VzEybXQwTWlYV1Z0WElpUzNoMUNSUFk5bnFYdEVoM3RYNjFHWHFPYy1uRUV1eTUta1FhcXAxamE3YjltcWZhUlhBZmZUTy1hZHczVEtXNFZia2xLbVZ1d1M4LTAzWDNKbllKRHhDLXRPWC01b0pyTXBvNkEyVXBLLUZoQ3N3OXFmbFBXTExYbGtuMXFUcw?oc=5"
+  },
+  {
+   "title": "The biggest winners and losers of the 2026 midterm elections",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T20:15:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BOERhYzRtM1puWFc1QUg4czZIM0g3T3NBZ3lmZTk1U0h2Ym1hSXNoYWVJYTVscmNSOWFxZGlvdlNvSjRwdldtamJmOVd2RlNaelE4c1VBSFdPRHdZUm9ORXNvUk4xMEZqTFNvblJWbzVTY1RBLS1lN19aamRQdw?oc=5"
+  },
+  {
+   "title": "'Stop right now!': Reps. Crenshaw and Raskin have heated debate over the future of Congress",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T20:12:36+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYl9LeUhGUFRTUkRPNFZWQXpaaW1hZlFxaXg2ZzNrM1gwZnU2azZGWnNoNGpHODcxXzI3TGlCbUswcmtxTUZwcWN2Wi1vMkdLRVJVbTY5cDI2dUtpMTNWelMxaUVoY2lfbXRFV1VHM1RERUkwVFZGSldrWEJvZjJOS3ByZ3lzdUhzSUY5VW1qUGxDODNZcHlqR1J3?oc=5"
+  },
+  {
+   "title": "Iranians celebrate Democrat victory in US midterms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:59:14+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms?traffic_source=rss"
+  },
+  {
+   "title": "++ Il petrolio chiude con un tonfo a New York, -8,26% con la vittoria dem alle midterm ++",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T19:51:13+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/il-petrolio-chiude-con-un-tonfo-a-new-york-826-con-la-vittoria-dem_8f3215dc-4514-4342-a38d-4b9cf832b5be.html"
+  },
+  {
+   "title": "TGV, TER, RER... La SNCF dévoile son plan de circulation à la veille de la mobilisation du 5 novembre",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T19:51:08+00:00",
+   "link": "https://www.franceinfo.fr/economie/greve/greve/tgv-ter-rer-la-sncf-devoile-son-plan-de-circulation-a-la-veille-de-la-mobilisation-du-5-novembre_8268011.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Democratic progressive wing notches win in California Central Valley",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:50:37+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/democratic-progressive-wing-notches-win-in-california-central-valley?traffic_source=rss"
+  },
+  {
+   "title": "Hakeem Jeffries promises ‘affordability’ focus after Democratic midterm win",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:30:41+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/hakeem-jeffries-promises-affordability-focus-after-democratic-midterm-win?traffic_source=rss"
+  },
+  {
+   "title": "Guerre en Ukraine : Volodymyr Zelensky accorde une décoration à Melania Trump pour son engagement \"humanitaire\"",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T19:29:15+00:00",
+   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymyr-zelensky-accorde-une-decoration-a-melania-trump-pour-son-engagement-humanitaire_8268350.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "WHO approves trials for two new Ebola vaccines",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:22:09+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss"
+  },
+  {
+   "title": "US midterms 2026: What key races remain undecided?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:18:47+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/us-midterms-2026-what-key-races-remain-undecided?traffic_source=rss"
+  },
+  {
+   "title": "How US midterm results could reshape Trump’s foreign policy",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T19:15:50+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126?traffic_source=rss"
+  },
+  {
+   "title": "Security guard stops gunman who drove into Tampa-area Citibank Center and opened fire, killing a woman",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T19:14:31+00:00",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93RWRhUnlDS2FvdFRnNnNVMmdWRkU1RVNKTkZTR3BWRXVVNDQ5cDdzd3pDdFdUcXZfTlktS0xIcDJYUUxuWVAxVDFZUEdCa0w5Wk9DRnZtYXE1X3NKXzlRUTNjVXFJSFpqbkRuSUlVOW50Y1BKd0xV?oc=5"
+  },
+  {
+   "title": "La journée de mobilisation du 5 novembre \"classée à risque\" par le renseignement territorial, 70 000 policiers et gendarmes mobilisés",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T19:07:03+00:00",
+   "link": "https://www.franceinfo.fr/societe/manifestations/mobilisation-du-5-novembre-une-journee-classee-a-risque-par-le-renseignement-territorial_8267621.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "\"Il était le meilleur choix possible\" : dans la ville du nouveau sénateur du Texas James Talarico, les démocrates espèrent que les midterms \"apporteront du changement\"",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T19:02:10+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/reportage-il-etait-le-meilleur-choix-possible-dans-la-ville-du-nouveau-senateur-du-texas-james-talarico-les-democrates-esperent-que-les-midterms-apporteront-du-changement_8268125.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "The biggest winners and losers of the 2026 US midterms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T18:52:25+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss"
+  },
+  {
+   "title": "Jeffries hasn’t talked to Trump and doesn’t list impeachment as top priority",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T18:51:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHhBcmJIMGtvY2doMHhEbkJKT1EteFB1OGdrUXZpSHotc1hlV2IyVHN1Wm51ODd5QzFOOGQ1QkR6M1IzcVZUcWlCamV1ZEl4dkwxazEta0RwZWRFYUJvOXJ5cHdkMDRMZXFkUUItM2h1WW96RHMxTmN2Wlp1QS1wSU4tTHE0SllEOHBkNmlqck9ZMDQ?oc=5"
+  },
+  {
+   "title": "Trump, non valuto di sostituire Hegseth, sta facendo un grande lavoro",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:48:39+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/trump-non-valuto-di-sostituire-hegseth-sta-facendo-un-grande-lavoro_aa28a612-f2d4-442a-8477-05bfe01d51bd.html"
+  },
+  {
+   "title": "Manovra: FdI alle Regioni, le risorse non sono infinite",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:43:52+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/manovra-fdi-alle-regioni-le-risorse-non-sono-infinite_531bcdea-6ddd-4182-b95a-51c699a0206b.html"
+  },
+  {
+   "title": "Manovra: Vietri (FdI), presenterò un emendamento per riaprire il condono del 2003",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:43:31+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/manovra-vietri-fdi-presentero-un-emendamento-per-riaprire-il-condono-del-2003_3efecbce-73a8-4ef4-b4c4-fba4e1d7010a.html"
+  },
+  {
+   "title": "1 killed and 2 hurt in small helicopter crash off Miami, officials say",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T18:37:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DLWVMUll2Yl81c2NVbVVaemk2bnhVdGdIdnFaQXZPdGtKb2FrTnFCZmxnRU5Fc1RUVkFsU1R6bGRLbHdMdlJJdlBxY21VQktTdzFhWGtTNnozNURkTE1NbVp3RjRRRE1hUUhfS2lCMWhBRkdzN29BN2gzQQ?oc=5"
+  },
+  {
+   "title": "Manovra: ira opposizioni, 'grave Gusmeroli relatore, Salvini commissaria Giorgetti'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:35:33+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/manovra-ira-opposizioni-grave-gusmeroli-relatore-salvini-commissaria-giorgetti_666a1c36-9399-4db5-83f8-96b15d791903.html"
+  },
+  {
+   "title": "Bob the poet, meet Bob the priest: Pope Leo receives Bob Dylan at the Vatican",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T18:34:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRU5ObEtwVHFXNnpsUzlpbWllRUE1b0wzZkxDRldxTzRpYkRvem1UMnkwa19nZzFfcjVtS28tS3NBN1F0bkprbWdUZ1Q3RlcydmVwMS1jOUhqVkFOMzVCNGFWcWtsSkg0aG54S0Y3Y0twTUhNOTdjVjI4SGRNVnBfaA?oc=5"
+  },
+  {
+   "title": "REI has fall deals on Columbia jackets, Prana fleeces and its in-house apparel",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T18:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sOVpfUElyVzJCSWN6MllBNDh5RHhlY3otNVdXWk9FVExZcjRSa2N4eXMtczhkcG1FcGZIMmQ3ampPVllZdmw1QUY1a3JvTmZSMTI3dUpQRW84QS1Vdjh6cUlsOV92TkF1UFJJWDhn?oc=5"
+  },
+  {
+   "title": "Manovra: sarà Gusmeroli il relatore della Lega",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:27:54+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/manovra-sara-gusmeroli-il-relatore-della-lega_3178194a-2468-4fcc-a2ea-c5ed9aa8aec1.html"
+  },
+  {
+   "title": "Lega: A.Fontana, 'sfiducia a Romeo? Le promesse sono state disattese'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:25:23+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/lega-a.fontana-sfiducia-a-romeo-le-promesse-sono-state-disattese_8ef5645b-632a-4977-bf73-2bd07660e7a7.html"
+  },
+  {
+   "title": "Trump, dem sarebbero distrutti se mi facessero un impeachment",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:23:33+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/trump-dem-sarebbero-distrutti-se-mi-facessero-un-impeachment_ac3125a8-3aed-4a7f-9423-1254a3b18518.html"
+  },
+  {
+   "title": "Trump, 'non abbiamo perso per la guerra ma per il carovita'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:21:42+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/trump-non-abbiamo-perso-per-la-guerra-ma-per-il-carovita_e4e03d1d-ddc3-4065-a0ce-820e6fe10e20.html"
+  },
+  {
+   "title": "Agenzia cyber, 'urgente proteggere la catena del freddo'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-04T18:16:31+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/agenzia-cyber-urgente-proteggere-la-catena-del-freddo_aa8cc8d9-e5e2-47e0-9987-8472300a8fd8.html"
+  },
+  {
+   "title": "Key moments as Democrats sweep to victories in US midterms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T18:13:01+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/key-moments-as-democrats-sweep-to-victories-in-us-midterms?traffic_source=rss"
+  },
+  {
+   "title": "How Trump is expected to handle being a lame-duck president",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T18:01:42+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1JNZkxENzk2T0dQSUU1ZGdBM1YyYUxQSDZXN3U1ZWNLcDB3NnlkSjZsZF8wczFtdWdvUk83UXhQYWNVU0U4WHlaU014bkNCS3BObDNjeDFPTDJ2V0l4ZGg1LVJUYWpjYU5aUVZJWF9DeGRtRkFtWUJ4STk5dDdiTQ?oc=5"
+  },
+  {
+   "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-04T18:01:31+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Danish students join European protest wave against education funding cuts",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T17:54:48+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/danish-students-join-european-protest-wave-against-education-funding-cuts?traffic_source=rss"
+  },
+  {
+   "title": "Netanyahu bet on Trump – but both lost",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T17:41:48+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/netanyahu-bet-on-trump-but-both-lost?traffic_source=rss"
+  },
   {
    "title": "Le ministre de l'Education nationale annonce une plainte après un tir de mortier dans l'enceinte d'un lycée de Lille",
    "source": "franceinfo",
@@ -332,11 +694,18 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/i-futures-su-gas-naturale-crollano-a-8532-euro_323833bf-85ea-41b0-a6dc-955c42235742.html"
   },
   {
-   "title": "TGV, TER, RER... La SNCF dévoile son plan de circulation à la veille de la mobilisation du 5 novembre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T17:16:50+00:00",
-   "link": "https://www.franceinfo.fr/economie/greve/greve/tgv-ter-rer-la-sncf-devoile-son-plan-de-circulation-a-la-veille-de-la-mobilisation-du-5-novembre_8268011.html#xtor=RSS-3-[lestitres]"
+   "title": "In pictures: The 2026 midterm elections",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T17:21:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qRjROdGJaUFRfT3VtdkZaOW9IZHpiSHV1RjNRZHJiSzdTZWtjVW5EcXNZcVl3U252eWpwZU1wbGR1cHJTa3FLMmhvNEZWSnJhSm90UmlDRkw2ZTVKYm91amliejJKMHRlQzczdjNfQ0lqcTdhV3B2eDg0NA?oc=5"
+  },
+  {
+   "title": "Presidential hopeful Vance appears to question Iran war after polls debacle",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-04T17:18:50+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss"
   },
   {
    "title": "Palestinian citizens of Israel face intimidation after election success",
@@ -374,13 +743,6 @@
    "link": "https://www.aljazeera.com/opinions/2026/11/4/the-new-congress-may-struggle-to-push-a-progressive-agenda?traffic_source=rss"
   },
   {
-   "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T17:02:44+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Iran's chief negotiator says Americans voted 'no to war'",
    "source": "BBC News",
    "lang": "en",
@@ -409,6 +771,13 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/04/schumer-i-giorni-del-senato-supino-a-trump-finiti-finiremo-la-guerra-in-iran_e655c0f5-229d-47be-9490-ac4e0ccd7603.html"
   },
   {
+   "title": "Mississippi Democrat says he's \"confident\" he'll win razor-thin Senate race",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T16:47:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbldjak44TlFDdXVYeU5zNzRUcThDZ1o5SUZZdWxnNlFOWTJwQ0F3d1FPVF9rVW4tYU81RUp6Wkx4ZE13SVExSjJiMTByellIR2FuQkJoM3NoMFNWVmRzY3hqSDdRZ0lZbWdKWWJlV2RVdW1HRVZ2OXBNZ3pCQV91MVF4alZtS1YyUmVkSFc0UE5NM29sWUU3RWNlbkZXcjd2MGVKTjhB?oc=5"
+  },
+  {
    "title": "Au procès des parents de la \"petite martyre de l'A10\", l'audience suspendue après un malaise de l'accusée dans la salle",
    "source": "franceinfo",
    "lang": "fr",
@@ -434,7 +803,7 @@
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-04T16:37:19+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZDlUSVFnMHlyWHRRZjdjdEVDM3c5WkZoRmtjVjNLTmdONmpBZmtxTUlhblV0ZUNERDBzU0hIeWhaeWdDV3JfRkVwZHhKSk5YbFlKdnFJaHN5STY2OUZTeGFzTU0tZEdLYWYwWWN4cTg0ZHR5cDQzdXlWZEJ2RklnODBsWHh6QlM0UndyM2hScVZxeGRFRWc?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmRtNUxIYTJJb2ZOaEtKMGMzbjRmX0hwSk5YNXpsbHdqSzluVW5udGFObGpuVnh1VGllcWVBdXlhZExtNlE0Mi1aY1V0MktvYkpCU3EwM0ZfS2d4Q0lNMGxrRG1kZzRYZEZoZkswS2Q0RGx6ZTczT3pkUXpCeV82VVZB?oc=5"
   },
   {
    "title": "The young politicians with African roots making history in the US midterms",
@@ -449,6 +818,13 @@
    "lang": "fr",
    "time": "2026-11-04T16:33:55+00:00",
    "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "A coffee shop in San Francisco sells a $105 cup of coffee. We did a blind taste test",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T16:32:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaVc3S2JmQ1hlY0gyMzlTa095dWJ0TDNhRGNzS2taakRGVENrYVBzbnVmd0VhbVVVbXdnWExrX2F1MmtGRXNxNE5OYi1Pb1BGb1B2MXh2aUJQZC1FY29PR1dXUzkyLWhNN2dxcUhDNTJPRVZwRG8xNGpTLUxTMkdZVFE5SEtSTDFrRlVn?oc=5"
   },
   {
    "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
@@ -493,6 +869,13 @@
    "link": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Do you use AI agents to run your daily life? We want to hear about it",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T16:06:54+00:00",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0ySGh1bnR4ODR2RVJkcy01U2xFX2ZpbkFyaGhTV0t4dVhyeVJ5WS1oaFgxcWMtdWlKaXlVVkt0MUlQZmJ3MmkyV05XTG5mcU8ycnBGUjdMTHUyWUxiaGlVWVBWR21Xc1ctWE5va19jSzNQOEt3WWJr?oc=5"
+  },
+  {
    "title": "Vance, 'la ragione per cui abbiamo perso le midterm è la guerra in Iran'",
    "source": "ANSA",
    "lang": "it",
@@ -533,6 +916,13 @@
    "lang": "fr",
    "time": "2026-11-04T15:47:41+00:00",
    "link": "https://www.franceinfo.fr/environnement/actions-ecologiques/transition-ecologique-du-batiment/transition-energetique-le-gouvernement-suspend-le-fonds-chaleur-suscitant-une-vive-reaction-des-collectivites-locales_8267876.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Day Two questions - CNN",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T15:44:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jM1lFcTVlSnB2YnFJNV9tZVRvNnlwZXRpWHJ1MDhGaVRnQ2JzbEpaNHVod2ROVHdSRWtwTE5SMm9CZWZWZjhrSGZhYTlmUFJzbjhyZ3A2VXVpZ0NBY3FTMDVOOG94am5GQjhFZDhXZVdiZw?oc=5"
   },
   {
    "title": "Jeffries tells Wolf Blitzer blue wave is ‘clear and direct repudiation of MAGA extremism’",
@@ -654,6 +1044,13 @@
    "link": "https://www.franceinfo.fr/economie/greve/revalorisation-des-salaires-services-publics-justice-fiscale-quelles-sont-les-revendications-des-syndicats-pour-la-greve-du-5-novembre_8263733.html#xtor=RSS-3-[lestitres]"
   },
   {
+   "title": "Dow posts best post-midterm elections day in 44 years as Democrats take control of Congress",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T14:14:39+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vQVR4WDhsdUVseFU4eUgwa2c4aDRnWFFYV2p3X2o0OEJNbnEwUzl4dXdxd05rZHFXckg5TXB3X3YtX3pLbkxSUWJYdUlpb1NRSlhoRmMyMXd0WUJnNTN0c0hfS3M3SUI3dDJjT2N3VGpxXzdMdGctaQ?oc=5"
+  },
+  {
    "title": "Dow jumps by 1,200 points as Democrats take control of Congress",
    "source": "CNN",
    "lang": "en",
@@ -752,6 +1149,13 @@
    "link": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end?traffic_source=rss"
   },
   {
+   "title": "\"Je serai monsieur Veto\" : que pourra faire Donald Trump jusqu'à la fin de son mandat face à un Congrès démocrate, après la défaite des républicains aux midterms ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T13:11:00+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/je-serai-monsieur-veto-que-pourra-faire-donald-trump-jusqu-a-la-fin-de-son-mandat-face-a-un-congres-cdemocrate-apres-la-defaite-des-republicains-aux-midterms_8265881.html#xtor=RSS-3-[lestitres]"
+  },
+  {
    "title": "\"Les Américains ont dit non à la guerre\" : l'Iran se réjouit de la déroute électorale de Donald Trump aux midterms 2026",
    "source": "franceinfo",
    "lang": "fr",
@@ -778,6 +1182,13 @@
    "lang": "en",
    "time": "2026-11-04T13:03:00+00:00",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVZxQmJxZ3RjSWV0WE44c2U3MXFVMkEwOHUwYkE1UlNpX2NSLVV0c19BbGROSnNfRFRpejBBUGFWTTlSYllzQzU4V1NsZ0g2blVlZkEzdV9KdUxfZ25jM3FBVy1zRVhuVzhBWmgzMW03U0F1cGFSeGRQOF84QUp4b0Zjb09oYTFGaDUyT2tQMTQ4R0Z4SzlsWUM1SQ?oc=5"
+  },
+  {
+   "title": "Journalist: Democrats ‘need to decide what the agenda is and who the leaders are’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T13:01:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbVo2S0o4MS1kVTVQTkxqNnUzNi1CUVNMamtsTXBybjlBY3RTZUZyZVdqcDc4WE9oVmdWZjVwQlBXcE00QzlHYkhNTmNBNVJHSnphcFlDUjRiVTF0dTVJRmh5R3VpakdkaE81VGJjWHNqbDVza05EWFVjaWtRTGRuSzUtS3hfUjhBSU1MczJaeWJkMW81UUIxS2R1d2dqUFd3a25iTkU5WHZlSk8yQ3NhazRSWE4wZXhybXFvTWhQZ3k1UQ?oc=5"
   },
   {
    "title": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
@@ -857,6 +1268,13 @@
    "link": "https://www.franceinfo.fr/environnement/energie/nouveaux-horaires-clients-concernes-on-repond-a-cinq-questions-sur-le-changement-des-heures-creuses-d-electricite-mis-en-place-mercredi_8267228.html#xtor=RSS-3-[lestitres]"
   },
   {
+   "title": "James Talarico au Texas, Abdul el-Sayed au Michigan, Jon Ossoff en Géorgie… Ces figures démocrates qui vont compter après leurs victoires aux midterms 2026",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-04T11:19:56+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/james-talarico-au-texas-abdul-el-sayed-au-michigan-jon-ossoff-en-georgie-ces-figures-democrates-qui-vont-compter-apres-leurs-victoires-aux-midterms-2026_8267432.html#xtor=RSS-3-[lestitres]"
+  },
+  {
    "title": "How Nigeria’s Funke Akindele is helping take Nollywood global",
    "source": "CNN",
    "lang": "en",
@@ -890,6 +1308,13 @@
    "lang": "en",
    "time": "2026-11-04T10:35:32+00:00",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTjVneDdqMkRIX0JELUdhanVxSkMzeUhRR0NwWC1kM0JuYmxraXJvbWM2LWUwZ080em5oaEN1RzQ2VHl5cGpLZWxXd0hGNjJpdllSeC04UDdBbFI3NkR4bVppZWZQSS03eC04MXdmcHExMzd1SjBBNlAyU3FWZ1BHREdoTnA0ai1SNnc?oc=5"
+  },
+  {
+   "title": "Trump hits worst midterm net approval rating of any president in voter poll era",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-04T10:25:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXROR29wN3k1bGVKTWR3RHdDNjBRd0J0VzlZcDlGbGRwQXpOYWlKYUVCWjZtV0U0bHNEMFNDdFEzZWdoVVJlRHBXSS1sRXh2RzAyU0hHVDFHY05nZ0RvLXp6NElNRUVnNmtnckVOa005ZUJ4Zm1YSF8yVHVld0d2QjZlLUlpWVQza2QxS3psck9nRTZV?oc=5"
   },
   {
    "title": "Expecting a new grandchild? Here’s why you may need to see your doctor first",
@@ -1102,13 +1527,6 @@
    "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/elon-musk-apres-avoir-injecte-des-sommes-record-ironise-sur-la-defaite-electorale-des-republicains-lors-des-midterms-2026_8267321.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "In pictures: The 2026 midterm elections",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T08:13:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qRjROdGJaUFRfT3VtdkZaOW9IZHpiSHV1RjNRZHJiSzdTZWtjVW5EcXNZcVl3U252eWpwZU1wbGR1cHJTa3FLMmhvNEZWSnJhSm90UmlDRkw2ZTVKYm91amliejJKMHRlQzczdjNfQ0lqcTdhV3B2eDg0NA?oc=5"
-  },
-  {
    "title": "Democrat from Kansas elected to US Senate for first time since 1932",
    "source": "Al Jazeera",
    "lang": "en",
@@ -1270,13 +1688,6 @@
    "link": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss"
   },
   {
-   "title": "\"Je serai monsieur Veto\" : que pourra faire Donald Trump jusqu'à la fin de son mandat face à un Congrès démocrate, après la défaite des républicains aux midterms ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T07:19:27+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/je-serai-monsieur-veto-que-pourra-faire-donald-trump-jusqu-a-la-fin-de-son-mandat-face-a-un-congres-cdemocrate-apres-la-defaite-des-republicains-aux-midterms_8265881.html#xtor=RSS-3-[lestitres]"
-  },
-  {
    "title": "En Belgique, un cordon sanitaire médiatique \"empêche toute forme de banalisation de l'extrême droite\", un outil \"difficile\" à imaginer en France",
    "source": "franceinfo",
    "lang": "fr",
@@ -1338,475 +1749,6 @@
    "lang": "en",
    "time": "2026-11-04T06:57:06+00:00",
    "link": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc?traffic_source=rss"
-  },
-  {
-   "title": "Firsts for women and minorities in US midterm elections",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T06:54:23+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/4/firsts-for-women-and-minorities-in-us-midterm-elections?traffic_source=rss"
-  },
-  {
-   "title": "Anthony Zurcher: Democrats push deep into Trump heartland on historic night",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T06:53:56+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Democrat Amy Acton makes history in Ohio",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T06:49:23+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-amy-acton-makes-history-in-ohio?traffic_source=rss"
-  },
-  {
-   "title": "Talarico compares his win against Paxton to biblical story of David vs. Goliath",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:39:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0WHFnVEF4NFVRb2s3WkVGSGM1bWtFVkx5aUE0Qm1fTGVONTJKa3lPMEFlMnJzQU1oaEJacGY5SzdYM1VYNGVFdHc0SlJzNE5NblVvd3pKSTl4OVRBRUQtTVJScE1BN2ZJZDZGSQ?oc=5"
-  },
-  {
-   "title": "RESULTATS. Triomphe des démocrates aux midterms 2026, cuisante défaite pour les républicains de Donald Trump ... Suivez le décompte des sièges à la Chambre des représentants et au Sénat",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T06:38:12+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/resultats-midterms-2026-donald-trump-va-t-il-perdre-le-controle-du-senat-ou-de-la-chambre-des-representants-suivez-le-decompte-des-sieges-en-direct_8237248.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Les Américains ont dit \"non à la guerre\", estime le négociateur iranien après l'échec du camp de Donald Trump aux midterms 2026",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T06:38:12+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/les-americains-ont-dit-non-a-la-guerre-estime-le-negociateur-iranien-apres-l-echec-du-camp-de-donald-trump-aux-midterms_8267189.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Democratic Party gains US House majority in 2026 midterm elections",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T06:34:46+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections?traffic_source=rss"
-  },
-  {
-   "title": "Too big to rig? How Trump’s voter fraud crusade crashed into a blue wave",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:28:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZkhFQk9qT0o5dDFXVFZNRDJvbmRab3pfTjU5VENEeGV6T2x4LWM2RG1HWGlRbWlmblNwNG5NbkpkbnlPMUI1RF80aHpwck16QVI0QWZ6V3VYQ1NjbUhpUG1XamtUV3U1Vy0wUm92Yk11ZUtaOE1jMzM0N2RTR0xJXzduQUZ5cGV0V2R0QVZnY1U0QWhfdEE?oc=5"
-  },
-  {
-   "title": "House Democratic leader Hakeem Jeffries hails midterm victory",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T06:26:19+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/house-democratic-leader-hakeem-jeffries-hails-midterm-victory?traffic_source=rss"
-  },
-  {
-   "title": "Trump reacts to Republican losses and declines to take blame",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:21:11+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU5hMS03SVBqSVQwTlVpZDNqSTRNbDdJakp4eUR4a3ZvSXlEZTNwQkZmRmdhdFlwaDJ4M0tLTFp6UF9JYlZoazNDNktPdlREWjBaTlZaX3FmMHgwQWN1aDN3SllfX1J1Ni1lRlpEaWNQTS1kSlp2YlFlNWJwdWVSb1lyU1Q?oc=5"
-  },
-  {
-   "title": "Former elementary school teacher becomes newest paper billionaire in China",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:18:52+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORXIwX2pLS1p5SVNiRUVuRXJrQndTWWVISHVfOXhhYTBuaDM5NU9nV0VNWDVFZ1dSMTJla3c0SDUwWTlwVXFvQmMtcmwyNVVxb01CaEY2UkV1Mzc0MFVUQmxidUlGc3BRdWpKWFJfYTRTbGZZTENZMzgzdlc0Tlp6ZWptamNFdw?oc=5"
-  },
-  {
-   "title": "Trump blames Fox News while his MAGA media allies blame everything but him",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:16:44+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMEZQZzZnMHZ3UmM1eTl0al9Jc2hCZFBISE5NRTlVTFl3Y2Y1ZVV4YXlScDdyTXhjYm5aNlRZVDRReVJDZmNTQ2JPZnhaX3VFQ2ZFTXJtVkZJd3Q5aTJHOFc5eVF5RWpNT3V1SHVmbTJQUFdSS01QUEk5OUxCcy1jTjAyUzk?oc=5"
-  },
-  {
-   "title": "Lula’s victory is a stress test for the Global South",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T06:12:59+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/4/lulas-victory-is-a-stress-test-for-the-global-south?traffic_source=rss"
-  },
-  {
-   "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T06:07:24+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "‘We shocked the world’: Hinojosa delivers victory speech in Texas governor’s race",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T06:02:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGNkcHJFc3BpVWVuLXVhdUVnVFFiTjJkTkxMSVRFaFhacEcwdDZ0T2ZwNG80dXloRURmRElpRkNfTjEtUWtpcDliT3psdnBWeTV5T1FqelF5b0dpbmpPQlgycDNWYkd5LXRvTlhzUWFRa250VkNoWE5ibkxQR3dsNXFlcFY5cEU4NUpKNXM0VmpMNmtqQWRkWUR3?oc=5"
-  },
-  {
-   "title": "Democrat Troy Jackson projected to win a competitive Senate race in Maine",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:58:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52RHdueGc0eVIzd0FkSDNHaXRxa3RtYU8xUldWTWJsYWVWYjh2WldlV1hUcGZhRk5sdFVEYTBtQmNLSlluRkc3N3NQTXluMG43OXRRZ3RFMGoyQm40enBVMVU2TzlpTU9pSW5WWmZTUUZYdWJEMG54dw?oc=5"
-  },
-  {
-   "title": "Au Texas, le démocrate James Talarico donné gagnant au Sénat lors des midterms 2026, une première dans cet Etat depuis 1988",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T05:54:18+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/le-democrate-james-talarico-donne-gagnant-pour-un-siege-au-senat-lors-des-midterms-2026-une-premiere-depuis-1988_8266994.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Jeffries: ‘Today begins the great American comeback’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:50:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ2dzSHhQLVU3WG5USlgxLVVHT2xXNm9FX1I3NVg5M0dwY1VLNmJsR0ZadXlyenhrc1pHY2dselBBUXdJMDlSbzVqV0tPaWMyaU9NM3JxeHdQc0w5MVZKdEJJRGNKeTFxMktBdTdhRG9pVFBrUW5wZng0cm9TRTZxRk9FMTM2dDJmdzJiVlZrTmVTT2Z0UXRzYTd4VzVqZw?oc=5"
-  },
-  {
-   "title": "Le maire de Nice annonce \"un renforcement immédiat de la sécurité dans les écoles niçoises\" après l'agression d'une directrice d'école",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T05:44:04+00:00",
-   "link": "https://www.franceinfo.fr/faits-divers/le-maire-de-nice-annonce-un-renforcement-immediat-de-la-securite-dans-les-ecoles-nicoises-apres-l-agression-d-une-directrice-d-ecole_8267147.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "The historic firsts of the 2026 election",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:41:51+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzQ3BRWjVJOVllcFZfNnVtQmlGcjhBQ2k3MW9faFg0TmNjeTgwdW1YazUwVUI3UTJxY25rTEtZOXZkSllub0R5M0NLUEZCek1CVHRCYXRhdXNIUktxUEFNaUgtR1VrNGpDTWdKSzRzdzRnaUx2cm1IZA?oc=5"
-  },
-  {
-   "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T05:39:36+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Debunked: Viral video of ballot handling",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:34:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTVoyZWtQM0ROVnJxd2NCZmJaVEMwTWxMMV82dWhIOFpJTElXeFhpOGUyR2dBVm9fdXo0ZC1nQ1l6bW5uanlkUmF1R0cyUFo3WlFSdmFkUmhoUEJvSHhfcWI5WXB2VDc0dVJJLUlURXBvdEpFT3lpWUdiZ1ZDaGluanFkQWZOMDhub01GSDdvZ2lkVXRLS1Fr?oc=5"
-  },
-  {
-   "title": "Democrats dominate NYC races, Hochul re-elected New York governor",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T05:27:30+00:00",
-   "link": "https://www.aljazeera.com/economy/2026/11/4/democrats-dominate-nyc-races-hochul-re-elected-new-york-governor?traffic_source=rss"
-  },
-  {
-   "title": "President Trump says he will accept the results of the election",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:20:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbV96LTBFMkVuSkt4MmVSR1loNU9nU1NVdTdCQ2RlS1F4RDFjcjZRMkU4OWZFSHB2Q1c5c3pvYldSSTdvQzdDcFNXUm50S1VNd0doclFndDdVY1Q5WFlWNlhaUXUxX1VhOUR2T213d25fRDFKaElpQVlDLXVvZ3M1LUpHVzVkaEZ6NEVN?oc=5"
-  },
-  {
-   "title": "Sur Twitch, \"La Convergence des Streams\" récolte de l'argent au profit de la LDH afin de \"soutenir le mouvement social en cours\"",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T05:17:45+00:00",
-   "link": "https://www.franceinfo.fr/internet/reseaux-sociaux/sur-twitch-la-convergence-des-streams-recolte-de-l-argent-au-profit-de-la-ldh-afin-de-soutenir-le-mouvement-social-en-cours_8265941.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "John King analysis of Michigan vote tabulation",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:14:27+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSll4QUJZODZnVW43bjk3MWhzVlhrOFVPVXRlNUEwWWtjbjBxd1J2S3NiOUg4ZzVjQmx6Skg4WHdLQnRTdzkybkw1LXZCSW5KVlFfN1FfYURSYTdnWHF6OEdZVHVUdURfRVAzbUlVaUFUb3lVUTVhSTNoMjVyS3dlSVk3Yw?oc=5"
-  },
-  {
-   "title": "‘How did we get here?’: Inside a losing GOP campaign defined by Trump",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:08:11+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84X2daemJTU0x1SmlHWFkwVVZoZFlsZGRMRTVLTHY4czMxbVBrWG5QR0RiTU0tbTF2X05uQms2Zy0tNkJLWFhwN21ZY3B3WU5RWWZrdG5PYkJrOUF4TDBBbkg0NmhQdkdVb0l6THh5ZjF5dG9JR0gxN0VJaHU?oc=5"
-  },
-  {
-   "title": "Adam Hamilton will flip deep-red Kansas Senate seat, ending a 94-year Democratic drought",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:05:41+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYW0tUldWUVBpVlNObW9uamtYdU5PY01pd3hwSThzQWFlNTZLS3JYQlRkYTZ0WGxRT1lmUy1pckVNXzFwbkRGWGhlZU14SHRIbG9UcVpDbnE5X1BVMWxGS2ZrN3pkVFdOel9XcVcySkNIYTg4MnYzb2FJY3ZYN2pqbi1rdFJTZHc?oc=5"
-  },
-  {
-   "title": "CNN projects Democrats will win control of Congress",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:04:08+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1Rya3BYRm5jNlhNTW44THJ0R1Q2Rlk5MWV0UjloOTNadlFDaDhFSzlkajdKQjRkR1lsNnNmSnRBX01lU1BEQm5HMFJoeWJRVlB0UnFSU1JQUkxTOG5pUENwRlFVX0x4ODJPeGczVTZyQkF6dF9nUWxqd0tJR1h2dGpkSUIzc1RQTEk4QVlNbFcxRHJiOGViYzliZm5Qa09LVHFNSER6Mi13SEpHQXdqX1FlNmJoNXozX19EMUxB?oc=5"
-  },
-  {
-   "title": "A 3,200-pound telescope is falling out of orbit. How it could unfold",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:03:42+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUxvNmNJYkR6V1NaTl9MT2ZZMTgxZ3N3NWUyQzduVXl1NkVraU1lM2g2eVhzdm50OURQejhNczR3ZV9XaGpMck1TOXlwR3dvLUk0ZE9SdDV4LUMzNmZVTGJhcjhiemYzWWhkdS16eUl1WFBMLU9uc2lSeHM4Nk9fOHpOYw?oc=5"
-  },
-  {
-   "title": "A 3,200-pound NASA observatory is careening back toward Earth. Here’s what to know",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T05:03:42+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUZhcjRyMUcxUkJ4NjdzUkpUaGxUVjhieUE4WDlvUkcxRHVFejc5Y21Sckh0bHlNamhPVDR0cnRnNjlTMFhkb1JaeUgzQWJwbHpmenh0dFhHQXd1UWhpWnBlNUlVZGNLd0hTcjBjSVptbkprY3dLcl9zZVlycmxtVWoxaw?oc=5"
-  },
-  {
-   "title": "\"Bien sûr qu'ils s'inquiètent\" : l'émergence de David Lisnard peut-elle menacer la candidature de Bruno Retailleau à la présidentielle ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T05:03:08+00:00",
-   "link": "https://www.franceinfo.fr/elections/presidentielle/bien-sur-qu-ils-s-inquietent-l-emergence-de-david-lisnard-peut-elle-menacer-la-candidature-de-bruno-retailleau-a-la-presidentielle_8264240.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "\"L'Arabe\" de Malek Bensmaïl : un regard décentré sur \"L'Etranger\" de Camus, adaptation du roman de Kamel Daoud",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T05:00:02+00:00",
-   "link": "https://www.franceinfo.fr/culture/cinema/l-arabe-de-malek-bensmail-un-regard-decentre-sur-l-etranger-de-camus-adaptation-du-roman-de-kamel-daoud_8264414.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "CNN projects Democrat Amy Acton will win the Ohio governor’s race",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:53:11+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZWtYbnFEVFR3WFROOWtaTlVnSzdlc0YyVWwyR0tOanpvNEhSOE9vNTZBcGRSX0h4UTEzZ2NzN18wbkdTXzRxLTBBY3BheVJNUlpPaWtNd0k5TUxIUVBYcXpKbmhwTm1lN3JXT2RUOVBYRlJpQjV3eUFrOHBTMjJLQ01GQWx4NWxhcjdHc1F3SWN6a01RVDNXeXV6Ynp5SEt4cTlBWVh1b1J2MHhhNEV1YjhiQTR0OXhIbEN6RXNR?oc=5"
-  },
-  {
-   "title": "Trump’s personal push of Darline Graham in South Carolina comes back to bite his party",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:51:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHazMyY2ZSdHpvUWtOOVdxMHN0cndmR1l0dkI0emNBOHhMNnhiNFJQZnBhbndkcjJ5T3lPXzFZTEJrTHJNek0yMkthSkExZHlmWVRtWFhTbndtNUhkcHhQcE8yaUFmVjNBTEczRmNaSkl6MVE?oc=5"
-  },
-  {
-   "title": "White House blames Trump-backed candidates",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:44:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWGszMGZmVDNLak9BQVZNVDVoNlpJZFZKZHhLZUUyeUdtSzJWVVN6M3k5SGg1WHZMYkt0dm5BTnVkbWJYX3EwcU10cjFEUFRpRVVGTTg0d3BORDc3dFVELWNRUHc2aExEMEtNdW1hWDYxWUlfQXpXczN5UmMyejFVcURLMkZvMUEydmNncVFoa1AwZHlhaTZ5TThrSDB3V3pXNXk1cDFZOA?oc=5"
-  },
-  {
-   "title": "Jeffries says Democrats' big night begins 'great American comeback'",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:43:30+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZGxQa1BpTHNsZi10aVJHLV83T2JYbGpFZHRmeUFhT0JFQnoyalVROUpLck03RkVjLWx0SjREelE5VFVSdmJTdk1aTHpTZ2JmSFV4dkMxT1dvN05aY3pYZC1LazMzSGltVDhZY0RyOU1vTWNhSUdVS1hvdUh6c2hUR3lkdnBwZXpFQldWSWVjVnZLbVFpZ0lGR3dkV01rMXcyYXNYRE04WDVySGY3OU41V0pRS01ESndsTmt2QUJR?oc=5"
-  },
-  {
-   "title": "Democrat Amy Acton will defeat Vivek Ramaswamy in Ohio’s governor’s race",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:27:13+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjkxc2lYbEFTczl2YXNGSUZQWjVHSk1ua1lfXzRIQXRLSkMxcF9oSDBXVXZrckJySlhlYTVia3RHd1JLSGkzSGNia3c3dUtpd1lURllKWTUtZWpWV3JFQzctTGd2ZnpQY2Jtd3hncDNOWGZhRExXWW14X0wtYzVPSUVQeWlUSnBvLWZIVHZWMHY5YWdmNzlV?oc=5"
-  },
-  {
-   "title": "‘We just made some history’: Annie Andrews celebrates South Carolina Senate upset",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:27:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JbmN6US1OT19wQTkwM29NZXZjd2pYWWxWV21VWEhiZ2RXZWpsU1V2b25YYU5IRDl2OWlXNXIzamtMcG1EVzdpS0pfdEdIeGRnb3Q3MWtSOUp4UW92WmNIN0U1Q3pUck1Qd0xNZnlweE9qZDVq?oc=5"
-  },
-  {
-   "title": "Speaker Johnson reacts as CNN projects Democrats will flip House",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:16:06+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRXlJMlFGZ2lZTWRTaG5iWTdvejRYOEpWQThzbUoydjN5aW9DLUlNZlZaNU5QWnBDZmJRU2lVTkdKTjdobVFBVTJyc241cWJ3WHZPSmIxOTRmbkI4c2ZTbHIzNWNyS0l0cG8xMzNPTXdnd3YxakUtckNkRTl1eXkzTkY4bGZpSF9ETDdyZXlnYw?oc=5"
-  },
-  {
-   "title": "Zach Dembo will win Kentucky’s 6th Congressional District race",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:15:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdXBqWHliUktwRkFrRnJ3ME0wNDJ5RC1JYjA0bzhqbHZ3WmtJMG5mMHRMNVlpdWFzOFpSUzVoYnVybmNHZExPbUF1WkFsMzc2Y0hiS093UmhOUFkwSFg1cUxNNi1OM0JBb054b0ZXbFRCR29SOER3TWJIakVLU1EyTHZKSnBhYXNYalJtRUYzOXRLa2pFSGk5Rlk3R2VQMHotcng2bVhTVjEwSndUeVZOaFMxS01ibTRGOHc4NVdFUklPR2lE?oc=5"
-  },
-  {
-   "title": "Texans leave ‘I Voted’ stickers at memorial for man killed by ICE",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T04:12:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVZ5dERsZ3VDQ1NGXzNiZl9KQmhvN0xpdWZCUllMY2lBWndhTzZiYWZlcEZ6bTFVVFpPUWN4RVVYLU90YXNPeHY0QnVGaWROQUdMUFl5M1M3cGc0OHRYYzJaSTA0RkJPeng5SXExOU1yNGVNWXVRZVEtaV9yMFB4aFZ2Z1hRNlZIaTVFV3lLVU9VSnN2azFuUU9DQUhveFFrYkd3WlBkUms2TXJBV1JMZWpuUU9vanc3Slo2WFNB?oc=5"
-  },
-  {
-   "title": "Democratic candidate Annie Andrews makes history in South Carolina’s Senate race",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:56:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSVVxWHZRWklYSUc0ZTA0QmEtZWFpX21oV210b2ZxTEhuTWRraTF6anNQRkFsTDI4aDZMc3N2QlFyemIyX1h6VmpZQzhTZlFvd1hXdHMtX0E4WnhmakJMa3lwZHFBNHhtMmNCME1uV0pBcWRIV3g3QndRVmV5V1hTZnBCRUFyYUk?oc=5"
-  },
-  {
-   "title": "Van Jones: ‘Can I be happy right now?’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:55:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQlRvWGM3MlFDTHIwampDUWdBQWpsMmk1Qk42cThSeVppa0hBQUZiRHJBejdNZmRkZUZKdTctRENJOXQ4NTB6UGUwOWlOdGxYMlVlQVYzMmhyVC1RUG1VTUdpTENpZ01kYlVFTVpJRXhSaGhBbG5BdUN2WVpqMmlmRkdJVDZfdw?oc=5"
-  },
-  {
-   "title": "CNN’s real-time read on key races",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:51:55+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa3VmSThyYlg4LTl1Q3dTOVF6QmMzUDEzNkJiOXRxN1Ffekp3UmRYQU9VQXRrU0VXYVByNFhqQzBPTVZqaUxzUFlDdVRIMkczckxEOHpzSFVOcnRVeFFqa2tvTEZSZk1fZTIzZ2czaTMzSUd4ajh0VXNKQTBpcndqYmlEd2xwUQ?oc=5"
-  },
-  {
-   "title": "Ossoff describes the world he wants his daughters to live in",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:51:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRjhlN2FUUXZQVElCekMzblctMERsc1ZmUzdRRXRVZVFMUkRPSVZhdTFUNlF1bE1DWmxKWGY0aVJzYXotV2JORkt1clJtVk1WUGpOY0szTDlPZFozOWZKWWR3dzM3cDV5eDI2Zmp1VWtZWHN4T3dTQnM2alBQckFQWDR2elEwX0tPX1l2MDc4eVhVaGwwQTBkYkVR?oc=5"
-  },
-  {
-   "title": "A historic blue wave, a stunning rejection of Trump and other takeaways from the midterms",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:50:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RY3lvNHRnNUdmenFJZWlCOW0tYXJmX05mWk56eEt4SjBvVlhoVTdXT2ZySk9JT3o4d2toLU9ka3hPVVptZW5FVFVjV0NFYllTVDdIcWxBbS02b25vampsMnJjYlNFTTlyMmw1Wlp3TE11TzZYSHI2Z3Q1dnI?oc=5"
-  },
-  {
-   "title": "Donalds says ‘We are still red’ to Trump in phone call",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:49:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSNXJhdDVrV2FCczlKbk1TTHk3ZkJ3Y3V0anMtMm9uTmJzUTFsVFJCQW9KRzBCeHBYTThIOEJoWmNfaGhyS1BuMHFoeXRrdTZDVkxSUlY1ZUtXbWxDWTZFdnBzU09XRlc2TEFZdDBn?oc=5"
-  },
-  {
-   "title": "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T03:46:10+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "‘She’s made history:’ Van Jones on Keisha Lance Bottoms’ projected win",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:28:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWnlGQ1UwUFVFN2xPZVVlYlIyMTBSYl9nZmZERE94LTc1QmExM2FWUG95N2pfNWZKZnNKdnJwWjY5a2REQ3ZuX2JzdDYxZzViZFdZeXNJbkNiQWVFc2Q0WGJ1MXgzVVc3V2JDblg2ZHBpeHdDWEMtUFA1LXNPMmhZeVFPSmxhQUp4VzhONzJwc0hXYm10SGF3ejFQVWJNcWxpUHh4cEswam9RbzBjT2ZrTklwemp6RVVKS3BKMGo5UndydEhiWnc?oc=5"
-  },
-  {
-   "title": "Video: Byron Donalds will be Florida’s next governor",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:20:07+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa2JHZ3N0dzFfUUpwakRONWxUd285N3pxRTh1aFNFVEZpcUZodUhWbGVZVTQzSHBwWjZfanZpMWJTOUxBTnNaZ05fcDJjVEIzTFFDcUJLZ3dieFVhZGVkTUxzWnBRZTZ5WHpGaENmNzNjVkNKTkhXdTdtOFFfUnNVc2REWW1objlMYnp0ZXI5bHZhY0lYeVBFTGdxM282YkxGeEJIbmsxZGtmaUha?oc=5"
-  },
-  {
-   "title": "Democrat Annie Andrews will unseat GOP Sen. Darline Graham in South Carolina",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:16:44+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQU9XZ3hZSHlKX2NKV2Y4WlZuYVowS1U4UjVnelNOVS1lamo3ekdXVUp6OXpSbmRNZUZrMGlFX1RnYk5vMXVYaFVxeWwxbEl5d3V2X3ZvRWtucGdGUk96NE9kMlhpcTQ3RjJfQmxyS0V5cjFTTHY0S0Raa2ZyeXE3VGJweEU4WVh5ZGJ6S1lSYWNHNU5KSmlN?oc=5"
-  },
-  {
-   "title": "Keisha Lance Bottoms will become Georgia’s first female governor",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:12:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSTk4ZGt0dVE2c0ZrWWljYzZ1MGlneENuY0kzMDhmbldpM25MXzk2VE50REN5eVlxbF9xckJpcWh4cloxeDdDYmN6NGtRMUstYmxOYVhKSTA3Qmd3cXRHR0hUWmlweFByZlVTa0FDbDB3U2wyMjFwald2SmJacDdEMFdlYXZoRGRmczRHTWlnRlhYZlpBSHdfWVU1SzJiY2J6d3V5bVZiN2JLLXB5T1RLbVp4ZENiMkRx?oc=5"
-  },
-  {
-   "title": "Hakeem Jeffries, on track to make House speaker history, sees ‘mandate for dramatic change’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:05:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbUJURi13RjFPTkFJRmhWWl9HcHJCRi1DMC1rTGY2a1BOWkZ5a1VkLTJaUTRTbzc0V3hDczFmbUlWRTRuMnRmWVpmel9nWlY4UzQwNVRWMW9lRE1rVk1kNWRoUnkydjVaSmQ3YXowS3M5M2llVUdZbmlMMWtoWW85ZDhEMlZLQQ?oc=5"
-  },
-  {
-   "title": "Hakeem Jeffries is on track to make House speaker history. But major challenges lay ahead",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T03:05:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbUJURi13RjFPTkFJRmhWWl9HcHJCRi1DMC1rTGY2a1BOWkZ5a1VkLTJaUTRTbzc0V3hDczFmbUlWRTRuMnRmWVpmel9nWlY4UzQwNVRWMW9lRE1rVk1kNWRoUnkydjVaSmQ3YXowS3M5M2llVUdZbmlMMWtoWW85ZDhEMlZLQQ?oc=5"
-  },
-  {
-   "title": "Democrat Keisha Lance Bottoms will be the first Black governor of Georgia",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:52:05+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTjZ1LWRrZ1VBWEYwTlpNVlFfdWFpWV83VUszUG15LVVkMkVjMTZxQXdEeWF5Sm8zTUZidnBZMWVrSlMxRHloMWQyU193ZTBPV1FUcHZ1NEI5dlAzTFFiTEpYUHJPX2gtLXVpR0hoY1padGcwNjFEMlRIanlxUW83RzBDaVFMWkdGWmpxVnlQcW52ZFkzOHpFeVNjX0h0UURXME1UcFlvNjhJbDIxLUNxTVo2TDNydXdFM3M1YU9RSWxaaFFFSnc?oc=5"
-  },
-  {
-   "title": "Dem. Chris Pappas wins NH race, will become first out gay man to serve in Senate",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:51:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRS1kT1A2TU1TSWpGVW0wRk90TEtnRjQtT3FJakN5Y3dBTlJLc3lyYUI1SnVydkt2VTlFZkRleGRyd3JyNDdhX1BCQjVSaFp0YVpaeHlPN2ZPZEdTQjk2NkZOU0dfcElMa0JBOEU0N25CN2FKd3A1WnBqRXBhdHJqT09lZzFfR0w5cndJcWlB?oc=5"
-  },
-  {
-   "title": "Democrats win at least three Florida House seats targeted by GOP redistricting",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:48:13+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM1dxM1psdWZObTgzbmg4cGJ2S19TbEdnam1URnI1QWdrZjhBZ2JVUWhUREVNaHY1YjlUXzQycEdJQlUyRmx0amNoemhhNHJxTzZCNTVYeklTb0drcjJkNFpVMFBvSS1xOXlEMFBCSUtUTzR2a2lrdjNNUE8wNjVmX1NrRExzdWRwblJQckMwWXA0X2VlbWxzcWgwQ3pxQTZTMWNPWmY4T04wb3psRGc?oc=5"
-  },
-  {
-   "title": "Roy Cooper delivers victory speech to North Carolina supporters",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:46:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMU9lcWRPSm12YWY4Y2dObUlRTU5XNVF0M0J0MFI2UklJdC1PbThNNC1JdUVaYzdNN2JzUlk5TFh6NzhrMVpkazZKSE5qeHdueHZ1ZmRfUm01cnR2ZXotY1ZBYWZoNVpiRGgtQ0pZampfSGw3c3dPSk5lT3JUSXR5OS04VV8taEFCT0lScjA5NUxoRXMzb3c?oc=5"
-  },
-  {
-   "title": "What first votes from Kentucky and Indiana indicate for the national climate of election",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:30:02+00:00",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTGZHT090OUo0RXZRV1gwd1RDT1ZuVDRudHVTdDRSSEoyalVMbmpLQWlVY2NtdVhnMTd0bTFncU84T282R0ZUSFFRWmtmM3Q0NDhNZHc0YUQ2M1YxdWgwdldNeWRoYy1PWnlSaF8yWk9ESWZLQzdGeU9YM0hCZ2tiUmRqLURvQlIxMGZzNERTcEF0RFpmQTVGbE1ZY2dGWUI1WjA0YjcxMjExVm5RdlNlRw?oc=5"
-  },
-  {
-   "title": "Keisha Lance Bottoms makes US history as first Black woman elected governor",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T02:25:51+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/4/keisha-lance-bottoms-makes-us-history-as-first-black-woman-elected-governor?traffic_source=rss"
-  },
-  {
-   "title": "Analysis: How Sen. Jon Ossoff’s win in Georgia was called so early",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T02:14:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcXF3eG9ZdUt2V1FJWGxac3MtYzYzdk1nVS1hMExsaDNja18wa19qLWlWd2lLLTNwWWg0T190TlB1SnVtMi1ETGE0cV82SS14aFBFUGRKM2NJRFJGNi1TNE1KSHBFamVaaVluZlpvNXRZOE1XcmNUQXlNemFzaTQ2QUczR1hPWXJ0S1ZETDhFUk1yc0VBdEg0ZTl6a1pqbEhPbjY4bG9nNFZJd3dKNGhaeE9YVEFLcmM?oc=5"
-  },
-  {
-   "title": "Killer who escaped Tennessee prison captured after week-long manhunt",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-04T02:11:40+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ballot shortages reported in Dearborn, Michigan",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-04T02:09:42+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/ballot-shortages-reported-in-dearborn-michigan?traffic_source=rss"
-  },
-  {
-   "title": "RESULTATS. Donald Trump va-t-il subir une \"vague bleue\" pour ces midterms 2026 ? Suivez le décompte des sièges au Sénat et à la Chambre des représentants",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T02:08:41+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/resultats-midterms-2026-donald-trump-va-t-il-perdre-le-controle-du-senat-ou-de-la-chambre-des-representants-suivez-le-decompte-des-sieges-en-direct_8237248.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Midterms 2026 : le démocrate Jon Ossoff est réélu sénateur en Géorgie, suivez les premiers résultats",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-04T01:54:00+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-suivez-les-resultats-des-elections-de-mi-mandat-cruciales-pour-donald-trump-et-les-premieres-reactions_8265464.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "‘We need change’: CA voters hit the polls",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-04T01:52:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd0NFYnloa185WlZwQk5oa29jWFhuRVJjdkV5N1llbXFCTUJjWE9neFUxX01Ha2lvTnpWMEIxRXRPTloxN0dYUXBVMDR5b25KSU50Tld0eXFQd2Y3T295SVVYMDFkaXhWMnFiQU1xRW5OTFhOMlhEV2xtRkJ5M2VGQ3FlaHJQRGJMYjNONTJpMlVpdw?oc=5"
   }
  ]
 }
