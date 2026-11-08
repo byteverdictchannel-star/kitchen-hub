@@ -1,19 +1,26 @@
 {
- "updated": "2026-11-07T23:05:46+00:00",
+ "updated": "2026-11-08T02:22:10+00:00",
  "items": [
-  {
-   "title": "What we know so far after Krakow gun attack",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-07T22:58:49+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
-  },
   {
    "title": "Immigration",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-07T22:19:29+00:00",
+   "time": "2026-11-08T02:18:38+00:00",
    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5"
+  },
+  {
+   "title": "What we know so far after Krakow gun attack",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-08T01:47:41+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-08T00:50:28+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss"
   },
   {
    "title": "\"On entend beaucoup de revendications mais pas de réponses concrètes\" : à Paris, la mobilisation se poursuit malgré les annonces du gouvernement",
@@ -21,13 +28,6 @@
    "lang": "fr",
    "time": "2026-11-07T21:47:45+00:00",
    "link": "https://www.franceinfo.fr/societe/manifestations/reportage-on-entend-beaucoup-de-revendications-mais-pas-de-reponses-concretes-a-paris-la-mobilisation-se-poursuit-malgre-les-annonces-du-gouvernement_8272733.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Police clash with protesters as anti-government rallies sweep France",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T21:24:10+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss"
   }
  ],
  "breaking": null,
@@ -49,11 +49,46 @@
  "alerted": [],
  "phone": [
   {
+   "title": "Immigration",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T02:18:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5"
+  },
+  {
    "title": "What we know so far after Krakow gun attack",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-07T22:58:49+00:00",
+   "time": "2026-11-08T01:47:41+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Democratic congresswoman calls Trump’s chief of staff move ‘desperate’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T00:52:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjFtNzFZSUlEWVJITklPLXVNbmhkRGQ4UGdoWUJsZEFtTXJjZWplckFYRkhkRDZJcUUxaXpSbkhjN05kZGlFckM3Nl9keFpqTDRXUHdZZVY5YlJ4MzlNcEd2N3FnVW9iSWdZNmFvZTJ6ZVJhUnh1OWFTZDlWTVk4T2s3Rl9IMVlrMlFnWDBWU2VtMXlWVGZ2S1BIM2t0WTJiOXZzMThoVk9UVzZMbHc?oc=5"
+  },
+  {
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-08T00:50:28+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss"
+  },
+  {
+   "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-08T00:00:56+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
+  },
+  {
+   "title": "Somali pirates are back on shipping tankers",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLXQ1bjdlTGtfNE1FWWhWcGtvVklONDhNTGhrRHVmOEhLaDdxQUVONnJkZDdUc0lGT1RUcXBfTHRkRGY1dkNmZzgwY0RKd1lEdDBUSldjOGltVHdnOEZYdGNLMzhKSkdPWlhmMVR5QzlYS1d5YWc1UDI0VlRxSHpqeGp0NGdPUDJnVERFQ0R1YXpNT3Yzb1BSMjVDSjA1LWRyOXdfWGdaQVRhbXo4TVBzQk13TFBpaE1ZZHc?oc=5"
   },
   {
    "title": "Israel's president tasks opposition leader Eisenkot with forming government",
@@ -61,41 +96,6 @@
    "lang": "en",
    "time": "2026-11-07T22:19:59+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Immigration",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T22:19:29+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5"
-  },
-  {
-   "title": "Republican attorney general blames Trump for Georgia midterm losses",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T22:19:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcGloYmpBc0NDazZfV3F2V2dCUXJHUVBLSG9JQmt1cmhvd0NwbFpaQzc5QlVQMVpJeTh0UmRsRjRhOXNYaDJfcUgwS1Q1VXRVTnBWa1FGbTBFS3NBSW85OEJ0YWdHc29sUEZHVUlkakM3WUVyUWdELUc0XzlrdlFsZEYzbk55dFhBS3ZDd0J3OTZha0s1ZTBIdGdPTTRqbGRfc0Z2STlYa3JzVkZ5blNuTWtENzc?oc=5"
-  },
-  {
-   "title": "Despite warnings from Trump admin, after the ‘Blue Wave’ many migrants bound for the US are hopeful",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T21:47:46+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU2RTdGpvNDg4OFh2MzczOFEtTHZlN1FJYU9RZmJsZGRmTVk0a2RLNFUyaGVzd2JZZVI3N3N5eUFTakU2Z3E1YmlkQ0xUX1NCSnRucV9ZQzFnQmRUdF9mX0NCcUNHR0NvaExkOXkyX2trX3EybjlmOWFGcDVmTjB2Mg?oc=5"
-  },
-  {
-   "title": "Police clash with protesters as anti-government rallies sweep France",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T21:24:10+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss"
-  },
-  {
-   "title": "Mélenchon promises action against Israeli annexation if elected President",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T20:53:47+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss"
   },
   {
    "title": "Paraguay's former president charged after bank collapse",
@@ -159,15 +159,27 @@
   "since": "2026-11-07T22:00+04:00",
   "items": [
    {
-    "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-    "source": "BBC News",
+    "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+    "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
     "time": "2026-11-07T19:40:24+00:00",
     "sources": [
      "Al Jazeera",
      "BBC News",
      "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "What we know so far after Krakow gun attack",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-07T19:40:10+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News"
     ],
     "breaking": false
    },
@@ -191,17 +203,6 @@
     "time": "2026-11-07T21:42:04+00:00",
     "sources": [
      "ANSA"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "What we know so far after Krakow gun attack",
-    "source": "BBC News",
-    "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-07T19:40:10+00:00",
-    "sources": [
-     "BBC News"
     ],
     "breaking": false
    },
@@ -233,15 +234,27 @@
   "since": "2026-11-07T22:00+04:00",
   "items": [
    {
-    "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-    "source": "BBC News",
+    "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+    "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
     "time": "2026-11-07T19:40:24+00:00",
     "sources": [
      "Al Jazeera",
      "BBC News",
      "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "What we know so far after Krakow gun attack",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-07T19:40:10+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News"
     ],
     "breaking": false
    },
@@ -258,13 +271,13 @@
     "breaking": false
    },
    {
-    "title": "What we know so far after Krakow gun attack",
-    "source": "BBC News",
+    "title": "7 of 8 executive offices in Georgia will be occupied by Black women",
+    "source": "CNN",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-07T19:40:10+00:00",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFVWa2l2SkhZcmhRNmNwc1ludEZjakNMbktTaDdocWh4Ul9fQ29mZE40TTVqajhndDN5OHB4cUZtTE96WTg4UE00ckFLVkZLU09SMVVMZi1CZDI2NTFjUnIzRkhqeHZ5Ylo0ODZfc05LUEtIbXlzYkVoUFNxc2M5Y0NiNEF4MUJKY3ZCaHV6U3FHOE80dEF0Ng?oc=5",
+    "time": "2026-11-07T18:31:03+00:00",
     "sources": [
-     "BBC News"
+     "CNN"
     ],
     "breaking": false
    },
@@ -273,29 +286,18 @@
     "source": "CNN",
     "lang": "en",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5",
-    "time": "2026-11-07T22:19:29+00:00",
+    "time": "2026-11-08T02:18:38+00:00",
     "sources": [
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "Republican attorney general blames Trump for Georgia midterm losses",
+    "title": "Democratic congresswoman calls Trump’s chief of staff move ‘desperate’",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcGloYmpBc0NDazZfV3F2V2dCUXJHUVBLSG9JQmt1cmhvd0NwbFpaQzc5QlVQMVpJeTh0UmRsRjRhOXNYaDJfcUgwS1Q1VXRVTnBWa1FGbTBFS3NBSW85OEJ0YWdHc29sUEZHVUlkakM3WUVyUWdELUc0XzlrdlFsZEYzbk55dFhBS3ZDd0J3OTZha0s1ZTBIdGdPTTRqbGRfc0Z2STlYa3JzVkZ5blNuTWtENzc?oc=5",
-    "time": "2026-11-07T22:19:00+00:00",
-    "sources": [
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Despite warnings from Trump admin, after the ‘Blue Wave’ many migrants bound for the US are hopeful",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU2RTdGpvNDg4OFh2MzczOFEtTHZlN1FJYU9RZmJsZGRmTVk0a2RLNFUyaGVzd2JZZVI3N3N5eUFTakU2Z3E1YmlkQ0xUX1NCSnRucV9ZQzFnQmRUdF9mX0NCcUNHR0NvaExkOXkyX2trX3EybjlmOWFGcDVmTjB2Mg?oc=5",
-    "time": "2026-11-07T21:47:46+00:00",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjFtNzFZSUlEWVJITklPLXVNbmhkRGQ4UGdoWUJsZEFtTXJjZWplckFYRkhkRDZJcUUxaXpSbkhjN05kZGlFckM3Nl9keFpqTDRXUHdZZVY5YlJ4MzlNcEd2N3FnVW9iSWdZNmFvZTJ6ZVJhUnh1OWFTZDlWTVk4T2s3Rl9IMVlrMlFnWDBWU2VtMXlWVGZ2S1BIM2t0WTJiOXZzMThoVk9UVzZMbHc?oc=5",
+    "time": "2026-11-08T00:52:00+00:00",
     "sources": [
      "CNN"
     ],
@@ -317,11 +319,102 @@
  ],
  "history": [
   {
+   "title": "Immigration",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T02:18:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5"
+  },
+  {
    "title": "What we know so far after Krakow gun attack",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-07T22:58:49+00:00",
+   "time": "2026-11-08T01:47:41+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Democratic congresswoman calls Trump’s chief of staff move ‘desperate’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T00:52:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcjFtNzFZSUlEWVJITklPLXVNbmhkRGQ4UGdoWUJsZEFtTXJjZWplckFYRkhkRDZJcUUxaXpSbkhjN05kZGlFckM3Nl9keFpqTDRXUHdZZVY5YlJ4MzlNcEd2N3FnVW9iSWdZNmFvZTJ6ZVJhUnh1OWFTZDlWTVk4T2s3Rl9IMVlrMlFnWDBWU2VtMXlWVGZ2S1BIM2t0WTJiOXZzMThoVk9UVzZMbHc?oc=5"
+  },
+  {
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-08T00:50:28+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss"
+  },
+  {
+   "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-08T00:00:56+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss"
+  },
+  {
+   "title": "Somali pirates are back on shipping tankers",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-08T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLXQ1bjdlTGtfNE1FWWhWcGtvVklONDhNTGhrRHVmOEhLaDdxQUVONnJkZDdUc0lGT1RUcXBfTHRkRGY1dkNmZzgwY0RKd1lEdDBUSldjOGltVHdnOEZYdGNLMzhKSkdPWlhmMVR5QzlYS1d5YWc1UDI0VlRxSHpqeGp0NGdPUDJnVERFQ0R1YXpNT3Yzb1BSMjVDSjA1LWRyOXdfWGdaQVRhbXo4TVBzQk13TFBpaE1ZZHc?oc=5"
+  },
+  {
+   "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-07T23:45:45+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss"
+  },
+  {
+   "title": "7 of 8 executive offices in Georgia will be occupied by Black women",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T23:31:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFVWa2l2SkhZcmhRNmNwc1ludEZjakNMbktTaDdocWh4Ul9fQ29mZE40TTVqajhndDN5OHB4cUZtTE96WTg4UE00ckFLVkZLU09SMVVMZi1CZDI2NTFjUnIzRkhqeHZ5Ylo0ODZfc05LUEtIbXlzYkVoUFNxc2M5Y0NiNEF4MUJKY3ZCaHV6U3FHOE80dEF0Ng?oc=5"
+  },
+  {
+   "title": "Netanyahu rival Gadi Eisenkot to be tasked with forming next Israeli government",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T23:21:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80dzFua01CTzQ5b0gtYkROTk1LbUhIRkxBSG81YlQ4dXE3Qk05bVg4MWRhd0pYN3FSY1IwTFFHQU5Rb19KMnJMSFpEQ3VDRGdoRnV0dVR6Mm51bWJadDY0SG0ybE4?oc=5"
+  },
+  {
+   "title": "Trump ai sostenitori, 'userò il potere di veto, Maga non molla se risultati deludenti'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-07T23:15:41+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/trump-ai-sostenitori-usero-il-potere-di-veto-maga-non-molla-se-risultati-deludenti_217d82e7-6eb8-4712-ae99-53db47194642.html"
+  },
+  {
+   "title": "Candele accese vicino alla piazza principale di Cracovia dopo la strage",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-07T23:11:39+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/08/candele-accese-vicino-alla-piazza-principale-di-cracovia-dopo-la-strage_b348a665-5f2d-4094-b047-7aa6448a6a48.html"
+  },
+  {
+   "title": "Schumer faces skepticism among some Democrats over majority leader role",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T23:05:49+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOERQbldpdHQ1dW1TUEVnMkZNaXNpdG1HX3ZLZEJkOThwdWktU29wbkVvaWNWdndDSVUzTVZ4SmFvSTFVejNfdzVyMi1UcXdRSEdDS3dnN0lGU2dadldFRzFQWGFWUHpCdTcyLWdFNXNrXzZZUXBJVjFRYXY4QUgtdTdR?oc=5"
+  },
+  {
+   "title": "Former DOJ voting rights lawyer says Mississippi count is going ‘exactly as it should’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T22:59:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS3RYNEprSWFJbmF3RXNhVGc4b2ZSbnF1d1U2NnRiZW1JZFkwRVZGNHZSNVI4QU1fXzRja0NGOUFkaFJQbE1aTGtuR0tzc093clBpWXpIQVNBRVBjaFVzMWltQUoxUnZvV3hqamkxazRlMXVWZFNCbm8wWHAwT3ZBdkx6ckt4TW9EYVdoYWI1WkVRTnlRQUFNeW1fOA?oc=5"
+  },
+  {
+   "title": "Utah 2026 election results",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T22:51:17+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hVWhuLUNhVWVRbG9tWHhWMUNDN04tMXFrQWY3YXVobG1BOE5nUzdEN296MDZnT1ZUblRtQUJsVWNKaXVxZHdqVEF4Sm9Qam9BQmVORWJfY0ZQdEk?oc=5"
   },
   {
    "title": "In migliaia al Pride Lgbt+ di Buenos Aires prima della visita del Papa",
@@ -336,13 +429,6 @@
    "lang": "en",
    "time": "2026-11-07T22:19:59+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Immigration",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T22:19:29+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ycjZxZVVJWjh5WmtLeXI1Nm9tNFdVcDN2WjBjcFlXdDA3ZldVTW5RdnNlVUdzWThWaWVzVjNSOWVyNjV3UTB4Rl9VX2xuM2VtT1UyMDZ4Zw?oc=5"
   },
   {
    "title": "Republican attorney general blames Trump for Georgia midterm losses",
@@ -555,6 +641,13 @@
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVFJa3NNYjdCVlQ5WTJ4TUVBRjVnUmpoeDFEUDJBM0Q3b1pub0d5WlFiUlBqQW45b1hEc3I3MjZfN1d1dDdmdXhXZFl1bkI0WHBFZzliLS1WaDRBc1VNZ2Jmenc2Y2EwR3kzNTFJTlZWTWFmR0ZadmpfaTl5WWg2X2lNZU42Zw?oc=5"
   },
   {
+   "title": "Eisenkot to be tasked with forming next Israeli government",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T19:40:24+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTzZlWENUX0ZsUGREd1lFcW5KNDRzOElYVW9mMlRCTFVtb0ZpdHFvQllpU3dDVmVtZmw1TEdROEd5WWVzVmRzWHZ6OU1xNXBfU3lmUDc1VmRURTE2ZVVnVzVqeEhCWnY1em9FRE9lazhScDJkM1Y3VWx4SHVxVzE3ZV9sbkM?oc=5"
+  },
+  {
    "title": "What we know about Krakow mass shooting so far",
    "source": "BBC News",
    "lang": "en",
@@ -765,7 +858,7 @@
    "link": "https://www.franceinfo.fr/politique/les-deputes-communistes-qui-soutiennent-la-france-insoumise-se-sont-mis-en-dehors-du-parti-estime-le-pcf_8272592.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "1 killed, 22 injured after elderly driver suspected to be impaired strikes cyclists in North Carolina, officials say",
+   "title": "1 killed, 22 injured after impaired driver strikes bicyclists in North Carolina, officials say",
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-07T17:59:19+00:00",
@@ -777,6 +870,13 @@
    "lang": "en",
    "time": "2026-11-07T17:59:19+00:00",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdUMzWXZhc3ZnQjRLNGlqSmFhOFZpVmthRVFZUjZmZktwS2JBVFpPd3VkSjFDUnhPN0I3X05QXzAyaDdMNkRaV0trWGtoVy1jOGw2OHhIQXA5SjlnZWRPNmpCb092S0Q5djhZOWRjWW9qV3YtX2g2MG5hOVhmRHhyQjVmeHpJZw?oc=5"
+  },
+  {
+   "title": "1 killed, 22 injured after elderly driver suspected to be impaired strikes cyclists in North Carolina, officials say",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T17:59:19+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTGluM2tKenBhTlVTekRhMU5qcmlTYTNHTUlsRU0tT3ByalpUcHdBVG84enZzY0pZdVlEemQxLUVHYjN0cXpJcVl2M2txUEpUMWtBSi10WnRiNWFDSy1jN0FPUnpyWHpQdk96bXlrOF9CSGRYOUdQMWl2SGdRa01iQg?oc=5"
   },
   {
    "title": "Gaza wedding festival sees 250 couples married at the same time",
@@ -870,14 +970,14 @@
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yblNTcGV4alFSanJkZEpTRWIyOUZIRUtOblVwYjBjcUdqWGZBLUpkNG1wTnVoaTlKM3RhR3p3Z2h2V1NpQmJ0Q1p0Nk9fcGF3YTBJWnlBYkpsbHJSX3Z4UGJ5VUt4dXp2SlBZbHJrUkxBTER6bUE?oc=5"
   },
   {
-   "title": "Polly Klaas’ father among families grappling with Gavin Newsom’s death row commutation",
+   "title": "His daughter was abducted during a sleepover and killed. He is among families grappling with Newsom’s death row commutation",
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-07T17:00:15+00:00",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWtCUk5YbEM1UkFnbTJSTTdmdVlNWV85RDVPSmNXY0l6OHJpeXlMdTk1TXVfMWFLZXFpT09XeGFfRDlvTFUtZ3RzNjc0NWEtQzRCZ2Q4cGZKVUZLRlRuNE9rNEdEczZRczRndG42TmhBUWZyTFhkWGxsal9TNi02UEVIUQ?oc=5"
   },
   {
-   "title": "His daughter was abducted during a sleepover and killed. He is among families grappling with Newsom’s death row commutation",
+   "title": "Polly Klaas’ father among families grappling with Gavin Newsom’s death row commutation",
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-07T17:00:15+00:00",
@@ -1066,6 +1166,13 @@
    "link": "https://www.franceinfo.fr/france/ile-de-france/seine-saint-denis/le-lyceen-de-la-courneuve-soupconne-d-avoir-poignarde-l-un-de-ses-camarades-va-etre-presente-a-un-juge-pour-tentative-d-homicide-volontaire_8272439.html#xtor=RSS-3-[lestitres]"
   },
   {
+   "title": "Poland: After Kraków rampage leaves 6 dead, 3 more bodies found at suspect’s home",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T15:15:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wMkFOc2xCQlhUQlhTNEVodjYya2h3ek12WUs2cVEwaEVZM1UyOVNqTk1uMTB1cDJBQlBNeWZRZU5qaENXWGtlNGplOUdkRUVUSU5xZkFsOFBFQ0NlZnpaUU0yQzFVMUhxbGxsVTNGTW9RcEJkSE1lM0JVaGQ?oc=5"
+  },
+  {
    "title": "Gunman who killed 6 in Kraków attack held far-right views, Polish minister says",
    "source": "CNN",
    "lang": "en",
@@ -1090,8 +1197,15 @@
    "title": "Pelacarsen, a promising drug for an inherited heart risk, flops, stunning doctors",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-07T14:58:16+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90ZUVEYk9VZjQ0S0dfODF4SXJrNVltMGhwSkRCS2ZES0ZjSmo2bkE1V1JKZVFMNkNna0h1SzdBdHhyQ3h4bDJnOGlzSjV1WUxvWklDSnBSOTlzX3AxR25na2drR3Y2SU00MkJFWlBjS0s1TndiTUZmZWlVOHhjUQ?oc=5"
+   "time": "2026-11-07T14:50:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85b2prT3ZGd3ZrRGJRRTRLNFBVVjBxdUR6QTlZSHhHNXZrd0lBaW1jbld0Q1ZiMlg5S04xemlfUkQwLVFpQXo0TzlERDRISXJpOWRmZ2JNVXZZRnZCenZ3YlBSUkpJUnV2eGM3WDZHeVFRRjh1b095UWdzSGpELVk?oc=5"
+  },
+  {
+   "title": "He left NYC after 9/11 for a new life in South America",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-07T14:33:28+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0VqY1cweXpFa1h4T3dwN2QwYXZpVnR6bUQtUEp3T1BLZl9RVE9EVDdTMExocWg3YXhhLXFMOVNWbzdWNUtCcVpaVFFtT0RiYU03TFg3TE1pTnVhOEVodFloSUVfT05Pdkl1b3Z3eVduSzVOMW1ibDFENDBrN0t5N2VtU3g?oc=5"
   },
   {
    "title": "The Lions by the River Tigris: Restoring Mosul’s artefacts",
@@ -1176,13 +1290,6 @@
    "lang": "en",
    "time": "2026-11-07T13:35:46+00:00",
    "link": "https://www.aljazeera.com/news/2026/11/7/radical-or-hero-france-debates-leftist-candidate-jean-luc-melenchon?traffic_source=rss"
-  },
-  {
-   "title": "He left NYC after 9/11 for a new life in South America",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T13:33:28+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX0VqY1cweXpFa1h4T3dwN2QwYXZpVnR6bUQtUEp3T1BLZl9RVE9EVDdTMExocWg3YXhhLXFMOVNWbzdWNUtCcVpaVFFtT0RiYU03TFg3TE1pTnVhOEVodFloSUVfT05Pdkl1b3Z3eVduSzVOMW1ibDFENDBrN0t5N2VtU3g?oc=5"
   },
   {
    "title": "En Iran, un homme a été exécuté en lien avec l'attaque meurtrière d'un poste de police",
@@ -1449,230 +1556,6 @@
    "lang": "en",
    "time": "2026-11-07T10:36:32+00:00",
    "link": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss"
-  },
-  {
-   "title": "Pakistani astronaut to join China’s next space station mission",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T10:17:53+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission?traffic_source=rss"
-  },
-  {
-   "title": "\"Godzilla Minus Zero\", \"L'Affaire Marie-Claire\", \"L'Arabe\", \"Kwibuka, se souvenir\" : quels sont les films à voir (ou pas) cette semaine au cinéma ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T10:12:44+00:00",
-   "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/godzilla-minus-zero-l-affaire-marie-claire-l-arabe-kwibuka-se-souvenir-quels-sont-les-films-a-voir-ou-pas-cette-semaine-au-cinema_8270942.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "RIOT Stock Quote Price and Forecast",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T10:10:25+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LRGc1Z3ZzTWVSNzZLdzRrUGlvM0xuRXk3OUhwaFBJN0JLd2c2RDlxdWZ2YXpuZUxUd2RqeGw4Z1dQTDBodHlGSVVNNDNVWVhn?oc=5"
-  },
-  {
-   "title": "Bunny ears, nudity and strict rules: What it’s like on a ‘lifestyle’ cruise",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T10:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56aTFqcnpCM1Q0S3VHcGdvNHVNdlA2Q0xpdlJIUGNiZEZ3SWhQeTJFd2w0OUpqT1RLZHJTY2VfZm1JQUIwaG8zUUtvS2NBVktVeWtlZ1ZoeVVkRmNYRzFvMEtCUV9lV3FlNkRNNFRPVjZQbXdSbjRDb242cjhvQQ?oc=5"
-  },
-  {
-   "title": "\"J'aimerais bien savoir pourquoi c'était comme ça entre ma fille et moi\" : la mère d'Inass, \"la petite martyre de l'A10\", s'enfonce dans le déni",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:57:01+00:00",
-   "link": "https://www.franceinfo.fr/faits-divers/martyre-de-l-a10/j-aimerais-bien-savoir-pourquoi-c-etait-comme-ca-entre-ma-fille-et-moi-la-mere-de-la-petite-martyre-de-l-a10-s-enfonce-dans-le-deni_8271575.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Il Papa in Uruguay, oggi visita uno dei quartieri più poveri del mondo",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-07T09:53:59+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/07/il-papa-in-uruguay-oggi-visita-uno-dei-quartieri-piu-poveri-del_e05e711e-8a26-47a6-93b8-e6102188db82.html"
-  },
-  {
-   "title": "Plus de 500 kilomètres de câbles de cuivre volés dans des parcs photovoltaïques, un préjudice de plus d'un million d'euros",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:51:51+00:00",
-   "link": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/plus-de-500-kilometres-de-cables-de-cuivre-voles-dans-des-parcs-photovoltaiques-un-prejudice-de-plus-d-un-million-d-euros-3445896.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Palestinian citizens of Israel put to ‘loyalty test’ after election wins",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T09:48:11+00:00",
-   "link": "https://www.aljazeera.com/features/2026/11/7/palestinian-citizens-of-israel-put-to-loyalty-test-after-election-wins?traffic_source=rss"
-  },
-  {
-   "title": "Tajani, nel mirino sul dark web per la difesa dell'Ucraina",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-07T09:43:37+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/07/tajani-nel-mirino-sul-dark-web-per-la-difesa-dellucraina_cb6b6432-d7a2-4e89-a272-33674e3dc9dc.html"
-  },
-  {
-   "title": "Vol de 4,5 millions d'euros de bijoux au musée Lalique : quatre personnes mises en examen",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:39:30+00:00",
-   "link": "https://www.franceinfo.fr/culture/arts-expos/vol-de-4-5-millions-d-euros-de-bijoux-au-musee-lalique-quatre-personnes-mises-en-examen_8272106.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "'Wellness Darties': Gen Z is Reinventing the Frat Party",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T09:36:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaGhKM2RjNDdtNEU3YTlFaTVJODRCbkplX0VETEw3NUstZGV6SXNlb0Rpam9ISmpYeHVNNV9adDlUbzhaXzFzWTFHN21VUlhuYTU5WEtvMWNldkhPWFk5NTVQVXAxc1RxbWxOWFJPS0R4N3F0NEtKWkFlYVp1NG42Xy16bHRwUjJqRnN0bEw1UmVHbkk?oc=5"
-  },
-  {
-   "title": "Mobilisation du 7 novembre : \"Le gouvernement est à l'écoute\", assure Éléonore Caroit, ministre déléguée chargée de la Francophonie",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:34:13+00:00",
-   "link": "https://www.franceinfo.fr/replay-magazine/franceinfo/l-invite-politique/le-7-40-franceinfo-du-samedi-07-novembre-2026_8244943.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Que sait-on des effets sur la santé des gaz lacrymogènes utilisés par les forces de l'ordre dans les manifestations ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:33:28+00:00",
-   "link": "https://www.franceinfo.fr/societe/manifestations/que-sait-on-des-effets-sur-la-sante-des-gaz-lacrymogenes-utilises-par-les-forces-de-l-ordre-dans-les-manifestations_8264093.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "China’s e-bikes boom as fuel prices rise",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T09:30:07+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/chinas-e-bikes-boom-as-fuel-prices-rise?traffic_source=rss"
-  },
-  {
-   "title": "Mobilisation du 7 novembre : suivez avec nous cette nouvelle journée de manifestations",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T09:19:31+00:00",
-   "link": "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-7-novembre-suivez-avec-nous-cette-nouvelle-journee-de-manifestations_8272010.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "US Senator Abdul El-Sayed launches ‘Habibi’ political action committee",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T09:18:53+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/7/el-sayed-launches-habibi-pac-days-after-historic-michigan-senate-win?traffic_source=rss"
-  },
-  {
-   "title": "Sfonda la porta e tenta di strangolare la moglie davanti ai figli",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-07T09:01:53+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/07/sfonda-la-porta-e-tenta-di-strangolare-la-moglie-davanti-ai-figli_9b2a840b-9920-4c29-98f8-bdd39ae0e3f6.html"
-  },
-  {
-   "title": "La Fondation pour la Nature et l'Homme alerte sur les conséquences environnementales de l'augmentation de la production de poulets",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T08:59:37+00:00",
-   "link": "https://www.franceinfo.fr/sante/alimentation/la-fondation-pour-la-nature-et-l-homme-alerte-sur-les-consequences-environnementales-de-l-augmentation-de-la-production-de-poulets_8268302.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Les Etats-Unis promettent d'offrir 20 millions de dollars pour toute information sur le programme nucléaire iranien",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T08:57:22+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/les-etats-unis-promettent-d-offrir-20-millions-de-dollars-pour-toute-information-sur-le-programme-nucleaire-iranien_8272073.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T08:45:36+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss"
-  },
-  {
-   "title": "Per vacanze d'autunno l'Italia conquista gli europei, la sceglie uno su tre",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-07T08:44:55+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/07/per-vacanze-dautunno-litalia-conquista-gli-europei-la-sceglie-uno-su-tre_32710524-7ac4-42ff-bc36-27d32e2b656c.html"
-  },
-  {
-   "title": "Après une crise bancaire majeure, le Paraguay a destitué son président pour en réinvestir un autre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T08:28:08+00:00",
-   "link": "https://www.franceinfo.fr/monde/ameriques/apres-une-crise-bancaire-majeure-le-paraguay-a-destitue-son-president-pour-en-reinvestir-un-autre_8272058.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Congressman-elect Manny Rutinel speaks to CNN after election win",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T08:22:40+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNREZsYzBjWUZPYjhwWlRsM2N1UE9nYlhQd2prZ2VZTzhOd3o0UGlrTXA3cE02ZHhWMmRSMkxlcUhza2ltSHJEWmI4UF9wMTlnQl9Wa2Q3SF9PMlVfV1dXU19lOE4tSDlZb2dnV1BRZHJQT0FmMEt1bDloOUwyRHdPZFBIWXFFcWdjdjNXMGNzRkdPVVVqWmJmaXA4WUwxbHVjcXFpR1J6Y0E4MDQ?oc=5"
-  },
-  {
-   "title": "Texas mayor instructs police to limit co-operation with ICE",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-07T08:15:55+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Guerre en Ukraine : un pont et des infrastructures énergétiques endommagés par des frappes russes dans la région de Kiev",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T08:06:53+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-un-pont-et-des-infrastructures-energetiques-endommages-par-des-frappes-russes-dans-la-region-de-kiev_8272043.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "How Democrats used anger over data centers to flip red states",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-07T08:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc0ZoaDN5c0hWOXFRalVqZ04tQ1Z4YjFGLUh2Tkt3VGVFelJMT1RVZDRXdzh6Sl9vekhqUzRDX29RZWhyRUMwb3VaQ3E3Tjhwcjc1allINTd2TUFFM1VhUGlEQXYzbTdxUS1taTY0Nnl1TDNRSkZNMmZJSEV1NDBtTnRCTVVNSmY0dXE4Um15Rld5TEhkeEhBQzBSNU5ZZw?oc=5"
-  },
-  {
-   "title": "Houston mayor curbs cooperation of US city’s police with ICE",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T07:50:16+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/7/houston-mayor-curbs-cooperation-of-us-citys-police-with-ice?traffic_source=rss"
-  },
-  {
-   "title": "Présidentielle 2027 : Jean-Luc Mélenchon va présenter son programme au Bourget",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-07T07:44:11+00:00",
-   "link": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-jean-luc-melenchon-va-presenter-son-programme-au-bourget_8272022.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-07T07:27:44+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ft, i servizi europei indagano sulla pista russa degli allarmi bomba",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-07T07:24:30+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/07/ft-i-servizi-europei-indagano-sulla-pista-russa-degli-allarmi-bomba_a5180dac-6aab-4e65-80d9-fc54896b09a5.html"
-  },
-  {
-   "title": "Paraguay's president impeached and under house arrest after bank collapse",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-07T07:20:00+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Qatari PM says US willing to seek solution to war with Iran",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-07T07:10:37+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss"
   }
  ]
 }
