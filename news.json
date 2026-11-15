@@ -1,12 +1,26 @@
 {
- "updated": "2026-11-14T21:32:50+00:00",
+ "updated": "2026-11-15T01:15:51+00:00",
  "items": [
   {
-   "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+   "title": "Hundreds of men march in Switzerland to protest violence against women",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T00:27:14+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss"
+  },
+  {
+   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-14T21:05:14+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-15T00:06:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Is Beijing the world’s strictest no-fly zone?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR2N0U25aem9pZDVyRkxqSHllbVhBal9aWE9Fd1VxQmNBTWVLYk1jenNJVFNUalRjM1FPSkotUF9FY1dDNWtQMUtOdkwwSVgtTk1lelM2NFdhMHVJa29aVElXRFJyLW1mT2lxWWFkVU85dG55RVlldDVPYnhUVlZNMzJhRXdSRWZwWVRzNElqUEtMQndXSEZ1dldxRG5hVzQ?oc=5"
   },
   {
    "title": "Victime d'une cyberattaque, Maileva, une filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes",
@@ -14,20 +28,6 @@
    "lang": "fr",
    "time": "2026-11-14T20:15:18+00:00",
    "link": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/victime-d-une-cyberattaque-maileva-une-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-touchant-22-millions-de-personnes_8282825.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "India’s Assam state demolishes homes of 132 Muslim families",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T20:14:10+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss"
-  },
-  {
-   "title": "Where is Trump? He hasn’t commented on FAA incident",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-14T19:55:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa016TThvMDU4cV9UNUZla0d2MFI0U2R5WG5qSnNORHdYWEwta1hXWmZjd0ZiMGZlV0VaN2REMHZLM2R4NmNoVTNXS1V6T3VtYl9GVlltTFZLSU1yWS1iaFBuaFpWczdXSl9Sc0N6ZTB0NGZuemtPblF5LXBwemZHcGR6QWFGWEk?oc=5"
   }
  ],
  "breaking": null,
@@ -49,60 +49,60 @@
  "alerted": [],
  "phone": [
   {
-   "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-14T21:05:14+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-14T20:23:06+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "India’s Assam state demolishes homes of 132 Muslim families",
+   "title": "Hundreds of men march in Switzerland to protest violence against women",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-11-14T20:14:10+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss"
+   "time": "2026-11-15T00:27:14+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss"
+  },
+  {
+   "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T00:14:22+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss"
+  },
+  {
+   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T00:06:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Judo champion shakes up French presidential race with surprise candidacy",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T00:06:51+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Is Beijing the world’s strictest no-fly zone?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR2N0U25aem9pZDVyRkxqSHllbVhBal9aWE9Fd1VxQmNBTWVLYk1jenNJVFNUalRjM1FPSkotUF9FY1dDNWtQMUtOdkwwSVgtTk1lelM2NFdhMHVJa29aVElXRFJyLW1mT2lxWWFkVU85dG55RVlldDVPYnhUVlZNMzJhRXdSRWZwWVRzNElqUEtMQndXSEZ1dldxRG5hVzQ?oc=5"
+  },
+  {
+   "title": "Zelensky: US floated idea of Ukraine swapping land for NATO membership",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T23:30:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcnBJSVdsRS1QWWJDQUdWZHN6SFhTcTg1TlNfSm8wTEQ2NGV4aHpqLS1lQVVCT29EdUZJMmNoSFZtbzRRZ2hYeFlvbndWMXFxTjBRZTRNbllTNXQ3TFJKWUxuQkEtSEw5ZnMteXdOS3V5WERSNklISXJKSGZSRmdCQVZPem43RThxcUphU3Nodk5aenRycmhV?oc=5"
   },
   {
    "title": "How telecoms upgrade work sparked US flight chaos",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-14T20:03:48+00:00",
+   "time": "2026-11-14T23:11:27+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Where is Trump? He hasn’t commented on FAA incident",
+   "title": "Deputy working security at South Carolina gun show fatally shoots customer who shot him",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-14T19:55:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa016TThvMDU4cV9UNUZla0d2MFI0U2R5WG5qSnNORHdYWEwta1hXWmZjd0ZiMGZlV0VaN2REMHZLM2R4NmNoVTNXS1V6T3VtYl9GVlltTFZLSU1yWS1iaFBuaFpWczdXSl9Sc0N6ZTB0NGZuemtPblF5LXBwemZHcGR6QWFGWEk?oc=5"
-  },
-  {
-   "title": "Can being ‘non-Western’ cost you your home in Denmark?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T19:52:49+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss"
-  },
-  {
-   "title": "What we know about the cause of the nationwide FAA ground stop",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-14T19:16:40+00:00",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rZWdfank0eHF1WGZYVEtPVlF2ZVZIRDlicFBrdTVPblphdnJJOXQ1YWRicHdGZFpWT3ZmWkozelMtMXF3YXdBMkhMVzJCalhmMVBORWNCSG45dkNJWnhmWjUyWnVvZ1lRMVYwcmlHY3VXNG5JTjl3?oc=5"
-  },
-  {
-   "title": "Grounded: Unraveling the Nationwide Flight Chaos",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-14T18:52:41+00:00",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNXlZb0k4WGFEcTdGZEtaME1qVTJKMHYwcHhXQ3RRZWFsTUhCY1A3NmltRGNuNDExUFRqbEx5TkpsWC0tNUFpaDUzbzI4X1BqRUc4eTBEYkJVdHdSZElhZmNacy1haXBadGNOak1fWkIzV3g2dlZmcUd4TFM2TzJiTjZiVzg2ZnpfV3JrdDRsU0RLTEVsZk5wS2tDaVc2UEE?oc=5"
+   "time": "2026-11-14T22:28:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FdTRPekZZVnk1anZCaWsyNWdYZHB1bDBhN2UxWlhFS1otWjBNMzlnMGtqVF9hUzlfZzc2NXgyeFA3dlJfb2daOXdOeU1ZNHRfaUE5bVNFa0hHZ3NPLVZ3NGNLSlphZFBVLXJVSFBuRGh4TXky?oc=5"
   }
  ],
  "podcasts": [
@@ -171,24 +171,35 @@
     "breaking": false
    },
    {
-    "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+    "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
     "source": "BBC News",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-14T19:14:33+00:00",
+    "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-14T21:05:14+00:00",
     "sources": [
      "BBC News"
     ],
     "breaking": false
    },
    {
-    "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
-    "source": "BBC News",
+    "title": "Explosion near Syria’s capital kills father and child",
+    "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-14T21:05:14+00:00",
+    "link": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+    "time": "2026-11-14T19:46:36+00:00",
     "sources": [
-     "BBC News"
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "SpaceX recupera per la prima volta nella storia un veicolo spaziale",
+    "source": "ANSA",
+    "lang": "it",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/spacex-recupera-per-la-prima-volta-nella-storia-un-veicolo-spaziale_878fb39f-8bdd-4518-ad05-0e8675365ac5.html",
+    "time": "2026-11-14T22:36:17+00:00",
+    "sources": [
+     "ANSA"
     ],
     "breaking": false
    },
@@ -213,17 +224,6 @@
      "franceinfo"
     ],
     "breaking": false
-   },
-   {
-    "title": "Ministero Interno, '219 fermi in Francia e 10 agenti lievemente feriti'",
-    "source": "ANSA",
-    "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/ministero-interno-219-fermi-in-francia-e-10-agenti-lievemente-feriti_b5a92c67-2b50-4eae-949e-32bb835a137e.html",
-    "time": "2026-11-14T20:08:17+00:00",
-    "sources": [
-     "ANSA"
-    ],
-    "breaking": false
    }
   ]
  },
@@ -243,6 +243,28 @@
     "breaking": false
    },
    {
+    "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-14T21:05:14+00:00",
+    "sources": [
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Explosion near Syria’s capital kills father and child",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+    "time": "2026-11-14T19:46:36+00:00",
+    "sources": [
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
     "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
     "source": "BBC News",
     "lang": "en",
@@ -254,46 +276,24 @@
     "breaking": false
    },
    {
-    "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
-    "source": "BBC News",
-    "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-14T21:05:14+00:00",
-    "sources": [
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "India’s Assam state demolishes homes of 132 Muslim families",
+    "title": "Hundreds of men march in Switzerland to protest violence against women",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
-    "time": "2026-11-14T20:14:10+00:00",
+    "link": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss",
+    "time": "2026-11-15T00:27:14+00:00",
     "sources": [
      "Al Jazeera"
     ],
     "breaking": false
    },
    {
-    "title": "How telecoms upgrade work sparked US flight chaos",
-    "source": "BBC News",
+    "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
+    "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-    "time": "2026-11-14T20:03:48+00:00",
+    "link": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+    "time": "2026-11-15T00:14:22+00:00",
     "sources": [
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Where is Trump? He hasn’t commented on FAA incident",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa016TThvMDU4cV9UNUZla0d2MFI0U2R5WG5qSnNORHdYWEwta1hXWmZjd0ZiMGZlV0VaN2REMHZLM2R4NmNoVTNXS1V6T3VtYl9GVlltTFZLSU1yWS1iaFBuaFpWczdXSl9Sc0N6ZTB0NGZuemtPblF5LXBwemZHcGR6QWFGWEk?oc=5",
-    "time": "2026-11-14T19:55:00+00:00",
-    "sources": [
-     "CNN"
+     "Al Jazeera"
     ],
     "breaking": false
    }
@@ -301,6 +301,146 @@
  },
  "breakingLog": [],
  "history": [
+  {
+   "title": "Hundreds of men march in Switzerland to protest violence against women",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T00:27:14+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss"
+  },
+  {
+   "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T00:14:22+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss"
+  },
+  {
+   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T00:06:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Judo champion shakes up French presidential race with surprise candidacy",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T00:06:51+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Iran war live: Israel vows Gaza ‘offensive policy’ despite caretaker status",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T00:00:08+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss"
+  },
+  {
+   "title": "Is Beijing the world’s strictest no-fly zone?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T00:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR2N0U25aem9pZDVyRkxqSHllbVhBal9aWE9Fd1VxQmNBTWVLYk1jenNJVFNUalRjM1FPSkotUF9FY1dDNWtQMUtOdkwwSVgtTk1lelM2NFdhMHVJa29aVElXRFJyLW1mT2lxWWFkVU85dG55RVlldDVPYnhUVlZNMzJhRXdSRWZwWVRzNElqUEtMQndXSEZ1dldxRG5hVzQ?oc=5"
+  },
+  {
+   "title": "Portugal immortalises Ronaldo with a new number 7",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T23:55:18+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/portugal-immortalises-ronaldo-with-a-new-number-7?traffic_source=rss"
+  },
+  {
+   "title": "Iraq PM targets powerful militia stronghold in $30m oil smuggling probe",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T23:34:37+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_iraq-pm-targets-militia-stronghold-in-oil-smuggling-141126?traffic_source=rss"
+  },
+  {
+   "title": "Zelensky: US floated idea of Ukraine swapping land for NATO membership",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T23:30:40+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcnBJSVdsRS1QWWJDQUdWZHN6SFhTcTg1TlNfSm8wTEQ2NGV4aHpqLS1lQVVCT29EdUZJMmNoSFZtbzRRZ2hYeFlvbndWMXFxTjBRZTRNbllTNXQ3TFJKWUxuQkEtSEw5ZnMteXdOS3V5WERSNklISXJKSGZSRmdCQVZPem43RThxcUphU3Nodk5aenRycmhV?oc=5"
+  },
+  {
+   "title": "How telecoms upgrade work sparked US flight chaos",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-14T23:11:27+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Netanyahu says only a unity government can guarantee Israel’s security",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T23:01:30+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss"
+  },
+  {
+   "title": "Explosion near Syria’s capital kills father and child",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T22:43:12+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss"
+  },
+  {
+   "title": "SpaceX recupera per la prima volta nella storia un veicolo spaziale",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-14T22:36:17+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/spacex-recupera-per-la-prima-volta-nella-storia-un-veicolo-spaziale_878fb39f-8bdd-4518-ad05-0e8675365ac5.html"
+  },
+  {
+   "title": "Palestinian stories set for major presence at 2027 Oscars",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T22:28:47+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/palestinian-stories-set-for-major-presence-at-2027-oscars?traffic_source=rss"
+  },
+  {
+   "title": "Deputy working security at South Carolina gun show fatally shoots customer who shot him",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T22:28:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FdTRPekZZVnk1anZCaWsyNWdYZHB1bDBhN2UxWlhFS1otWjBNMzlnMGtqVF9hUzlfZzc2NXgyeFA3dlJfb2daOXdOeU1ZNHRfaUE5bVNFa0hHZ3NPLVZ3NGNLSlphZFBVLXJVSFBuRGh4TXky?oc=5"
+  },
+  {
+   "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-14T22:09:40+00:00",
+   "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Voter polls: Election 2026",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T22:02:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ndWNoZkstcW90MnZoRjFlWGtMaHk4SjFES1JGdXNmZ0k0b2FOVHlfOHZQb3BPemlCX1FZVHlReU5JQlBGUzJlaFdKN1NtbFRmT2lyNDAzNk5XVkF4ZjhyNmE2a3VFNjhySDcwQXVYQWZ0T0pscVA5UktBTEJ0Zw?oc=5"
+  },
+  {
+   "title": "Pope Leo XIV returns to Chiclayo in northern Peru",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T21:55:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlJxbjV2ZUdYWDZMMDFPVlVXWHg4bzJmaTk2MFN2MlVNUnhkYTJSX3Q0MVZkZnFPN0ZNYWktd2p6d1c3d3ZLTnZuZjZfaVVRUWpiVTJqZjNEMkZfNVUycEtVOHhvd1hLOGM5cklSM3dhaHZacTFuNDZXZFp0RVVJUFJ5SjROMlU0Y0sweVpVUXF1c0xEZUhLamdjV241eEhXYUdWSm15SQ?oc=5"
+  },
+  {
+   "title": "US flights resume after ageing technology blamed for outage",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T21:36:19+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss"
+  },
+  {
+   "title": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-14T21:10:26+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss"
+  },
   {
    "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
    "source": "BBC News",
@@ -342,13 +482,6 @@
    "lang": "it",
    "time": "2026-11-14T20:08:17+00:00",
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/ministero-interno-219-fermi-in-francia-e-10-agenti-lievemente-feriti_b5a92c67-2b50-4eae-949e-32bb835a137e.html"
-  },
-  {
-   "title": "How telecoms upgrade work sparked US flight chaos",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-14T20:03:48+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Manifestations du 14 novembre : 106 000 personnes ont défilé en France selon l'Intérieur, 200 000 d'après les organisateurs",
@@ -967,13 +1100,6 @@
    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Fc2dFVWNUbHN1aDhWTzBMaFp6RWV0bGFOUk5EdHhscTUtd2xQQ1lZa2JablZ6X1ZrVVlWb2g3b0hubHI1UlBuVDAwTHpwV2c?oc=5"
   },
   {
-   "title": "symbol__ Stock Quote Price and Forecast",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-14T11:45:33+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5scjEtYnExMEtSVVRIRDhCT2R0WjZDejVSR3VCN1VnZ1RweG5aRHRrU25pRnl3STFmVFFZWnhMdzZRTWdEMXRkcE9CMUE1LTB5?oc=5"
-  },
-  {
    "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
    "source": "Al Jazeera",
    "lang": "en",
@@ -1198,6 +1324,20 @@
    "link": "https://www.aljazeera.com/news/2026/11/14/netanyahu-may-fall-but-his-far-right-legacy-in-israel-is-going-nowhere?traffic_source=rss"
   },
   {
+   "title": "symbol__ Stock Quote Price and Forecast",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T09:42:09+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFTVdEeEJtaFQzMG1vS3FaMDNEdUM2THNPR0xHYnhvRGg3YVBDSkJ6Z2pqSFF1UGRqU1NzVDZBUXhuekxUbVlJX2RtRGpyVHpF?oc=5"
+  },
+  {
+   "title": "Police lift evacuation order issued after explosive device found at Illinois ethanol plant, officials say",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-14T09:39:54+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFJLZ3RTczhKcWNLeHdQNy12NVJfc2hzS3l1ckZBTUdINWlJMExMWmxJekp0V1JCYk5wc0p2QzRzZWF3b3dOMXRIZDVCTE1SdzBmY08xS2ZKbDMzVmswZFY4blZPWlVNNVFlcTNENkY5NUhVSi1ldTl4S2VweDhLZ0dzUFRoUEVucUlUZWpGaw?oc=5"
+  },
+  {
    "title": "FBI investigating after bomb found at Ethanol plant in Illinois, forcing evacuations",
    "source": "CNN",
    "lang": "en",
@@ -1238,153 +1378,6 @@
    "lang": "en",
    "time": "2026-11-14T09:19:43+00:00",
    "link": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss"
-  },
-  {
-   "title": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T09:08:21+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss"
-  },
-  {
-   "title": "Conto alla rovescia per Black Friday, giro d'affari sale a 4,3 miliardi",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-14T09:06:00+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/conto-alla-rovescia-per-black-friday-giro-daffari-sale-a-43-miliardi_3c043ed6-664f-491c-8f07-0e87edac689f.html"
-  },
-  {
-   "title": "Cnn, 'cancellati oltre 15.000 voli, oggi altri 3.000 annullati o in ritardo'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-14T09:02:05+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/cnn-cancellati-oltre-15.000-voli-oggi-altri-3.000-annullati-o-in-ritardo_11845af9-ad5f-4b67-8b68-1a5c60e457bf.html"
-  },
-  {
-   "title": "This Minnesota mayoral race was a dead-even tie. So, they drew the winner’s name from a bag",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-14T09:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wZUo4eEljTnNkdzJrWWdUMUtJTzBhZEdwaFZGaEFGa2d3WUlQeTMxTDZDamFTMzRhdmNwemgwYUFYMk5wM0lOc3VobFdwaEJyVDU0M2pKNURIQ2xORGY1UzZNVmFOT0tXTHFQTQ?oc=5"
-  },
-  {
-   "title": "Hungary seizes $18m cash tied to ex-Orban-era minister in probe",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T08:39:07+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/hungary-seizes-18m-cash-tied-to-ex-orban-era-minister-in-probe?traffic_source=rss"
-  },
-  {
-   "title": "\"Pour l'instant, j'ai très peu d'informations\" : à l'aéroport d'Atlanta, la galère des passagers après la fermeture de l'espace aérien américain",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-14T08:05:42+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/reportage-pour-l-instant-j-ai-tres-peu-d-informations-a-l-aeroport-d-atlanta-la-galere-des-passagers-apres-la-fermeture-de-l-espace-aerien-americain_8282159.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Appel à témoins, reconstitution ADN… Trente ans après la disparition de Marion Wagon, l'enquête relancée",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-14T07:55:33+00:00",
-   "link": "https://www.franceinfo.fr/faits-divers/appel-a-temoins-reconstitution-adn-trente-ans-apres-la-disparition-de-marion-wagon-l-enquete-relancee_8280797.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T07:46:36+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss"
-  },
-  {
-   "title": "Missing Australian teenager reunites with his mother",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T07:44:46+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/missing-australian-teenager-reunites-with-his-mother?traffic_source=rss"
-  },
-  {
-   "title": "Sept Français sur dix ont changé leurs habitudes alimentaires avec la baisse de leur pouvoir d'achat, selon un baromètre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-14T07:22:35+00:00",
-   "link": "https://www.franceinfo.fr/economie/pouvoir-achat/info-radio-france-sept-francais-sur-dix-ont-change-leurs-habitudes-alimentaires-avec-la-baisse-de-leur-pouvoir-d-achat-selon-un-barometre_8282183.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Operazione della Polizia contro la pedopornografia online, sei arresti",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-14T07:21:18+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/14/operazione-della-polizia-contro-la-pedopornografia-online-sei-arresti_c68db6fd-48a2-4fd6-a84e-e754413ffc80.html"
-  },
-  {
-   "title": "Protesters heckle Hakeem Jeffries at Democratic conference",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T07:18:53+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/protesters-heckle-hakeem-jeffries-at-democratic-conference?traffic_source=rss"
-  },
-  {
-   "title": "The ANC’s implosion was decades in the making",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T06:52:40+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/14/the-ancs-implosion-was-decades-in-the-making?traffic_source=rss"
-  },
-  {
-   "title": "Southeast Asian leaders to meet as Trump visit highlights trade disruption",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T06:48:14+00:00",
-   "link": "https://www.aljazeera.com/economy/2026/11/14/southeast-asian-leaders-to-meet-as-trump-visit-highlights-trade-disruption?traffic_source=rss"
-  },
-  {
-   "title": "Microsoft says services fully restored after day-long global outage",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-14T06:42:27+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ukraine is running out of options, and Russia knows it",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T06:39:09+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/14/ukraine-is-running-out-of-options-and-russia-knows-it?traffic_source=rss"
-  },
-  {
-   "title": "Siege fuels disease fears in Yemen’s Taiz",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T06:17:27+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/14/siege-fuels-disease-fears-in-yemens-besieged-taiz?traffic_source=rss"
-  },
-  {
-   "title": "Could one daily pill narrow the diabetes treatment gap in the Global South?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T06:14:09+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/14/could-one-daily-pill-narrow-the-diabetes-treatment-gap-in-the-global-south?traffic_source=rss"
-  },
-  {
-   "title": "\"Ils nous mettent dans le pressoir à pommes\" : combien de temps Edouard Philippe va-t-il pouvoir résister à l'appel de la primaire dans le bloc central ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-14T06:13:09+00:00",
-   "link": "https://www.franceinfo.fr/elections/presidentielle/candidats/ils-nous-mettent-dans-le-pressoir-a-pommes-combien-de-temps-edouard-philippe-va-t-il-pouvoir-resister-a-l-appel-de-la-primaire-dans-le-bloc-central_8279444.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "\"J'ai l'impression de travailler à perte\" : salariés au smic, ils racontent un quotidien de privations, de galères et de déclassement",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-14T06:08:33+00:00",
-   "link": "https://www.franceinfo.fr/economie/pouvoir-achat/temoignages-j-ai-l-impression-de-travailler-a-perte-salaries-au-smic-ils-racontent-un-quotidien-de-privations-de-galeres-et-de-declassement_8276399.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Paranoid or practical? Britain’s ‘Be Ready’ citizen campaign",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-14T05:51:42+00:00",
-   "link": "https://www.aljazeera.com/features/2026/11/14/paranoid-or-practical-britains-be-ready-citizen?traffic_source=rss"
   }
  ]
 }
