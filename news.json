@@ -1,19 +1,26 @@
 {
- "updated": "2026-11-15T20:22:09+00:00",
+ "updated": "2026-11-16T00:05:25+00:00",
  "items": [
   {
-   "title": "Jordan sentences three men to death over deadly church attack in Karak",
-   "source": "Al Jazeera",
+   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+   "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-15T20:12:38+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss"
+   "time": "2026-11-16T00:03:29+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Will Sarah Huckabee Sanders run for president in 2028?",
+   "title": "Brawl erupts in Brazil’s Women’s League final",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T23:46:37+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss"
+  },
+  {
+   "title": "Notorious Mexican drug lord, who was convicted of killing US DEA agent, dies at 80",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-15T19:42:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5"
+   "time": "2026-11-15T23:37:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGViYUJndXdnbERIak84OGh2UnZBanZuM1o5SVF2REtBSnRPLU9wTjkyX3JQM2R6dUJvY2p3dEJwbUt5MDdJc25VTzl0LXpCZnpEaXdUYmVXc3F4OEJjMmRTZzhqMWoxRmpKMWwtaFdoZlctLUZHYXd0WlFYSjRmUmtYamlRQQ?oc=5"
   },
   {
    "title": "Présidentielle 2027 : la pauvreté requiert des \"solutions structurelles\", selon les Restos du Coeur",
@@ -21,13 +28,6 @@
    "lang": "fr",
    "time": "2026-11-15T19:40:21+00:00",
    "link": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-15T19:32:39+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
   }
  ],
  "breaking": null,
@@ -49,63 +49,71 @@
  "alerted": [],
  "phone": [
   {
-   "title": "Jordan sentences three men to death over deadly church attack in Karak",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T20:12:38+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss"
-  },
-  {
-   "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T20:07:06+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss"
-  },
-  {
-   "title": "Will Sarah Huckabee Sanders run for president in 2028?",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:42:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5"
-  },
-  {
-   "title": "Van Hollen says he 'will support whatever level of money is necessary to fix' air traffic control system",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:41:53+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IR2F6Z3pUYzRkMEs2X0FsVXhTVFZaenBpcWVhSG00QnJZMV9WMVZKUGZOZjYzY3VJYnV3NXNjVjJNNVAtOVBxSDlla3RpVlRqTkNiN002ZF93bkNVb3NaTzR2cklfb0pkUWRVZ2owTDNkWHdPaUVveg?oc=5"
-  },
-  {
-   "title": "'God bless her’: Colom reacts to support from daughter of slain Civil Rights activist James Chaney",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:40:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EdHM3OVNVaTJDQTgyRlg5ODBMZ3AtWEFjMmlfMjVJRWwzcXF0U3BtY19JYV9iUTBpNEV2UXlCWHZEZzU4SDRmUFlZTUVNVmJOQUVudk9tZEFEeFJpUGx5VGw2eTY4RnpuQ2JEWk9xRGVJZUE2YWxRYw?oc=5"
-  },
-  {
-   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-15T19:32:39+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-15T19:20:53+00:00",
+   "time": "2026-11-16T00:03:29+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+   "title": "Brawl erupts in Brazil’s Women’s League final",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T23:46:37+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss"
+  },
+  {
+   "title": "Notorious Mexican drug lord, who was convicted of killing US DEA agent, dies at 80",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:37:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGViYUJndXdnbERIak84OGh2UnZBanZuM1o5SVF2REtBSnRPLU9wTjkyX3JQM2R6dUJvY2p3dEJwbUt5MDdJc25VTzl0LXpCZnpEaXdUYmVXc3F4OEJjMmRTZzhqMWoxRmpKMWwtaFdoZlctLUZHYXd0WlFYSjRmUmtYamlRQQ?oc=5"
+  },
+  {
+   "title": "Trump prepares for China trip amid Nvidia scandal",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:26:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlTN25pQzNuYWJSZDM3bURpTWtZTVNRTkdYTDBaUXIzbWtYS0RnQTVnam5ZTDl2Sm1mWHQxXzlxRGhYZXl5cU8xLUhtcVRfakxLUUhZNDU0bV90d1V4XzNMaS1US1lHN3AtOXNRVmt5V1lmVTl1RkhJaVc3MTJ5NWNoek9WOGV2NFhGYTdIVXk4UlgzXzRr?oc=5"
+  },
+  {
+   "title": "Trump finally posts about FAA drama",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVnhxb1NWUEdHeU1uenByd2pnS0RBZUdsTFp1SWFHY1V4aHN2MUJYM21yaXliak9KUXhVcHYyX09Rbm9HTEN3ZkpyMkUxRG0xbFExOW12enJaaVNjVWZhUmc2eURDblBuWHNpekFLczJhVmtjdEhUbXhGaW15cm1nYVl2VUxRWG5FRzh5eGhTQXQzZjRIQ3hrVlhraw?oc=5"
+  },
+  {
+   "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-15T18:38:11+00:00",
-   "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-15T22:57:27+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T22:28:54+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T22:06:38+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss"
   }
  ],
  "podcasts": [
+  {
+   "show": "Briefing Room",
+   "title": "Ex-CIA Officer Q&A: Prison, Israel & Angry Birds",
+   "time": "2026-11-15T15:44:32+00:00",
+   "audio": "https://traffic.megaphone.fm/APO9247869188.mp3",
+   "dur": 3311,
+   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/Ex-CIA-Officer-QA-Prison--Israel--Angry-Birds-e3se6fd"
+  },
   {
    "show": "Briefing Room",
    "title": "Lost by 7 Votes, 11 Democrats Absent: The Hegseth Impeachment Fail",
@@ -139,14 +147,6 @@
    "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/Trumps-Election-Nightmare-Could-Mean-Disaster-for-Iran--Episode-36-e3rpkpn"
   },
   {
-   "show": "Briefing Room",
-   "title": "I Said Watch for a Blue Wave. It Was a TSUNAMI",
-   "time": "2026-11-04T15:52:02+00:00",
-   "audio": "https://traffic.megaphone.fm/APO1372714757.mp3",
-   "dur": 2393,
-   "link": "https://podcasters.spotify.com/pod/show/john-kiriakou-admin6/episodes/I-Said-Watch-for-a-Blue-Wave--It-Was-a-TSUNAMI--Episode-34-e3rof4o"
-  },
-  {
    "show": "Dead Drop",
    "title": "S3E7 An Enemy Within: Cold Warriors",
    "time": "2026-11-02T08:00:00+00:00",
@@ -159,55 +159,56 @@
   "since": "2026-11-15T22:00+04:00",
   "items": [
    {
-    "title": "Nyt, 'Lutnick ha allentato le norme sui chip in contrasto con attività di famiglia'",
+    "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+    "time": "2026-11-15T18:38:11+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Estonia to close border crossings with Russia after alleged arson attack",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
+    "time": "2026-11-15T18:07:02+00:00",
+    "sources": [
+     "Al Jazeera"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-16T00:03:29+00:00",
+    "sources": [
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Nyt, 'entro 24 ore la portaerei Roosevelt in Medio Oriente, è la terza nell'area'",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/nyt-lutnick-ha-allentato-le-norme-sui-chip-in-contrasto-con-attivita-di-famiglia_12557283-2631-4ea0-962b-3f70ea4845b9.html",
-    "time": "2026-11-15T20:17:21+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/nyt-entro-24-ore-la-portaerei-roosevelt-in-medio-oriente-e-la-terza-nellarea_c75d5e94-a20d-4fb2-8e37-84b736142d51.html",
+    "time": "2026-11-15T22:51:03+00:00",
     "sources": [
      "ANSA"
     ],
     "breaking": false
    },
    {
-    "title": "Jordan sentences three men to death over deadly church attack in Karak",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
-    "time": "2026-11-15T20:12:38+00:00",
-    "sources": [
-     "Al Jazeera"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-    "time": "2026-11-15T20:07:06+00:00",
-    "sources": [
-     "Al Jazeera"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Will Sarah Huckabee Sanders run for president in 2028?",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5",
-    "time": "2026-11-15T19:42:36+00:00",
-    "sources": [
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Ft, 'Jensen Huang pensa a un clamoroso ritorno alla guida di Nvidia'",
+    "title": "Oltre 400 mila in piazza a Praga a sostegno dei media pubblici",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/ft-jensen-huang-pensa-a-un-clamoroso-ritorno-alla-guida-di-nvidia_267caa16-dd06-4dd4-bc66-610ce6540aa6.html",
-    "time": "2026-11-15T19:40:49+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/oltre-400-mila-in-piazza-a-praga-a-sostegno-dei-media-pubblici_28fcb369-fa4d-4391-ae6d-eef76a71c969.html",
+    "time": "2026-11-15T20:40:13+00:00",
     "sources": [
      "ANSA"
     ],
@@ -230,66 +231,67 @@
   "since": "2026-11-15T22:00+04:00",
   "items": [
    {
-    "title": "Jordan sentences three men to death over deadly church attack in Karak",
+    "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
-    "time": "2026-11-15T20:12:38+00:00",
+    "link": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+    "time": "2026-11-15T18:38:11+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Estonia to close border crossings with Russia after alleged arson attack",
+    "source": "Al Jazeera",
+    "lang": "en",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
+    "time": "2026-11-15T18:07:02+00:00",
     "sources": [
      "Al Jazeera"
     ],
     "breaking": false
    },
    {
-    "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
+    "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-16T00:03:29+00:00",
+    "sources": [
+     "BBC News"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Brawl erupts in Brazil’s Women’s League final",
     "source": "Al Jazeera",
     "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-    "time": "2026-11-15T20:07:06+00:00",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss",
+    "time": "2026-11-15T23:46:37+00:00",
     "sources": [
      "Al Jazeera"
     ],
     "breaking": false
    },
    {
-    "title": "Will Sarah Huckabee Sanders run for president in 2028?",
+    "title": "Notorious Mexican drug lord, who was convicted of killing US DEA agent, dies at 80",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5",
-    "time": "2026-11-15T19:42:36+00:00",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGViYUJndXdnbERIak84OGh2UnZBanZuM1o5SVF2REtBSnRPLU9wTjkyX3JQM2R6dUJvY2p3dEJwbUt5MDdJc25VTzl0LXpCZnpEaXdUYmVXc3F4OEJjMmRTZzhqMWoxRmpKMWwtaFdoZlctLUZHYXd0WlFYSjRmUmtYamlRQQ?oc=5",
+    "time": "2026-11-15T23:37:37+00:00",
     "sources": [
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "Van Hollen says he 'will support whatever level of money is necessary to fix' air traffic control system",
+    "title": "Trump prepares for China trip amid Nvidia scandal",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IR2F6Z3pUYzRkMEs2X0FsVXhTVFZaenBpcWVhSG00QnJZMV9WMVZKUGZOZjYzY3VJYnV3NXNjVjJNNVAtOVBxSDlla3RpVlRqTkNiN002ZF93bkNVb3NaTzR2cklfb0pkUWRVZ2owTDNkWHdPaUVveg?oc=5",
-    "time": "2026-11-15T19:41:53+00:00",
-    "sources": [
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "'God bless her’: Colom reacts to support from daughter of slain Civil Rights activist James Chaney",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EdHM3OVNVaTJDQTgyRlg5ODBMZ3AtWEFjMmlfMjVJRWwzcXF0U3BtY19JYV9iUTBpNEV2UXlCWHZEZzU4SDRmUFlZTUVNVmJOQUVudk9tZEFEeFJpUGx5VGw2eTY4RnpuQ2JEWk9xRGVJZUE2YWxRYw?oc=5",
-    "time": "2026-11-15T19:40:22+00:00",
-    "sources": [
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Duffy on FAA outages: ‘That investigation is just beginning right now’",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SLUxEeW5DN0JzODF5UGZJM2JZVTAwLWNZWlNaR0drOS1odldjN1RqZ2VWdHp5XzhMWGhJc1JuQW03TEVUUHoxc0RkMWQzcUVVTE0wQ1diUXNlWjFPYmVuQm05NXUzWVZ0RGthYnpKMURPMHQtdXlzRThGTnc4UVU?oc=5",
-    "time": "2026-11-15T19:39:49+00:00",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlTN25pQzNuYWJSZDM3bURpTWtZTVNRTkdYTDBaUXIzbWtYS0RnQTVnam5ZTDl2Sm1mWHQxXzlxRGhYZXl5cU8xLUhtcVRfakxLUUhZNDU0bV90d1V4XzNMaS1US1lHN3AtOXNRVmt5V1lmVTl1RkhJaVc3MTJ5NWNoek9WOGV2NFhGYTdIVXk4UlgzXzRr?oc=5",
+    "time": "2026-11-15T23:26:27+00:00",
     "sources": [
      "CNN"
     ],
@@ -299,6 +301,167 @@
  },
  "breakingLog": [],
  "history": [
+  {
+   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-16T00:03:29+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Brawl erupts in Brazil’s Women’s League final",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T23:46:37+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/brawl-erupts-in-brazils-womens-league-final?traffic_source=rss"
+  },
+  {
+   "title": "Notorious Mexican drug lord, who was convicted of killing US DEA agent, dies at 80",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:37:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGViYUJndXdnbERIak84OGh2UnZBanZuM1o5SVF2REtBSnRPLU9wTjkyX3JQM2R6dUJvY2p3dEJwbUt5MDdJc25VTzl0LXpCZnpEaXdUYmVXc3F4OEJjMmRTZzhqMWoxRmpKMWwtaFdoZlctLUZHYXd0WlFYSjRmUmtYamlRQQ?oc=5"
+  },
+  {
+   "title": "Trump prepares for China trip amid Nvidia scandal",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:26:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHlTN25pQzNuYWJSZDM3bURpTWtZTVNRTkdYTDBaUXIzbWtYS0RnQTVnam5ZTDl2Sm1mWHQxXzlxRGhYZXl5cU8xLUhtcVRfakxLUUhZNDU0bV90d1V4XzNMaS1US1lHN3AtOXNRVmt5V1lmVTl1RkhJaVc3MTJ5NWNoek9WOGV2NFhGYTdIVXk4UlgzXzRr?oc=5"
+  },
+  {
+   "title": "Trump finally posts about FAA drama",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T23:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVnhxb1NWUEdHeU1uenByd2pnS0RBZUdsTFp1SWFHY1V4aHN2MUJYM21yaXliak9KUXhVcHYyX09Rbm9HTEN3ZkpyMkUxRG0xbFExOW12enJaaVNjVWZhUmc2eURDblBuWHNpekFLczJhVmtjdEhUbXhGaW15cm1nYVl2VUxRWG5FRzh5eGhTQXQzZjRIQ3hrVlhraw?oc=5"
+  },
+  {
+   "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T22:57:27+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Nyt, 'entro 24 ore la portaerei Roosevelt in Medio Oriente, è la terza nell'area'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-15T22:51:03+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/nyt-entro-24-ore-la-portaerei-roosevelt-in-medio-oriente-e-la-terza-nellarea_c75d5e94-a20d-4fb2-8e37-84b736142d51.html"
+  },
+  {
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T22:28:54+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T22:24:20+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "A once-storied ocean liner gets new life",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T22:16:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUHR1RmNpTkFKMW9uU1dyemJzdXk0QU1xcWVEaHc2ZE81ZWdhcE9JSHM1bDJDX0NoVll4dXZZM0tPN2tvQVhpYUt0ZU45UXc1c2JKeHZJMEtUdTRtbUFQdGl3QnBXQi1oc1A3UGNJZ0JUcVdPMllseXRLR0N3YkZYakx5MXBtR1hNX1B6TGlBVEhtSFFZQ0hmRTR1UEsxRGY2UlBWSnc5Y24?oc=5"
+  },
+  {
+   "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T22:06:38+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss"
+  },
+  {
+   "title": "Voter polls: Election 2026",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T21:54:46+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XNmtMUG9ENVRiUzUzYzdfS3VSZl9MSXo2RDhtTEt3eXVxb2FkcDcxbm0xV29CX203MzNQdURqaDVjTnozZEl1dTBGdXpuZHBhdkR3VjJlOG9ZLVBSQ3dreEdwQVc1UnRiVTJDY1NOVmNLNmhUZGUzaGZhaEJYZ1U?oc=5"
+  },
+  {
+   "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T21:47:47+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss"
+  },
+  {
+   "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T21:19:08+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss"
+  },
+  {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-15T21:03:40+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T20:54:13+00:00",
+   "link": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss"
+  },
+  {
+   "title": "Trump, McDonald’s and Burger King among targets of past X posts that contain redirected website links",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T20:52:45+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMkxOQWdxNXZHY21QMXJuMHVKYTRpSXdndGp4U0V1c0JjZjJkUEFvMGNGdFpOV3VQR084c2hXWHY5aGVoVjBDZnAxY25yTXZDMzBtVGVjTGdmUlFmN2MxRHJLRG1iZnZxX1A3WFBwLVZ1N0ROVWJzMG8tZlJBZTFPb0JOYktCeThLUkZPWWFzczRQSngyRVRvNzg2S05KbFZmWUFmOGJCVVpmQnZ5YkZrU0FIZy03NUMwcEQzYlRrSWxSdEVwQzRINHpB?oc=5"
+  },
+  {
+   "title": "Palestinians reclaim Gaza’s shores with a swim for hope",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T20:50:15+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope?traffic_source=rss"
+  },
+  {
+   "title": "Oltre 400 mila in piazza a Praga a sostegno dei media pubblici",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-15T20:40:13+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/oltre-400-mila-in-piazza-a-praga-a-sostegno-dei-media-pubblici_28fcb369-fa4d-4391-ae6d-eef76a71c969.html"
+  },
+  {
+   "title": "Who can force Israel to implement Gaza ceasefire deal?",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T20:37:43+00:00",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss"
+  },
+  {
+   "title": "Estonia to close border crossings with Russia after alleged arson attack",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-15T20:31:18+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss"
+  },
+  {
+   "title": "Head of flight attendants union implores the FAA to ‘engage the people on the front lines’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T20:27:14+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDZnRWtZbVpSaWdrdW1yV281OG1MTkgwYTMwUy04ZFgzRzVCZkRxcy0yN3VFQ0dMVVBxb0lORnR2MFpNZTVVbENIUVhZVVM3UUVPc21SdTZnZlM0eTJ3YmxaUWp3aXpmQ2JLTHhIXzVZTHJFdXVERFMzUk5NMEVVZGJPemM5NFozWHhHSnpyVVI3aW1DSHhFLTlJQk40aGhfMmFyZW9pX2NCWTlMWTFaMnVrcF9YSTg?oc=5"
+  },
+  {
+   "title": "Italia, Gb, Australia e Canada, 'Israele dia accesso umanitario immediato a Gaza'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-15T20:20:03+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/italia-gb-australia-e-canada-israele-dia-accesso-umanitario-immediato-a-gaza_8180cd51-1757-4f61-b0d3-78ad6248ddeb.html"
+  },
   {
    "title": "Nyt, 'Lutnick ha allentato le norme sui chip in contrasto con attività di famiglia'",
    "source": "ANSA",
@@ -321,20 +484,6 @@
    "link": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss"
   },
   {
-   "title": "Will Sarah Huckabee Sanders run for president in 2028?",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:42:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5"
-  },
-  {
-   "title": "Van Hollen says he 'will support whatever level of money is necessary to fix' air traffic control system",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:41:53+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IR2F6Z3pUYzRkMEs2X0FsVXhTVFZaenBpcWVhSG00QnJZMV9WMVZKUGZOZjYzY3VJYnV3NXNjVjJNNVAtOVBxSDlla3RpVlRqTkNiN002ZF93bkNVb3NaTzR2cklfb0pkUWRVZ2owTDNkWHdPaUVveg?oc=5"
-  },
-  {
    "title": "Ft, 'Jensen Huang pensa a un clamoroso ritorno alla guida di Nvidia'",
    "source": "ANSA",
    "lang": "it",
@@ -342,25 +491,11 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/ft-jensen-huang-pensa-a-un-clamoroso-ritorno-alla-guida-di-nvidia_267caa16-dd06-4dd4-bc66-610ce6540aa6.html"
   },
   {
-   "title": "'God bless her’: Colom reacts to support from daughter of slain Civil Rights activist James Chaney",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:40:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EdHM3OVNVaTJDQTgyRlg5ODBMZ3AtWEFjMmlfMjVJRWwzcXF0U3BtY19JYV9iUTBpNEV2UXlCWHZEZzU4SDRmUFlZTUVNVmJOQUVudk9tZEFEeFJpUGx5VGw2eTY4RnpuQ2JEWk9xRGVJZUE2YWxRYw?oc=5"
-  },
-  {
    "title": "Présidentielle 2027 : la pauvreté requiert des \"solutions structurelles\", selon les Restos du Coeur",
    "source": "franceinfo",
    "lang": "fr",
    "time": "2026-11-15T19:40:21+00:00",
    "link": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Duffy on FAA outages: ‘That investigation is just beginning right now’",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T19:39:49+00:00",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SLUxEeW5DN0JzODF5UGZJM2JZVTAwLWNZWlNaR0drOS1odldjN1RqZ2VWdHp5XzhMWGhJc1JuQW03TEVUUHoxc0RkMWQzcUVVTE0wQ1diUXNlWjFPYmVuQm05NXUzWVZ0RGthYnpKMURPMHQtdXlzRThGTnc4UVU?oc=5"
   },
   {
    "title": "symbol__ Stock Quote Price and Forecast",
@@ -391,18 +526,18 @@
    "link": "https://www.franceinfo.fr/economie/bitcoin/un-homme-a-ete-mis-en-examen-et-ecroue-dans-les-yvelines-apres-un-crypto-rapt-a-900-000-euros_8283848.html#xtor=RSS-3-[lestitres]"
   },
   {
-   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-15T19:20:53+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Un policier municipal placé en garde à vue à Paris \"pour menace de mort en raison de la race, l’ethnie, la nation la religion\"",
    "source": "franceinfo",
    "lang": "fr",
    "time": "2026-11-15T19:17:44+00:00",
    "link": "https://www.franceinfo.fr/faits-divers/police/un-policier-municipal-place-en-garde-a-vue-pour-menace-de-mort-en-raison-de-la-race-l-ethnie-la-nation-la-religion-selon-le-parquet-de-paris_8283857.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "I added Medik8’s retinal to my skin care routine at 42. Here are my results",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T19:12:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LLWxnZ0sxdDQyN194QVFacWpsZ00ySDhJNWhIUDAtQnRSTGhVQ2drb3FDWnlWQlJaRG5Ucmg0aFJENWc0RkNlMVFjLXlNUDQzVEtpazNIQVppMHE5Z0hFS2pxVUhpVXQyaHFxbGNiVzRxVWZHcEJ0dDl4THM?oc=5"
   },
   {
    "title": "Israeli drone filmed flying low outside homes in southern Lebanon",
@@ -552,17 +687,10 @@
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom?traffic_source=rss"
   },
   {
-   "title": "Czechs rally against plan to switch funding of public media",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-15T17:23:40+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Sen. Van Hollen on challenging Chuck Schumer for Senate leadership",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-15T17:08:50+00:00",
+   "time": "2026-11-15T17:08:01+00:00",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT2V0ZjBwMXlXSjd0SndKamgtOThxSmlQTWQ1UUJ0QTQtcTVpeUdyVFRfZGdnSUdaTlAyR1g5YTl0Rzk5eXFZR19HbE9PdkpKVXh6VkFwRnRObC0xZWFkZjFWMGRwQ1dGamJ5SW9HSGtfV0ducDhvb3J4M2oyYzg3bndPc3M0VkM2bkNmcHF0Z1lNdlBtVFVUYWhCZGZabFFf?oc=5"
   },
   {
@@ -599,6 +727,13 @@
    "lang": "en",
    "time": "2026-11-15T17:00:15+00:00",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3SkJ3Z1pfMDlSUnV6aDRLdjh6T0xwZ0pTb2I4MzNrTzF0ZUpnZmw2SUFhMGctYUlkMWxDMUVtR1FEOHdUTTZCUU44NFJXd2NYajVkUEowbHdXNV9lOTB6bHM4bVVBRzQ5WU5fR2dRaWlVNkcxckJUTkRB?oc=5"
+  },
+  {
+   "title": "'God bless her’: Colom reacts to support from daughter of slain Civil Rights activist James Chaney",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T16:57:47+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EdHM3OVNVaTJDQTgyRlg5ODBMZ3AtWEFjMmlfMjVJRWwzcXF0U3BtY19JYV9iUTBpNEV2UXlCWHZEZzU4SDRmUFlZTUVNVmJOQUVudk9tZEFEeFJpUGx5VGw2eTY4RnpuQ2JEWk9xRGVJZUE2YWxRYw?oc=5"
   },
   {
    "title": "What’s Next for the Republican Party and How Democrats Should Use Their Power in Congress",
@@ -697,6 +832,20 @@
    "lang": "en",
    "time": "2026-11-15T16:00:15+00:00",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mYzZkY3RQX01VTXBnb2RqZ0IzZWltRW1ESHJlX09mS0xud3FOWFhGZm9ab2ZvdDVzaEJteVEtRlpEWGNNUjNWNDVnNGVNd0RDald3WW85dVdnTl9YLUNDNDFCMTdCcFAxNWs1WW5ncTRORTg?oc=5"
+  },
+  {
+   "title": "Van Hollen says he 'will support whatever level of money is necessary to fix' air traffic control system",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T15:55:54+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IR2F6Z3pUYzRkMEs2X0FsVXhTVFZaenBpcWVhSG00QnJZMV9WMVZKUGZOZjYzY3VJYnV3NXNjVjJNNVAtOVBxSDlla3RpVlRqTkNiN002ZF93bkNVb3NaTzR2cklfb0pkUWRVZ2owTDNkWHdPaUVveg?oc=5"
+  },
+  {
+   "title": "Will Sarah Huckabee Sanders run for president in 2028?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T15:45:53+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURpX3VYQlF5YndRcnFFTDltNkZjdGdqamNRWTZwa1paZHlLNE5MLW1wN1JZM3RNXzhTWEFJZmtzU3lYdnhiTXpCd0VKYlFZVmx2djFUalBNMFZjaThrNDVHcXRYam1faEJlVFZOcWtlRDJpQzB5ZjF6WXM3UzZCNWNUUUI?oc=5"
   },
   {
    "title": "Grièvement brûlée par son conjoint, une femme est morte près de Bordeaux",
@@ -804,13 +953,6 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/15/cancellati-oggi-negli-usa-altri-1.400-voli-dopo-i-6.700-di-sabato_fa9fd0de-800d-4244-8116-52578a897f0e.html"
   },
   {
-   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-15T14:56:21+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Cremlino, 'se non ci sarà un accordo con l'Europa useremo la forza'",
    "source": "ANSA",
    "lang": "it",
@@ -900,6 +1042,13 @@
    "lang": "en",
    "time": "2026-11-15T14:29:02+00:00",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaW9Kb0F3ZFBNXzB5c2NZVnpIeGtlTVMtSmtCdXVhaExsTGRKclVTUjdEeW9LS2xYWFE3QUxsZ0EtYlp6cnlEYWJxWmx5M3FwenlKLXBJX3NxaW5ERWlpQzJtaHJxTnktNnRlUkdSUXVncjJ0WU16T2VWS29ZZS1TVFdBb0RyVmVOYXc3TERR?oc=5"
+  },
+  {
+   "title": "Duffy on FAA outages: ‘That investigation is just beginning right now’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-15T14:27:27+00:00",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44WHd5dzBScnhuY0hIc05vbWpmLXN2X0NGWDJ0Y2hQWG9wQWlSRHFrZVZZZGJ4c0xOM0d0WTktVzJhNkJCZFhJSHRKNS1GbXN4YUJNWWRmMXZzdTJlNVhIMFMydUJlMTJtRHRfZWU2Zmpjck0?oc=5"
   },
   {
    "title": "‘Almost magic’ as SpaceX craft caught mid-air: Why it matters",
@@ -1313,118 +1462,6 @@
    "lang": "en",
    "time": "2026-11-15T08:17:41+00:00",
    "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Louis Vuitton présente l'exposition photographique \"La Valise\" de Bruno Aveillan : dans son viseur, un objet intemporel au cœur de treize ans de voyage",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T08:00:21+00:00",
-   "link": "https://www.franceinfo.fr/culture/arts-expos/photographie/louis-vuitton-presente-l-exposition-photographique-la-valise-de-bruno-aveillan-dans-son-viseur-un-objet-intemporel-au-c-ur-de-treize-ans-de-voyage_8269346.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Pour le président, la position de Marine Le Pen sur l'Ukraine \"est antipatriotique et irréaliste\", déclare l'entourage d'Emmanuel Macron",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T07:48:43+00:00",
-   "link": "https://www.franceinfo.fr/politique/emmanuel-macron/le-president-veut-maintenir-l-ukraine-en-situation-de-donner-des-coups-alors-que-les-americains-s-occupent-de-l-enfoncer-affirme-l-entourage-d-emmanuel-macron_8283194.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Planes collide at Miami runway crossing",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T07:37:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTnJpVHpJYUFlWkdCREdJTmlTOElTeUpQaWhZdmxWb1AyUmRMa3F2YmtjcFFpUVBZTVN3a0xyMThzWWRiRjg5dUo3eWtUS0pxOUVfMDEtSV9sc1VLUEVLWm5rT2FJUWdQaHY2V0dOaWI4V0xiTTJvQlRtM3g4ZGUzOTBHSTdmNWcwNzN0TEQ0ZXl1d0hFeDBSWUF3dw?oc=5"
-  },
-  {
-   "title": "Que faut-il attendre du sommet inédit entre Xi Jinping, Vladimir Poutine et Donald Trump, prévu jeudi en Chine ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T07:24:37+00:00",
-   "link": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/que-faut-il-attendre-du-sommet-inedit-entre-xi-jinping-vladimir-poutine-et-donald-trump-attendu-jeudi-en-chine_8282519.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "ASEAN summit: Who’s attending and what’s at stake?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T07:11:24+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss"
-  },
-  {
-   "title": "Israel: Making the Holy Land burn",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T06:49:14+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/15/israel-making-the-holy-land-burn?traffic_source=rss"
-  },
-  {
-   "title": "The French Republic’s forgotten promise of equality",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T06:44:27+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/15/the-french-republics-forgotten-promise-of-equality?traffic_source=rss"
-  },
-  {
-   "title": "Volodymyr Zelensky affirme que Washington a proposé des concessions territoriales en échange d'une adhésion de l'Ukraine à l'Otan",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T06:19:04+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymy-zelensky-affirme-que-les-etats-unis-ont-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-kiev-a-l-otan_8282333.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Secret votes and vetoes: How will the next UN chief be picked?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T06:11:00+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss"
-  },
-  {
-   "title": "L'Ukraine et la Russie bataillent dans l'espace pour se doter de constellations satellitaires souveraines",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T05:50:36+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/l-ukraine-et-la-russie-bataillent-dans-l-espace-pour-se-doter-de-constellations-satellitaires-souveraines_8279132.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "\"Ce n'est pas un simple jeu vidéo\" : comment les fans se préparent à la sortie de \"GTA VI\" après treize ans d'attente",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T05:49:52+00:00",
-   "link": "https://www.franceinfo.fr/culture/jeux-video/gta-vi/temoignages-ce-n-est-pas-un-simple-jeu-video-comment-les-fans-se-preparent-a-la-sortie-de-gta-vi-apres-treize-ans-d-attente_8265593.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "South Korea’s viral ‘Scarf Man’ tells customers not to buy his products. They’re lining up anyway",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-15T05:30:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2hERDJXQTJlNERXVWpFM0hEUkV3Nms0NkM2dU5OV05FNTJjWTctSDJveXRIdUpaa29RSTFWbExrY3ByRzdJT1Q1VWFvZWxyQUlYU0FmbzJ4MjBKNzdCYWJVSXQyYmZ0TjNIUEtRU1M4bDc2X2dacmotU3UwR0VWOWVHUkxHOFVHb2ZURw?oc=5"
-  },
-  {
-   "title": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T05:05:02+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss"
-  },
-  {
-   "title": "\"Aya, pour l'exemple\" : un essai hybride passionnant sur Aya Nakamura, et les cultures qui lui ont ouvert la voie en France",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-15T05:05:02+00:00",
-   "link": "https://www.franceinfo.fr/culture/livres/aya-pour-l-exemple-un-essai-hybride-passionnant-sur-aya-nakamura-et-les-cultures-qui-lui-ont-ouvert-la-voie-en-france_8274251.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "New York Democratic Socialists urge Ocasio-Cortez to run for US president",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T04:44:57+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/15/new-york-democratic-socialists-urge-ocasio-cortez-to-run-for-us-president?traffic_source=rss"
-  },
-  {
-   "title": "Video shows moment of Brooklyn building collapse from inside",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-15T04:31:55+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/video-shows-moment-of-brooklyn-building-collapse-from-inside?traffic_source=rss"
   }
  ]
 }
