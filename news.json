@@ -1,44 +1,36 @@
 {
- "updated": "2026-11-24T22:51:21+00:00",
+ "updated": "2026-11-25T05:10:06+00:00",
  "items": [
   {
-   "title": "Edouard Philippe propose un débat télévisé avant mi-décembre à David Lisnard, qu'il soupçonne de ne pas être \"étanche\" avec l'extrême droite",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T22:48:34+00:00",
-   "link": "https://www.franceinfo.fr/elections/edouard-philippe-propose-un-debat-televise-avant-mi-decembre-a-david-lisnard-qu-il-soupconn-de-ne-pas-etre-etanche-avec-l-extreme-droite_8298417.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Trump’s Intervention at Nvidia Sparks Bipartisan Backlash",
+   "title": "The Jensen Huang scandal has it all: sex, money and Trump",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-24T22:38:52+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelhXSUR1Q0FjdjVoT1ZvZzU5cjQ1V05UeUVGMGpDbF9fWkplY1VtSDR0VENIclZ5dzdqWkczMmROR1dvdE9MeTFIS19fTk1LMlFWRnhBTXBia1ZfUGFLUDhzbkprNjZweXdhZUV6Zl9HMTRNX0F5Q1loLVEyM2lqcG12R081R1dzTGRMVng1WE4zdlk?oc=5"
+   "time": "2026-11-25T05:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZzhfQm9NT3RneXVlekJ3NjZmWlB5T2lZbkdYWGlmQTc5MlRpVy1ZTTVsVGJEZ3RuVFd5al9QOFlJNUNZMUpydHJWcHZIakdma0RYbEQ0eVdlWWdsRlhwN1JlQWk5YVhZRXBuNmQ3Y0E5Rjdz?oc=5"
   },
   {
-   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "title": "On vous explique pourquoi les créateurs de contenus contestent les règles de pluralisme que l'Arcom veut leur imposer pour la présidentielle de 2027",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-25T04:56:15+00:00",
+   "link": "https://www.franceinfo.fr/elections/on-vous-explique-pourquoi-les-createurs-de-contenus-contestent-les-regles-de-pluralisme-que-l-arcom-veut-leur-imposer-pour-la-presidentielle-de-2027_8297736.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-24T22:24:23+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-25T04:49:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+   "title": "UK warns companies of potential Russian sabotage threat",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-11-24T22:01:26+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss"
+   "time": "2026-11-25T04:48:57+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss"
   }
  ],
- "breaking": {
-  "title": "Immigration news - breaking stories, video and analysis",
-  "source": "CNN",
-  "lang": "en",
-  "time": "2026-11-24T22:37:13+00:00",
-  "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PUHNMZmhVZmhXbTdUeEFNM29PX1Q3d2xGejVMZ3QyYk84WG1KYkhVZDU1ZG5ydkktS2xDeUZocjhLQi1ZZDJaUXhHRW51TGJxc3c?oc=5",
-  "reason": "flagged",
-  "id": "analysis-breaking-immigration-stories-video"
- },
+ "breaking": null,
  "live": {
   "en": {
    "name": "Al Jazeera English",
@@ -54,75 +46,63 @@
   }
  },
  "errors": [],
- "alerted": [
-  {
-   "id": "analysis-breaking-immigration-stories-video",
-   "words": [
-    "analysis",
-    "breaking",
-    "immigration",
-    "stories",
-    "video"
-   ],
-   "at": "2026-11-24T12:53:32+00:00"
-  }
- ],
+ "alerted": [],
  "phone": [
   {
-   "title": "Trump’s Intervention at Nvidia Sparks Bipartisan Backlash",
+   "title": "The Jensen Huang scandal has it all: sex, money and Trump",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-24T22:38:52+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelhXSUR1Q0FjdjVoT1ZvZzU5cjQ1V05UeUVGMGpDbF9fWkplY1VtSDR0VENIclZ5dzdqWkczMmROR1dvdE9MeTFIS19fTk1LMlFWRnhBTXBia1ZfUGFLUDhzbkprNjZweXdhZUV6Zl9HMTRNX0F5Q1loLVEyM2lqcG12R081R1dzTGRMVng1WE4zdlk?oc=5"
+   "time": "2026-11-25T05:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZzhfQm9NT3RneXVlekJ3NjZmWlB5T2lZbkdYWGlmQTc5MlRpVy1ZTTVsVGJEZ3RuVFd5al9QOFlJNUNZMUpydHJWcHZIakdma0RYbEQ0eVdlWWdsRlhwN1JlQWk5YVhZRXBuNmQ3Y0E5Rjdz?oc=5"
   },
   {
-   "title": "Immigration news - breaking stories, video and analysis",
+   "title": "Americans to spend nearly $1 billion more on gas this Thanksgiving",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-24T22:37:13+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PUHNMZmhVZmhXbTdUeEFNM29PX1Q3d2xGejVMZ3QyYk84WG1KYkhVZDU1ZG5ydkktS2xDeUZocjhLQi1ZZDJaUXhHRW51TGJxc3c?oc=5"
+   "time": "2026-11-25T05:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4ZFlhdVd5dDV6TE5OLWR5d0p2NXZVS2x1X1ZZVnZZWkpiZ3ZXMG1tejJUQVZCR082bnhROVczaUlwdXR1NWZqLTdJSmxJOUxkS2hKWlEzaW11SWl1M25kd3lueEdjTnVkdkR0TGdMZlZPSml2?oc=5"
   },
   {
-   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-24T22:24:23+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-25T04:49:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+   "title": "UK warns companies of potential Russian sabotage threat",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-11-24T22:01:26+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss"
+   "time": "2026-11-25T04:48:57+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss"
   },
   {
-   "title": "Politicians react to Jensen Huang’s return as Nvidia CEO",
+   "title": "'Unprecedented ': Kevin O'Leary says he should've 'read the tea leaves' on Jensen Huang's return",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-24T21:47:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNczg1SkRRVEJVWU9pMFRfWDU3OUVCd3ZDYkhFUnl4TzItby1uc1lIM0Ftc0NnNlRzNjI0YzNBQUVrSkhPUGJJTTBITVo1OGM1TVFmLW1yRE1DU3o1b3pibUVuSHMzZElNeFFtdGxGMk9jRzkwdXR0N2ZYQ3N4OGNQZEpYM3I1NDZHZDA3aEk3bXozWGJ3TV9JZnlLb3k?oc=5"
+   "time": "2026-11-25T04:38:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRnZxVmRHWVUzZ09ESm9mMUljSDBqTkNmdkh6ZEJWVjA4NkloX3FhYkM4N2xuNTZXRG9sa3ZZTEZPNjZ1Q0N3OUhfS083TWtUdFp4T3RvMmx5NDJ4elpHRXpKNjVxcVZfVXlTakVaeHFVaTRLcWpBMVNoVGNBRGdMMFp4cEJ4bzE2dUlqUzRDdXU4UnpqeTZKaHBIVXBVQkJiZkt5Z3FPbTVYRVN0akoxaTRJOGtpdWJqYmxxdGRBSzJiUG5HWUNKMTBvWmxjYXJ4TVNV?oc=5"
   },
   {
-   "title": "Colombian president blames ex-FARC rebels for car bomb blast",
+   "title": "Protesters clash with police over Venezuela’s poor minimum wage",
    "source": "Al Jazeera",
    "lang": "en",
-   "time": "2026-11-24T21:45:42+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss"
+   "time": "2026-11-25T04:27:10+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/protesters-clash-with-police-over-venezuelas-poor-minimum-wage?traffic_source=rss"
   },
   {
    "title": "US attorney general dodges questions about Nvidia investigation",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-24T21:19:42+00:00",
+   "time": "2026-11-25T03:44:07+00:00",
    "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
+   "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-24T19:27:23+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-25T03:28:37+00:00",
+   "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
   }
  ],
  "podcasts": [
@@ -179,13 +159,26 @@
   "since": "2026-11-24T22:00+04:00",
   "items": [
    {
-    "title": "Trump’s Intervention at Nvidia Sparks Bipartisan Backlash",
+    "title": "The Jensen Huang scandal has it all: sex, money and Trump",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelhXSUR1Q0FjdjVoT1ZvZzU5cjQ1V05UeUVGMGpDbF9fWkplY1VtSDR0VENIclZ5dzdqWkczMmROR1dvdE9MeTFIS19fTk1LMlFWRnhBTXBia1ZfUGFLUDhzbkprNjZweXdhZUV6Zl9HMTRNX0F5Q1loLVEyM2lqcG12R081R1dzTGRMVng1WE4zdlk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZzhfQm9NT3RneXVlekJ3NjZmWlB5T2lZbkdYWGlmQTc5MlRpVy1ZTTVsVGJEZ3RuVFd5al9QOFlJNUNZMUpydHJWcHZIakdma0RYbEQ0eVdlWWdsRlhwN1JlQWk5YVhZRXBuNmQ3Y0E5Rjdz?oc=5",
     "time": "2026-11-24T18:21:04+00:00",
     "sources": [
      "Al Jazeera",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-25T01:07:00+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News",
      "CNN"
     ],
     "breaking": false
@@ -198,49 +191,39 @@
     "time": "2026-11-24T21:43:34+00:00",
     "sources": [
      "Al Jazeera",
-     "BBC News"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Utah scores win against Kalshi as company halts operations in state",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQalIzYTZxN3ZBSmNheFVXYUtiaUlRREZKb1BKN0xkM01NSWNOaERsaHdYa1pMQXJOSzV2UFRRZmxjOTZmamZhSUFvN3JZV0phYk9GTjgyWlRRNWtFY29VYjFBdjhSdTlfMktRalczME5vQXZDdkw3QmllTVo1VEpuaVVR?oc=5",
-    "time": "2026-11-24T19:06:36+00:00",
-    "sources": [
+     "BBC News",
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "Edouard Philippe propose un débat télévisé avant mi-décembre à David Lisnard, qu'il soupçonne de ne pas être \"étanche\" avec l'extrême droite",
+    "title": "On vous explique pourquoi les créateurs de contenus contestent les règles de pluralisme que l'Arcom veut leur imposer pour la présidentielle de 2027",
     "source": "franceinfo",
     "lang": "fr",
-    "link": "https://www.franceinfo.fr/elections/edouard-philippe-propose-un-debat-televise-avant-mi-decembre-a-david-lisnard-qu-il-soupconn-de-ne-pas-etre-etanche-avec-l-extreme-droite_8298417.html#xtor=RSS-3-[lestitres]",
-    "time": "2026-11-24T22:48:34+00:00",
+    "link": "https://www.franceinfo.fr/elections/on-vous-explique-pourquoi-les-createurs-de-contenus-contestent-les-regles-de-pluralisme-que-l-arcom-veut-leur-imposer-pour-la-presidentielle-de-2027_8297736.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-25T04:56:15+00:00",
     "sources": [
      "franceinfo"
     ],
     "breaking": false
    },
    {
-    "title": "Abrego Garcia lascerà volontariamente gli Usa per evitare la deportazione",
-    "source": "ANSA",
-    "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/abrego-garcia-lascera-volontariamente-gli-usa-per-evitare-la-deportazione_6eb62363-c88c-486b-a609-a0cf04cc95e7.html",
-    "time": "2026-11-24T22:43:28+00:00",
+    "title": "Logement, justice, soins… Le départ d'une victime de violences conjugales de son foyer représente presque une année de salaire",
+    "source": "franceinfo",
+    "lang": "fr",
+    "link": "https://www.franceinfo.fr/societe/violences-faites-aux-femmes/logement-justice-soins-le-depart-d-une-victime-de-violences-conjugales-de-son-foyer-represente-presque-une-annee-de-salaire_8297718.html#xtor=RSS-3-[lestitres]",
+    "time": "2026-11-25T04:54:22+00:00",
     "sources": [
-     "ANSA"
+     "franceinfo"
     ],
     "breaking": false
    },
    {
-    "title": "Il giallo dei tacchini graziati da Trump, uno è salvo ma l'altro è sparito",
+    "title": "Huawei: 'La condanna Usa è senza fondamento giuridico o fattuale'",
     "source": "ANSA",
     "lang": "it",
-    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/il-giallo-dei-tacchini-graziati-da-trump-uno-e-salvo-ma-laltro-e-sparito_439be299-c155-46b2-9946-2a9189720278.html",
-    "time": "2026-11-24T22:03:11+00:00",
+    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/huawei-la-condanna-usa-e-senza-fondamento-giuridico-o-fattuale_6461d14e-4a84-4935-a1b2-37c6fd16ae7e.html",
+    "time": "2026-11-25T03:31:12+00:00",
     "sources": [
      "ANSA"
     ],
@@ -252,13 +235,26 @@
   "since": "2026-11-24T22:00+04:00",
   "items": [
    {
-    "title": "Trump’s Intervention at Nvidia Sparks Bipartisan Backlash",
+    "title": "The Jensen Huang scandal has it all: sex, money and Trump",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelhXSUR1Q0FjdjVoT1ZvZzU5cjQ1V05UeUVGMGpDbF9fWkplY1VtSDR0VENIclZ5dzdqWkczMmROR1dvdE9MeTFIS19fTk1LMlFWRnhBTXBia1ZfUGFLUDhzbkprNjZweXdhZUV6Zl9HMTRNX0F5Q1loLVEyM2lqcG12R081R1dzTGRMVng1WE4zdlk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZzhfQm9NT3RneXVlekJ3NjZmWlB5T2lZbkdYWGlmQTc5MlRpVy1ZTTVsVGJEZ3RuVFd5al9QOFlJNUNZMUpydHJWcHZIakdma0RYbEQ0eVdlWWdsRlhwN1JlQWk5YVhZRXBuNmQ3Y0E5Rjdz?oc=5",
     "time": "2026-11-24T18:21:04+00:00",
     "sources": [
      "Al Jazeera",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-25T01:07:00+00:00",
+    "sources": [
+     "Al Jazeera",
+     "BBC News",
      "CNN"
     ],
     "breaking": false
@@ -271,50 +267,43 @@
     "time": "2026-11-24T21:43:34+00:00",
     "sources": [
      "Al Jazeera",
+     "BBC News",
+     "CNN"
+    ],
+    "breaking": false
+   },
+   {
+    "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+    "source": "BBC News",
+    "lang": "en",
+    "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-25T02:44:45+00:00",
+    "sources": [
+     "Al Jazeera",
      "BBC News"
     ],
     "breaking": false
    },
    {
-    "title": "Utah scores win against Kalshi as company halts operations in state",
-    "source": "CNN",
+    "title": "Thomas Markle indicted in US for possessing child sex abuse images",
+    "source": "BBC News",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQalIzYTZxN3ZBSmNheFVXYUtiaUlRREZKb1BKN0xkM01NSWNOaERsaHdYa1pMQXJOSzV2UFRRZmxjOTZmamZhSUFvN3JZV0phYk9GTjgyWlRRNWtFY29VYjFBdjhSdTlfMktRalczME5vQXZDdkw3QmllTVo1VEpuaVVR?oc=5",
-    "time": "2026-11-24T19:06:36+00:00",
+    "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+    "time": "2026-11-24T23:36:07+00:00",
     "sources": [
+     "BBC News",
      "CNN"
     ],
     "breaking": false
    },
    {
-    "title": "Immigration news - breaking stories, video and analysis",
+    "title": "What is lead azide and why is it so dangerous?",
     "source": "CNN",
     "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PUHNMZmhVZmhXbTdUeEFNM29PX1Q3d2xGejVMZ3QyYk84WG1KYkhVZDU1ZG5ydkktS2xDeUZocjhLQi1ZZDJaUXhHRW51TGJxc3c?oc=5",
-    "time": "2026-11-24T22:37:13+00:00",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONFhzQUJTZTJXclY1OEdtTDN4YkJ5LXVpZURIdFVIQ0Nkb0NNYzNjUTU3VWF4ODdXampqa0tFazZselFJejIzQ1FrQUpwakF0Ry1hRG1YVmdZNFNRYUQ3SFNUZTI5eWJUcEVmcVRVWUpjaU51Z1ZpV3ZFSXpHbGNJYVVjNkJJWDBuUUtRbjFmMFc5dTRiY2s2bUZlMHlMQQ?oc=5",
+    "time": "2026-11-24T20:28:40+00:00",
     "sources": [
-     "CNN"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "Colombian president blames ex-FARC rebels for car bomb blast",
-    "source": "Al Jazeera",
-    "lang": "en",
-    "link": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
-    "time": "2026-11-24T21:45:42+00:00",
-    "sources": [
-     "Al Jazeera"
-    ],
-    "breaking": false
-   },
-   {
-    "title": "CIA hit by hack impacting unclassified information",
-    "source": "CNN",
-    "lang": "en",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQXA1eUlQSi12a2ctcXZCOGVrQ3p1UmRncnM3S3l1Z2lCMXFudzg0X2JkT21kazNpd0dISHZkME4zQW9TY005TXBzVTRnZFhwb0FmTXM3bVQ5S3NYamhvdWJ2SjJPTGFjeFc5SmpjMnFHa09BT2NiWF9FdndsTWtIS3N4clY?oc=5",
-    "time": "2026-11-24T21:22:41+00:00",
-    "sources": [
+     "Al Jazeera",
      "CNN"
     ],
     "breaking": false
@@ -335,6 +324,454 @@
  ],
  "history": [
   {
+   "title": "The Jensen Huang scandal has it all: sex, money and Trump",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T05:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IZzhfQm9NT3RneXVlekJ3NjZmWlB5T2lZbkdYWGlmQTc5MlRpVy1ZTTVsVGJEZ3RuVFd5al9QOFlJNUNZMUpydHJWcHZIakdma0RYbEQ0eVdlWWdsRlhwN1JlQWk5YVhZRXBuNmQ3Y0E5Rjdz?oc=5"
+  },
+  {
+   "title": "Americans to spend nearly $1 billion more on gas this Thanksgiving",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T05:01:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4ZFlhdVd5dDV6TE5OLWR5d0p2NXZVS2x1X1ZZVnZZWkpiZ3ZXMG1tejJUQVZCR082bnhROVczaUlwdXR1NWZqLTdJSmxJOUxkS2hKWlEzaW11SWl1M25kd3lueEdjTnVkdkR0TGdMZlZPSml2?oc=5"
+  },
+  {
+   "title": "On vous explique pourquoi les créateurs de contenus contestent les règles de pluralisme que l'Arcom veut leur imposer pour la présidentielle de 2027",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-25T04:56:15+00:00",
+   "link": "https://www.franceinfo.fr/elections/on-vous-explique-pourquoi-les-createurs-de-contenus-contestent-les-regles-de-pluralisme-que-l-arcom-veut-leur-imposer-pour-la-presidentielle-de-2027_8297736.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Logement, justice, soins… Le départ d'une victime de violences conjugales de son foyer représente presque une année de salaire",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-25T04:54:22+00:00",
+   "link": "https://www.franceinfo.fr/societe/violences-faites-aux-femmes/logement-justice-soins-le-depart-d-une-victime-de-violences-conjugales-de-son-foyer-represente-presque-une-annee-de-salaire_8297718.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "\"L'opportunité de rencontrer des élus de toute la France\" : au salon des maires, les prétendants à l’Elysée font la chasse aux signatures",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-25T04:52:25+00:00",
+   "link": "https://www.franceinfo.fr/elections/reportage-l-opportunite-de-rencontrer-des-elus-de-toute-la-france-au-salon-des-maires-les-pretendants-a-l-elysee-font-la-chasse-aux-signatures_8296235.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T04:49:55+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "UK warns companies of potential Russian sabotage threat",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T04:48:57+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss"
+  },
+  {
+   "title": "'Unprecedented ': Kevin O'Leary says he should've 'read the tea leaves' on Jensen Huang's return",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T04:38:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRnZxVmRHWVUzZ09ESm9mMUljSDBqTkNmdkh6ZEJWVjA4NkloX3FhYkM4N2xuNTZXRG9sa3ZZTEZPNjZ1Q0N3OUhfS083TWtUdFp4T3RvMmx5NDJ4elpHRXpKNjVxcVZfVXlTakVaeHFVaTRLcWpBMVNoVGNBRGdMMFp4cEJ4bzE2dUlqUzRDdXU4UnpqeTZKaHBIVXBVQkJiZkt5Z3FPbTVYRVN0akoxaTRJOGtpdWJqYmxxdGRBSzJiUG5HWUNKMTBvWmxjYXJ4TVNV?oc=5"
+  },
+  {
+   "title": "Immigration news - breaking stories, video and analysis",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T04:33:38+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PUHNMZmhVZmhXbTdUeEFNM29PX1Q3d2xGejVMZ3QyYk84WG1KYkhVZDU1ZG5ydkktS2xDeUZocjhLQi1ZZDJaUXhHRW51TGJxc3c?oc=5"
+  },
+  {
+   "title": "Georgia’s Fulton County ordered to give copy of 2020 election records seized by FBI to state board",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T04:28:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbGllWUUyNXZHaXRRalhYQTVqQ0FjbFlUVE52bUp1cVpMVDFFS01CODRMMFJIZV81V0hsdzkydEVZWWZBT2t5Wk5WR3lHZVhKQURBVm9NMF9oSC1RVU0xUjZ1eHlZcWVKeENJcWZySXE0WGJDVVdldndsZUstVkZ3WHUzb0tfWXl0OE9JTVNXQ1NPV0F0NXp3SDY2OA?oc=5"
+  },
+  {
+   "title": "Protesters clash with police over Venezuela’s poor minimum wage",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T04:27:10+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/protesters-clash-with-police-over-venezuelas-poor-minimum-wage?traffic_source=rss"
+  },
+  {
+   "title": "This nation had a security pact with China. It’s just signed a deal with a US ally instead",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T04:25:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNEFucTlrc3pkbWhpMzNQOGRTYlg5QTFBS3EzRDRydGw4cWozb0dZTlRKbjJCNG53c1NPUTF5ckZRZ19RaWRENzNxbDluLXhVY1hrUlVXSmhrbmhXbzNLVHJaYkc4UkFkTEVmZTBNQWNvUXU0STNOOFE4NTI1WEFJWjhjaWNvRDkxb0FuemEyY2dnV1U?oc=5"
+  },
+  {
+   "title": "Israeli strike kills four people in Gaza",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T04:13:58+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss"
+  },
+  {
+   "title": "Galatasaray says Israel complained to UEFA over Palestine banners",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T04:12:11+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/galatasaray-says-israel-complained-to-uefa-over-palestine-banners?traffic_source=rss"
+  },
+  {
+   "title": "US attorney general dodges questions about Nvidia investigation",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T03:44:07+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Bill de Blasio on Trump awarding Giuliani the Presidential Medal of Freedom: ‘It’s troubling’",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T03:38:20+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdHdTdGhISklrd09OVU80dG55dHlnMkZTZGFiOE9oY3FGTDU1S3pnd2hKWXQyLWhwaE4tdGhBZEFBNHptVGNXbWQtRVJ4dWt1NE9uem5IbWo0RVNBb1ZBMFpwOFNTSlZ3b1FjUXFTY05HWk9LREMxS3NDMm1QN0llZGFNdmNsV0RvaUpTenZzTTdwLWI0V0tJdFd6dzhOYkxKYnkxeWQ3ZzhDZjZ1UHZzbkdR?oc=5"
+  },
+  {
+   "title": "Asia’s stock markets dive as doubts swirl over AI boom",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T03:31:59+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom?traffic_source=rss"
+  },
+  {
+   "title": "Huawei: 'La condanna Usa è senza fondamento giuridico o fattuale'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-25T03:31:12+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/huawei-la-condanna-usa-e-senza-fondamento-giuridico-o-fattuale_6461d14e-4a84-4935-a1b2-37c6fd16ae7e.html"
+  },
+  {
+   "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T03:28:37+00:00",
+   "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fort Hood mass shooter asks judge to halt firing-squad execution set for next week",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T03:10:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUTI3dDBJSjJCQUV0Sko4WXRXQ29ZbllRR0hnQnNqeDIzU3UtTWJ1VERiSVI4QWZqb3pDMjBHeEtLOERyYnJYQi0ybkV0SUJsUmJXWHo3Q3FWRXpSVXB2M3dha0RjdGh0V196ZnpLbjRITWNRMzY2M1VhS3NPT3lNTmdXeS1UZFU1S0E?oc=5"
+  },
+  {
+   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T02:59:27+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What is lead azide and why is it so dangerous?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T02:47:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONFhzQUJTZTJXclY1OEdtTDN4YkJ5LXVpZURIdFVIQ0Nkb0NNYzNjUTU3VWF4ODdXampqa0tFazZselFJejIzQ1FrQUpwakF0Ry1hRG1YVmdZNFNRYUQ3SFNUZTI5eWJUcEVmcVRVWUpjaU51Z1ZpV3ZFSXpHbGNJYVVjNkJJWDBuUUtRbjFmMFc5dTRiY2s2bUZlMHlMQQ?oc=5"
+  },
+  {
+   "title": "Pakistani astronaut launches into space aboard Chinese rocket",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T02:44:45+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/pakistani-astronaut-launches-into-space-aboard-chinese-rocket?traffic_source=rss"
+  },
+  {
+   "title": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T02:40:59+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss"
+  },
+  {
+   "title": "It is important for the US, China and Russia to discuss security issues as ‘big nuclear powers\", says NATO head",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T02:34:56+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkVmTXVqajN4ZVdNVllnR21Fajh1RU5TNzBKdFplSFZGcFJPWXhCSllKWGZ2VUF0OUMyLXB3dVVMWGo1M2RzVFNkQ3hsNmJCU0pUX3NVZmdGUmxMX2JqR2JoTjNWenc5NHh1VlNOTGVvbWo3WXBFd2pLV1loZnZFZjdDMll0ZzQwZEI0Nnp0ZXhTckZFQ1RjRzJkUmFtTmYxdWc?oc=5"
+  },
+  {
+   "title": "Nvidia, Trump: 'Concederei la grazia a Jensen Huang se necessario'",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-25T02:33:36+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/nvidia-trump-concederei-la-grazia-a-jensen-huang-se-necessario_f1d734e5-21d1-4571-8eaa-01dbe197c52c.html"
+  },
+  {
+   "title": "Raskin: Blanche's answers on Nvidia were breathtaking \"gobbledygook\"",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T02:27:18+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYXFpU0RSa1NTSkE0UFRsWENXUWRuXzAyWlpZN0VzMXdZaURodWhGUkdPZHUyeW8tb3A1Q1VUSjVlcWVQZTV6Sl9NVWo1ckhmckxhUGJOdDB5ckp0R3VmWUxpSkRpSTFhU0VqOTlEQzRxREk4ZzZEMmZ0N3dPV2dHdl85WDRFel9FQ1NKY1hrMVpHSnFFb0NaaVJFcHhBNG4xZWZaSm9zemZSa2k0ZUZTZE5HR2tJb0ZoV3AyaFVJMnhZYjdvTFQ1MGtnZzRyd2pkM21FTTA4ODBuREFDTmxfaF9GVDd4cThhLWc4OWloNkc?oc=5"
+  },
+  {
+   "title": "WHO chief urges end to US fuel blockade on Cuba",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T02:23:19+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba?traffic_source=rss"
+  },
+  {
+   "title": "Due militari libici morti per le ferite nell'attacco ucraino alle navi russe",
+   "source": "ANSA",
+   "lang": "it",
+   "time": "2026-11-25T02:08:15+00:00",
+   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/due-militari-libici-morti-per-le-ferite-nellattacco-ucraino-alle-navi_60000a66-dec8-493e-bc1a-40eb5a34061a.html"
+  },
+  {
+   "title": "Rep. Krishnamoorthi on Trump declining to rule out a pardon for Huang: 'It's completely inappropriate'",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T02:07:25+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRFJnM0k3WHVkSUZmYUgyV3JjR2Y3SUgwd3dGdVB0RU5DRmx5Nl96S3Z0Y052LWZNcTl2ZzBZQUZCVU96aTVfWGI2LTUyaXN1anJyTFc1MWd6cWo1c19iQmtoYXhJbkpKM1JLWmwybXBhbFUwVmVGV21PYkxyRGpBaW11RzZrSm8zUW51ZHRxMnNGeEhXUVota3ZZcWRwSjdZdE5BbVpLSG1jTkFTYzBFTEZLbmNOVHBmSGFPaG45REN4S1R6SmJ3U19JZV94R2hLbnV5YWpsd0tveGduTldQcS1LQQ?oc=5"
+  },
+  {
+   "title": "Watch skier trigger avalanche in Colorado",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T02:00:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaVRuT2RjaVR5N0xFODFXZHBkalRBV21pUENESHFaRjNINUFXQ3RsZVM5NklWcTdXdmhOSkNlbENZVEVELVV6bUhJQUpZTWxXREhCUWZ1YTI1QzJQWHBsQXc4Nk8xSFh0cU5QZGtLYklORU45dXBjVkttV3VmUjVCT2t3MjVxWGNaZG9xSF93dlBZRlZzUTBZTlhDeFk1Zw?oc=5"
+  },
+  {
+   "title": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T01:51:43+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "After campaign trail feud, Trump says he’ll meet with El-Sayed to discuss universal healthcare proposal",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T01:46:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS3FIS1lsN0owcWRvSFNiVjNnYXVKMVRWSlYtUFJOclhvT0R0MXJRMkNVdWc1N3FSM0V2bHFmbUM4Tl92Q0ZyWF9NeUFfRW45cGJnd1BnNVVYdjYtTXJtZVRJSTJ0a3VfSDBEam42UVVobXpPekcyUTVuaGpaVVQ0QWlVMA?oc=5"
+  },
+  {
+   "title": "CIA & ODNI Responding to Apparent Hack of Unclassified System",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T01:43:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSWRpcER6OWJYUUZYMTZ4cmc2bFZIVENWNE1veDNOc1VrMnZvVVdrZnpvTHhEWlB5U0hMemNsSEZEZXdUNEZJdU1WRFVDVXIxVDZwR0FvSE1aOWhLRThDNlZHOFlCNW84LW1CTERFNXR3cjlmd3VoSVprQWhpb2NlTzhjR2xpQ2Jpc2dOM0RIRmJ5T0trcU9qaE51WTJJaGNmRnhtQnJyQThrQQ?oc=5"
+  },
+  {
+   "title": "Thomas Markle indicted in US for possessing child sex abuse images",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T01:40:42+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T01:30:44+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government?traffic_source=rss"
+  },
+  {
+   "title": "US court convicts China’s Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T01:22:46+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUV1kzeXRETGd2Z016cUVXUm50cE1RTW14Nmp2empqQ2Y3d2laSFBWN1dZSkQxeGpaamNLaTRYd1d3ZFE2TVN4cW4tc2I2ZXpSamg2MG1JZXpHeHdBVUdKbzhrMmFwOXh3MTJQTkdoamdDRFI5NU5MSUF0V190MUE?oc=5"
+  },
+  {
+   "title": "Iran whips singer Parastoo Ahmadi 74 times over YouTube concert",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T01:21:02+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/iran-whips-singer-parastoo-ahmadi-74-times-over-youtube-concert?traffic_source=rss"
+  },
+  {
+   "title": "What’s going on in Middletown, Iowa?",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T01:18:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV2xmU1htT01OLVlGQ1pUUXNUNjctS3NyRDl6QWtzYlpSR2FxejJWX1FqOUVLSmxQYk1ZNXZTbE4tUEE3ZThhRzVDMFBmLWR6bUpoVWM2a3FhYzhjNThZTnhyT01OWFNuaWk2YXFLUGdPTEVEdjhvNV9wOGRiU003ejNiVVZsQmpBUGRIQUVn?oc=5"
+  },
+  {
+   "title": "Poll finds US voters want government to end Iran war regardless of terms",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T01:14:22+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/poll-finds-us-voters-want-government-to-end-iran-war-regardless-of-terms?traffic_source=rss"
+  },
+  {
+   "title": "Kilmar Abrego Garcia, who fought his mistaken deportation, is leaving the US voluntarily for Spain",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T01:07:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcG1HVEl5OFFJbUMtcllrTmlxUlRUdXFjTkNiOXBJVmc5TVJ0eDdiUFVJX3dMeGpOR0N2UGRKVGgtMXdqY2piOFE5WGpaTkR3YTJva3EyMWtxdzJ4QmZBRm05TGF0NVRoOWpJVHdwMlpta3FVZWU2aWU3MXZQckMyLXhXd01PZ0Nwam1CTw?oc=5"
+  },
+  {
+   "title": "The rising cost of putting food on the table in India",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T01:02:13+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Clashing political visions reflect a divided Spain ahead of election",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T00:58:34+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Erin Burnett questions Blanche's silence on possible Nvidia probe as Trump floats pardon for CEO Jensen Huang",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T00:58:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0Zkb2ZYVVp5cGdIcHVaMF9XY0lSSWNPRkhSRDV6WWpoUGVFaksxYzUxWXNiRU9md21Odk1Kd2lKeDFCaThza045SHZuNFo1Y09QamIxclg3TGRBdXlmN0xyWHRHVVdsbzcwSlpFQW1kalBFYkd6dTFjYUNIRUl0bzRyYWtuc1o1NUtXWkFJb29OdUs4SWdBWGhfOGpsdktxMVBOMVU3UEhvM1JDMGc?oc=5"
+  },
+  {
+   "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T00:56:51+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-25T00:54:13+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sen. Cramer: Nvidia board took ‘all of the risk’ bringing back Huang",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T00:49:53+00:00",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHkwOUNRaHhLWmUzOTlkcEZRTC1ZQ2Y4ajJEYnRlUXBueXpOWnZvcFRFVHdDUmhlR3Myb0d1eG1sZHpQT1Nkc0lxNmJVVXZGQW1tdFhPWjJaNHNTMi03amRhYkpVOE11N256OE1tOFdsclJjcmQ5MnptYnB0VjNiZnFzY0RkRi10UlQ4UnNzeWRIMmxSNWxTbzdR?oc=5"
+  },
+  {
+   "title": "Gunmen hold dozens hostage in Colombia supermarket",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T00:49:35+00:00",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss"
+  },
+  {
+   "title": "Alaska ends deal to give voter records to US Justice Department",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T00:28:28+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/25/alaska-ends-deal-to-give-voter-records-to-us-justice-department?traffic_source=rss"
+  },
+  {
+   "title": "Trump says pardon for Jensen Huang is ‘always an option’ but likely won’t be needed",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T00:03:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMEg4aDlMdzhneHQ5d3BwcGhHWjgxTXctM3RTVndfaFZSLS1sUTdyTG5fY0hENWJoSk1jek8yejZLRk1Fc05XZFIzc2ZDRk05M2padnk2V0luUkQ4WDJpQjVINGd6cXlXbjFQVGxGR3kxUUlXQjNoUE5MT0Nnc3VaU2pabEVjZw?oc=5"
+  },
+  {
+   "title": "Exclusive: FAA probe zeros in on culprit of nationwide ground stop, but agency still faces tough questions",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T00:02:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWXFVNlR6emtFRXlUbk0zVmlvQ2otcWR1bU9vMG9DVGVXaTMxVEtOX1c0R1gtVkVWMmFTQTAxZUFHaENaNm5ucHpKdjRMRDM2RTdPY1dueG43RkRrb0RCMGJ5RWhaNDFGN3JaSVZDM05YckU0UllCZkdteml1X3NMOVhBd3RUamhiNEZBRy14cjJIQi1WVGs3NXhxOHVVZnk0NE5SMFRob2tyampzcHU0VEJZWUxZV0ZfMlFMQVF0Uk1pRU0xc2loMEdVeVU5d05kMVE?oc=5"
+  },
+  {
+   "title": "Exclusive: FAA probe zeroes in on culprit of nationwide ground stop, but agency still faces tough questions",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-25T00:02:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYm9XUFNsQ3dLcUFZejZid1JkTm1ES0IxRkZQVlUwNEJFVHBHUkZFNWg1ZTE2bFJHOWtCUmthT01laktVRHdqMnBVU3NmaHU4OUp3QTFVeTdXd2lNaVI3STcxRENZS09Ta2ZXV1F4UGFjX1hvdjF6bDZYOGYzU3ltTXdEODRDaUFMd1Bv?oc=5"
+  },
+  {
+   "title": "Iran war live: Saudi-led coalition strikes Yemen’s Hodeidah port",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-25T00:00:00+00:00",
+   "link": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss"
+  },
+  {
+   "title": "NATO chief on reports Russia plans to launch a nuclear-armed satellite",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:55:58+00:00",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdU5yZ3ExMWhYS2NKQU9xRjhYZ1k3MGhxMG1GUEhtV2FwNS0wU0x6S2V6U3Y2M1BaeHdPRHNQNXlCYm81YnRMMHRTeHVBTTdfQ1Bvc2J0eDdyMEVINklQRlNsMUV3eXRWZEtMVmF5UmtmLTllR2xOUkxudTB5MGZILTRySFBwWjh4d3pFaWpSMGQ2QjdYWnNmYk5iQy1QYmMwUFo2bjR0TkFhdmhJLXRXTF95TEQ4VEJ3Sml4Ym1wZw?oc=5"
+  },
+  {
+   "title": "Rebel group retreats in DR Congo after heavy clashes with government forces",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-24T23:39:13+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/24/rebel-group-retreats-in-dr-congo-after-heavy-clashes-with-government-forces?traffic_source=rss"
+  },
+  {
+   "title": "Thomas Markle indicted on two counts of possessing child sexual abuse material",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:36:07+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5OUk1HWmJsUmtmN1RmSDhrellzVzN0RmVJZ25sMmd2VkNsMUdWdWFYU0RtSW5ISjdxRWRFU0hxUzdud0JleVQ5aldOU1BXVFFhTVVEemREM2pPNEZROWdrRzlaUUhyOGM?oc=5"
+  },
+  {
+   "title": "Latvian President sees potential \"tipping point\" in war next year",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:34:58+00:00",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb2xpQ0FnSDJHeGRoQndRVEtPTll5OE53WHJlT3I3RE1YdUwzTC01YnJZOHdkeHhkWkQ4amVVRlB6ZDlWbVhZd0NzMFhzcTdHUXRWdW1xanI0blNRYVQ2bHRGT2xqLUloR21GUThWT0E3eXZKMDRPam5ILW9hVnZDNUJjdHpWV3ExaTBtSklVNzNQcFJ3ZWxXVmhjTjY?oc=5"
+  },
+  {
+   "title": "Authorities searching for 4 adults and 2 kids on plane that crashed near Mississippi’s Horn Island",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:32:06+00:00",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pOWV5VG1WLXJRRVZTMEVqMjdiYjI1Zkx2bGNRMFVGWkdjYlo0VGJoODNVU2ZIZl9aWGV2dkpfYm9LU1dSME1KMldYZmNJaUZrSnFTVjZtZ0RSNXRUWERHSWxZQWhGNWZORVJlVGR3SXl6VkUzd3NfSA?oc=5"
+  },
+  {
+   "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-24T23:29:40+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss"
+  },
+  {
+   "title": "IMO chief: It is not safe to go through Strait of Hormuz",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:25:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1UtekZlWEQ1cUVFT0NnQ3U0a0FnVl90c3BrcUR4akh3bWVQNXVPeHBMN1dXNzF1dTNobDF3OHYzbEptUUlzNWNld2JBMXFuY3QyNGFuSGtPQmdIc3QzaUhEc3phQ1FqajZtREZMUy1TWVZ4OW1wWkpVOV90TjU0VmtaajV4cnVQblNJLXF3TDhtUHEzTEdpMlR1RTF2Z1J6eHJwQlFNUFdBbUtzczgzTkYweGFZQQ?oc=5"
+  },
+  {
+   "title": "Nvidia CEO’s reinstatement draws bipartisan scrutiny",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T23:17:37+00:00",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNDloS1pyOTQwR09pM2ZtZWt4YUpJZzdsWlh3S3ZnTkkxWU5YcURpc1p1NlVyblc5NFFNWmxnMDFQMnF1SUlpZjFTZC1qaWZGUU93Qlc5ajU5U3EyZlJPZ01yb3RINU9DVzhGTWNtSlFMUFcta1p4Zkg0VWxLdVFoaG9zOVpyTUVSMXlvdERiTzhQNWxBaTRsaXJ0cFNQMmc3MzNXWm9GaFh3VG1fTmE5Mw?oc=5"
+  },
+  {
+   "title": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-24T23:05:11+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+   "source": "BBC News",
+   "lang": "en",
+   "time": "2026-11-24T23:03:59+00:00",
+   "link": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Like ‘family businesses’: Inside the Nvidia board that ousted and rehired Jensen Huang",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T22:52:02+00:00",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QY1VoSjVXdkRXRWpuaFRlRHgxOVZsY2V3OHNaOXJ1RlB5Nm8xWHRTcDNIRFVoYlJ1T21zTmstcFBjNjQwZFhrX0x3Y0EwbmRIaXdFaU1FVnYxTEdYbVlTekg0cktMdHREM01fc0x3?oc=5"
+  },
+  {
    "title": "Edouard Philippe propose un débat télévisé avant mi-décembre à David Lisnard, qu'il soupçonne de ne pas être \"étanche\" avec l'extrême droite",
    "source": "franceinfo",
    "lang": "fr",
@@ -349,6 +786,13 @@
    "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/abrego-garcia-lascera-volontariamente-gli-usa-per-evitare-la-deportazione_6eb62363-c88c-486b-a609-a0cf04cc95e7.html"
   },
   {
+   "title": "How storms could complicate Thanksgiving travel at the world’s busiest airport",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T22:39:33+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPczk2TGpLZjZLdVA5WWNoZVBKclBYUS1UR1NjSFY3aXIyNkJHcjdvZkNfeGI2UXpocWt1YUhpWEtLM1NlNUdVQUl3bWZpcFphVGpPN2F1LWs0c29hM1lkLVAzNWZ0X2dtLTQwWWl4MFhrVHhOcmxrZVFOMXhEdlNBRXlOTTAyZFJaOWVWOHdJczV0LTVteTNTcVFFZlpfcWJPUGFYZzdFNWFmVkJvSGtzN0p0QUhYWVRWbW54RjcxZVZYMDdORzJqS2pB?oc=5"
+  },
+  {
    "title": "Trump’s Intervention at Nvidia Sparks Bipartisan Backlash",
    "source": "CNN",
    "lang": "en",
@@ -356,18 +800,32 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelhXSUR1Q0FjdjVoT1ZvZzU5cjQ1V05UeUVGMGpDbF9fWkplY1VtSDR0VENIclZ5dzdqWkczMmROR1dvdE9MeTFIS19fTk1LMlFWRnhBTXBia1ZfUGFLUDhzbkprNjZweXdhZUV6Zl9HMTRNX0F5Q1loLVEyM2lqcG12R081R1dzTGRMVng1WE4zdlk?oc=5"
   },
   {
-   "title": "Immigration news - breaking stories, video and analysis",
+   "title": "Flights to O’Hare grounded due to equipment outage",
    "source": "CNN",
    "lang": "en",
-   "time": "2026-11-24T22:37:13+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PUHNMZmhVZmhXbTdUeEFNM29PX1Q3d2xGejVMZ3QyYk84WG1KYkhVZDU1ZG5ydkktS2xDeUZocjhLQi1ZZDJaUXhHRW51TGJxc3c?oc=5"
+   "time": "2026-11-24T22:38:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZFQtNzdkOTFUVHFyNy11UEdzb080dDdacDlxRG1ta21CV05SSmJEYzJvWmpzWEhkVTdxVklMdkFfOFVvQ1FFQlVMcUt0cjNibzJyc0NaY1hjRVgwazFheVc1Y0tWYWVReE4zc3hvbVNacFIydThfcDFkZjVzd2lxZkgtSGFETXVBZzdyRnRkX1U2dmtlQVN1QVh6MTRuV3QxNTM0Qg?oc=5"
   },
   {
-   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "title": "Donald Trump s'est-il enrichi avec le retour de Jensen Huang à la tête de Nvidia ?",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-24T22:33:52+00:00",
+   "link": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-s-est-il-enrichi-avec-le-retour-de-jensen-huang-a-la-tete-de-nvidia_8298372.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "\"Je me voyais amputé\" : le témoignage de Killian, mutilé par un tir de mortier en marge d'une manifestation à Montpellier",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-24T22:29:33+00:00",
+   "link": "https://www.franceinfo.fr/faits-divers/je-me-voyais-ampute-le-temoignage-de-killian-mutile-par-un-tir-de-mortier-en-marge-d-une-manifestation-a-montpellier_8298348.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Watch: Flock of turkeys chases woman on Massachusetts sidewalk",
    "source": "BBC News",
    "lang": "en",
-   "time": "2026-11-24T22:24:23+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+   "time": "2026-11-24T22:07:30+00:00",
+   "link": "https://www.bbc.co.uk/news/videos/cknv4mq93gd2o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Il giallo dei tacchini graziati da Trump, uno è salvo ma l'altro è sparito",
@@ -440,13 +898,6 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOEZ6LXdnUmhkSDFUMUFQNldFbEkwR01EOWZUSTliUWZfZW1tVHlxLWM0VHJfaEtMYi05eVZMLWIyTnQ0SnVaZmZjRVNlV0R4aUZuM3I1QjNtRUQ0aWc3NHpORGNBTzdxVlFBSHVqVDhoTkh4QXE4bE5QRlJNc3hvUElaZ3pJTkhrM2JtZ1BaUks1REJoQXpUNmJaeWZwaW8?oc=5"
   },
   {
-   "title": "US attorney general dodges questions about Nvidia investigation",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T21:19:42+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Russian jets spark air raid alert in South Korea",
    "source": "Al Jazeera",
    "lang": "en",
@@ -472,7 +923,14 @@
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-24T21:11:06+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRGFJYURFOEt3RFZCNWJkRl84LWFUcHdJWXdMQ2lFTk9uMkxOUk9GYks1bzIyOXg4WFFfemxNemJnaE9YWWt6Y2lkZUVqQzdKQVVYWE9wV0I5blhVSG9oQm1xemc3aDU4UUt3bHE3R2w5RlZfdVpqU01yMmY3bVQ3UUk4TXVNS2k5NkdVS0xyWkZPbjJFVlBzVUZfM0t5Y0FBRnRRQUFXUzhrdkhR?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa3FDQUVUTzNiblFFUTVmal9GQjlBVlVwQTVBa3pmVUNscDRGVnB4UFpQT0EtSDNJYmxJdlhtREVZdTFaSlZqcFh6NndUdjhublBiX2R5UmdITFptbGZ3ZXp6WjFkNVhXTEpRS2pqM3pzeVozVmJNQTJWRHhwcjY0TnV2QnRZOFFFcXRzelFTRUZWemRYbzhhaVZ1QjVIaXVqeW8tZmwwaw?oc=5"
+  },
+  {
+   "title": "Ten hostages released in standoff with gunmen at Colombia supermarket",
+   "source": "Al Jazeera",
+   "lang": "en",
+   "time": "2026-11-24T21:04:46+00:00",
+   "link": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss"
   },
   {
    "title": "Hostage situation reported in Colombia as armed men flee into supermarket",
@@ -529,6 +987,13 @@
    "lang": "fr",
    "time": "2026-11-24T20:31:23+00:00",
    "link": "https://www.franceinfo.fr/faits-divers/la-mairie-d-albertville-depose-plainte-apres-avoir-decouvert-des-croix-gammees-et-des-inscriptions-racistes-et-supremacistes-dans-la-ville_8298390.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "I’ve built thousands of Lego sets, and I’m already shopping these Lego Black Friday deals",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T20:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZWV3eXFmU251aTFLUE9VajlSc0dNUTlhOEhxYXFTSDdPRWVFMUVWWWI4SWpzQkpzZTZNb1ZwcF9WZjBiM0NaMUpfNG90SXh4VkNBUDliLTFRUUUtR0tWXzVWOU1qelVKUjJBMFptTVM5MFRzYXo2U1AzSk5CMkNMc2pB?oc=5"
   },
   {
    "title": "I’ve built thousands of Lego sets and am already shopping these Black Friday deals",
@@ -594,6 +1059,13 @@
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOenhvOXJNOXJLSDRFUHo5WmItWXhCRFJ5MDNLdnJmV3VORHpLeENqdWpaWG9pRU9BMjVmWUl5Q0p3VVNXUnRhcVFGZTRIdmd2YnBrV0NlSmJ2Vjk0YzNMNzE2a1U2bzF3UmMxZ05ORWlYcUZ4NjFZYmRzX0JnNHg4YU1n?oc=5"
   },
   {
+   "title": "Gisèle Pelicot to take legal action after nude images used to promote book",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T19:56:44+00:00",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oVEg3b2l1UlBfbk5MZGk1cDM3WnlzOGlRU2poNVRXNFBSVVRGaUJOT2F0dndrN0JSZzM1Y2oxdFYxTmQwak1GRkxQRU5XczFOZ2VlSHF5ZEVISjdHRlJQYTlGSEFwYkQ2bGNGRTdId1VQQQ?oc=5"
+  },
+  {
    "title": "Turkish military helicopter crash kills five in western Turkiye",
    "source": "Al Jazeera",
    "lang": "en",
@@ -613,6 +1085,13 @@
    "lang": "en",
    "time": "2026-11-24T19:45:49+00:00",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GREk3QU5mT1VIUXN2VG5QQWdSZzdSNnRDWjJJbk9Ma1p1eG1nS1RVT0o0VW9Zc0g2TldxdllPa0NvazhyOVZIbmN4cUI0NDNVWTF2a0pLbDlHVUNGZ25TMzNnR0UxRld6bmx1NU9tUlU?oc=5"
+  },
+  {
+   "title": "Inside Trump’s pressure campaign for Huang’s reinstatement at Nvidia",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T19:30:36+00:00",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUXd6WlU2cHJ3N3RJQlN4TUc3STBOLWF0SU1ZUzBycjE4WEdhTDhwbEJfSVJxSVVmYWVMaVJvbjZDN2pTRXV4YzB6Q1ZHS1RqSTlGY1VFYWVGM0x5TXRLR3lsZzFlSk9jT1A1ZDBabFp4WFlRbXVVWVMxYko3djZVOUhqVGJUT1dKZE83dnNJemEwak00Q1hDWVpoM25HYjRFWHhLNjBDZw?oc=5"
   },
   {
    "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
@@ -692,6 +1171,20 @@
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdW05enhFNXBMMWdaQ0k0bzVSUmlxT202WmFxMEI4bU80c1NUYVNFTkl2bnZURUF3VXlpTTc4TTRtQU5tRHpFa0RQRDVLR0VQLUs3ZUg4azVnZ2NqblNpRmxqdGxIcG0zbUxINms2b3F5UFFGTm10NWJkX1MyOWRZM1U4SFgtMzg?oc=5"
   },
   {
+   "title": "'While we are partying in the West the Amazon is burning': Indigenous artist bridges two worlds",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T19:05:15+00:00",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcC1fWHFpVVhWbF9mN0lra3dYVmQ5Y0I3QXd4Ui1xQzc2azVUUzgycFVWOTFhRnFCYkFMaVpZMXZVaTZ0WDBoQlRnb3pUd3NySHhQUHdEWl9GbHhHS1RCZDgzSzZyNF83cmlzblRfN2JGZDl2dkFjTURnRWUxZDYzMEFwQ2JiRDRBSk9SU0hkTHQ?oc=5"
+  },
+  {
+   "title": "Trump targets California Gov. Gavin Newsom over death row commutations",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T19:04:52+00:00",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXMycm5OblQyS2pnZUpJY1FQMDFSNjNXemxCeFNqUXZabVhkMk4xYlgtSmFKUDRISnBFTU5iby1NUTdVNmowWV9qWFJjTEJkcjVkeEcwS1FfOGk0dnczQ3FMeDh0TVRCZ2RibHppdEtxYU5adG1vS0haNFROTTlLdG9YMWExWDcxVUIybU9wTDA0a0tiRVU3N0hibGhYVjZ1dlRMZktpVzV3Qm42WUVfYUJ3Qmo?oc=5"
+  },
+  {
    "title": "Israel’s Ben-Gvir accused of seeking ‘religious war’ over mosque raids",
    "source": "Al Jazeera",
    "lang": "en",
@@ -732,6 +1225,20 @@
    "lang": "fr",
    "time": "2026-11-24T18:33:12+00:00",
    "link": "https://www.franceinfo.fr/economie/votre-argent/livret-a/depuis-janvier-les-francais-ont-retire-pres-de-10-milliards-d-euros-de-leurs-livrets-a-qui-connait-sa-pire-annee-depuis-2008_8297058.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "The best vacuums are already on sale ahead of Black Friday. These are the deals worth grabbing",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T18:30:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSHZKSkdQXzR0dGxxdG1Pc29vaDUyRFpaRElGVWpjNG1za1k0NEJNbXJLdmlUWWxKRm9FVVFWSFJvWkc4aFlXMHRzSGJVbDZoM1BzWHNzOXFrRVNQcTBjbms3YkNFM3ZTQTZ5TnZDd3RXWkYxNVhubm5ZZVdma0VQNHVOOEU?oc=5"
+  },
+  {
+   "title": "The Situation Room with Wolf Blitzer and Pamela Brown",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T18:23:43+00:00",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZVNRVF9JTDlJT19Oa0RLZUVoWUxwUTBLRGY1cVZqYXFZU0sxRDJFRXN3SkY1WmltN0RXSHVqREtkVUFKOG03YWc3cVpEZTFfNmFoOVY5cE5HeWNoNzZGNS14X1M5Q0dSTFBGdEtoU195SmphZVkzMk5qQTRkc3BSTDhLd2hET2E3UU5YWVl3WktHeHVFZWJtcUdCUHpmUlFQRHJkMS1UeVRQUXRkSS10V1ZicjhJYUwtbTNnUjBrMEFPaWdDbHVqNm45U1UtQ0U?oc=5"
   },
   {
    "title": "Bipartisan Backlash Grows Over Jensen Huang’s Return to Nvidia",
@@ -951,6 +1458,13 @@
    "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Woman chased by wild turkeys days before Thanksgiving",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T15:32:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdUU4akFHTUFuVTJTblVhZEZoZXBja2ROM1dwY2tGRWlzWGdpcmRyN3pvTXF6bVh6WFE5RFVoWnJ2VUtzZUtndGx4aUJzT1NjWVJzYWlvMWpHRXU4clZLRW9vRU9sdFZKU3lUVm0tQ1FJS0FCd051VkdCVFJ5Wl9aN0NuTHU5dTJBSDBKazByUFpjd056b2JSX1VINVYxcGpnaUlN?oc=5"
+  },
+  {
    "title": "Land mine casualties soar in Syria, two years after war",
    "source": "BBC News",
    "lang": "en",
@@ -970,6 +1484,13 @@
    "lang": "fr",
    "time": "2026-11-24T15:06:27+00:00",
    "link": "https://www.franceinfo.fr/faits-divers/adolescent-tue-par-un-policier-a-nanterre/la-mere-de-nahel-merzouk-se-dit-soulagee-et-contente-alors-que-la-justice-confirme-en-appel-le-renvoi-du-policier-pour-meurtre_8297925.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Stream in Turkey turns bright red",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T14:56:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTFBCS3k5UV9xOWZGSFBfdUZjei1kVXRPR2ZrY0pQRDRnU0F2alc2SmFjdkpaMXpSRjJFRDhwblZxY1BuenhFc2VLOURXVFRzd3Y0R1lpUGZsUTNPLThzd3JyY0NKMTFjYlFzaXcwcGpkbFpwX04wR3RuNXMzdUlfSm1R?oc=5"
   },
   {
    "title": "The Odds: Tar Heel Turning Point",
@@ -1000,11 +1521,32 @@
    "link": "https://www.franceinfo.fr/economie/projet-francais-dependance-chinoise-exemple-americain-quatre-questions-sur-les-stocks-strategiques-de-terres-rares-et-metaux_8297829.html#xtor=RSS-3-[lestitres]"
   },
   {
+   "title": "\"On sera des communes mortes\" : les maires affichent des rubans noirs pour manifester leur colère contre les coupes budgétaires",
+   "source": "franceinfo",
+   "lang": "fr",
+   "time": "2026-11-24T14:26:44+00:00",
+   "link": "https://www.franceinfo.fr/economie/budget/on-sera-des-communes-mortes-les-maires-affichent-des-rubans-noirs-pour-manifester-leur-colere-contre-les-coupes-budgetaires_8297790.html#xtor=RSS-3-[lestitres]"
+  },
+  {
+   "title": "Pope Francis had ‘visions of the devil’ in a two-year spiritual crisis, private diaries reveal",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T14:07:30+00:00",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKMWlmRXdDSkFCNzZPM0N5ZDNuUHRIQkFQLXNuaVYwV2tRUGRzR29ZeGZCT2JlQjdKem42aWtISmlPdk5ScXRUMjFMM1BUNFk4NXpZODVtbWJxald3X2dBekRqY1ZHVlIzb01kVmR5dmFOYWZIbHptZFpkRzhFWGM?oc=5"
+  },
+  {
    "title": "Two arrested after break-in at country home of Prince William and wife Kate, UK police say",
    "source": "CNN",
    "lang": "en",
    "time": "2026-11-24T14:05:47+00:00",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wNmtTTmloWDFlYUxSVzBIa2J1Z1U3MFoySWplQ2s4Um43clRxcG5zMHpna2pTWVc5c2VjN25TZHRkeHFQc1h5YjFsV0k4akNtRlE4dXNpd3k2ZHFpQUpFdXhVLXZ2WTk1ZUdBbFhMbEFzLVVaVFNFUlRfZWVuSDg?oc=5"
+  },
+  {
+   "title": "Black Friday is already underway at Walmart. These are the best deals to buy",
+   "source": "CNN",
+   "lang": "en",
+   "time": "2026-11-24T14:05:00+00:00",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT0ZLRm4xdmU4ekhUSkdpLUttWXdtM1l5UmhjRE5CdE1kS1RRek9mUU9wcnZEVFZRZ25Fb0ZIWm93S0EzUjBYd1pIQlJnTHZBV1BhVlJiek9jVWZTVHRpOGpqTGszNWF1bjBwY1lIUjZjT2M3eTRZNllKUUxhbDNxSmpNeXhKN0htYWJ3SVdOb3NfVHAt?oc=5"
   },
   {
    "title": "Key Chinese Communist Party figure placed under corruption probe as Xi’s purge escalates",
@@ -1019,531 +1561,6 @@
    "lang": "en",
    "time": "2026-11-24T13:11:36+00:00",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWViV3BSUzU2LVAxZ21JLWZUTk9rYk5TZXVvdE00RzBTRmRDM2dwSFU5N2JMSXVLc2NBd3RSMHp0bG5EREVwMmpWb1hnQTJxaHhLYXNwY3pWWFhkWDF5Nk5NaFpNZTk1VUtqMGpac2FOS1BiQlJiYjFrZklzd0ZGMmdINmxLRU40b19DTU5R?oc=5"
-  },
-  {
-   "title": "Horn Island, where beauty and serenity meet the mystery surrounding Nolan Wells’ death",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T13:00:16+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54R1c5eVlINjllUTR1Tmhza2JQXzZBNXpsZVplaW1HU3hZUVlNa3VJbUY3UHNOSVJ6Z3dHQnhPbnRSTmNTd0tzLVRDUW5UR0hfWmIxYW80eHEtaC1EZklJdEZuSGhLNUZlcWpVaklPV1pDcU1nenU1TA?oc=5"
-  },
-  {
-   "title": "Media, 'Eisenkot pronto a sottoporre al voto il nuovo governo prossima settimana'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:49:32+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/media-eisenkot-pronto-a-sottoporre-al-voto-il-nuovo-governo-prossima-settimana_ce8bd836-3b05-4f2f-aa5e-e5305f600d21.html"
-  },
-  {
-   "title": "MI5 avverte aziende Gb che riforniscono Kiev, 'rischio attacchi russi'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:46:33+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/mi5-avverte-aziende-gb-che-riforniscono-kiev-rischio-attacchi-russi_e9ab2d83-f4ab-44a6-97c7-b8aec8915ee6.html"
-  },
-  {
-   "title": "Russian governor detained in rare criminal case against regional leader",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T12:45:43+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "One every four minutes: 720,000 Russian soldiers killed since start of Ukraine war, new data suggests",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T12:45:07+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLVBjNlZFWUJMUVpTQVp6cWFja3JQckhuYzZFaGpxODl5U2hzRG9SSV9vQ2VJdHVuak4zSHZWYXpIeHhOMXZRb0JpWmQ0c3FhNDJKTnNkOFBKNlFWRzB3dXpBbmI0UnlVcXlRVVg0aW9GNHBSSWdXNC02RjdDaV9VNEkxLUg?oc=5"
-  },
-  {
-   "title": "One every four minutes: New data suggests 720,000 Russian soldiers killed since start of Ukraine war",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T12:45:07+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLVBjNlZFWUJMUVpTQVp6cWFja3JQckhuYzZFaGpxODl5U2hzRG9SSV9vQ2VJdHVuak4zSHZWYXpIeHhOMXZRb0JpWmQ0c3FhNDJKTnNkOFBKNlFWRzB3dXpBbmI0UnlVcXlRVVg0aW9GNHBSSWdXNC02RjdDaV9VNEkxLUg?oc=5"
-  },
-  {
-   "title": "Voyager 1 hits new data glitch while making history",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T12:42:53+00:00",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRU53cmNXQWpvMzUzaW9HR3FucXNGQldEb2E2TGVFRjd2aGx2TTd5a0k5S3BneGZUcXJXNHFNTHgxOVdCUVpIeUJzU0NWa1R6ZkJNSzhlLTZfODgyNkNOMjF1ODk5alppdEVpeENpMFptWENUQURrbHZaU1plUGhtVnVFTFBLb081cEhQNmoxTW5GTnc?oc=5"
-  },
-  {
-   "title": "Nuovo raid colpisce il grattacielo più alto di Riad",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:36:45+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/nuovo-raid-colpisce-il-grattacielo-piu-alto-di-riad_b5d8905b-332d-4ce5-ae82-f8150076f4a6.html"
-  },
-  {
-   "title": "Andrea Riffeser Monti confermato presidente della Fieg",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:35:23+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/andrea-riffeser-monti-confermato-presidente-della-fieg_364489f4-256e-4248-bb7d-38aeed5f92f0.html"
-  },
-  {
-   "title": "Sensing the Future, al Maxxi fioriscono le opere futuriste 'semi gettati nel futuro'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:27:42+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/sensing-the-future-al-maxxi-fioriscono-le-opere-futuriste-semi-gettati-nel_8e6e9388-d81e-4bf0-861e-430476233050.html"
-  },
-  {
-   "title": "Stocks stratégiques de terres rares et métaux : \"L'objectif n'est pas de se couper de la Chine, mais d'augmenter notre résilience\", selon un spécialiste",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T12:20:45+00:00",
-   "link": "https://www.franceinfo.fr/economie/industrie/stocks-strategiques-de-terres-rares-et-metaux-l-objectif-n-est-pas-de-se-couper-de-la-chine-mais-d-augmenter-notre-resilience-selon-un-specialiste_8297661.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Nordio, De Gennaro? Processo mediatico ha fatto male a tanti",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:01:36+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/nordio-de-gennaro-processo-mediatico-ha-fatto-male-a-tanti_932d31c8-bc53-4ae2-9655-c77db190e6be.html"
-  },
-  {
-   "title": "The CDC stays quiet on flu as an early season catches many Americans off-guard",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T12:01:19+00:00",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBaSDVQX2tUa2Z5ZHcwRV8ycmZ1dWMxSWoyZ19fbW9iVnNPNG1XWTdqS0Z4OVZ3Mm9VS01yTW9uZTJMb2h4blBUbGl5aFg0eG9WalV2bGQ5cWNyMGw2UUhpWW4tcFZXRkxaVWRsQUJ3?oc=5"
-  },
-  {
-   "title": "Caso Orlandi, nuovi sviluppi su telefonata post scomparsa",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T12:00:45+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/caso-orlandi-nuovi-sviluppi-su-telefonata-post-scomparsa_779a232c-28b5-408c-9ccd-904398ea39bd.html"
-  },
-  {
-   "title": "CNN News Central",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T12:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92c2tJclRWQmZpbTE2NVQzOGlZeW1udHJ4SUN6ZTVBMVFBZTRiN011U3ZORjBVYmcxYTBJSXZ1aldNTXd0emRsSnpfSWM1Nk1jZHNJcERQRHZ6RUFZSFJVcS1VRTZ2QXozLWFoY2pNYlo?oc=5"
-  },
-  {
-   "title": "Présidentielle 2027 : la deuxième réunion en vue d’une primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal reportée",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:56:21+00:00",
-   "link": "https://www.franceinfo.fr/elections/direct-presidentielle-2027-le-congres-des-maires-s-ouvre-plusieurs-candidats-attendus-sur-place_8297094.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Prisé par les Français, le billet de 5 euros est pourtant une \"denrée rare\", selon la Banque de France",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:54:53+00:00",
-   "link": "https://www.franceinfo.fr/economie/prise-par-les-francais-le-billet-de-cinq-euros-est-pourtant-une-denree-rare-selon-la-banque-de-france_8297589.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Fabi, aumentano i prestiti alle donne ma il gap con gli uomini scende poco",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T11:48:09+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/fabi-aumentano-i-prestiti-alle-donne-ma-il-gap-con-gli-uomini-scende_1763f3d3-b302-43d6-b962-3a1c00252e21.html"
-  },
-  {
-   "title": "Car bomb tears through Colombian city wounding more than 20",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T11:45:52+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'A page out of the Chinese playbook,' How Trump's Nvidia intervention mirrors similar moves by China's government",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T11:45:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNllScjVCbWpsN0hnNHhIRUxsN1NveDRSN3VNSVg1MGgxUjdUS3g3VGYyVTlydWRGai1TWnNLVjI3cEw0b09vWFg4TzBTc2JTdWhFcklBR0MtLTFOZGIzaFBucFZtcjdrbzNTcG13Y1E1Um90bWtRVUxHNDNSczh6YTJZMGIxYnJuQjBLbXRoWQ?oc=5"
-  },
-  {
-   "title": "Nordio 'nessuna ispezione su Procuratore Caltanissetta, pm autonomi'",
-   "source": "ANSA",
-   "lang": "it",
-   "time": "2026-11-24T11:44:34+00:00",
-   "link": "https://www.ansa.it/sito/notizie/topnews/2026/11/24/nordio-nessuna-ispezione-su-procuratore-caltanissetta-pm-autonomi_781ce55a-5a43-4381-8465-4bffff905363.html"
-  },
-  {
-   "title": "Les collèges et lycées accueillent près de 50 000 élèves de moins que l'an dernier",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:32:33+00:00",
-   "link": "https://www.franceinfo.fr/societe/education/les-colleges-et-lycees-accueillent-pres-de-50-000-eleves-de-moins-que-l-an-dernier_8297508.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "CNN This Morning",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T11:30:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RQnpaME1oNkV4M2NLYVdaRW12ZFM0UmFnYV9xWU1BYUw0RVpEdVM3NTM3QXRDRmg1X2RzdEpEbTlhTW5xeTNHOFpmVUU4TTJ0aUYwODRxRUlRQnlKMlZJNGlGTTNXSTVlZXhFb05KaGhRZw?oc=5"
-  },
-  {
-   "title": "What to expect as Iowa braces for a controlled demolition of hazardous bomb-making materials on Wednesday",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T11:29:36+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObktCZ1E0TWdsQzFyeWFHNG5DMXB2NjVnX0ZUMF9HM05vTWQwbm1Ebk12aFFabS0wcWhMOVdMa0NWMkY5MU5Cc3R6Z3FqYlhscmxoeXdFZG1WZEpxcXRlVEVONTdyT2k5YTRGdjVLdk5FWTBGUllNWnF2eEQ2Wk1lUEJDTzgydGR3V3pVTGZSanRpNFJ5bTZ3MFRJTEFaZVpKbm4xZGJJMWtEWDJSVXpHRlhhY1Y2U29nTEQ2a002RzA?oc=5"
-  },
-  {
-   "title": "Why are Russian warships off Libya, and will Ukraine’s attack change that?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T11:27:35+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/why-are-russian-warships-off-libya-and-will-ukraines-attack-change-that?traffic_source=rss"
-  },
-  {
-   "title": "\"J'ai découvert que le démon rôdait\" : le journal du pape François publié par un ancien proche collaborateur révèle sa foi profonde, mais aussi ses travers et ses fragilités",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:24:32+00:00",
-   "link": "https://www.franceinfo.fr/culture/livres/j-ai-decouvert-que-le-demon-rodait-le-journal-du-pape-francois-revele-sa-foi-profonde-mais-aussi-ses-travers-et-ses-fragilites_8297319.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Iraq orders takeover of oilfields in areas under Kurdish control",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T11:19:04+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/iraq-orders-takeover-of-oilfields-in-areas-under-kurdish-control?traffic_source=rss"
-  },
-  {
-   "title": "Jensen Huang is a walking moral hazard",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T11:17:52+00:00",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qOFpFYkJOcmxsb3dIblplak1QWWI5UEVES2JZLVpKUFRUZGtjMjFBMkpaNEptcDN2YWhJX2NVZmhoWThYSGFBTFNuQmJDMUQtMEdMQTJCSjBBeENpVGZuSDlBX2t0U0xHNGVGSTl5OVFiS3VWLUpFdQ?oc=5"
-  },
-  {
-   "title": "Vietnam restaurant blast kills at least six",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T11:17:20+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/vietnam-restaurant-blast-kills-at-least-six?traffic_source=rss"
-  },
-  {
-   "title": "Seuls six parents sur dix font confiance à l'école, selon un sondage, \"un niveau historiquement bas\"",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:16:13+00:00",
-   "link": "https://www.franceinfo.fr/societe/education/seuls-six-parents-sur-dix-font-confiance-a-l-ecole-selon-un-sondage-un-niveau-historiquement-bas_8297481.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Pope Francis' diary reveals claims he saw the devil three times",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T11:10:57+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Police municipale, incendie, fiscalité… Quinze maires répondent à vos questions depuis le congrès de l'Association des maires de France",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T11:01:44+00:00",
-   "link": "https://www.franceinfo.fr/politique/direct-police-municipale-incendie-fiscalite-quinze-maires-repondent-a-vos-questions-depuis-le-congres-de-l-association-des-maires-de-france_8295998.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T10:58:51+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "L'Union européenne va plafonner les importations de voitures hybrides chinoises à partir du 1er décembre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T10:55:22+00:00",
-   "link": "https://www.franceinfo.fr/economie/automobile/l-union-europeenne-va-plafonner-les-importations-de-voitures-hybrides-chinoises-a-partir-du-1er-decembre_8297406.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T10:53:37+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Le groupe pharmaceutique français Sanofi va racheter l'américain Insmed pour 37,6 milliards d'euros",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T10:49:40+00:00",
-   "link": "https://www.franceinfo.fr/sante/medicament/le-groupe-pharmaceutique-francais-sanofi-va-racheter-l-americain-insmed-pour-37-6-milliards-d-euros_8297424.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Was Jensen Huang too big to fire? Why Nvidia, Trump brought him back",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T10:48:38+00:00",
-   "link": "https://www.aljazeera.com/features/2026/11/24/was-jensen-huang-too-big-to-fire-why-nvidia-trump-brought-him-back?traffic_source=rss"
-  },
-  {
-   "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T10:47:41+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak?traffic_source=rss"
-  },
-  {
-   "title": "En Ukraine, deux morts et plus de 40 blessés dans des frappes russes sur Zaporijjia",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T10:06:56+00:00",
-   "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-deux-morts-et-plus-de-40-blesses-dans-des-frappes-russes-sur-zaporijjia_8297385.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Pourquoi la France veut se doter de stocks stratégiques de terres rares ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T10:01:36+00:00",
-   "link": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/pourquoi-la-france-veut-se-doter-de-stocks-strategiques-de-terres-rares_8295902.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Turkey, cranberries and sweet potatoes are all more expensive this Thanksgiving",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T10:00:16+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMDBkemJReUYxY25LODdoWm1KUzQzZXA1RlFzbWpuZm8weE5fcWZxX2I3TWZ4Yk1mV0NaMHZNX0tnZThsay1FZ0YxM0NwcVItMlRSVU40ZUp5UkF4SDdmbk9uOWZqTnd4ekxwMm5NODVLN092R0diTWJuSm41aEFoRGViakdfczA?oc=5"
-  },
-  {
-   "title": "Democrats want to expand Medicare to more Americans. Here’s why that will be hard to do",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T10:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORnhybFRDRUg0NFB3Q2YwTUFqVXBDRXVDOER4eTZURTRwWGtLTkRpVmdlcEk3OGtRZHVWSDZTNUJ5MklabXZEX3R2eV96MFJkaW1BVUdEbWVqU3JVYm5yRkJyQ2xERXdmQTduTF95X1AyQzRXUGpRS2NiVWh0RUFtUDgwSlhtWXJU?oc=5"
-  },
-  {
-   "title": "Sen. Chris Van Hollen’s anti-establishment ruse",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T10:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91MVNhcVZkZUNRY09lOVpMWWhWM0VaYlViMFJxblh5bVVJWF9VRU05TTZZQ2NEbUVHcTIyNnU2Sk1leW8tMlplalhKRzJaYjNGOEFoUjlZSklpX0xrZWZSQjdvUXJoeFNVaG8xcHhFXzE2YVVlNXZ5VkNRSU16Zw?oc=5"
-  },
-  {
-   "title": "CNN Live Event/Special",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T10:00:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JUGxaUTZGdWdseDJSYzJickdreElFRjRtQVZoUEk1aTJZZVUybklHdzRCeFdITDJtZ0NxRWZrWUZHNEdGLUVSd05ZVHhrY0NBTHNnbHdmS3Q5c3ducUFoNzNDLTFCQ2k1VjZ5Y3Y4WQ?oc=5"
-  },
-  {
-   "title": "On vous résume la polémique autour de la députée RN Laure Lavalette, accusée d'avoir cautionné des écrits antisémites",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T09:59:49+00:00",
-   "link": "https://www.franceinfo.fr/societe/antisemitisme/on-vous-resume-la-polemique-autour-de-la-deputee-rn-laure-lavalette-accusee-d-avoir-cautionne-des-ecrits-antisemites_8297214.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Why S Korea issued air raid alert after Russian jets flew near its airspace",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T09:53:55+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/why-s-korea-issued-air-raid-alert-after-russian-jets-flew-near-its-airspace?traffic_source=rss"
-  },
-  {
-   "title": "Russian strike kills two in Ukraine, days after ship attack off Libya",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T09:51:26+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia?traffic_source=rss"
-  },
-  {
-   "title": "Republicans break from Trump over Jensen Huang’s Nvidia reinstatement",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:42:53+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1B4cC1SU05RbUtUbDZ4aHdNNU44a3I3ZDhCUlRHYnhMMXJPc09DXy1FZFFpSmlMd09OaEZaUHFuWXNXYno3Qzk1YldoclluVnBRaVdscEtNOWRHZldnYmpyRldYUDFhRjdEdVRlQXJRMFB1TEp2TU8tSTAyMTliQmlCRE9rMDFXaWc?oc=5"
-  },
-  {
-   "title": "CNN Transcripts for November 24, 2026",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:41:26+00:00",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82NUtJcDRVV0pkT3Y4a2YtUC1uSUFtbUpOaDNDSEw5SkhSWkM3R2s3Qk1TdkN3QkxjTjU4Szl1WFFkT0pGVnhIT1lqa3otSHBuUTlBeEJR?oc=5"
-  },
-  {
-   "title": "Mort de Nahel Merzouk en 2023 : la cour d'appel de Versailles confirme le renvoi du policier devant les assises pour meurtre",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T09:30:26+00:00",
-   "link": "https://www.franceinfo.fr/faits-divers/adolescent-tue-par-un-policier-a-nanterre/mort-de-nahel-merzouk-en-2023-la-cour-d-appel-de-versailles-confirme-le-renvoi-du-policier-devant-les-assises-pour-meurtre_8295785.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "CNN Newsroom",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:30:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oMjhuWENodkNseGFIYzRuQ2JjbWFMenc2cDhqUDAtOFdFU0gwUlpvNDB0WXFXT0F4czN1VnQ3SjFtWG5rbHl4SDd5ZGpCa1g0UEJjZXVaRU5ERmJWNmpEcGJ3RjlOTWdnWGJmNmh1azI?oc=5"
-  },
-  {
-   "title": "Watch: Moment troops raid home and capture Mexican drug lord",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T09:09:41+00:00",
-   "link": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Walking habits that could improve your blood sugar",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:00:16+00:00",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaDFzZVNFam9wd3pHMzZ6LVpPNHFObThlRVVyYm1Jbmo3N1dTdFpfWDdqZXpHb3g1VGxtMVJOM243MEpqZXA2U0ZLX3BHc1ZSZ2tTeVU1bmdfVzkwS2p0UVRpcW1pRlBOR2JrbTd4aUxSbzdJU1JNVGMyVHlCYkh0Vw?oc=5"
-  },
-  {
-   "title": "Army details plan to contain lead dust ahead of Wednesday detonation in Iowa",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45Q1ZxWFEyalVrcmJ2NWFZQzczd0h3M3NTbGwyZmtoaC00UUZZU1pqX253QmMwV3NRM09IR1NhbEp4UjdMQ21WUk0tQWNWTl9pem9mc1lxVS1EMjJWdjFMNHR2XzE1MjNJbHVr?oc=5"
-  },
-  {
-   "title": "AI’s most powerful CEO is back. But how long will the market confidence last?",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUUFaYkFiUTRGUjRJbkRka3NJSER0YWNBMTNXLURmUG9XRF9iVjkxdGFMRnNaQ2VBWEZCdklZaWVRS01rQndfdlNmcmdhRkpTaTRCcjVhZGdseGZYa0N2YnZ1Nl9vc0FydWZsQnBueHFUNHZRT081V3pMWDJQQU9VczBRdmY?oc=5"
-  },
-  {
-   "title": "Army set to detonate explosives in Iowa Wednesday after court lifted pause over potential environmental impacts",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T09:00:15+00:00",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45Q1ZxWFEyalVrcmJ2NWFZQzczd0h3M3NTbGwyZmtoaC00UUZZU1pqX253QmMwV3NRM09IR1NhbEp4UjdMQ21WUk0tQWNWTl9pem9mc1lxVS1EMjJWdjFMNHR2XzE1MjNJbHVr?oc=5"
-  },
-  {
-   "title": "Lego ne connaît pas la crise et investit plus d'un milliard d'euros dans une nouvelle usine au Portugal",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T08:59:56+00:00",
-   "link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/lego-investit-plus-d-un-milliard-d-euros-dans-une-nouvelle-usine-au-portugal_8275343.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "\"Gadi Eisenkot est dans une impasse\" : en Israël, de difficiles négociations pour former un gouvernement, presque un mois après les législatives",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T08:56:28+00:00",
-   "link": "https://www.franceinfo.fr/monde/israel/gadi-eisenkot-est-dans-une-impasse-en-israel-de-difficiles-negociations-pour-former-un-gouvernement-presque-un-mois-apres-les-legislatives_8295749.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "Storms to hit both coasts, threatening Thanksgiving travel for millions",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T08:55:22+00:00",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ3JBUk5TYlVKcllnT18xTi1XRUJCdjduazF0cnNTS3A1dFY3MzQ4ejcwX0RhT2lqcFE1akNWeFdKV2huMzdKa1BqSFhmU213ZklROWRmVnUzVnRZRUs4X0owMkdaaVVQRFFOQ0l1Y3FWRWZiRkFkOFZta2VBdkloSEx2dmIxNlFrNFhhTEtibzdNQVZIUWh4VWxrbVg1d0d3OTgxMHA0SVdxZkZh?oc=5"
-  },
-  {
-   "title": "Trump goes after Newsom over death penalty commutations",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T08:44:14+00:00",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVhTX1BwcFVzY3djUDQwTmhWWUF1YWk5NnpkWWpNeWZCbHJYWmF4S0xpLTRwRnhOMkNzOEhuVHYxT0MtR0oxSW5iQ2ktdWJDVVVZRmNPS0xlUGRxUHd5NGNvX3VNQlN2UjBMUE5NOW9VQkdOemFzZy0wekhLTE1CUHhNaVdscGJZVUxTWHRGRW1PMjZFVHdtaTQ3eGl6a2M1VXlqZE01RFBHNEVtZnZNX3gyUWhucWcxQVRvSXR1enc5RkRHUHc?oc=5"
-  },
-  {
-   "title": "Meet the 2028 Potential Presidential Contenders – Don Bacon",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T08:27:31+00:00",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTzlneVJEQlhpQ2p4YjZQbnJiQlBEcDFmSWUwQVZoWHhtTGJNeTZuZDRjcXAxTmE4Y3ZCVjJ1Wk5MVGN0VE5BZlliZjZvUFBwaEdEVjdKMDBfVExoY0tkWnQ3MHYtellYaHJFWG5CY0VlTTM3dGs0c2R6T0dMTjFsZkhtOEM1YWNDdkF2bQ?oc=5"
-  },
-  {
-   "title": "US army says detonation of lead explosives in Iowa will proceed",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T08:24:08+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed?traffic_source=rss"
-  },
-  {
-   "title": "Malaysia set to return thousands of Rohingya refugees to Myanmar",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T08:21:41+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/malaysia-set-to-return-thousands-of-rohingya-refugees-to-myanmar-2?traffic_source=rss"
-  },
-  {
-   "title": "Moment Mexican troops captured cartel leader ‘El Chapo Isidro’",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T08:17:26+00:00",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/moment-mexican-troops-captured-cartel-leader-el-chapo?traffic_source=rss"
-  },
-  {
-   "title": "Pakistan’s Zeeshan Ali set for historic flight to China’s space station",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:55:18+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station?traffic_source=rss"
-  },
-  {
-   "title": "Wars choke global food routes, threatening aid for 7.3 million, WFP warns",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:52:44+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss"
-  },
-  {
-   "title": "Why has Yemen’s offensive against the Houthis in al-Bayda stalled?",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:36:07+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/why-has-yemens-offensive-against-the-houthis-in-al-bayda-stalled?traffic_source=rss"
-  },
-  {
-   "title": "Sheikh Hasina plans to return to Bangladesh from exile on December 16",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:35:02+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16?traffic_source=rss"
-  },
-  {
-   "title": "The internet had a field day with Jensen Huang’s return",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T07:35:00+00:00",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNanhBamdYVC00dGdSRHg2ZWhYcEhsa3V2MkkxZjFJX1NITmVKMUowSkxyZHFXWnoxM0FzOWdRRWl0OEdaaHprV1gzOGJFUDNwWjYyNldUQUc4WG5jMUZzNHNfaFc2ZGRZMDI0NGtJSGs3a2NCcVJlV0ZBSnY0eGYxeUk3X29scGRxWks2SlVYVFZzblJmNmxIZnk4ZXRUa3lyX0djaEV3M013NHZXX0xFR281TzA1dEk?oc=5"
-  },
-  {
-   "title": "What Jensen Huang's return teaches China's Xi about Trump",
-   "source": "BBC News",
-   "lang": "en",
-   "time": "2026-11-24T07:26:27+00:00",
-   "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Member states must not betray the ICC",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:13:18+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/24/member-states-must-not-betray-the-icc?traffic_source=rss"
-  },
-  {
-   "title": "Le cargo échoué sur une plage des Landes va-t-il retrouver la mer ce mardi ?",
-   "source": "franceinfo",
-   "lang": "fr",
-   "time": "2026-11-24T07:10:26+00:00",
-   "link": "https://www.franceinfo.fr/environnement/cargo-echoue-dans-les-landes-une-journee-decisive_8297217.html#xtor=RSS-3-[lestitres]"
-  },
-  {
-   "title": "China sentences official to death for passing state secrets to foreign spy",
-   "source": "CNN",
-   "lang": "en",
-   "time": "2026-11-24T07:07:04+00:00",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHR0aDZZX1djSUdCWXdjWVJEZnRRcjhwSWtjQ2xjelZocGIxOXdmb0dKUWhmWUtpSzk0Yy1IaDhKT1Ztb1ZQUXcxcWJuMTdRSTBnQlk5SUU3cGgxUGw1WGp2OGlUUXJvYVAteklDUWo3akRKM0FEcFo2YklLbW8wQkhTMV94aXdndjAyME91VlI3VTE3RFhxelBGVjR1LWZQU1hmX3pJZEFYMm9rTFhqaHIyWVp2U3NUSXNYRA?oc=5"
-  },
-  {
-   "title": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:02:52+00:00",
-   "link": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm?traffic_source=rss"
-  },
-  {
-   "title": "Why Eisenkot is negotiating with Netanyahu",
-   "source": "Al Jazeera",
-   "lang": "en",
-   "time": "2026-11-24T07:02:40+00:00",
-   "link": "https://www.aljazeera.com/opinions/2026/11/24/why-eisenkot-is-negotiating-with-netanyahu?traffic_source=rss"
   }
  ]
 }
